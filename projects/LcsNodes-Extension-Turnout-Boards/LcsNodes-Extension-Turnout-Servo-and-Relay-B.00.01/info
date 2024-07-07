@@ -1,0 +1,945 @@
+{
+  "uuid": "93ace6a1924bd33819f629d11a09bf41",
+  "path": "Offline/LcsNodes-Extension-Turnout-Servo-and-Relay-B.00.01",
+  "name": "LcsNodes-Extension-Turnout-Servo-and-Relay-B.00.01",
+  "content": "",
+  "created_at": "2023-05-06 10:15:00",
+  "updated_at": "2023-12-15 11:04:10",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "02a8c0712c06b9f411d28ad33b712c85",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "1f4173e5f8cc42b4b57bf36e62e155b0": 16,
+        "8f9adbb917b34301ba51590d0cc98060": 8
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "HDR-M-2.54_2x4",
+          8,
+          "HDR-M-2.54_2X4",
+          "J1,J2,J3,J4,J5,J6,J7,J8",
+          {
+            "BOM_Supplier Part": "C58363",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "c9b71cab140e4e31a84c15ac14b83555",
+            "uuid": "8f9adbb917b34301ba51590d0cc98060"
+          }
+        ],
+        [
+          "FTR-B4CA012Z",
+          16,
+          "RELAY-TH_FTR-B4CA012Z",
+          "K1,K2,K3,K4,K5,K6,K7,K8,K9,K10,K11,K12,K13,K14,K15,K16",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C1222347",
+            "BOM_Manufacturer": "FUJITSU(富士通)",
+            "BOM_Manufacturer Part": "FTR-B4CA012Z",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "acd4784125b545bd947c418700af94ee",
+            "uuid": "1f4173e5f8cc42b4b57bf36e62e155b0"
+          }
+        ],
+        [
+          "10u",
+          1,
+          "CAP-D4.0×F1.5",
+          "C1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "d0dcff2f94d04daa9354f40d74908283",
+            "uuid": "56994305955647eda299fec7cb5fcf23"
+          }
+        ],
+        [
+          "100n",
+          1,
+          "RAD-0.1",
+          "C2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "d8f3b09873bf4bf89243089a133a0e9f",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x3",
+          16,
+          "HDR-M-2.54_1X3",
+          "J9,J10,J13,J14,J15,J16,J17,J18,J19,J20,J21,J22,J23,J24,J25,J26",
+          {
+            "BOM_Supplier Part": "C180248",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x8",
+          2,
+          "HDR-M-2.54_1X8",
+          "J11,J12",
+          {
+            "BOM_Supplier Part": "C190820",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "fb11a1cdebf6433b8a3c664a100689e6",
+            "uuid": "92c32ceaaac84139add7ebda884f0a47"
+          }
+        ],
+        [
+          "330",
+          16,
+          "R1206",
+          "R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "10K",
+          3,
+          "R1206",
+          "R17,R18,R19",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "2fa53d590f544429ab8fcbd581d715c1"
+          }
+        ],
+        [
+          "ULN2803ADWG4",
+          2,
+          "SOIC-18_L11.6-W7.5-P1.27-LS10.3-BL",
+          "U1,U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C4365973",
+            "BOM_Manufacturer": "TI(德州仪器)",
+            "BOM_Manufacturer Part": "ULN2803ADWG4",
+            "puuid": "45c3bbdf7fba47d1b4e39c9fc6f81f34",
+            "uuid": "4a8695a762cc4b95bd5a3f5f1bcce8ae"
+          }
+        ],
+        [
+          "PCA9685",
+          1,
+          "TSSOP-28_L9.7-W4.4-P0.65-LS6.4-BL",
+          "U4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "NXP",
+            "BOM_Manufacturer Part": "PCA9685PW/Q900,118",
+            "BOM_Supplier Part": "C92206",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "167b97894dec4a7f8d57d82286320642",
+            "uuid": "65b4454ea3fa472ca681ada6039ebf92"
+          }
+        ],
+        [
+          "PCA9555D,118",
+          1,
+          "SO-24_L15.4-W7.5-P1.27-LS10.3-BL",
+          "U7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2803276",
+            "BOM_Manufacturer": "NXP(恩智浦)",
+            "BOM_Manufacturer Part": "PCA9555D,118",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b98f45382b1846498500ea4250b9f792",
+            "uuid": "4b744b4008a94f668c95232e8ea0534c"
+          }
+        ],
+        [
+          "100n",
+          2,
+          "C1206",
+          "C3,C4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          1,
+          "HDR-M-2.54_1X2",
+          "J27",
+          {
+            "BOM_Supplier Part": "C124375",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "LCS-NODES-SYM-EXT-10xL",
+          1,
+          "LCS-NODES-FP-EXT-PCB-10X12",
+          "PCB1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "21df296bc84f4a9da2f6a36d8c64d9eb",
+            "uuid": "4e0d39fd2094493bae83787f3a77838b"
+          }
+        ],
+        [
+          "10K",
+          2,
+          "R1206",
+          "R20,R21",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "NLV14077BDG",
+          1,
+          "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+          "U5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C897321",
+            "BOM_Manufacturer": "onsemi(安森美)",
+            "BOM_Manufacturer Part": "NLV14077BDG",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "0f2364c02f094100b1b3205c9d829099",
+            "uuid": "63139acf1b0743849669fd840159ae52"
+          }
+        ],
+        [
+          "M24C04-FMN6TP",
+          1,
+          "SOP-8_L5.0-W3.9-P1.27-LS6.0-BL",
+          "U6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2062025",
+            "BOM_Manufacturer": "ST(意法半导体)",
+            "BOM_Manufacturer Part": "M24C04-FMN6TP",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "8dd4e509197045bca8e1a82eed28ab26",
+            "uuid": "10e59c224da3485bb9bc37d57e60cd0d"
+          }
+        ]
+      ],
+      "updateTime": 1683447593,
+      "createTime": 1683360900,
+      "histories": [],
+      "created_at": "2023-05-06 10:15:00",
+      "updated_at": "2023-05-07 10:19:53"
+    },
+    {
+      "uuid": "1113c472800a16914f19e2b5d7ed2641",
+      "title": "Sheet_2",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a68dc5e6a9944c46b7604648a43dcd65": 16,
+        "5d56951fd43d4b5083b0f3cd9bfd5587": 16,
+        "56994305955647eda299fec7cb5fcf23": 1,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 1,
+        "65b4454ea3fa472ca681ada6039ebf92": 1,
+        "2fa53d590f544429ab8fcbd581d715c1": 3,
+        "4a8695a762cc4b95bd5a3f5f1bcce8ae": 2,
+        "92c32ceaaac84139add7ebda884f0a47": 2,
+        "be48a332a6ab4f609f12cd682a0fd0d9": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "HDR-M-2.54_2x4",
+          8,
+          "HDR-M-2.54_2X4",
+          "J1,J2,J3,J4,J5,J6,J7,J8",
+          {
+            "BOM_Supplier Part": "C58363",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "c9b71cab140e4e31a84c15ac14b83555",
+            "uuid": "8f9adbb917b34301ba51590d0cc98060"
+          }
+        ],
+        [
+          "FTR-B4CA012Z",
+          16,
+          "RELAY-TH_FTR-B4CA012Z",
+          "K1,K2,K3,K4,K5,K6,K7,K8,K9,K10,K11,K12,K13,K14,K15,K16",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C1222347",
+            "BOM_Manufacturer": "FUJITSU(富士通)",
+            "BOM_Manufacturer Part": "FTR-B4CA012Z",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "acd4784125b545bd947c418700af94ee",
+            "uuid": "1f4173e5f8cc42b4b57bf36e62e155b0"
+          }
+        ],
+        [
+          "10u",
+          1,
+          "CAP-D4.0×F1.5",
+          "C1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "d0dcff2f94d04daa9354f40d74908283",
+            "uuid": "56994305955647eda299fec7cb5fcf23"
+          }
+        ],
+        [
+          "100n",
+          1,
+          "RAD-0.1",
+          "C2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "d8f3b09873bf4bf89243089a133a0e9f",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x3",
+          16,
+          "HDR-M-2.54_1X3",
+          "J9,J10,J13,J14,J15,J16,J17,J18,J19,J20,J21,J22,J23,J24,J25,J26",
+          {
+            "BOM_Supplier Part": "C180248",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x8",
+          2,
+          "HDR-M-2.54_1X8",
+          "J11,J12",
+          {
+            "BOM_Supplier Part": "C190820",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "fb11a1cdebf6433b8a3c664a100689e6",
+            "uuid": "92c32ceaaac84139add7ebda884f0a47"
+          }
+        ],
+        [
+          "330",
+          16,
+          "R1206",
+          "R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "10K",
+          3,
+          "R1206",
+          "R17,R18,R19",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "2fa53d590f544429ab8fcbd581d715c1"
+          }
+        ],
+        [
+          "ULN2803ADWG4",
+          2,
+          "SOIC-18_L11.6-W7.5-P1.27-LS10.3-BL",
+          "U1,U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C4365973",
+            "BOM_Manufacturer": "TI(德州仪器)",
+            "BOM_Manufacturer Part": "ULN2803ADWG4",
+            "puuid": "45c3bbdf7fba47d1b4e39c9fc6f81f34",
+            "uuid": "4a8695a762cc4b95bd5a3f5f1bcce8ae"
+          }
+        ],
+        [
+          "PCA9685",
+          1,
+          "TSSOP-28_L9.7-W4.4-P0.65-LS6.4-BL",
+          "U4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "NXP",
+            "BOM_Manufacturer Part": "PCA9685PW/Q900,118",
+            "BOM_Supplier Part": "C92206",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "167b97894dec4a7f8d57d82286320642",
+            "uuid": "65b4454ea3fa472ca681ada6039ebf92"
+          }
+        ],
+        [
+          "PCA9555PW,112",
+          1,
+          "TSSOP-24_L7.8-W4.4-P0.65-LS6.4-BL",
+          "U5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2688893",
+            "BOM_Manufacturer": "NXP(恩智浦)",
+            "BOM_Manufacturer Part": "PCA9555PW,112",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b23a3cd50ffb4bd580712ba1d52d77dd",
+            "uuid": "be48a332a6ab4f609f12cd682a0fd0d9"
+          }
+        ],
+        [
+          "100n",
+          2,
+          "C1206",
+          "C4,C5",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          1,
+          "HDR-M-2.54_1X2",
+          "J27",
+          {
+            "BOM_Supplier Part": "C124375",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "LCS-NODES-SYM-EXT-10xL",
+          1,
+          "LCS-NODES-FP-EXT-PCB-10X12",
+          "PCB1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "21df296bc84f4a9da2f6a36d8c64d9eb",
+            "uuid": "4e0d39fd2094493bae83787f3a77838b"
+          }
+        ],
+        [
+          "10K",
+          2,
+          "R1206",
+          "R22,R23",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "1K",
+          2,
+          "R1206",
+          "R24,R25",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "NLV14077BDG",
+          1,
+          "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+          "U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C897321",
+            "BOM_Manufacturer": "onsemi(安森美)",
+            "BOM_Manufacturer Part": "NLV14077BDG",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "0f2364c02f094100b1b3205c9d829099",
+            "uuid": "63139acf1b0743849669fd840159ae52"
+          }
+        ],
+        [
+          "M24C04-FMN6TP",
+          1,
+          "SOP-8_L5.0-W3.9-P1.27-LS6.0-BL",
+          "U6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2062025",
+            "BOM_Manufacturer": "ST(意法半导体)",
+            "BOM_Manufacturer Part": "M24C04-FMN6TP",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "8dd4e509197045bca8e1a82eed28ab26",
+            "uuid": "10e59c224da3485bb9bc37d57e60cd0d"
+          }
+        ]
+      ],
+      "updateTime": 1686056783,
+      "createTime": 1683361418,
+      "histories": [],
+      "created_at": "2023-05-06 10:23:38",
+      "updated_at": "2023-06-06 15:06:23"
+    },
+    {
+      "uuid": "27d7f947ca17ac5e7e61e2c76c704be4",
+      "title": "Sheet_3",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a9aa2b14f188405792fa87ac344499a4": 1,
+        "10e59c224da3485bb9bc37d57e60cd0d": 1,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 2,
+        "4e0d39fd2094493bae83787f3a77838b": 1,
+        "5d56951fd43d4b5083b0f3cd9bfd5587": 4,
+        "63139acf1b0743849669fd840159ae52": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "HDR-M-2.54_2x4",
+          8,
+          "HDR-M-2.54_2X4",
+          "J1,J2,J3,J4,J5,J6,J7,J8",
+          {
+            "Supplier Part": "C58363",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_2x4",
+            "puuid": "c9b71cab140e4e31a84c15ac14b83555",
+            "uuid": "8f9adbb917b34301ba51590d0cc98060"
+          }
+        ],
+        [
+          "FTR-B4CA012Z",
+          16,
+          "RELAY-TH_FTR-B4CA012Z",
+          "K1,K2,K3,K4,K5,K6,K7,K8,K9,K10,K11,K12,K13,K14,K15,K16",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C1222347",
+            "Manufacturer": "FUJITSU(富士通)",
+            "Manufacturer Part": "FTR-B4CA012Z",
+            "Contributor": "LCSC",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "FTR-B4CA012Z",
+            "puuid": "acd4784125b545bd947c418700af94ee",
+            "uuid": "1f4173e5f8cc42b4b57bf36e62e155b0"
+          }
+        ],
+        [
+          "10u",
+          1,
+          "CAP-D4.0×F1.5",
+          "C1",
+          {
+            "Contributor": "LCEDA_Lib",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "CE_TH_D4.0×F1.5_EU",
+            "Manufacturer Part": "",
+            "puuid": "d0dcff2f94d04daa9354f40d74908283",
+            "uuid": "56994305955647eda299fec7cb5fcf23"
+          }
+        ],
+        [
+          "100n",
+          1,
+          "RAD-0.1",
+          "C2",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Manufacturer": "",
+            "puuid": "d8f3b09873bf4bf89243089a133a0e9f",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x3",
+          16,
+          "HDR-M-2.54_1X3",
+          "J9,J10,J13,J14,J15,J16,J17,J18,J19,J20,J21,J22,J23,J24,J25,J26",
+          {
+            "Supplier Part": "C180248",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x3",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x8",
+          2,
+          "HDR-M-2.54_1X8",
+          "J11,J12",
+          {
+            "Supplier Part": "C190820",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x8",
+            "puuid": "fb11a1cdebf6433b8a3c664a100689e6",
+            "uuid": "92c32ceaaac84139add7ebda884f0a47"
+          }
+        ],
+        [
+          "330",
+          15,
+          "R1206",
+          "R1,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "330",
+          1,
+          "R1206",
+          "R2",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Manufacturer": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "10K",
+          3,
+          "R1206",
+          "R17,R18,R19",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_1206_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "2fa53d590f544429ab8fcbd581d715c1"
+          }
+        ],
+        [
+          "ULN2803ADWG4",
+          2,
+          "SOIC-18_L11.6-W7.5-P1.27-LS10.3-BL",
+          "U1,U2",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4365973",
+            "Manufacturer": "TI(德州仪器)",
+            "Manufacturer Part": "ULN2803ADWG4",
+            "link": "",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "ULN2803ADWG4",
+            "puuid": "45c3bbdf7fba47d1b4e39c9fc6f81f34",
+            "uuid": "4a8695a762cc4b95bd5a3f5f1bcce8ae"
+          }
+        ],
+        [
+          "PCA9685",
+          1,
+          "TSSOP-28_L9.7-W4.4-P0.65-LS6.4-BL",
+          "U4",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "NXP",
+            "Manufacturer Part": "PCA9685PW/Q900,118",
+            "Supplier Part": "C92206",
+            "JLCPCB Part Class": "Extended Part",
+            "Frequency": "-",
+            "spiceSymbolName": "PCA9685PW/Q900,118",
+            "Package Display": "No",
+            "puuid": "167b97894dec4a7f8d57d82286320642",
+            "uuid": "65b4454ea3fa472ca681ada6039ebf92"
+          }
+        ],
+        [
+          "PCA9555PW,112",
+          1,
+          "TSSOP-24_L7.8-W4.4-P0.65-LS6.4-BL",
+          "U5",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C2688893",
+            "Manufacturer": "NXP(恩智浦)",
+            "Manufacturer Part": "PCA9555PW,112",
+            "Contributor": "LCSC",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "PCA9555PW,112",
+            "puuid": "b23a3cd50ffb4bd580712ba1d52d77dd",
+            "uuid": "be48a332a6ab4f609f12cd682a0fd0d9"
+          }
+        ],
+        [
+          "100n",
+          2,
+          "C1206",
+          "C4,C5",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Manufacturer": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          1,
+          "HDR-M-2.54_1X2",
+          "J27",
+          {
+            "Supplier Part": "C124375",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x2",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "LCS-NODES-SYM-EXT-10xL",
+          1,
+          "LCS-NODES-FP-EXT-PCB-10X8",
+          "PCB1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "helmut-f",
+            "spiceSymbolName": "LCS-NODES-SYM-EXT-10xL",
+            "Package Display": "No",
+            "puuid": "43b26d5258474e5a951af5ae597d6694",
+            "uuid": "4e0d39fd2094493bae83787f3a77838b"
+          }
+        ],
+        [
+          "10K",
+          2,
+          "R1206",
+          "R22,R23",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "1K",
+          2,
+          "R1206",
+          "R24,R25",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "NLV14077BDG",
+          1,
+          "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+          "U3",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C897321",
+            "Manufacturer": "onsemi(安森美)",
+            "Manufacturer Part": "NLV14077BDG",
+            "Contributor": "LCSC",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "NLV14077BDG",
+            "puuid": "0f2364c02f094100b1b3205c9d829099",
+            "uuid": "63139acf1b0743849669fd840159ae52"
+          }
+        ],
+        [
+          "M24C04-FMN6TP",
+          1,
+          "SOP-8_L5.0-W3.9-P1.27-LS6.0-BL",
+          "U6",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C2062025",
+            "Manufacturer": "ST(意法半导体)",
+            "Manufacturer Part": "M24C04-FMN6TP",
+            "Contributor": "LCSC",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "M24C04-FMN6TP",
+            "puuid": "8dd4e509197045bca8e1a82eed28ab26",
+            "uuid": "10e59c224da3485bb9bc37d57e60cd0d"
+          }
+        ]
+      ],
+      "updateTime": 1702634632,
+      "createTime": 1683443506,
+      "histories": [],
+      "created_at": "2023-05-07 09:11:46",
+      "updated_at": "2023-12-15 11:03:52"
+    },
+    {
+      "uuid": "809717ebda2058c109d575e3b5febce5",
+      "puuid": "25a05a22f715894277ae526f5b2dccef",
+      "title": "PCB_LcsNodes-Extension-Turnout-Servo-and-Relay-B.00.01",
+      "filename": "PCB_LcsNodes-Extension-Turnout-Servo-and-Relay-B.00.01.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "43b26d5258474e5a951af5ae597d6694": 1,
+        "7bdec8012728462a85919a4d0d033579": 2,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 23,
+        "0f2364c02f094100b1b3205c9d829099": 1,
+        "b23a3cd50ffb4bd580712ba1d52d77dd": 1,
+        "9f77654394344f25b3de138e0fe05ff6": 16,
+        "acd4784125b545bd947c418700af94ee": 16,
+        "167b97894dec4a7f8d57d82286320642": 1,
+        "c9b71cab140e4e31a84c15ac14b83555": 8,
+        "d0dcff2f94d04daa9354f40d74908283": 1,
+        "d8f3b09873bf4bf89243089a133a0e9f": 1,
+        "fb11a1cdebf6433b8a3c664a100689e6": 2,
+        "70aa5812f21f4991bf427395d51849f4": 1,
+        "45c3bbdf7fba47d1b4e39c9fc6f81f34": 2,
+        "8dd4e509197045bca8e1a82eed28ab26": 1
+      },
+      "BOM": [],
+      "updateTime": 1702634650,
+      "createTime": 1683362174,
+      "histories": [],
+      "created_at": "2023-05-06 10:36:14",
+      "updated_at": "2023-12-15 11:04:10"
+    }
+  ],
+  "sort": [
+    "02a8c0712c06b9f411d28ad33b712c85",
+    "1113c472800a16914f19e2b5d7ed2641",
+    "27d7f947ca17ac5e7e61e2c76c704be4"
+  ],
+  "title": "LcsNodes-Extension-Turnout-Servo-and-Relay-B.00.01",
+  "foldername": "LcsNodes-Extension-Turnout-Servo-and-Relay-B.00.01",
+  "schfilename": "LcsNodes-Extension-Turnout-Servo-and-Relay-B.00.01.json",
+  "schfilemtime": 1702634632786
+}

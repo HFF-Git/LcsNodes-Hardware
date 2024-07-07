@@ -1,0 +1,356 @@
+{
+  "uuid": "e622ba19e724c2b48434ad2106b27af6",
+  "path": "Offline/BTS7960-%20Shield",
+  "name": "BTS7960- Shield",
+  "content": "",
+  "created_at": "2022-11-13 11:45:11",
+  "updated_at": "2024-02-04 12:28:58",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "c64c46befd7f73d1f4e925389f3ef945",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "ececebe837ab446d8a691057f2b68227": 1,
+        "0e2be10c195b46e58588428956a4ae41": 2,
+        "5d56951fd43d4b5083b0f3cd9bfd5587": 6,
+        "ef426d4a8d544b74a9057e9a2a21b39a": 2,
+        "5cbe824183374fac8e4c1ae848199ce3": 1,
+        "ed9eb2faffb34286820a54a14e9e9e24": 3,
+        "d1e6dee51649469ca2cdb7bc185b2f9c": 1,
+        "ba1f207f2c0447edbd5beb657b435022": 1,
+        "5437133bb3bd4628901af589d7f3d153": 1,
+        "5c20bf6d4f1e4b6481759265ea36a46e": 1,
+        "8f9adbb917b34301ba51590d0cc98060": 1,
+        "594a1ac150e6fa18038e6b23c08196e0": 1,
+        "29a9ed4bd7e44ab5b1151bac840be6d3": 1,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 1,
+        "ac2fdcda62754f0fa03ca0ce528475cc": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "330uF",
+          1,
+          "CAP-SMD_BD8.0-L8.3-W8.3-FD",
+          "C2",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C311606",
+            "Manufacturer": "Lelon",
+            "Manufacturer Part": "VE-331M1CTR-0810",
+            "Contributor": "LCSC",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "VE-331M1CTR-0810",
+            "puuid": "e639687977d3435d86c43a66dc16c6af",
+            "uuid": "5c20bf6d4f1e4b6481759265ea36a46e"
+          }
+        ],
+        [
+          "100n",
+          1,
+          "C1206",
+          "C17",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "MM3Z3V3T1G",
+          1,
+          "SOD-323_L1.8-W1.3-LS2.5-RD",
+          "D1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "onsemi(安森美)",
+            "Manufacturer Part": "MM3Z3V3T1G",
+            "Supplier Part": "C75073",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "MM3Z3V3T1G",
+            "puuid": "dd3cfd4941c4479cb7f2c598e6fde06c",
+            "uuid": "ac2fdcda62754f0fa03ca0ce528475cc"
+          }
+        ],
+        [
+          "HDR-M-2.54_2x4",
+          1,
+          "HDR-M-2.54_2X4",
+          "J1",
+          {
+            "Supplier Part": "C58363",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_2x4",
+            "puuid": "c9b71cab140e4e31a84c15ac14b83555",
+            "uuid": "8f9adbb917b34301ba51590d0cc98060"
+          }
+        ],
+        [
+          "HDR-M-2.54_2x6",
+          1,
+          "HDR-M-2.54_2X6",
+          "J2",
+          {
+            "Supplier Part": "C124388",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_2x6",
+            "puuid": "4dd21fdff65e48e89ebd6165b3a5cb41",
+            "uuid": "29a9ed4bd7e44ab5b1151bac840be6d3"
+          }
+        ],
+        [
+          "LED-0805_G",
+          1,
+          "LED-0805",
+          "LED1",
+          {
+            "Manufacturer": "国星光电",
+            "Manufacturer Part": "NCD0805G1",
+            "Supplier Part": "C84260",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "LED-0805_G",
+            "puuid": "61e341307ebf42ec923e1afaebb206d7",
+            "uuid": "ba1f207f2c0447edbd5beb657b435022"
+          }
+        ],
+        [
+          "LED-0805_G",
+          1,
+          "LED-0805",
+          "LED2",
+          {
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "Supplier Part": "C72044",
+            "Supplier": "LCSC",
+            "link": "",
+            "Contributor": "LCEDA_01",
+            "spiceSymbolName": "LED-0603_R",
+            "puuid": "61e341307ebf42ec923e1afaebb206d7",
+            "uuid": "5cbe824183374fac8e4c1ae848199ce3"
+          }
+        ],
+        [
+          "CONN-TH_2P-P5.08",
+          2,
+          "CONN-TH_2P-P5.08",
+          "P1,P3",
+          {
+            "Supplier Part": "",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "CONN-TH_2P-P5.08",
+            "puuid": "e51909bf23504bf8a04c047f1f5257e0",
+            "uuid": "ef426d4a8d544b74a9057e9a2a21b39a"
+          }
+        ],
+        [
+          "UNO_R3",
+          1,
+          "UNO_R3",
+          "P2",
+          {
+            "timeStamp": "1460354705",
+            "sourceId": "1T5FDZYC8",
+            "spiceSymbolName": "UNO_R3",
+            "Manufacturer Part": "",
+            "puuid": "8f9d41f84823451180938dec38867755",
+            "uuid": "ececebe837ab446d8a691057f2b68227"
+          }
+        ],
+        [
+          "10K",
+          1,
+          "R0805",
+          "R1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0805_EU",
+            "Manufacturer Part": "",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "ed9eb2faffb34286820a54a14e9e9e24"
+          }
+        ],
+        [
+          "470",
+          2,
+          "R0805",
+          "R2,R3",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0805_EU",
+            "Manufacturer Part": "",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "ed9eb2faffb34286820a54a14e9e9e24"
+          }
+        ],
+        [
+          "10K",
+          5,
+          "R0805",
+          "R4,R5,R6,R7,R9",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "4K7",
+          1,
+          "R0805",
+          "R8",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "SMD Tactile Switch6*6*6mm",
+          1,
+          "SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0_C23873",
+          "SW1",
+          {
+            "Supplier Part": "C23873",
+            "Supplier": "LCSC",
+            "Manufacturer": "ReliaPro",
+            "Manufacturer Part": "SMD Tactile Switch6*6*6mm",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "SMD Tactile Switch6*6*6mm",
+            "puuid": "91e8625ab54d4b48a78457e6f8258781",
+            "uuid": "594a1ac150e6fa18038e6b23c08196e0"
+          }
+        ],
+        [
+          "74AHC1GU04GW",
+          1,
+          "SOT-353_L2.2-W1.4-P0.65-LS2.4-BR",
+          "U1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "PHILIPS",
+            "Manufacturer Part": "74AHC1GU04GW",
+            "Supplier Part": "C5514",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "74AHC1GU04GW",
+            "puuid": "4150fd4e5ba14479909d64cb0c79baa2",
+            "uuid": "5437133bb3bd4628901af589d7f3d153"
+          }
+        ],
+        [
+          "BTS7960S",
+          2,
+          "PG-TO263-7_L9.9-W9.2-P1.27-LS14.9-BR",
+          "U2,U3",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900000198",
+            "Manufacturer": "null",
+            "Manufacturer Part": "bts7960S",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "LCSC",
+            "spiceSymbolName": "BTS7960S",
+            "puuid": "03bb29c8316d451ab5173a42a0315c91",
+            "uuid": "0e2be10c195b46e58588428956a4ae41"
+          }
+        ],
+        [
+          "74HC244DW",
+          1,
+          "SOIC-20_L12.8-W7.5-P1.27-LS10.3-BL",
+          "U4",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017229",
+            "Manufacturer": "null",
+            "Manufacturer Part": "74HC244DW",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "74HC244DW",
+            "puuid": "969a578b2869473fa8ef6283c1b3801c",
+            "uuid": "d1e6dee51649469ca2cdb7bc185b2f9c"
+          }
+        ]
+      ],
+      "updateTime": 1707046138,
+      "createTime": 1668336311,
+      "histories": [],
+      "created_at": "2022-11-13 11:45:11",
+      "updated_at": "2024-02-04 12:28:58"
+    },
+    {
+      "uuid": "350bd925e719bf4b4ee16fecc3984694",
+      "puuid": "e622ba19e724c2b48434ad2106b27af6",
+      "title": "PCB_BTS7960- Shield",
+      "filename": "PCB_BTS7960- Shield.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "7bdec8012728462a85919a4d0d033579": 2,
+        "4dd21fdff65e48e89ebd6165b3a5cb41": 1,
+        "b60f399a7a7e41848b2be1eb49c79141": 9,
+        "e51909bf23504bf8a04c047f1f5257e0": 2,
+        "03bb29c8316d451ab5173a42a0315c91": 2,
+        "8f9d41f84823451180938dec38867755": 1,
+        "4150fd4e5ba14479909d64cb0c79baa2": 1,
+        "969a578b2869473fa8ef6283c1b3801c": 1,
+        "61e341307ebf42ec923e1afaebb206d7": 2,
+        "e639687977d3435d86c43a66dc16c6af": 1,
+        "c9b71cab140e4e31a84c15ac14b83555": 1,
+        "91e8625ab54d4b48a78457e6f8258781": 1
+      },
+      "BOM": [],
+      "updateTime": 1707045753,
+      "createTime": 1668337376,
+      "histories": [],
+      "created_at": "2022-11-13 12:02:56",
+      "updated_at": "2024-02-04 12:22:33"
+    }
+  ],
+  "sort": [],
+  "title": "BTS7960- Shield",
+  "foldername": "BTS7960- Shield",
+  "schfilename": "BTS7960- Shield.json",
+  "schfilemtime": 1707046138181
+}

@@ -1,0 +1,113 @@
+{
+  "uuid": "87d282c63955452ed8ea5f662cb36c36",
+  "path": "Offline/DCC%20Signal%20Input",
+  "name": "DCC Signal Input",
+  "content": "",
+  "created_at": "2022-11-20 11:12:07",
+  "updated_at": "2022-11-20 11:26:21",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "c19b8e40348d8e3761723032dcf33ad1",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "e6e5b37409f5415c9f93aedbe3417654": 1,
+        "5d56951fd43d4b5083b0f3cd9bfd5587": 2,
+        "a1bddaea90b44e109a38e04d658aabfb": 1,
+        "7415a5a37b738b1966858ba32f35d9c9": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "270pf",
+          1,
+          "RAD-0.2",
+          "C1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "75844c5980bb4094beb1dc6c0a3a9856",
+            "uuid": "a1bddaea90b44e109a38e04d658aabfb"
+          }
+        ],
+        [
+          "1N4004",
+          1,
+          "DO-41_BD2.4-L4.7-P8.70-D0.9-FD",
+          "D1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "MDD",
+            "BOM_Manufacturer Part": "1N4004",
+            "BOM_Supplier Part": "C3058",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f9b6c4acbda64b569861a21e133c291c",
+            "uuid": "7415a5a37b738b1966858ba32f35d9c9"
+          }
+        ],
+        [
+          "2k2",
+          1,
+          "R_AXIAL-0.3",
+          "R1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "2K2",
+          1,
+          "R_AXIAL-0.3",
+          "R2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "CY6N137",
+          1,
+          "DIP-8_L9.8-W6.6-P2.54-LS7.6-BL",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C970352",
+            "BOM_Manufacturer": "OCIC",
+            "BOM_Manufacturer Part": "CY6N137",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "d02bd24390b14704889edf7a144138dd",
+            "uuid": "e6e5b37409f5415c9f93aedbe3417654"
+          }
+        ]
+      ],
+      "updateTime": 1668939981,
+      "createTime": 1668939127,
+      "histories": [],
+      "created_at": "2022-11-20 11:12:07",
+      "updated_at": "2022-11-20 11:26:21"
+    }
+  ],
+  "sort": [],
+  "title": "DCC Signal Input",
+  "foldername": "DCC Signal Input",
+  "schfilename": "DCC Signal Input.json",
+  "schfilemtime": 1668939981466
+}

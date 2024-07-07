@@ -1,0 +1,320 @@
+{
+  "uuid": "acdd6ca7a62f511ec00ed15b47d8af8a",
+  "path": "Offline/LcsNodes-Ext-Dual-Power-Module-L6205-A.01.00",
+  "name": "LcsNodes-Ext-Dual-Power-Module-L6205-A.01.00",
+  "content": "This extension module will provide together with the main controller board a base station.",
+  "created_at": "2022-03-16 09:06:53",
+  "updated_at": "2023-02-08 09:47:52",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "11d991b134fe16123bbec888f03d4ee0",
+      "title": "LcsNodes-Ext-Dual-Power-Module-L6205-A.01.00",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 8,
+        "3c74165c4a2540e2a59c37f69b2ba935": 1,
+        "d7ebed04332d429891a714a9e12ad2ad": 1,
+        "5d56951fd43d4b5083b0f3cd9bfd5587": 17,
+        "1db5e25dcf764b65a4f150fb8efe4670": 1,
+        "6901b898d9314909bc60a210b69a9eaa": 1,
+        "1233dc5397bd484e9d63ad20249c602a": 1,
+        "0789eb7152014955ae0b6a09e65ed546": 1,
+        "ba3aedbdd1e54d4ea1945ba3e8e07cbe": 2,
+        "ed535c8fe56245c1a5180026fdcb7303": 2,
+        "e76f3700a495449f89388aebc7c514e3": 5,
+        "d691d0fe88bd488899d0323987ab550b": 1,
+        "486123a4bb814705bb1a3164561bb535": 2,
+        "512bdc319a554b4b8e6cc91f1cd83ee4": 1,
+        "190b026539c54c11b9596846fd7bd5f8": 1,
+        "ef426d4a8d544b74a9057e9a2a21b39a": 3
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "10n",
+          1,
+          "RAD-0.1",
+          "C1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ea82fbe34d7840de9fdcf3145ab199ef",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "100n",
+          6,
+          "RAD-0.1",
+          "C2,C3,C4,C6,C7,C8",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ea82fbe34d7840de9fdcf3145ab199ef",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "220n",
+          1,
+          "RAD-0.1",
+          "C5",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ea82fbe34d7840de9fdcf3145ab199ef",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "1N4148",
+          2,
+          "DO-35_BD2.0-L4.0-P8.00-D0.5-FD",
+          "D1,D2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "1N4148",
+            "BOM_Manufacturer": "SEMTECH",
+            "BOM_Supplier Part": "C14516",
+            "puuid": "07f65a035ec440c9ba8d8743498f47ca",
+            "uuid": "ed535c8fe56245c1a5180026fdcb7303"
+          }
+        ],
+        [
+          "HDR-F-2.54_2x10",
+          2,
+          "HDR-F-2.54_2X10",
+          "H-IN1,H-OUT1",
+          {
+            "BOM_Supplier Part": "C30867",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f481a7812a11455ca71c88c49f2602a1",
+            "uuid": "ba3aedbdd1e54d4ea1945ba3e8e07cbe"
+          }
+        ],
+        [
+          "CONN-TH_2P-P5.08",
+          3,
+          "CONN-TH_2P-P5.08",
+          "P-MAIN,P-PROG,P-VS",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e51909bf23504bf8a04c047f1f5257e0",
+            "uuid": "ef426d4a8d544b74a9057e9a2a21b39a"
+          }
+        ],
+        [
+          "10k",
+          4,
+          "R_AXIAL-0.3",
+          "R1,R2,R4,R5",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "100",
+          3,
+          "R_AXIAL-0.3",
+          "R3,R6,R7",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "e76f3700a495449f89388aebc7c514e3"
+          }
+        ],
+        [
+          "1k",
+          3,
+          "R_AXIAL-0.3",
+          "R8,R9,R16",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "e76f3700a495449f89388aebc7c514e3"
+          }
+        ],
+        [
+          "0R15",
+          2,
+          "R_AXIAL-0.6",
+          "R10,R11",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "a1d56870a5c74a15982caa49b487fbb0",
+            "uuid": "486123a4bb814705bb1a3164561bb535"
+          }
+        ],
+        [
+          "10K",
+          2,
+          "R_AXIAL-0.3",
+          "R12,R13",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "1M",
+          4,
+          "R_AXIAL-0.3",
+          "R14,R15,R23,R24",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "220",
+          4,
+          "R_AXIAL-0.3",
+          "R17,R18,R21,R22",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "0R1",
+          2,
+          "R_AXIAL-0.6",
+          "R19,R20",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "a1d56870a5c74a15982caa49b487fbb0",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "L6205N",
+          1,
+          "PDIP-20_L24.5-W7.3-P2.54-LS7.9-BL",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C962260",
+            "BOM_Manufacturer": "STMicroelectronics",
+            "BOM_Manufacturer Part": "L6205N",
+            "puuid": "effeb61c7b5141ac841a36f472e8f6bd",
+            "uuid": "d691d0fe88bd488899d0323987ab550b"
+          }
+        ],
+        [
+          "LM358",
+          1,
+          "DIP-8_L10.1-W6.3-P2.54-LS7.6-BL",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "ae2703f5182d4a06a5d8cab1e43e2a8b",
+            "uuid": "512bdc319a554b4b8e6cc91f1cd83ee4"
+          }
+        ],
+        [
+          "LM393P",
+          1,
+          "DIP-8_L10.1-W6.3-P2.54-LS7.6-BL",
+          "U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "TI",
+            "BOM_Manufacturer Part": "LM393P",
+            "BOM_Supplier Part": "C5209",
+            "puuid": "ae2703f5182d4a06a5d8cab1e43e2a8b",
+            "uuid": "3c74165c4a2540e2a59c37f69b2ba935"
+          }
+        ],
+        [
+          "74HC00",
+          1,
+          "PDIP-14_L19.2-W6.4-P2.54-LS8.0-BL",
+          "U4",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "e8f597bdbcb24ad9b84d14b28df85126",
+            "uuid": "0789eb7152014955ae0b6a09e65ed546"
+          }
+        ]
+      ],
+      "updateTime": 1669971680,
+      "createTime": 1647418014,
+      "histories": [],
+      "created_at": "2022-03-16 09:06:54",
+      "updated_at": "2022-12-02 10:01:20"
+    },
+    {
+      "uuid": "6183ef95062b4eb5a09ec1c43c4299dd",
+      "puuid": "acdd6ca7a62f511ec00ed15b47d8af8a",
+      "title": "PCB_LcsNodes-Ext-Dual-Power-Module-L6205-A.01.00",
+      "filename": "PCB_LcsNodes-Ext-Dual-Power-Module-L6205-A.01.00.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a1d56870a5c74a15982caa49b487fbb0": 4,
+        "e51909bf23504bf8a04c047f1f5257e0": 3,
+        "ea82fbe34d7840de9fdcf3145ab199ef": 8,
+        "3eb1249f3ebb4284ae221b0379016582": 20,
+        "f481a7812a11455ca71c88c49f2602a1": 2,
+        "ae2703f5182d4a06a5d8cab1e43e2a8b": 2,
+        "effeb61c7b5141ac841a36f472e8f6bd": 1,
+        "e8f597bdbcb24ad9b84d14b28df85126": 1,
+        "07f65a035ec440c9ba8d8743498f47ca": 2
+      },
+      "BOM": [],
+      "updateTime": 1669972371,
+      "createTime": 1647600598,
+      "histories": [],
+      "created_at": "2022-03-18 11:49:58",
+      "updated_at": "2022-12-02 10:12:51"
+    }
+  ],
+  "sort": [],
+  "title": "LcsNodes-Ext-Dual-Power-Module-L6205-A.01.00",
+  "foldername": "LcsNodes-Ext-Dual-Power-Module-L6205-A.01.00",
+  "schfilename": "LcsNodes-Ext-Dual-Power-Module-L6205-A.01.00.json",
+  "schfilemtime": 1675846056671
+}

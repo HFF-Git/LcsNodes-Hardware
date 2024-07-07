@@ -1,0 +1,259 @@
+{
+  "uuid": "2d1ac1fbfbbfbf592adf74b021eff5d6",
+  "path": "Offline/L6205PD-Mono-Breakout-Board-B.00.01",
+  "name": "L6205PD-Mono-Breakout-Board-B.00.01",
+  "content": "",
+  "created_at": "2024-02-06 15:57:54",
+  "updated_at": "2024-03-25 14:34:35",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "82253f30849345b8dc26cba3bfcf239a",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f39523d1440141cb8f5b2369d47ecc33": 1,
+        "e76f3700a495449f89388aebc7c514e3": 2,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 5,
+        "ed535c8fe56245c1a5180026fdcb7303": 2,
+        "2f379218ad414010bbfe428493a52848": 1,
+        "5d56951fd43d4b5083b0f3cd9bfd5587": 2,
+        "ce91631041f646fd9775777b794167dd": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "10n",
+          1,
+          "C1206",
+          "C1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "100n",
+          2,
+          "C1206",
+          "C2,C3",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "100n",
+          1,
+          "C1206",
+          "C4",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Manufacturer": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "100u",
+          1,
+          "CAP-D6.3×H7.7",
+          "C5",
+          {
+            "Contributor": "LCEDA_Lib",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "CE_SMD_D5.0×H5.5_EU",
+            "Manufacturer Part": "",
+            "puuid": "e0f45a5edd25471dacc10f351b436550",
+            "uuid": "2f379218ad414010bbfe428493a52848"
+          }
+        ],
+        [
+          "220n",
+          1,
+          "C1206",
+          "C6",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "1N4148",
+          2,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D1,D2",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer Part": "1N4148",
+            "Manufacturer": "SEMTECH",
+            "Supplier Part": "C14516",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "1N4148",
+            "puuid": "f6e7bbafc8d6494ea48c85ec766fa6c7",
+            "uuid": "ed535c8fe56245c1a5180026fdcb7303"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x10",
+          1,
+          "HDR-M-2.54_1X10",
+          "J1",
+          {
+            "Supplier Part": "C57369",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x10",
+            "puuid": "0163104799714461abf84081b4477301",
+            "uuid": "ce91631041f646fd9775777b794167dd"
+          }
+        ],
+        [
+          "100",
+          1,
+          "R1206",
+          "R1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "spiceSymbolName": "RESISTOR-AXIAL-0.1",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e76f3700a495449f89388aebc7c514e3"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "R1206",
+          "R2",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Manufacturer": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "10K",
+          1,
+          "R1206",
+          "R4",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "spiceSymbolName": "RESISTOR-AXIAL-0.1",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e76f3700a495449f89388aebc7c514e3"
+          }
+        ],
+        [
+          "0R1",
+          1,
+          "R_AXIAL-0.8",
+          "R6",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "2d77835a35ce42c3a8a708639960ec8e",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "L6205PD",
+          1,
+          "POWERSO20_L15.9-W11.0-P1.27-LS14.2-BL-EP",
+          "U1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "ST(意法半导体)",
+            "Manufacturer Part": "L6205PD013TR",
+            "Supplier Part": "C36543",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "L6205PD",
+            "puuid": "37a711dd47574887bb799f651f3c2b95",
+            "uuid": "f39523d1440141cb8f5b2369d47ecc33"
+          }
+        ]
+      ],
+      "updateTime": 1711373675,
+      "createTime": 1707231476,
+      "histories": [],
+      "created_at": "2024-02-06 15:57:56",
+      "updated_at": "2024-03-25 14:34:35"
+    },
+    {
+      "uuid": "326a9a9ec50955e17ff2571ae8f315db",
+      "puuid": "2d1ac1fbfbbfbf592adf74b021eff5d6",
+      "title": "PCB_L6205PD-Mono-Breakout-Board-B.00.01",
+      "filename": "PCB_L6205PD-Mono-Breakout-Board-B.00.01.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "0163104799714461abf84081b4477301": 1,
+        "2d77835a35ce42c3a8a708639960ec8e": 1,
+        "37a711dd47574887bb799f651f3c2b95": 1,
+        "7bdec8012728462a85919a4d0d033579": 5,
+        "f6e7bbafc8d6494ea48c85ec766fa6c7": 2,
+        "e0f45a5edd25471dacc10f351b436550": 1,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 3
+      },
+      "BOM": [],
+      "updateTime": 1711373602,
+      "createTime": 1707233397,
+      "histories": [],
+      "created_at": "2024-02-06 16:29:57",
+      "updated_at": "2024-03-25 14:33:22"
+    }
+  ],
+  "sort": [],
+  "title": "L6205PD-Mono-Breakout-Board-B.00.01",
+  "foldername": "L6205PD-Mono-Breakout-Board-B.00.01",
+  "schfilename": "L6205PD-Mono-Breakout-Board-B.00.01.json",
+  "schfilemtime": 1711373675681
+}

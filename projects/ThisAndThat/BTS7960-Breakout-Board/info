@@ -1,0 +1,230 @@
+{
+  "uuid": "a0e8a018936e4bd9070e58c4ef775c03",
+  "path": "Offline/BTS7960-Breakout-Board",
+  "name": "BTS7960-Breakout-Board",
+  "content": "",
+  "created_at": "2024-02-04 14:12:29",
+  "updated_at": "2024-03-07 12:22:15",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "d14146dbdbbf956b0366bf2d583c3ad8",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "0e2be10c195b46e58588428956a4ae41": 2,
+        "5d56951fd43d4b5083b0f3cd9bfd5587": 8,
+        "ac2fdcda62754f0fa03ca0ce528475cc": 2,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 4,
+        "97e3dfd84929426786ec7929e48dfb0d": 1,
+        "ef426d4a8d544b74a9057e9a2a21b39a": 2,
+        "2f379218ad414010bbfe428493a52848": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100n",
+          4,
+          "C1206",
+          "C1,C3,C4,C5",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "220u",
+          2,
+          "CAP-D8.0-H10.5",
+          "C7,C8",
+          {
+            "Contributor": "LCEDA_Lib",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "CE_SMD_D5.0×H5.5_EU",
+            "Manufacturer Part": "",
+            "puuid": "89c20b8419a6409b80c12b0065a9a5ce",
+            "uuid": "2f379218ad414010bbfe428493a52848"
+          }
+        ],
+        [
+          "MM3Z3V3T1G",
+          2,
+          "SOD-323_L1.8-W1.3-LS2.5-RD",
+          "D1,D2",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "onsemi(安森美)",
+            "Manufacturer Part": "MM3Z3V3T1G",
+            "Supplier Part": "C75073",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "MM3Z3V3T1G",
+            "puuid": "dd3cfd4941c4479cb7f2c598e6fde06c",
+            "uuid": "ac2fdcda62754f0fa03ca0ce528475cc"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x16",
+          1,
+          "HDR-M-2.54_1X16",
+          "J1",
+          {
+            "Supplier Part": "",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x16",
+            "puuid": "b811781e2b834ff7927ba9960dacf589",
+            "uuid": "97e3dfd84929426786ec7929e48dfb0d"
+          }
+        ],
+        [
+          "CONN-TH_2P-P5.08",
+          2,
+          "CONN-TH_2P-P5.08",
+          "P1,P2",
+          {
+            "Supplier Part": "",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "CONN-TH_2P-P5.08",
+            "puuid": "e51909bf23504bf8a04c047f1f5257e0",
+            "uuid": "ef426d4a8d544b74a9057e9a2a21b39a"
+          }
+        ],
+        [
+          "10K",
+          3,
+          "R1206",
+          "R1,R3,R4",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "10K",
+          1,
+          "R1206",
+          "R2",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Manufacturer": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "1k",
+          2,
+          "R1206",
+          "R5,R6",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "4K7",
+          2,
+          "R1206",
+          "R7,R8",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "BTS7960S",
+          2,
+          "PG-TO263-7_L9.9-W9.2-P1.27-LS14.9-BR",
+          "U1,U2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900000198",
+            "Manufacturer": "null",
+            "Manufacturer Part": "bts7960S",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "BTS7960S",
+            "puuid": "03bb29c8316d451ab5173a42a0315c91",
+            "uuid": "0e2be10c195b46e58588428956a4ae41"
+          }
+        ]
+      ],
+      "updateTime": 1707121919,
+      "createTime": 1707052350,
+      "histories": [],
+      "created_at": "2024-02-04 14:12:30",
+      "updated_at": "2024-02-05 09:31:59"
+    },
+    {
+      "uuid": "2b6bb0939d3d6d7d1e55968c4f5f9bc3",
+      "puuid": "a0e8a018936e4bd9070e58c4ef775c03",
+      "title": "PCB_BTS7960-Breakout-Board",
+      "filename": "PCB_BTS7960-Breakout-Board.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "7bdec8012728462a85919a4d0d033579": 4,
+        "dd3cfd4941c4479cb7f2c598e6fde06c": 2,
+        "b811781e2b834ff7927ba9960dacf589": 1,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 8,
+        "03bb29c8316d451ab5173a42a0315c91": 2,
+        "e51909bf23504bf8a04c047f1f5257e0": 2,
+        "89c20b8419a6409b80c12b0065a9a5ce": 2
+      },
+      "BOM": [],
+      "updateTime": 1709810535,
+      "createTime": 1707055832,
+      "histories": [],
+      "created_at": "2024-02-04 15:10:32",
+      "updated_at": "2024-03-07 12:22:15"
+    }
+  ],
+  "sort": [],
+  "title": "BTS7960-Breakout-Board",
+  "foldername": "BTS7960-Breakout-Board",
+  "schfilename": "BTS7960-Breakout-Board.json",
+  "schfilemtime": 1707121919235
+}
