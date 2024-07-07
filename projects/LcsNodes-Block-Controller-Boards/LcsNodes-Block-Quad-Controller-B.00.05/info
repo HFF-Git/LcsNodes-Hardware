@@ -4,7 +4,7 @@
   "name": "LcsNodes-Block-Quad-Controller-B.00.05",
   "content": "A block clontroller for 4 blocks.",
   "created_at": "2024-01-23 11:16:24",
-  "updated_at": "2024-07-06 16:53:00",
+  "updated_at": "2024-07-07 11:05:47",
   "stick": "",
   "documents": [
     {
@@ -1171,36 +1171,51 @@
         [
           "HD74HC32FP",
           1,
-          "SOP14",
+          "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
           "U8",
           {
             "description": "Quad 2-Input OR Gates",
             "subpart_no": "1",
             "spiceSymbolName": "HD74HC32FP",
             "Manufacturer Part": "",
-            "puuid": "c70ac54b309f48b4bb5af2f31fb473f5",
+            "puuid": "19591644493b46b2b3c4b7e703ce6a0c",
             "uuid": "3effa3b0c0834e62b466c8da216b05e9"
           }
         ],
         [
           "HD74HC08FP",
           1,
-          "SOP14",
+          "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
           "U9",
           {
             "description": "Quad 2-Input AND Gates",
             "subpart_no": "1",
             "spiceSymbolName": "HD74HC08FP",
             "Manufacturer Part": "",
-            "puuid": "c70ac54b309f48b4bb5af2f31fb473f5",
+            "puuid": "19591644493b46b2b3c4b7e703ce6a0c",
             "uuid": "9f533b2a348344bab19919e44eaf122d"
+          }
+        ],
+        [
+          "33n",
+          1,
+          "C1206",
+          "C9",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
           }
         ],
         [
           "220n",
           4,
           "C1206",
-          "C9,C12,C18,C20",
+          "C10,C12,C18,C19",
           {
             "Supplier Part": "",
             "Supplier": "",
@@ -1217,7 +1232,7 @@
           "100n",
           2,
           "C1206",
-          "C10,C26",
+          "C11,C25",
           {
             "Supplier Part": "",
             "Supplier": "",
@@ -1231,25 +1246,10 @@
           }
         ],
         [
-          "10n",
-          2,
-          "C1206",
-          "C11,C19",
-          {
-            "Supplier Part": "",
-            "Supplier": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "C_0603_EU",
-            "Manufacturer Part": "",
-            "puuid": "7bdec8012728462a85919a4d0d033579",
-            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
-          }
-        ],
-        [
           "100n",
-          6,
+          8,
           "C1206",
-          "C13,C14,C16,C21,C22,C24",
+          "C13,C14,C15,C17,C20,C21,C22,C24",
           {
             "Supplier Part": "",
             "Supplier": "",
@@ -1264,7 +1264,7 @@
           "100u",
           2,
           "CAP-D6.3×H7.7",
-          "C15,C23",
+          "C16,C23",
           {
             "Contributor": "LCEDA_Lib",
             "Supplier Part": "",
@@ -1276,25 +1276,10 @@
           }
         ],
         [
-          "220n",
+          "BAT47",
           2,
-          "C1206",
-          "C17,C25",
-          {
-            "Supplier Part": "",
-            "Supplier": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "C_0603_EU",
-            "Manufacturer Part": "",
-            "puuid": "7bdec8012728462a85919a4d0d033579",
-            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
-          }
-        ],
-        [
-          "1N4148",
-          3,
           "SOD-80C_L3.3-W1.5-RD",
-          "D1,D2,D3",
+          "D1,D2",
           {
             "Supplier": "LCSC",
             "Manufacturer Part": "1N4148",
@@ -1307,72 +1292,10 @@
           }
         ],
         [
-          "1N4148",
-          1,
-          "SOD-80C_L3.3-W1.5-RD",
-          "D4",
-          {
-            "Supplier": "LCSC",
-            "Manufacturer Part": "1N4148",
-            "Manufacturer": "SEMTECH",
-            "Supplier Part": "C14516",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "1N4148",
-            "Package Display": "No",
-            "puuid": "f6e7bbafc8d6494ea48c85ec766fa6c7",
-            "uuid": "ed535c8fe56245c1a5180026fdcb7303"
-          }
-        ],
-        [
           "10k",
           8,
           "R1206",
-          "R13,R18,R21,R23,R28,R30,R35,R37",
-          {
-            "Supplier Part": "",
-            "Supplier": "",
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "spiceSymbolName": "RESISTOR-AXIAL-0.1",
-            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
-            "uuid": "e76f3700a495449f89388aebc7c514e3"
-          }
-        ],
-        [
-          "10k",
-          4,
-          "R1206",
-          "R14,R15,R29,R31",
-          {
-            "Supplier Part": "",
-            "Supplier": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "R_AXIAL-0.3_EU",
-            "Manufacturer Part": "",
-            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
-            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
-          }
-        ],
-        [
-          "0R1",
-          8,
-          "R_AXIAL-0.7",
-          "R16,R17,R22,R24,R32,R33,R39,R40",
-          {
-            "Supplier Part": "",
-            "Supplier": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "R_AXIAL-0.3_EU",
-            "Manufacturer Part": "",
-            "puuid": "960b5f1425a648b69804b12510e06d86",
-            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
-          }
-        ],
-        [
-          "100",
-          2,
-          "R1206",
-          "R19,R36",
+          "R13,R14,R18,R19,R23,R24,R26,R29",
           {
             "Supplier Part": "",
             "Supplier": "",
@@ -1387,7 +1310,7 @@
           "1k",
           4,
           "R1206",
-          "R20,R25,R34,R38",
+          "R15,R20,R25,R30",
           {
             "Supplier Part": "",
             "Supplier": "",
@@ -1399,10 +1322,25 @@
           }
         ],
         [
+          "10k",
+          4,
+          "R1206",
+          "R16,R17,R27,R28",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
           "0R47",
           4,
           "R_AXIAL-0.7",
-          "R26,R27,R41,R42",
+          "R21,R22,R31,R32",
           {
             "Supplier Part": "",
             "Supplier": "",
@@ -1414,19 +1352,19 @@
           }
         ],
         [
-          "L6205N",
+          "L6205PD",
           2,
-          "PDIP-20_L24.5-W7.3-P2.54-LS7.9-BL",
+          "POWERSO20_L15.9-W11.0-P1.27-LS14.2-BL-EP",
           "U11,U12",
           {
             "Supplier": "LCSC",
-            "Supplier Part": "C962260",
-            "Manufacturer": "STMicroelectronics",
-            "Manufacturer Part": "L6205N",
-            "Contributor": "LCSC",
-            "spiceSymbolName": "L6205N",
-            "puuid": "effeb61c7b5141ac841a36f472e8f6bd",
-            "uuid": "d691d0fe88bd488899d0323987ab550b"
+            "Manufacturer": "ST(意法半导体)",
+            "Manufacturer Part": "L6205PD013TR",
+            "Supplier Part": "C36543",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "L6205PD",
+            "puuid": "37a711dd47574887bb799f651f3c2b95",
+            "uuid": "f39523d1440141cb8f5b2369d47ecc33"
           }
         ],
         [
@@ -1466,9 +1404,9 @@
         ],
         [
           "100n",
-          3,
+          2,
           "C1206",
-          "C27,C28,C29",
+          "C26,C27",
           {
             "Supplier Part": "",
             "Supplier": "",
@@ -1485,7 +1423,7 @@
           "10K",
           4,
           "R1206",
-          "R43,R45,R47,R49",
+          "R33,R34,R35,R36",
           {
             "Supplier Part": "",
             "Supplier": "",
@@ -1500,7 +1438,7 @@
           "1M",
           16,
           "R1206",
-          "R51,R52,R53,R54,R63,R64,R65,R66,R67,R68,R69,R70,R79,R80,R81,R82",
+          "R37,R38,R39,R40,R49,R50,R51,R52,R53,R54,R55,R56,R65,R66,R67,R68",
           {
             "Supplier Part": "",
             "Supplier": "",
@@ -1515,7 +1453,7 @@
           "220",
           16,
           "R1206",
-          "R55,R56,R57,R58,R59,R60,R61,R62,R71,R72,R73,R74,R75,R76,R77,R78",
+          "R41,R42,R43,R44,R45,R46,R47,R48,R57,R58,R59,R60,R61,R62,R63,R64",
           {
             "Supplier Part": "",
             "Supplier": "",
@@ -1530,7 +1468,7 @@
           "LM339ADR",
           2,
           "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
-          "U15,U16",
+          "U14,U15",
           {
             "Supplier Part": "C74559",
             "Supplier": "LCSC",
@@ -1545,9 +1483,9 @@
         ],
         [
           "100nF",
-          2,
+          1,
           "C1206",
-          "C30,C33",
+          "C28",
           {
             "Supplier": "LCSC",
             "Manufacturer": "YAGEO(国巨)",
@@ -1564,7 +1502,7 @@
           "1nF",
           2,
           "C1206",
-          "C31,C32",
+          "C29,C30",
           {
             "Contributor": "LCSC",
             "Supplier": "LCSC",
@@ -1579,28 +1517,10 @@
           }
         ],
         [
-          "2K2",
+          "10K",
           2,
           "R1206",
-          "R44,R46",
-          {
-            "Contributor": "LCSC",
-            "Supplier": "LCSC",
-            "Supplier Part": "C326768",
-            "Manufacturer": "YAGEO(国巨)",
-            "Manufacturer Part": "SR1206JR-7W4K7L",
-            "JLCPCB Part Class": "Extended Part",
-            "link": "https://lcsc.com/eda_search?q=C326768&%26type=1&ref=editor",
-            "spiceSymbolName": "SR1206JR-7W4K7L",
-            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
-            "uuid": "d74e5c405a07432b8d81fde07ec4cdc8"
-          }
-        ],
-        [
-          "4K7",
-          10,
-          "R1206",
-          "R48,R50,R85,R86,R87,R88,R92,R93,R94,R95",
+          "R69,R70",
           {
             "Contributor": "LCSC",
             "Supplier": "LCSC",
@@ -1618,7 +1538,25 @@
           "1K",
           2,
           "R1206",
-          "R83,R84",
+          "R71,R73",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C326768",
+            "Manufacturer": "YAGEO(国巨)",
+            "Manufacturer Part": "SR1206JR-7W4K7L",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C326768&%26type=1&ref=editor",
+            "spiceSymbolName": "SR1206JR-7W4K7L",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "d74e5c405a07432b8d81fde07ec4cdc8"
+          }
+        ],
+        [
+          "470",
+          1,
+          "R1206",
+          "R72",
           {
             "Supplier": "LCSC",
             "Manufacturer": "UNI-ROYAL(厚声)",
@@ -1632,64 +1570,62 @@
           }
         ],
         [
-          "1N4148_C9900015438",
-          4,
-          "LL-34_L3.5-W1.5-RD",
-          "U14,U17,U18,U19",
-          {
-            "Contributor": "lcsc",
-            "Supplier": "LCSC",
-            "Supplier Part": "C9900015438",
-            "Manufacturer": "null",
-            "Manufacturer Part": "1N4148",
-            "JLCPCB Part Class": "Extended Part",
-            "link": "https://lcsc.com/eda_search?q=C9900015438&%26type=1&ref=editor",
-            "spiceSymbolName": "1N4148_C9900015438",
-            "puuid": "b4b5e120d2f0444981b8be27d5c062ab",
-            "uuid": "22fe14eaf6094635b8e0840eb715c1ef"
-          }
-        ],
-        [
-          "LM393BIDR",
+          "4k7",
           1,
-          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
-          "U20",
+          "R1206",
+          "R74",
           {
-            "subpart_no": "1",
             "Supplier": "LCSC",
-            "Supplier Part": "C2865059",
-            "Manufacturer": "TI(德州仪器)",
-            "Manufacturer Part": "LM393BIDR",
-            "JLCPCB Part Class": "Extended Part",
-            "link": "https://lcsc.com/eda_search?q=C2865059&%26type=1&ref=editor",
-            "spiceSymbolName": "LM393BIDR",
-            "puuid": "806a55eb4d3c40ab838f70f86785d85e",
-            "uuid": "fc2bcd1980f040f892cf480a0de6be73"
+            "Manufacturer": "UNI-ROYAL(厚声)",
+            "Manufacturer Part": "1206W4F1001T5E",
+            "Supplier Part": "C4410",
+            "JLCPCB Part Class": "Basic Part",
+            "link": "https://lcsc.com/eda_search?q=C4410&%26type=1&ref=editor",
+            "spiceSymbolName": "1206W4F1001T5E",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "d2131730481b0d5cef6db74e7482102b"
           }
         ],
         [
-          "MC14077BCL",
+          "HCPL2631SDM",
+          1,
+          "SMT-8_L9.7-W6.6-P2.54-LS10.3-TR",
+          "U17",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C899529",
+            "Manufacturer": "onsemi(安森美)",
+            "Manufacturer Part": "HCPL2631SDM",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "HCPL2631SDM",
+            "puuid": "489d6e0dac1348e3a91c03e101947bd4",
+            "uuid": "c63b9b9c9175422b9c8585eb6d5f8c11"
+          }
+        ],
+        [
+          "MC14077BD",
           1,
           "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
-          "U22",
+          "U16",
           {
             "description": "Quad XNOR Gate",
             "subpart_no": "1",
-            "spiceSymbolName": "MC14077BCL",
-            "Manufacturer Part": "MC14077BDR2G",
+            "spiceSymbolName": "MC14077BD",
+            "Manufacturer Part": "",
             "Package Display": "No",
-            "Supplier": "LCSC",
-            "Supplier Part": "C184249",
-            "Manufacturer": "onsemi(安森美)",
+            "Supplier": "",
+            "Supplier Part": "",
+            "Manufacturer": "",
             "puuid": "19591644493b46b2b3c4b7e703ce6a0c",
-            "uuid": "65737df89ec54a67be72fe53eeca518c"
+            "uuid": "25c54ea488b14ccdb3a3313948b202a0"
           }
         ],
         [
           "10u",
           1,
           "CAP-D5.0×H5.5",
-          "C34",
+          "C31",
           {
             "Contributor": "LCEDA_Lib",
             "Supplier Part": "",
@@ -1704,7 +1640,7 @@
           "22u",
           1,
           "CAP-D5.0×H5.5",
-          "C35",
+          "C32",
           {
             "Contributor": "LCEDA_Lib",
             "Supplier Part": "",
@@ -1719,7 +1655,7 @@
           "100n",
           1,
           "C1206",
-          "C36",
+          "C33",
           {
             "Supplier Part": "",
             "Supplier": "",
@@ -1731,17 +1667,17 @@
           }
         ],
         [
-          "0,1F",
+          "2200u",
           1,
-          "CAP-D12.5XF5.0",
-          "C37",
+          "CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD-1",
+          "C34",
           {
             "Contributor": "LCEDA_Lib",
             "Supplier Part": "",
             "Supplier": "",
             "spiceSymbolName": "C_Tan_SMD_A_EU",
             "Manufacturer Part": "",
-            "puuid": "6295c07e15584ea3b3052d80635b272b",
+            "puuid": "707d7c79bad8483c87b0c49ff97c7bd4",
             "uuid": "e545f26e87c74952857381bd0bff848e"
           }
         ],
@@ -1749,7 +1685,7 @@
           "1N5819/S",
           2,
           "SMA_L4.3-W2.6-LS5.2-R-RD",
-          "D5,D6",
+          "D3,D4",
           {
             "Supplier": "LCSC",
             "Supplier Part": "C9900003833",
@@ -1801,7 +1737,7 @@
           "56K",
           1,
           "R1206",
-          "R89",
+          "R75",
           {
             "Supplier Part": "",
             "Supplier": "",
@@ -1816,7 +1752,7 @@
           "100",
           1,
           "R1206",
-          "R90",
+          "R76",
           {
             "Supplier Part": "",
             "Supplier": "",
@@ -1831,7 +1767,7 @@
           "100K",
           1,
           "R1206",
-          "R91",
+          "R77",
           {
             "Supplier Part": "",
             "Supplier": "",
@@ -1846,7 +1782,7 @@
           "Gaptec_LC78",
           1,
           "GAPTEC_LC78",
-          "U21",
+          "U18",
           {
             "Manufacturer": "",
             "Manufacturer Part": "",
@@ -1861,11 +1797,11 @@
           }
         ]
       ],
-      "updateTime": 1697361528,
+      "updateTime": 1720341620,
       "createTime": 1676709574,
       "histories": [],
       "created_at": "2023-02-18 09:39:34",
-      "updated_at": "2023-10-15 11:18:48"
+      "updated_at": "2024-07-07 10:40:20"
     },
     {
       "uuid": "1469666b2c7e5232f1635510e92f860c",
@@ -5291,7 +5227,7 @@
             "Supplier Part": "",
             "Manufacturer": "",
             "puuid": "19591644493b46b2b3c4b7e703ce6a0c",
-            "uuid": "25c54ea488b14ccdb3a3313948b202a0"
+            "uuid": "bf7fb7ee780746f1bc3a6fb38676c2fe"
           }
         ],
         [
@@ -5340,9 +5276,9 @@
           }
         ],
         [
-          "0,1F",
+          "2200u",
           1,
-          "CAP-D12.5XF5.0",
+          "CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD-1",
           "C34",
           {
             "Contributor": "LCEDA_Lib",
@@ -5350,7 +5286,7 @@
             "Supplier": "",
             "spiceSymbolName": "C_Tan_SMD_A_EU",
             "Manufacturer Part": "",
-            "puuid": "6295c07e15584ea3b3052d80635b272b",
+            "puuid": "707d7c79bad8483c87b0c49ff97c7bd4",
             "uuid": "e545f26e87c74952857381bd0bff848e"
           }
         ],
@@ -5470,11 +5406,11 @@
           }
         ]
       ],
-      "updateTime": 1720272251,
+      "updateTime": 1720341640,
       "createTime": 1676724364,
       "histories": [],
       "created_at": "2023-02-18 13:46:04",
-      "updated_at": "2024-07-06 15:24:11"
+      "updated_at": "2024-07-07 10:40:40"
     },
     {
       "uuid": "63f0ea539812a13cdbfeeacc64897999",
@@ -6371,11 +6307,11 @@
           }
         ]
       ],
-      "updateTime": 1720277234,
+      "updateTime": 1720337919,
       "createTime": 1676710041,
       "histories": [],
       "created_at": "2023-02-18 09:47:21",
-      "updated_at": "2024-07-06 16:47:14"
+      "updated_at": "2024-07-07 09:38:39"
     },
     {
       "uuid": "fbda56e883f7ad8231fe0577997e770c",
@@ -6386,8 +6322,10 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "707d7c79bad8483c87b0c49ff97c7bd4": 1,
+        "91e8625ab54d4b48a78457e6f8258781": 1,
+        "62ddd832b4204f5fb6ccf017f43de83b": 2,
         "19591644493b46b2b3c4b7e703ce6a0c": 5,
+        "707d7c79bad8483c87b0c49ff97c7bd4": 1,
         "7bdec8012728462a85919a4d0d033579": 29,
         "e0f45a5edd25471dacc10f351b436550": 2,
         "2897ea2aed674deb8892c3862bcaddea": 2,
@@ -6397,12 +6335,10 @@
         "960b5f1425a648b69804b12510e06d86": 4,
         "489d6e0dac1348e3a91c03e101947bd4": 1,
         "1c34cd829c754d4281bf2e17f44685f7": 1,
-        "91e8625ab54d4b48a78457e6f8258781": 1,
         "37a711dd47574887bb799f651f3c2b95": 2,
         "e69ddeebe4e34357ab0ade32765aa5fb": 1,
         "6d56825aeea34995ac0791ce3b2142b9": 1,
         "6adf0d677d7c4bf29b8711760efc3b51": 1,
-        "62ddd832b4204f5fb6ccf017f43de83b": 2,
         "07fc3b2a934c48c5bd9ad426093fecbe": 1,
         "d8084adcadf04b6eadecdc8fd3a4bef9": 3,
         "48f726f118674c1c98ad35c23ffe8764": 1,
@@ -6412,11 +6348,11 @@
         "e22b6bd92f084998af49afa4da1dfe45": 4
       },
       "BOM": [],
-      "updateTime": 1720277580,
+      "updateTime": 1720343147,
       "createTime": 1676800145,
       "histories": [],
       "created_at": "2023-02-19 10:49:05",
-      "updated_at": "2024-07-06 16:53:00"
+      "updated_at": "2024-07-07 11:05:47"
     }
   ],
   "sort": [
@@ -6431,5 +6367,5 @@
   "title": "LcsNodes-Block-Quad-Controller-B.00.05",
   "foldername": "LcsNodes-Block-Quad-Controller-B.00.05",
   "schfilename": "LcsNodes-Block-Quad-Controller-B.00.05.json",
-  "schfilemtime": 1720277235086
+  "schfilemtime": 1720341641104
 }
