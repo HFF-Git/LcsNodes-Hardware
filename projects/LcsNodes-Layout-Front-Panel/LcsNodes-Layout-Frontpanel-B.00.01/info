@@ -1,0 +1,198 @@
+{
+  "uuid": "b3239b0f25b6f5e265b465a6a49c7624",
+  "path": "Offline/LcsNodes-Layout-Frontpanel-B.00.01",
+  "name": "LcsNodes-Layout-Frontpanel-B.00.01",
+  "content": "",
+  "created_at": "2022-03-17 11:14:34",
+  "updated_at": "2023-02-08 09:56:03",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "76e8ec5d2ad64f2e00dfd5859a7f63c3",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a68dc5e6a9944c46b7604648a43dcd65": 1,
+        "5d56951fd43d4b5083b0f3cd9bfd5587": 1,
+        "a9aa2b14f188405792fa87ac344499a4": 1,
+        "ef426d4a8d544b74a9057e9a2a21b39a": 1,
+        "f6ef388eb62b422ab248b72408e38120": 2,
+        "56994305955647eda299fec7cb5fcf23": 2,
+        "c09541f8450e46f6ae3a147a43929c41": 4,
+        "9097ade20a6941ee8199db4fc8aa5aa3": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1N5819G",
+          2,
+          "DO-41",
+          "A1,A2",
+          {
+            "BOM_Supplier": "Digi-Key",
+            "BOM_Supplier Part": "1N5819GOS-ND",
+            "BOM_Manufacturer": "ON Semiconductor",
+            "BOM_Manufacturer Part": "1N5819G",
+            "puuid": "a310fb6f873749d088d802e008e009fd",
+            "uuid": "f6ef388eb62b422ab248b72408e38120"
+          }
+        ],
+        [
+          "22u",
+          1,
+          "CAP-D6.3×F2.5",
+          "C1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f22f57806f1b484c9525ae585bd9e142",
+            "uuid": "56994305955647eda299fec7cb5fcf23"
+          }
+        ],
+        [
+          "10u",
+          1,
+          "CAP-D6.3×F2.5",
+          "C2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f22f57806f1b484c9525ae585bd9e142",
+            "uuid": "56994305955647eda299fec7cb5fcf23"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          1,
+          "HDR-M-2.54_1X2",
+          "J1",
+          {
+            "BOM_Supplier Part": "C124375",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x3",
+          1,
+          "HDR-M-2.54_1X3",
+          "J2",
+          {
+            "BOM_Supplier Part": "C180248",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "CONN-TH_2P-P5.08",
+          1,
+          "CONN-TH_2P-P5.08",
+          "P1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e51909bf23504bf8a04c047f1f5257e0",
+            "uuid": "ef426d4a8d544b74a9057e9a2a21b39a"
+          }
+        ],
+        [
+          "220",
+          1,
+          "R_AXIAL-0.3",
+          "R1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "UXCELL 8P8C RJ45 PCB",
+          4,
+          "UXCELL 8P8C RJ45 PCB",
+          "RJ1,RJ2,RJ3,RJ4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C386758",
+            "BOM_Manufacturer": "Shenzhen Cankemeng",
+            "BOM_Manufacturer Part": "R-RJ45R10P-B000",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "670034b590e447f2a5f1052209dac5e3",
+            "uuid": "c09541f8450e46f6ae3a147a43929c41"
+          }
+        ],
+        [
+          "GAPTEC LC78",
+          1,
+          "GAPTEC_LC78",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "1c34cd829c754d4281bf2e17f44685f7",
+            "uuid": "9097ade20a6941ee8199db4fc8aa5aa3"
+          }
+        ]
+      ],
+      "updateTime": 1675846364,
+      "createTime": 1647512074,
+      "histories": [],
+      "created_at": "2022-03-17 11:14:34",
+      "updated_at": "2023-02-08 09:52:44"
+    },
+    {
+      "uuid": "8a089db4279ff7b8d88cffd1384248b3",
+      "puuid": "ffd2d5d8aea1f22d96011aefbc7aa4cb",
+      "title": "PCB_LcsNodes-Layout-Front-Panel",
+      "filename": "PCB_LcsNodes-Layout-Front-Panel.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a310fb6f873749d088d802e008e009fd": 2,
+        "f22f57806f1b484c9525ae585bd9e142": 2,
+        "70aa5812f21f4991bf427395d51849f4": 1,
+        "9f77654394344f25b3de138e0fe05ff6": 1,
+        "3eb1249f3ebb4284ae221b0379016582": 1,
+        "670034b590e447f2a5f1052209dac5e3": 4,
+        "1c34cd829c754d4281bf2e17f44685f7": 1,
+        "e51909bf23504bf8a04c047f1f5257e0": 1
+      },
+      "BOM": [],
+      "updateTime": 1675846563,
+      "createTime": 1647512928,
+      "histories": [],
+      "created_at": "2022-03-17 11:28:48",
+      "updated_at": "2023-02-08 09:56:03"
+    }
+  ],
+  "sort": [],
+  "title": "LcsNodes-Layout-Frontpanel-B.00.01",
+  "foldername": "LcsNodes-Layout-Frontpanel-B.00.01",
+  "schfilename": "LcsNodes-Layout-Front-Panel.json",
+  "schfilemtime": 1675846364955
+}

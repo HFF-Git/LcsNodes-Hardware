@@ -1,0 +1,248 @@
+{
+  "uuid": "16c4558b7772efab6de2d147a7cc4f8a",
+  "path": "Offline/LcsNodes-Building-Block-Power-Module-L6205",
+  "name": "LcsNodes-Building-Block-Power-Module-L6205",
+  "content": "",
+  "created_at": "2022-03-19 08:35:20",
+  "updated_at": "2023-10-01 08:55:00",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "3508fc07e36640437abfae14225109b0",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "190b026539c54c11b9596846fd7bd5f8": 1,
+        "512bdc319a554b4b8e6cc91f1cd83ee4": 1,
+        "d691d0fe88bd488899d0323987ab550b": 1,
+        "e76f3700a495449f89388aebc7c514e3": 5,
+        "ed535c8fe56245c1a5180026fdcb7303": 2,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 6,
+        "5d56951fd43d4b5083b0f3cd9bfd5587": 1,
+        "051e82433622480baf76b2d808a648a4": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "10n",
+          1,
+          "RAD-0.2",
+          "C1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "75844c5980bb4094beb1dc6c0a3a9856",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "100n",
+          3,
+          "RAD-0.2",
+          "C2,C6,C7",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Manufacturer": "",
+            "puuid": "75844c5980bb4094beb1dc6c0a3a9856",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "100u",
+          1,
+          "CASE-E_7343",
+          "C3",
+          {
+            "Contributor": "LCEDA_Lib",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "C_Tan_SMD_E_EU",
+            "Manufacturer Part": "",
+            "puuid": "a47ddb4662c244eea5a22556ba2c09d6",
+            "uuid": "051e82433622480baf76b2d808a648a4"
+          }
+        ],
+        [
+          "100n",
+          1,
+          "RAD-0.2",
+          "C4",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "75844c5980bb4094beb1dc6c0a3a9856",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "220n",
+          1,
+          "RAD-0.2",
+          "C5",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "75844c5980bb4094beb1dc6c0a3a9856",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "1N4148",
+          2,
+          "DO-35_BD2.0-L4.0-P8.00-D0.5-FD",
+          "D1,D2",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer Part": "1N4148",
+            "Manufacturer": "SEMTECH",
+            "Supplier Part": "C14516",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "1N4148",
+            "puuid": "07f65a035ec440c9ba8d8743498f47ca",
+            "uuid": "ed535c8fe56245c1a5180026fdcb7303"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "R_AXIAL-0.3",
+          "R1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "100",
+          1,
+          "AXIAL-0.1",
+          "R2",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "spiceSymbolName": "RESISTOR-AXIAL-0.1",
+            "puuid": "bc5680ae9f174cd4a2d41f65b9926a0e",
+            "uuid": "e76f3700a495449f89388aebc7c514e3"
+          }
+        ],
+        [
+          "10k",
+          2,
+          "AXIAL-0.1",
+          "R3,R4",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "spiceSymbolName": "RESISTOR-AXIAL-0.1",
+            "puuid": "bc5680ae9f174cd4a2d41f65b9926a0e",
+            "uuid": "e76f3700a495449f89388aebc7c514e3"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "AXIAL-0.1",
+          "R5",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "spiceSymbolName": "RESISTOR-AXIAL-0.1",
+            "puuid": "bc5680ae9f174cd4a2d41f65b9926a0e",
+            "uuid": "e76f3700a495449f89388aebc7c514e3"
+          }
+        ],
+        [
+          "0R1",
+          1,
+          "L_AXIAL-0.5",
+          "R6",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "spiceSymbolName": "RESISTOR-AXIAL-0.1",
+            "Package Display": "No",
+            "puuid": "9d6e712ce00646ba83f5df75ac998085",
+            "uuid": "e76f3700a495449f89388aebc7c514e3"
+          }
+        ],
+        [
+          "L6205N",
+          1,
+          "PDIP-20_L24.5-W7.3-P2.54-LS7.9-BL",
+          "U1",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C962260",
+            "Manufacturer": "STMicroelectronics",
+            "Manufacturer Part": "L6205N",
+            "Contributor": "LCSC",
+            "spiceSymbolName": "L6205N",
+            "puuid": "effeb61c7b5141ac841a36f472e8f6bd",
+            "uuid": "d691d0fe88bd488899d0323987ab550b"
+          }
+        ],
+        [
+          "LM358",
+          1,
+          "DIP08-KIT",
+          "U2",
+          {
+            "Contributor": "SparkFun",
+            "timeStamp": "1452444803",
+            "subpart_no": "1",
+            "spiceSymbolName": "LM358",
+            "Manufacturer Part": "",
+            "puuid": "10f0843816214d91a7eca0d2ba79b52d",
+            "uuid": "512bdc319a554b4b8e6cc91f1cd83ee4"
+          }
+        ]
+      ],
+      "updateTime": 1696143300,
+      "createTime": 1647675320,
+      "histories": [],
+      "created_at": "2022-03-19 08:35:20",
+      "updated_at": "2023-10-01 08:55:00"
+    }
+  ],
+  "sort": [],
+  "title": "LcsNodes-Building-Block-Power-Module-L6205",
+  "foldername": "LcsNodes-Building-Block-Power-Module-L6205",
+  "schfilename": "LcsNodes-Building-Block-Power-Module-L6205.json",
+  "schfilemtime": 1696143300222
+}

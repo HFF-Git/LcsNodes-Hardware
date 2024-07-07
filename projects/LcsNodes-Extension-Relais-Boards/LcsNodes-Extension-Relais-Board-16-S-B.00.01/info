@@ -1,0 +1,783 @@
+{
+  "uuid": "125ab52734e4301f6ef721fcf8a4057b",
+  "path": "Offline/LcsNodes-Extension-Relais-Board-16-S-B.00.01",
+  "name": "LcsNodes-Extension-Relais-Board-16-S-B.00.01",
+  "content": "",
+  "created_at": "2023-05-06 10:15:00",
+  "updated_at": "2023-12-15 10:59:51",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "567e95e71aa659cd816dd4702f689965",
+      "title": "High Level Schematic",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {},
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "HDR-M-2.54_1x10",
+          2,
+          "HDR-M-2.54_1X10",
+          "J1,J2",
+          {
+            "BOM_Supplier Part": "C57369",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "0163104799714461abf84081b4477301",
+            "uuid": "ce91631041f646fd9775777b794167dd"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x8",
+          2,
+          "HDR-M-2.54_1X8",
+          "J3,J4",
+          {
+            "BOM_Supplier Part": "C190820",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "fb11a1cdebf6433b8a3c664a100689e6",
+            "uuid": "92c32ceaaac84139add7ebda884f0a47"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          2,
+          "HDR-M-2.54_1X2",
+          "J5,J6",
+          {
+            "BOM_Supplier Part": "C124375",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "LCS-NODES-SYM-EXT-10xL",
+          1,
+          "LCS-NODES-FP-EXT-PCB-10X8",
+          "PCB1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "43b26d5258474e5a951af5ae597d6694",
+            "uuid": "4e0d39fd2094493bae83787f3a77838b"
+          }
+        ],
+        [
+          "100n",
+          3,
+          "C1206",
+          "C1,C2,C4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "100u",
+          1,
+          "CAP-SMD_BD6.3-L6.6-W6.6-LS7.6-FD",
+          "C3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "98429e10446f41e793c95f63ad2f3e11",
+            "uuid": "56994305955647eda299fec7cb5fcf23"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          1,
+          "HDR-M-2.54_1X2",
+          "J7",
+          {
+            "BOM_Supplier Part": "C124375",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x3",
+          2,
+          "HDR-M-2.54_1X3",
+          "J8,J9",
+          {
+            "BOM_Supplier Part": "C180248",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "ULN2803A",
+          2,
+          "DIP-18_L23.0-W6.5-P2.54-LS7.6-BL",
+          "Q1,Q2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "STMicroelectronics",
+            "BOM_Manufacturer Part": "ULN2803A",
+            "BOM_Supplier Part": "C73936",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "410e4c6012dc4e80aa77814f280c208f",
+            "uuid": "3b5570c6a2e343b4a0b894f5f60dd219"
+          }
+        ],
+        [
+          "10K",
+          2,
+          "R1206",
+          "R1,R2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "1K",
+          2,
+          "R1206",
+          "R3,R4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "M24C04-FMN6TP",
+          1,
+          "SOP-8_L5.0-W3.9-P1.27-LS6.0-BL",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2062025",
+            "BOM_Manufacturer": "ST(意法半导体)",
+            "BOM_Manufacturer Part": "M24C04-FMN6TP",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "8dd4e509197045bca8e1a82eed28ab26",
+            "uuid": "10e59c224da3485bb9bc37d57e60cd0d"
+          }
+        ],
+        [
+          "NLV14077BDG",
+          1,
+          "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C897321",
+            "BOM_Manufacturer": "onsemi(安森美)",
+            "BOM_Manufacturer Part": "NLV14077BDG",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "0f2364c02f094100b1b3205c9d829099",
+            "uuid": "63139acf1b0743849669fd840159ae52"
+          }
+        ],
+        [
+          "PCA9555PW,112",
+          1,
+          "TSSOP-24_L7.8-W4.4-P0.65-LS6.4-BL",
+          "U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2688893",
+            "BOM_Manufacturer": "NXP(恩智浦)",
+            "BOM_Manufacturer Part": "PCA9555PW,112",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b23a3cd50ffb4bd580712ba1d52d77dd",
+            "uuid": "be48a332a6ab4f609f12cd682a0fd0d9"
+          }
+        ]
+      ],
+      "updateTime": 1687084577,
+      "createTime": 1683555181,
+      "histories": [],
+      "created_at": "2023-05-08 16:13:01",
+      "updated_at": "2023-06-18 12:36:17"
+    },
+    {
+      "uuid": "39040f9a8a0c7fc24015b728688138b2",
+      "title": "Connectors",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1702634266,
+      "createTime": 1683528566,
+      "histories": [],
+      "created_at": "2023-05-08 08:49:26",
+      "updated_at": "2023-12-15 10:57:46",
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "HDR-M-2.54_1x10",
+          2,
+          "HDR-M-2.54_1X10",
+          "J1,J2",
+          {
+            "Supplier Part": "C57369",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x10",
+            "puuid": "0163104799714461abf84081b4477301",
+            "uuid": "ce91631041f646fd9775777b794167dd"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x8",
+          2,
+          "HDR-M-2.54_1X8",
+          "J3,J4",
+          {
+            "Supplier Part": "C190820",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x8",
+            "puuid": "fb11a1cdebf6433b8a3c664a100689e6",
+            "uuid": "92c32ceaaac84139add7ebda884f0a47"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          2,
+          "HDR-M-2.54_1X2",
+          "J5,J6",
+          {
+            "Supplier Part": "C124375",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x2",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "LCS-NODES-SYM-EXT-10xL",
+          1,
+          "LCS-NODES-FP-EXT-PCB-10X8",
+          "PCB1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "helmut-f",
+            "spiceSymbolName": "LCS-NODES-SYM-EXT-10xL",
+            "puuid": "43b26d5258474e5a951af5ae597d6694",
+            "uuid": "4e0d39fd2094493bae83787f3a77838b"
+          }
+        ],
+        [
+          "100n",
+          3,
+          "C1206",
+          "C1,C2,C4",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Manufacturer": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "100u",
+          1,
+          "CAP-SMD_BD6.3-L6.6-W6.6-LS7.6-FD",
+          "C3",
+          {
+            "Contributor": "LCEDA_Lib",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "CE_TH_D4.0×F1.5_EU",
+            "Manufacturer Part": "",
+            "puuid": "98429e10446f41e793c95f63ad2f3e11",
+            "uuid": "56994305955647eda299fec7cb5fcf23"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          1,
+          "HDR-M-2.54_1X2",
+          "J7",
+          {
+            "Supplier Part": "C124375",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x2",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x3",
+          2,
+          "HDR-M-2.54_1X3",
+          "J8,J9",
+          {
+            "Supplier Part": "C180248",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x3",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "ULN2803A",
+          2,
+          "DIP-18_L23.0-W6.5-P2.54-LS7.6-BL",
+          "Q1,Q2",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "STMicroelectronics",
+            "Manufacturer Part": "ULN2803A",
+            "Supplier Part": "C73936",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ULN2803A",
+            "puuid": "410e4c6012dc4e80aa77814f280c208f",
+            "uuid": "3b5570c6a2e343b4a0b894f5f60dd219"
+          }
+        ],
+        [
+          "10K",
+          2,
+          "R1206",
+          "R1,R2",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "1K",
+          2,
+          "R1206",
+          "R3,R4",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "M24C04-FMN6TP",
+          1,
+          "SOP-8_L5.0-W3.9-P1.27-LS6.0-BL",
+          "U1",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C2062025",
+            "Manufacturer": "ST(意法半导体)",
+            "Manufacturer Part": "M24C04-FMN6TP",
+            "Contributor": "LCSC",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "M24C04-FMN6TP",
+            "puuid": "8dd4e509197045bca8e1a82eed28ab26",
+            "uuid": "10e59c224da3485bb9bc37d57e60cd0d"
+          }
+        ],
+        [
+          "NLV14077BDG",
+          1,
+          "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+          "U2",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C897321",
+            "Manufacturer": "onsemi(安森美)",
+            "Manufacturer Part": "NLV14077BDG",
+            "Contributor": "LCSC",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "NLV14077BDG",
+            "puuid": "0f2364c02f094100b1b3205c9d829099",
+            "uuid": "63139acf1b0743849669fd840159ae52"
+          }
+        ],
+        [
+          "PCA9555PW,112",
+          1,
+          "TSSOP-24_L7.8-W4.4-P0.65-LS6.4-BL",
+          "U3",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C2688893",
+            "Manufacturer": "NXP(恩智浦)",
+            "Manufacturer Part": "PCA9555PW,112",
+            "Contributor": "LCSC",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "PCA9555PW,112",
+            "puuid": "b23a3cd50ffb4bd580712ba1d52d77dd",
+            "uuid": "be48a332a6ab4f609f12cd682a0fd0d9"
+          }
+        ]
+      ],
+      "components": {
+        "4e0d39fd2094493bae83787f3a77838b": 1,
+        "ce91631041f646fd9775777b794167dd": 2,
+        "92c32ceaaac84139add7ebda884f0a47": 2,
+        "a9aa2b14f188405792fa87ac344499a4": 2
+      }
+    },
+    {
+      "uuid": "938799dd3629475fe90ce8365c9d1042",
+      "title": "Logic",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1702634266,
+      "createTime": 1683528566,
+      "histories": [],
+      "created_at": "2023-05-08 08:49:26",
+      "updated_at": "2023-12-15 10:57:46",
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "HDR-M-2.54_1x10",
+          2,
+          "HDR-M-2.54_1X10",
+          "J1,J2",
+          {
+            "Supplier Part": "C57369",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x10",
+            "puuid": "0163104799714461abf84081b4477301",
+            "uuid": "ce91631041f646fd9775777b794167dd"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x8",
+          2,
+          "HDR-M-2.54_1X8",
+          "J3,J4",
+          {
+            "Supplier Part": "C190820",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x8",
+            "puuid": "fb11a1cdebf6433b8a3c664a100689e6",
+            "uuid": "92c32ceaaac84139add7ebda884f0a47"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          2,
+          "HDR-M-2.54_1X2",
+          "J5,J6",
+          {
+            "Supplier Part": "C124375",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x2",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "LCS-NODES-SYM-EXT-10xL",
+          1,
+          "LCS-NODES-FP-EXT-PCB-10X8",
+          "PCB1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "helmut-f",
+            "spiceSymbolName": "LCS-NODES-SYM-EXT-10xL",
+            "puuid": "43b26d5258474e5a951af5ae597d6694",
+            "uuid": "4e0d39fd2094493bae83787f3a77838b"
+          }
+        ],
+        [
+          "100n",
+          3,
+          "C1206",
+          "C1,C2,C4",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Manufacturer": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "100u",
+          1,
+          "CAP-SMD_BD6.3-L6.6-W6.6-LS7.6-FD",
+          "C3",
+          {
+            "Contributor": "LCEDA_Lib",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "CE_TH_D4.0×F1.5_EU",
+            "Manufacturer Part": "",
+            "puuid": "98429e10446f41e793c95f63ad2f3e11",
+            "uuid": "56994305955647eda299fec7cb5fcf23"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          1,
+          "HDR-M-2.54_1X2",
+          "J7",
+          {
+            "Supplier Part": "C124375",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x2",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x3",
+          2,
+          "HDR-M-2.54_1X3",
+          "J8,J9",
+          {
+            "Supplier Part": "C180248",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x3",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "ULN2803A",
+          2,
+          "DIP-18_L23.0-W6.5-P2.54-LS7.6-BL",
+          "Q1,Q2",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "STMicroelectronics",
+            "Manufacturer Part": "ULN2803A",
+            "Supplier Part": "C73936",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ULN2803A",
+            "puuid": "410e4c6012dc4e80aa77814f280c208f",
+            "uuid": "3b5570c6a2e343b4a0b894f5f60dd219"
+          }
+        ],
+        [
+          "10K",
+          2,
+          "R1206",
+          "R1,R2",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "1K",
+          2,
+          "R1206",
+          "R3,R4",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "M24C04-FMN6TP",
+          1,
+          "SOP-8_L5.0-W3.9-P1.27-LS6.0-BL",
+          "U1",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C2062025",
+            "Manufacturer": "ST(意法半导体)",
+            "Manufacturer Part": "M24C04-FMN6TP",
+            "Contributor": "LCSC",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "M24C04-FMN6TP",
+            "puuid": "8dd4e509197045bca8e1a82eed28ab26",
+            "uuid": "10e59c224da3485bb9bc37d57e60cd0d"
+          }
+        ],
+        [
+          "NLV14077BDG",
+          1,
+          "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+          "U2",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C897321",
+            "Manufacturer": "onsemi(安森美)",
+            "Manufacturer Part": "NLV14077BDG",
+            "Contributor": "LCSC",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "NLV14077BDG",
+            "puuid": "0f2364c02f094100b1b3205c9d829099",
+            "uuid": "63139acf1b0743849669fd840159ae52"
+          }
+        ],
+        [
+          "PCA9555PW,112",
+          1,
+          "TSSOP-24_L7.8-W4.4-P0.65-LS6.4-BL",
+          "U3",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C2688893",
+            "Manufacturer": "NXP(恩智浦)",
+            "Manufacturer Part": "PCA9555PW,112",
+            "Contributor": "LCSC",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "PCA9555PW,112",
+            "puuid": "b23a3cd50ffb4bd580712ba1d52d77dd",
+            "uuid": "be48a332a6ab4f609f12cd682a0fd0d9"
+          }
+        ]
+      ],
+      "components": {
+        "a9aa2b14f188405792fa87ac344499a4": 1,
+        "10e59c224da3485bb9bc37d57e60cd0d": 1,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 3,
+        "be48a332a6ab4f609f12cd682a0fd0d9": 1,
+        "56994305955647eda299fec7cb5fcf23": 1,
+        "3b5570c6a2e343b4a0b894f5f60dd219": 2,
+        "a68dc5e6a9944c46b7604648a43dcd65": 2,
+        "5d56951fd43d4b5083b0f3cd9bfd5587": 4,
+        "63139acf1b0743849669fd840159ae52": 1
+      }
+    },
+    {
+      "uuid": "e94e7e0341b0dabbf51bfc2aeb690c50",
+      "title": "PCB_LcsNodes-Extension-Relais-Board-16-S-B.00.01",
+      "filename": "PCB_LcsNodes-Extension-Relais-Board-16-S-B.00.01.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1702634391,
+      "createTime": 1683528878,
+      "histories": [],
+      "created_at": "2023-05-08 08:54:38",
+      "updated_at": "2023-12-15 10:59:51",
+      "components": {
+        "43b26d5258474e5a951af5ae597d6694": 1,
+        "7bdec8012728462a85919a4d0d033579": 3,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 4,
+        "0f2364c02f094100b1b3205c9d829099": 1,
+        "70aa5812f21f4991bf427395d51849f4": 3,
+        "98429e10446f41e793c95f63ad2f3e11": 1,
+        "fb11a1cdebf6433b8a3c664a100689e6": 2,
+        "410e4c6012dc4e80aa77814f280c208f": 2,
+        "8dd4e509197045bca8e1a82eed28ab26": 1,
+        "b23a3cd50ffb4bd580712ba1d52d77dd": 1,
+        "9f77654394344f25b3de138e0fe05ff6": 2,
+        "0163104799714461abf84081b4477301": 2
+      }
+    }
+  ],
+  "sort": [
+    "567e95e71aa659cd816dd4702f689965",
+    "39040f9a8a0c7fc24015b728688138b2",
+    "938799dd3629475fe90ce8365c9d1042"
+  ],
+  "title": "LcsNodes-Extension-Relais-Board-16-S-B.00.01",
+  "foldername": "LcsNodes-Extension-Relais-Board-16-S-B.00.01",
+  "schfilename": "LcsNodes-Extension-GPIO-Board-32-S-B.00.01.json",
+  "schfilemtime": 1702634266891
+}

@@ -1,0 +1,39 @@
+{
+  "uuid": "0d587f6af0ee9c16640325deed9f558c",
+  "path": "Offline/LcsNodes-RailCom-Packet-Structure",
+  "name": "LcsNodes-RailCom-Packet-Structure",
+  "content": "",
+  "created_at": "2023-08-30 16:49:15",
+  "updated_at": "2023-08-30 16:51:29",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "b16b6223916ae6d30f0115ee4fd510a4",
+      "title": "RailCom Packet Structure",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {},
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1693407089,
+      "createTime": 1693406303,
+      "histories": [],
+      "created_at": "2023-08-30 16:38:23",
+      "updated_at": "2023-08-30 16:51:29"
+    }
+  ],
+  "sort": [],
+  "title": "LcsNodes-RailCom-Packet-Structure",
+  "foldername": "LcsNodes-RailCom-Packet-Structure",
+  "schfilename": "LcsNodes-RailCom-Packet-Structure.json",
+  "schfilemtime": 1693407089986
+}

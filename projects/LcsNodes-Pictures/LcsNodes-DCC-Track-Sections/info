@@ -1,0 +1,39 @@
+{
+  "uuid": "ebaca2f80f519e4525419aa4b28810ff",
+  "path": "Offline/LcsNodes-DCC-Track-Sections",
+  "name": "LcsNodes-DCC-Track-Sections",
+  "content": "",
+  "created_at": "2023-08-30 17:00:10",
+  "updated_at": "2023-09-24 10:07:10",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "6d6aac025062217c0e1e5758096e5470",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {},
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1695542830,
+      "createTime": 1693407611,
+      "histories": [],
+      "created_at": "2023-08-30 17:00:11",
+      "updated_at": "2023-09-24 10:07:10"
+    }
+  ],
+  "sort": [],
+  "title": "LcsNodes-DCC-Track-Sections",
+  "foldername": "LcsNodes-DCC-Track-Sections",
+  "schfilename": "LcsNodes-DCC-Track-Sections.json",
+  "schfilemtime": 1695542830364
+}

@@ -1,0 +1,95 @@
+{
+  "uuid": "94b8c017455abea8340c7d687191e04c",
+  "path": "Offline/LcsNodes-Building-Block-Track-Sensor-2x4-Way",
+  "name": "LcsNodes-Building-Block-Track-Sensor-2x4-Way",
+  "content": "",
+  "created_at": "2022-03-19 08:44:42",
+  "updated_at": "2023-04-21 10:06:10",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "28c775b6b490ecdfa13f846f4cc30e1c",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "c7f51303a70f4efdbcec10768fa10b2e": 8,
+        "5d56951fd43d4b5083b0f3cd9bfd5587": 16,
+        "b91189a7572a40eabb60cab75a9227f8": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "B80C2000G GLEICHRICHTER RUND",
+          8,
+          "DIODE_BRIDGE_ROUND_D9.8MM",
+          "D1,D2,D3,D4,D5,D6,D7,D8",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "1606c52df4ee43d2b48592c389377774",
+            "uuid": "c7f51303a70f4efdbcec10768fa10b2e"
+          }
+        ],
+        [
+          "22",
+          8,
+          "R1206",
+          "R4,R5,R6,R7,R8,R9,R10,R11",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "10K",
+          8,
+          "R1206",
+          "R12,R13,R14,R15,R16,R17,R18,R19",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "LTV-844S",
+          2,
+          "OPTO-SMD-16_L19.8-W6.5-P2.54-LS10.2-BL",
+          "U2,U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C575506",
+            "BOM_Manufacturer": "LITEON(台湾光宝)",
+            "BOM_Manufacturer Part": "LTV-844S",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "a043f6f5ce214277a2e9ff0bb0a41cd5",
+            "uuid": "b91189a7572a40eabb60cab75a9227f8"
+          }
+        ]
+      ],
+      "updateTime": 1682064370,
+      "createTime": 1647675882,
+      "histories": [],
+      "created_at": "2022-03-19 08:44:42",
+      "updated_at": "2023-04-21 10:06:10"
+    }
+  ],
+  "sort": [],
+  "title": "LcsNodes-Building-Block-Track-Sensor-2x4-Way",
+  "foldername": "LcsNodes-Building-Block-Track-Sensor-2x4-Way",
+  "schfilename": "LcsNodes-Building-Block-Track-Sensor-2x4-Way.json",
+  "schfilemtime": 1682064370357
+}

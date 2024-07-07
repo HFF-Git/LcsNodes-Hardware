@@ -1,0 +1,214 @@
+{
+  "uuid": "42b9a4934501d91277a5108f2d0b53ab",
+  "path": "Offline/LcsNodes-Extension-Cab-Handheld-Dev-Platform",
+  "name": "LcsNodes-Extension-Cab-Handheld-Dev-Platform",
+  "content": "",
+  "created_at": "2022-05-25 15:29:30",
+  "updated_at": "2022-06-24 14:21:29",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "b5f87a5f19cd98f95e4ca5a1b1eed826",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "18479f1c4d4749c5a4c4387846c5d657": 10,
+        "cfb3fe16d5a74c76b954aa0067f692a2": 1,
+        "73fdd93ed5c9430387b87845fcf3ebf9": 1,
+        "8c95eef853b1473e9539399823e4b359": 1,
+        "5d56951fd43d4b5083b0f3cd9bfd5587": 3,
+        "56994305955647eda299fec7cb5fcf23": 1,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 1,
+        "ba3aedbdd1e54d4ea1945ba3e8e07cbe": 1,
+        "74af2062186443a7a8a4f8a25d5aaa9f": 1,
+        "9b1bc746f0f545dca88d8be862f4024b": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Reset",
+          10,
+          "KEY-TH_4P-L6.0-W6.0-P4.50-LS6.5",
+          "B1,B2,B3,B4,B5,B6,B7,B8,B9,B10",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C136684",
+            "BOM_Manufacturer": "韩国韩荣",
+            "BOM_Manufacturer Part": "K2-1102DP-E4SW-04",
+            "puuid": "557c105168d444a992e25584f55bcbb2",
+            "uuid": "18479f1c4d4749c5a4c4387846c5d657"
+          }
+        ],
+        [
+          "10u",
+          1,
+          "CAP-D4.0×F1.5",
+          "C1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "d0dcff2f94d04daa9354f40d74908283",
+            "uuid": "56994305955647eda299fec7cb5fcf23"
+          }
+        ],
+        [
+          "100n",
+          1,
+          "RAD-0.1",
+          "C2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "d8f3b09873bf4bf89243089a133a0e9f",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "DISPLAY-OLED-128X64-I2C",
+          1,
+          "DISPLAY-OLED-128X64-I2C",
+          "DP1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "26dbb673d5914828a40b1e7f48681a77",
+            "uuid": "9b1bc746f0f545dca88d8be862f4024b"
+          }
+        ],
+        [
+          "Encoder",
+          1,
+          "ENCODER",
+          "ENC1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C143789",
+            "BOM_Manufacturer": "BOURNS",
+            "BOM_Manufacturer Part": "PEC11R-4015F-S0024",
+            "puuid": "87337b3d4e8c411dac907b5a05555363",
+            "uuid": "cfb3fe16d5a74c76b954aa0067f692a2"
+          }
+        ],
+        [
+          "HDR-F-2.54_2x10",
+          1,
+          "HDR-F-2.54_2X10",
+          "H-IN1",
+          {
+            "BOM_Supplier Part": "C30867",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f481a7812a11455ca71c88c49f2602a1",
+            "uuid": "ba3aedbdd1e54d4ea1945ba3e8e07cbe"
+          }
+        ],
+        [
+          "Adress Jumpers",
+          1,
+          "HDR-M-2.54_2X3",
+          "J1",
+          {
+            "BOM_Supplier Part": "C65114",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "a5b8fff1a45c42f9aa306bafedcb5748",
+            "uuid": "8c95eef853b1473e9539399823e4b359"
+          }
+        ],
+        [
+          "10k",
+          3,
+          "R_AXIAL-0.3",
+          "R1,R2,R3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "Dir Switch",
+          1,
+          "T80-STS-13-A12C1R-EH",
+          "SW1",
+          {
+            "BOM_Manufacturer": "SALECOM",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "T80-STS-13-A12C1R-EH",
+            "puuid": "e563ca334a2144d3a9c00b381f8831f4",
+            "uuid": "74af2062186443a7a8a4f8a25d5aaa9f"
+          }
+        ],
+        [
+          "MCP23017-E/SP",
+          1,
+          "DIP-28_L35.0-W6.5-P2.54-LS7.6-BL",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C647352",
+            "BOM_Manufacturer": "Microchip Tech",
+            "BOM_Manufacturer Part": "MCP23017-E/SP",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "05f9034a01ac44779a501276e87f7948",
+            "uuid": "73fdd93ed5c9430387b87845fcf3ebf9"
+          }
+        ]
+      ],
+      "updateTime": 1656073289,
+      "createTime": 1653485370,
+      "histories": [],
+      "created_at": "2022-05-25 15:29:30",
+      "updated_at": "2022-06-24 14:21:29"
+    },
+    {
+      "uuid": "c82ce17a58c6369b9f4a598dafbfc5f6",
+      "puuid": "42b9a4934501d91277a5108f2d0b53ab",
+      "title": "PCB_LcsNodes-Extension-Cab-Handheld-Dev-Platform",
+      "filename": "PCB_LcsNodes-Extension-Cab-Handheld-Dev-Platform.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "557c105168d444a992e25584f55bcbb2": 10,
+        "e563ca334a2144d3a9c00b381f8831f4": 1,
+        "d0dcff2f94d04daa9354f40d74908283": 1,
+        "d8f3b09873bf4bf89243089a133a0e9f": 1,
+        "26dbb673d5914828a40b1e7f48681a77": 1,
+        "87337b3d4e8c411dac907b5a05555363": 1,
+        "f481a7812a11455ca71c88c49f2602a1": 1,
+        "a5b8fff1a45c42f9aa306bafedcb5748": 1,
+        "05f9034a01ac44779a501276e87f7948": 1,
+        "3eb1249f3ebb4284ae221b0379016582": 3
+      },
+      "BOM": [],
+      "updateTime": 1653665175,
+      "createTime": 1653488619,
+      "histories": [],
+      "created_at": "2022-05-25 16:23:39",
+      "updated_at": "2022-05-27 17:26:15"
+    }
+  ],
+  "sort": [],
+  "title": "LcsNodes-Extension-Cab-Handheld-Dev-Platform",
+  "foldername": "LcsNodes-Extension-Cab-Handheld-Dev-Platform",
+  "schfilename": "LcsNodes-Extension-Cab-Handheld-Dev-Platform.json",
+  "schfilemtime": 1656073289841
+}

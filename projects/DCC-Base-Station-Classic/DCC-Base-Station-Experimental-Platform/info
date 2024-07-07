@@ -1,0 +1,600 @@
+{
+  "uuid": "6cbae914a81c755f6d7b334209ed76e3",
+  "path": "Offline/DCC-Base-Station-Experimental-Platform",
+  "name": "DCC-Base-Station-Experimental-Platform",
+  "content": "This schematic shows the base station experintal platform. It is built on a 10x15Cm PCB wired by hand and used to test the LcsNodes Software.",
+  "created_at": "2021-01-25 12:28:40",
+  "updated_at": "2022-03-16 09:04:25",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "e0eb9c60f312e24a109f994f88bd208e",
+      "title": "DCC Base Station Main Schematic",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "c50b4c3a7779496d8b4d1b19c30c55cd": 2,
+        "f382940d186f4184aa4c4207a1aefa88": 1,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 12,
+        "b5ed86d39d0a42bc82816ace2cb91361": 1,
+        "cd28124e7d9e4d9a93890ebe7ef50506": 1,
+        "4f413f8bb7d74c94a1b36a070f3978bd": 1,
+        "1375b48607f74909bdacf2b60a65c7a8": 2,
+        "5d56951fd43d4b5083b0f3cd9bfd5587": 5,
+        "56994305955647eda299fec7cb5fcf23": 8,
+        "a1bddaea90b44e109a38e04d658aabfb": 1,
+        "396e2baa39fd43c39e0e5b424425eeab": 2,
+        "e76f3700a495449f89388aebc7c514e3": 8,
+        "486123a4bb814705bb1a3164561bb535": 2,
+        "c2f14ce5f9b3448db61fa68a28266404": 1,
+        "18479f1c4d4749c5a4c4387846c5d657": 1,
+        "05aba4d8afc94094b0cafb1e067b63e3": 2,
+        "cb86f84938444176a8ee8d96dd92f0e2": 1,
+        "f9e0750025b248608433f18773e800c8": 1,
+        "a9aa2b14f188405792fa87ac344499a4": 1,
+        "2f5c8276f8d64010877a8d3bb97697b8": 1,
+        "eaa76950fd7343a1953943ee7b9978d3": 1,
+        "25941d0a3007a8365e2032d4278dd8c0": 1,
+        "17fd4e2432b546c388e0545c5850dfe0": 2,
+        "139b456e92134b87bfe4c18a09285b87": 1,
+        "9196c5acb691471c9ab344fab5657013": 1,
+        "e99ee054b6dde646ab46be1e5408730f": 2,
+        "25481ac799854414b4480da3761f156e": 1,
+        "89d006fa99204cfc850fe539c4756ded": 1,
+        "abf77fb48c734262b657f20e9785a152": 2,
+        "85d39be6bac64521b74fb9dacbdde848": 4,
+        "512bdc319a554b4b8e6cc91f1cd83ee4": 1,
+        "190b026539c54c11b9596846fd7bd5f8": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "HDR-F-2.54_1x6",
+          1,
+          "HDR-F-2.54_1X6",
+          "H3",
+          {
+            "BOM_Supplier Part": "C40877",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e86d43893d914130bd34765c00ed5f63",
+            "uuid": "2f5c8276f8d64010877a8d3bb97697b8"
+          }
+        ],
+        [
+          "MCP23017",
+          1,
+          "DIP-28_300MIL",
+          "U9",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "MICROCHIP",
+            "BOM_Manufacturer Part": "MCP23S17-E/SP",
+            "BOM_Supplier Part": "C148096",
+            "puuid": "ab9d986ee2494220aa39813d1dbc1086",
+            "uuid": "4f413f8bb7d74c94a1b36a070f3978bd"
+          }
+        ],
+        [
+          "120",
+          1,
+          "R_AXIAL-0.3",
+          "R9",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "10k",
+          2,
+          "R_AXIAL-0.3",
+          "R1,R5",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "Terminal_block_8P_2.54",
+          2,
+          "TERMINAL_BLOCK_0.5/8-2.54MM",
+          "P2,P1",
+          {
+            "BOM_Manufacturer": "Phoenix Contact",
+            "BOM_Manufacturer Part": "MTP0.5/4-2.54",
+            "BOM_Supplier": "Element14",
+            "BOM_Supplier Part": "3041414",
+            "puuid": "b745c1cbad564f5dbba0604b8d64f599",
+            "uuid": "05aba4d8afc94094b0cafb1e067b63e3"
+          }
+        ],
+        [
+          "1k",
+          2,
+          "R_AXIAL-0.3",
+          "R2,R4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "RECOM - R78-5V",
+          1,
+          "DCDC-CONV_RECOM_R-78HBXX-0.5",
+          "U3",
+          {
+            "BOM_Manufacturer Part": "R-78B3.3-2.0",
+            "BOM_Supplier Part": "945-3040-ND",
+            "BOM_Supplier": "Digi-Key",
+            "BOM_Manufacturer": "Recom Power",
+            "BOM_Price for 1": "8,49000",
+            "BOM_Price for 10": "8,35600",
+            "BOM_Price for 25": "8,22640",
+            "BOM_Price for 100": "7,19820",
+            "BOM_Weight (in g)": "4",
+            "puuid": "6730454552de456b92bcbee6b4af38b9",
+            "uuid": "17fd4e2432b546c388e0545c5850dfe0"
+          }
+        ],
+        [
+          "RECOM - R78-12V",
+          1,
+          "DCDC-CONV_RECOM_R-78HBXX-0.5",
+          "U4",
+          {
+            "BOM_Manufacturer Part": "R-78B3.3-2.0",
+            "BOM_Supplier Part": "945-3040-ND",
+            "BOM_Supplier": "Digi-Key",
+            "BOM_Manufacturer": "Recom Power",
+            "BOM_Price for 1": "8,49000",
+            "BOM_Price for 10": "8,35600",
+            "BOM_Price for 25": "8,22640",
+            "BOM_Price for 100": "7,19820",
+            "BOM_Weight (in g)": "4",
+            "puuid": "6730454552de456b92bcbee6b4af38b9",
+            "uuid": "17fd4e2432b546c388e0545c5850dfe0"
+          }
+        ],
+        [
+          "LED_2MM_FLAT_TOP",
+          4,
+          "KINGBRIGHT_2MM",
+          "LED1,LED2,LED3,LED4",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "b4f0ad4baa414ccb88f33d67de0df4f1",
+            "uuid": "85d39be6bac64521b74fb9dacbdde848"
+          }
+        ],
+        [
+          "MCP2515",
+          1,
+          "18-DIP",
+          "CI-U4",
+          {
+            "BOM_Manufacturer Part": "MCP2515",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer": "Microchip",
+            "puuid": "4791a47fbcfe4ecfaaef1194c0a43b1b",
+            "uuid": "89d006fa99204cfc850fe539c4756ded"
+          }
+        ],
+        [
+          "SPI FRAM",
+          1,
+          "SPI FRAM",
+          "P5",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "69eb02d4c6f14fa096d5e8bfbdb34d82",
+            "uuid": "139b456e92134b87bfe4c18a09285b87"
+          }
+        ],
+        [
+          "1N4148",
+          1,
+          "DO35-10",
+          "D3",
+          {
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "0ab73373a77a4052b763f9a2daa7f5d3",
+            "uuid": "396e2baa39fd43c39e0e5b424425eeab"
+          }
+        ],
+        [
+          "1N4148DO35-10",
+          1,
+          "DO35-10",
+          "D4",
+          {
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "0ab73373a77a4052b763f9a2daa7f5d3",
+            "uuid": "396e2baa39fd43c39e0e5b424425eeab"
+          }
+        ],
+        [
+          "RJ45 Socket",
+          2,
+          "54602-908LF_1",
+          "J3,J6",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "4d16b302b0d14283a065793b903a82c0",
+            "uuid": "1375b48607f74909bdacf2b60a65c7a8"
+          }
+        ],
+        [
+          "4 X DIP_switch",
+          1,
+          "DSWB04LHGET",
+          "SW2",
+          {
+            "BOM_Supplier Part": "C99418",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "KE",
+            "BOM_Manufacturer Part": "DIP switch,Dip Switch,DSWB04LHGET",
+            "puuid": "fec34898d4264d8c9d742109042dc311",
+            "uuid": "9196c5acb691471c9ab344fab5657013"
+          }
+        ],
+        [
+          "K4-6×6_TH",
+          1,
+          "KEY-TH_4P-L6.0-W6.0-P4.50-LS6.5",
+          "KEY2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C136684",
+            "BOM_Manufacturer": "韩国韩荣",
+            "BOM_Manufacturer Part": "K2-1102DP-E4SW-04",
+            "puuid": "557c105168d444a992e25584f55bcbb2",
+            "uuid": "18479f1c4d4749c5a4c4387846c5d657"
+          }
+        ],
+        [
+          "MCP2551_DIP",
+          1,
+          "MCP2551_DIP",
+          "CI-U3",
+          {
+            "BOM_Manufacturer": "Microchip",
+            "BOM_Manufacturer Part": "MCP2551",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "9cadc7c3e24d453fa4ae0a774fcb335c",
+            "uuid": "25481ac799854414b4480da3761f156e"
+          }
+        ],
+        [
+          "HDR-M-2.54-2X3P",
+          1,
+          "HDR-M-2.54_2X3",
+          "J2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "2X3 2.54mm IDC Box",
+            "BOM_Supplier Part": "C11214",
+            "puuid": "a5b8fff1a45c42f9aa306bafedcb5748",
+            "uuid": "25941d0a3007a8365e2032d4278dd8c0"
+          }
+        ],
+        [
+          "0R5",
+          2,
+          "R_AXIAL-0.5",
+          "R3,R7",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e46b9352a8354a20870bdcdcb288663a",
+            "uuid": "486123a4bb814705bb1a3164561bb535"
+          }
+        ],
+        [
+          "10u",
+          4,
+          "CAP-D4.0×F1.5",
+          "C3,C13,C9,C18",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "d0dcff2f94d04daa9354f40d74908283",
+            "uuid": "56994305955647eda299fec7cb5fcf23"
+          }
+        ],
+        [
+          "22u",
+          3,
+          "CAP-D4.0×F1.5",
+          "C2,C5,C10",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "d0dcff2f94d04daa9354f40d74908283",
+            "uuid": "56994305955647eda299fec7cb5fcf23"
+          }
+        ],
+        [
+          "220u",
+          1,
+          "CAP-D4.0×F1.5",
+          "C4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "d0dcff2f94d04daa9354f40d74908283",
+            "uuid": "56994305955647eda299fec7cb5fcf23"
+          }
+        ],
+        [
+          "10n",
+          1,
+          "RAD-0.2",
+          "C14",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "75844c5980bb4094beb1dc6c0a3a9856",
+            "uuid": "a1bddaea90b44e109a38e04d658aabfb"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          1,
+          "HDR-M-2.54_1X2",
+          "J4",
+          {
+            "BOM_Supplier Part": "C124375",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "4 Resistor Array",
+          2,
+          "4 RESISTOR ARRAY",
+          "RP1,RP2",
+          {
+            "BOM_Manufacturer Part": "Array_resistor_8",
+            "puuid": "f3a531e542a04f069a552daefb090d85",
+            "uuid": "abf77fb48c734262b657f20e9785a152"
+          }
+        ],
+        [
+          "USB-Type A_Male",
+          1,
+          "USB-A-TH_48037-0001",
+          "USB1",
+          {
+            "BOM_Supplier Part": "C112454",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "SOFNG",
+            "BOM_Manufacturer Part": "USB-05",
+            "puuid": "d5ec045f9dc74f769c9e36bdbc34e1d6",
+            "uuid": "b5ed86d39d0a42bc82816ace2cb91361"
+          }
+        ],
+        [
+          "L6204",
+          1,
+          "DIP20",
+          "U10",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "f080186d32194131aa87798f9fef35fa",
+            "uuid": "c2f14ce5f9b3448db61fa68a28266404"
+          }
+        ],
+        [
+          "16MHZ",
+          2,
+          "OSC-49S-1",
+          "CI-X3,CI-X2",
+          {
+            "BOM_EasyEDA": "C16212",
+            "BOM_Supplier Part": "C16212",
+            "BOM_Supplier": "EasyEDA",
+            "BOM_Manufacturer": "EasyEDA",
+            "BOM_Manufacturer Part": "X49SD16MSD2SC",
+            "puuid": "9e66a28de3c308c96662067422971a31",
+            "uuid": "c50b4c3a7779496d8b4d1b19c30c55cd"
+          }
+        ],
+        [
+          "Terminal_block_4P_2.54",
+          1,
+          "TERMINAL_BLOCK_0.5/4-2.54MM",
+          "P3",
+          {
+            "BOM_Manufacturer": "Phoenix Contact",
+            "BOM_Manufacturer Part": "MTP0.5/4-2.54",
+            "BOM_Supplier": "Element14",
+            "BOM_Supplier Part": "3041414",
+            "puuid": "f3090c2cdea04894b1f3ab458be81893",
+            "uuid": "cb86f84938444176a8ee8d96dd92f0e2"
+          }
+        ],
+        [
+          "MCP2221A-I/P",
+          1,
+          "DIP14",
+          "U8",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "d3ea42d063a54d01a2b3ec87c69cd22a",
+            "uuid": "cd28124e7d9e4d9a93890ebe7ef50506"
+          }
+        ],
+        [
+          "10k",
+          6,
+          "AXIAL-0.1",
+          "CI-R1,CI-R2,CI-R13,CI-R14,CI-R10,CI-R12",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "bc5680ae9f174cd4a2d41f65b9926a0e",
+            "uuid": "e76f3700a495449f89388aebc7c514e3"
+          }
+        ],
+        [
+          "1k",
+          2,
+          "AXIAL-0.1",
+          "CI-R3,CI-R15",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "bc5680ae9f174cd4a2d41f65b9926a0e",
+            "uuid": "e76f3700a495449f89388aebc7c514e3"
+          }
+        ],
+        [
+          "22pF",
+          2,
+          "RAD-0.2",
+          "CI-C3,CI-C4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "22pf/50V 10%",
+            "BOM_Supplier Part": "C9316",
+            "puuid": "75844c5980bb4094beb1dc6c0a3a9856",
+            "uuid": "e99ee054b6dde646ab46be1e5408730f"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x4",
+          1,
+          "HDR-F-2.54_1X4",
+          "H1",
+          {
+            "BOM_Supplier Part": "C225501",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "21473b495b6340c992965357d5701779",
+            "uuid": "eaa76950fd7343a1953943ee7b9978d3"
+          }
+        ],
+        [
+          "Terminal_block_2P_2.54",
+          1,
+          "TERMINAL_BLOCK_0.5/2-2.54MM",
+          "P4",
+          {
+            "BOM_Manufacturer": "Phoenix Contact",
+            "BOM_Manufacturer Part": "MTP0.5/4-2.54",
+            "BOM_Supplier": "Element14",
+            "BOM_Supplier Part": "3041414",
+            "puuid": "3f0e42607d704091a70bdd928029c350",
+            "uuid": "f9e0750025b248608433f18773e800c8"
+          }
+        ],
+        [
+          "ATMEGA1284P-PU",
+          1,
+          "DIL40",
+          "U2",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "7f8e0eb7fb884ab89742024b097cf4eb",
+            "uuid": "f382940d186f4184aa4c4207a1aefa88"
+          }
+        ],
+        [
+          "100n",
+          10,
+          "RAD-0.2",
+          "C6,C11,C12,C17,C16,C15,C1,C19,C20,C21",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "75844c5980bb4094beb1dc6c0a3a9856",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "22p",
+          2,
+          "RAD-0.2",
+          "C7,C8",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "75844c5980bb4094beb1dc6c0a3a9856",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "LM358",
+          1,
+          "DIP08-KIT",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "10f0843816214d91a7eca0d2ba79b52d",
+            "uuid": "190b026539c54c11b9596846fd7bd5f8"
+          }
+        ]
+      ],
+      "updateTime": 1621861214,
+      "createTime": 1611823973,
+      "histories": [],
+      "created_at": "2021-01-28 09:52:53",
+      "updated_at": "2021-05-24 15:00:14"
+    }
+  ],
+  "sort": [
+    "547eba39940490adbbb37143d37f0212",
+    "e0eb9c60f312e24a109f994f88bd208e"
+  ],
+  "title": "DCC-Base-Station-Experimental-Platform",
+  "foldername": "DCC-Base-Station-Experimental-Platform",
+  "schfilename": "DCC-Base-Station-Experimental-Platform.json",
+  "schfilemtime": 1621861214151
+}

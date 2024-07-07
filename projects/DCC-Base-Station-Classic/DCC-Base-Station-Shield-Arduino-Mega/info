@@ -1,0 +1,321 @@
+{
+  "uuid": "49912d82bae44594827a7a7c6225eb40",
+  "path": "Offline/DCC-Base-Station-Shield-Arduino-Mega",
+  "name": "DCC-Base-Station-Shield-Arduino-Mega",
+  "content": "A DCC command station based on Arduino Mega. This project is the additonal electronic for CAN\nbus connectivity, power logic drives, switch, LED and LCD display interfaces. The PCB is an Arduino Mega layout so that it fits on top of the Mega.",
+  "created_at": "2020-08-01 10:18:29",
+  "updated_at": "2022-03-16 09:02:09",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "850911c6efe15d1df6ea30c134f1fe0f",
+      "title": "Schematic",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "7deb0314ba75414583a114e5295d0c16": 1,
+        "f5b1d9403e49471cab43bc5a1bec336f": 3,
+        "18479f1c4d4749c5a4c4387846c5d657": 1,
+        "c50b4c3a7779496d8b4d1b19c30c55cd": 1,
+        "39f0942055834b24aba861036f57e375": 1,
+        "92c32ceaaac84139add7ebda884f0a47": 4,
+        "5482fe411b584b9dab563f017c020f0d": 1,
+        "93b44d62463c4c9c82dd7108c8ee7d73": 2,
+        "e99ee054b6dde646ab46be1e5408730f": 2,
+        "e76f3700a495449f89388aebc7c514e3": 7,
+        "a9aa2b14f188405792fa87ac344499a4": 1,
+        "385dfe15c822493187e1f6949af736ad": 2,
+        "4bb7601c41c34889b7ecd457411d1c92": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "MCP2515",
+          1,
+          "DIP-18_300MIL",
+          "U6",
+          {
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "C19872",
+            "BOM_Manufacturer": "Allegro MicroSystems, LLC",
+            "BOM_Manufacturer Part": "UDN2981A-T",
+            "puuid": "09ecc6f4a412498da3401b5cde250a22",
+            "uuid": "4bb7601c41c34889b7ecd457411d1c92"
+          }
+        ],
+        [
+          "ARDUINO_MEGA_SHIELD",
+          1,
+          "ARDUINO_MEGA_SHIELD",
+          "SHIELD",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "8e5b5d34a0874c76bc6e24de64d01e49",
+            "uuid": "7deb0314ba75414583a114e5295d0c16"
+          }
+        ],
+        [
+          "MCP2551",
+          1,
+          "DIP8",
+          "U2",
+          {
+            "BOM_Supplier Part": "C7552",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer": "ON",
+            "BOM_Manufacturer Part": "LM358NG",
+            "puuid": "5e42433a6d6d42ee9fe7b6234c15a35a",
+            "uuid": "39f0942055834b24aba861036f57e375"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x8",
+          3,
+          "HDR-M-2.54_1X8",
+          "PROG,MAIN-B,MAIN-A",
+          {
+            "BOM_Supplier Part": "C190820",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "fb11a1cdebf6433b8a3c664a100689e6",
+            "uuid": "92c32ceaaac84139add7ebda884f0a47"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x8",
+          1,
+          "HDR-M-2.54_1X8",
+          "FRAM",
+          {
+            "BOM_Supplier Part": "C190820",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "fb11a1cdebf6433b8a3c664a100689e6",
+            "uuid": "92c32ceaaac84139add7ebda884f0a47"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x6",
+          2,
+          "HDR-M-2.54_1X6",
+          "LED,SW1/SW2",
+          {
+            "BOM_Supplier Part": "C190819",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "df3ca37cb13d499cb713e9aa6fdd0c7b",
+            "uuid": "93b44d62463c4c9c82dd7108c8ee7d73"
+          }
+        ],
+        [
+          "4+1 pin Resistance array",
+          1,
+          "4+1 PIN RESISTANCE ARRAY",
+          "U4",
+          {
+            "BOM_Manufacturer Part": "Array_resistor_8",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "aeb6a5d349a54b38923076be905d8ecc",
+            "uuid": "385dfe15c822493187e1f6949af736ad"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "4+1 PIN RESISTANCE ARRAY",
+          "U5",
+          {
+            "BOM_Manufacturer Part": "Array_resistor_8",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "aeb6a5d349a54b38923076be905d8ecc",
+            "uuid": "385dfe15c822493187e1f6949af736ad"
+          }
+        ],
+        [
+          "74HC04",
+          1,
+          "DIL14",
+          "U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "74HC04",
+            "BOM_Manufacturer Part": "74HC04",
+            "BOM_Supplier Part": "C86613",
+            "puuid": "dab84ed65e1c4087b602ddd653a50ce8",
+            "uuid": "5482fe411b584b9dab563f017c020f0d"
+          }
+        ],
+        [
+          "K4-6×6_TH",
+          1,
+          "KEY-TH_4P-L6.0-W6.0-P4.50-LS6.5",
+          "KEY1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C136684",
+            "BOM_Manufacturer": "韩国韩荣",
+            "BOM_Manufacturer Part": "K2-1102DP-E4SW-04",
+            "puuid": "557c105168d444a992e25584f55bcbb2",
+            "uuid": "18479f1c4d4749c5a4c4387846c5d657"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          1,
+          "HDR-M-2.54_1X2",
+          "VIN/GND",
+          {
+            "BOM_Supplier Part": "C124375",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "16MHZ",
+          1,
+          "OSC-49S-1",
+          "X1",
+          {
+            "BOM_EasyEDA": "C16212",
+            "BOM_Supplier Part": "C16212",
+            "BOM_Supplier": "EasyEDA",
+            "BOM_Manufacturer": "EasyEDA",
+            "BOM_Manufacturer Part": "X49SD16MSD2SC",
+            "puuid": "9e66a28de3c308c96662067422971a31",
+            "uuid": "c50b4c3a7779496d8b4d1b19c30c55cd"
+          }
+        ],
+        [
+          "20k",
+          1,
+          "AXIAL-0.1",
+          "R5",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "bc5680ae9f174cd4a2d41f65b9926a0e",
+            "uuid": "e76f3700a495449f89388aebc7c514e3"
+          }
+        ],
+        [
+          "10k",
+          2,
+          "AXIAL-0.1",
+          "R3,R4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "bc5680ae9f174cd4a2d41f65b9926a0e",
+            "uuid": "e76f3700a495449f89388aebc7c514e3"
+          }
+        ],
+        [
+          "470",
+          4,
+          "AXIAL-0.1",
+          "R8,R7,R9,R10",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "bc5680ae9f174cd4a2d41f65b9926a0e",
+            "uuid": "e76f3700a495449f89388aebc7c514e3"
+          }
+        ],
+        [
+          "22pF",
+          2,
+          "CAP-TH_L3.5-W3.0-P2.54-D0.8",
+          "C3,C1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "22pf/50V 10%",
+            "BOM_Supplier Part": "C9316",
+            "puuid": "ec80956e0bac406aac063a7f9c07ee9a",
+            "uuid": "e99ee054b6dde646ab46be1e5408730f"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x4",
+          3,
+          "HDR-M-2.54_1X4",
+          "CBUS1,CBUS2,I2C",
+          {
+            "BOM_Supplier Part": "C124378",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "282f7786cb6144d097ae00194c3e3fb3",
+            "uuid": "f5b1d9403e49471cab43bc5a1bec336f"
+          }
+        ]
+      ],
+      "updateTime": 1598256607,
+      "createTime": 1596270156,
+      "histories": [],
+      "created_at": "2020-08-01 10:22:36",
+      "updated_at": "2020-08-24 10:10:07"
+    },
+    {
+      "uuid": "4d8197fac50a1d8bf8a04c9ec3f48a00",
+      "puuid": "49912d82bae44594827a7a7c6225eb40",
+      "title": "PCB_2020-08-02_11-14-36",
+      "filename": "PCB_2020-08-02_11-14-36.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "ec80956e0bac406aac063a7f9c07ee9a": 2,
+        "fb11a1cdebf6433b8a3c664a100689e6": 4,
+        "df3ca37cb13d499cb713e9aa6fdd0c7b": 2,
+        "557c105168d444a992e25584f55bcbb2": 1,
+        "70aa5812f21f4991bf427395d51849f4": 1,
+        "09ecc6f4a412498da3401b5cde250a22": 1,
+        "5e42433a6d6d42ee9fe7b6234c15a35a": 1,
+        "dab84ed65e1c4087b602ddd653a50ce8": 1,
+        "9e66a28de3c308c96662067422971a31": 1,
+        "bc5680ae9f174cd4a2d41f65b9926a0e": 7,
+        "aeb6a5d349a54b38923076be905d8ecc": 2,
+        "282f7786cb6144d097ae00194c3e3fb3": 3,
+        "8e5b5d34a0874c76bc6e24de64d01e49": 1
+      },
+      "BOM": [],
+      "updateTime": 1598256933,
+      "createTime": 1596359676,
+      "histories": [],
+      "created_at": "2020-08-02 11:14:36",
+      "updated_at": "2020-08-24 10:15:33"
+    }
+  ],
+  "sort": [
+    "850911c6efe15d1df6ea30c134f1fe0f",
+    "19611cdd17a41af05f2ef7ab6dc30088"
+  ],
+  "title": "DCC-Base-Station-Shield-Arduino-Mega",
+  "foldername": "DCC-Base-Station-Shield-Arduino-Mega",
+  "schfilename": "DCC-Base-Station-Shield-Arduino-Mega.json",
+  "schfilemtime": 1612277101224
+}

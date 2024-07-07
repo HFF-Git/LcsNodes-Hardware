@@ -1,0 +1,109 @@
+{
+  "uuid": "8dbfc133a2725ed66eee6d022302634a",
+  "path": "Offline/LcsNodes-Building-Block-USB-Serial-IO",
+  "name": "LcsNodes-Building-Block-USB-Serial-IO",
+  "content": "",
+  "created_at": "2022-03-18 11:58:11",
+  "updated_at": "2022-09-19 08:19:28",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "86e416d3c38ae593b11bb781f9fa1ce4",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "b5ed86d39d0a42bc82816ace2cb91361": 1,
+        "cd28124e7d9e4d9a93890ebe7ef50506": 1,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 2,
+        "56994305955647eda299fec7cb5fcf23": 1,
+        "5d56951fd43d4b5083b0f3cd9bfd5587": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "10u",
+          1,
+          "CAP-D4.0×F1.5",
+          "C1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "d0dcff2f94d04daa9354f40d74908283",
+            "uuid": "56994305955647eda299fec7cb5fcf23"
+          }
+        ],
+        [
+          "100n",
+          2,
+          "RAD-0.2",
+          "C2,C3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "75844c5980bb4094beb1dc6c0a3a9856",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "1k",
+          2,
+          "R_AXIAL-0.3",
+          "R1,R2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "3eb1249f3ebb4284ae221b0379016582",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "MCP2221A-I/P",
+          1,
+          "DIP14",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "d3ea42d063a54d01a2b3ec87c69cd22a",
+            "uuid": "cd28124e7d9e4d9a93890ebe7ef50506"
+          }
+        ],
+        [
+          "USB-Type A_Male",
+          1,
+          "USB-A-TH_48037-0001",
+          "USB1",
+          {
+            "BOM_Supplier Part": "C112454",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "SOFNG",
+            "BOM_Manufacturer Part": "USB-05",
+            "puuid": "d5ec045f9dc74f769c9e36bdbc34e1d6",
+            "uuid": "b5ed86d39d0a42bc82816ace2cb91361"
+          }
+        ]
+      ],
+      "updateTime": 1663568368,
+      "createTime": 1647601091,
+      "histories": [],
+      "created_at": "2022-03-18 11:58:11",
+      "updated_at": "2022-09-19 08:19:28"
+    }
+  ],
+  "sort": [],
+  "title": "LcsNodes-Building-Block-USB-Serial-IO",
+  "foldername": "LcsNodes-Building-Block-USB-Serial-IO",
+  "schfilename": "LcsNodes-Building-Block-USB-Serial-IO.json",
+  "schfilemtime": 1663568368670
+}

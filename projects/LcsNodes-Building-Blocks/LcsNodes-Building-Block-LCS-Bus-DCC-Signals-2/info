@@ -1,0 +1,162 @@
+{
+  "uuid": "d8d0f60e1d0b1047b32e53de6d213a95",
+  "path": "Offline/LcsNodes-Building-Block-LCS-Bus-DCC-Signals-2",
+  "name": "LcsNodes-Building-Block-LCS-Bus-DCC-Signals-2",
+  "content": "",
+  "created_at": "2022-03-24 08:11:17",
+  "updated_at": "2023-09-26 13:40:40",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "646e86825e666bfab9ff5ff5c7a278b4",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1695728440,
+      "createTime": 1694942587,
+      "histories": [],
+      "created_at": "2023-09-17 11:23:07",
+      "updated_at": "2023-09-26 13:40:40",
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100n",
+          2,
+          "C1206",
+          "C1,C2",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Manufacturer": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "1n",
+          2,
+          "1206",
+          "C3,C4",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Manufacturer": "",
+            "puuid": "a9583a3e61994f79bca1e6cf3aee21e3",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "2K2",
+          1,
+          "1206",
+          "R1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "a9583a3e61994f79bca1e6cf3aee21e3",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "2K2",
+          1,
+          "1206",
+          "R2",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Manufacturer": "",
+            "puuid": "a9583a3e61994f79bca1e6cf3aee21e3",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "1K",
+          4,
+          "1206",
+          "R3,R4,R5,R6",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "a9583a3e61994f79bca1e6cf3aee21e3",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "HCPL-2631-500E",
+          1,
+          "OPTO-SMD-8P_L9.7-W6.4-P2.54-LS9.7-BL",
+          "U1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C188742",
+            "Manufacturer": "AVAGO(安华高)",
+            "Manufacturer Part": "HCPL-2631-500E",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C188742&%26type=1&ref=editor",
+            "spiceSymbolName": "HCPL-2631-500E",
+            "puuid": "e004a43b4dc9491392dcfe5e13a593ef",
+            "uuid": "b66bd4d63ef44d3c8da51a1705897acc"
+          }
+        ],
+        [
+          "MC14077BCL",
+          1,
+          "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
+          "U2",
+          {
+            "description": "Quad XNOR Gate",
+            "subpart_no": "1",
+            "spiceSymbolName": "MC14077BCL",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Supplier": "",
+            "Supplier Part": "",
+            "Manufacturer": "",
+            "puuid": "19591644493b46b2b3c4b7e703ce6a0c",
+            "uuid": "65737df89ec54a67be72fe53eeca518c"
+          }
+        ]
+      ],
+      "components": {
+        "5d56951fd43d4b5083b0f3cd9bfd5587": 6,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 4,
+        "03aa0ea4fa714964b8ddc604305c9869": 1,
+        "65737df89ec54a67be72fe53eeca518c": 1,
+        "b66bd4d63ef44d3c8da51a1705897acc": 1
+      }
+    }
+  ],
+  "sort": [],
+  "title": "LcsNodes-Building-Block-LCS-Bus-DCC-Signals-2",
+  "foldername": "LcsNodes-Building-Block-LCS-Bus-DCC-Signals-2",
+  "schfilename": "LcsNodes-Building-Block-LCS-Bus-DCC-Signals-2.json",
+  "schfilemtime": 1695728440892
+}

@@ -1,0 +1,212 @@
+{
+  "uuid": "1413d2ff354699a7e608f1161ceb5df2",
+  "path": "Offline/LcsNodes-Building-Block-LCS-Bus-DCC-Signals-4",
+  "name": "LcsNodes-Building-Block-LCS-Bus-DCC-Signals-4",
+  "content": "",
+  "created_at": "2023-09-28 12:06:01",
+  "updated_at": "2023-09-28 15:04:33",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "5cac893a5de29a26c282c3ca3bc9e56c",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1695904759,
+      "createTime": 1694942587,
+      "histories": [],
+      "created_at": "2023-09-17 11:23:07",
+      "updated_at": "2023-09-28 14:39:19",
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100nF",
+          2,
+          "C1206",
+          "C1,C4",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "YAGEO(国巨)",
+            "Manufacturer Part": "CC1206KKX7R0BB104",
+            "Supplier Part": "C107181",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C107181&%26type=1&ref=editor",
+            "spiceSymbolName": "CC1206KKX7R0BB104",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "a0e7949b1b3a46c796b905e048b46948"
+          }
+        ],
+        [
+          "1nF",
+          2,
+          "C1206",
+          "C2,C3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C113881",
+            "Manufacturer": "YAGEO(国巨)",
+            "Manufacturer Part": "CC1206JRNPO9BN102",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C113881&%26type=1&ref=editor",
+            "spiceSymbolName": "CC1206JRNPO9BN102",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "f167ec2d941c4c5495a3daea45f1b471"
+          }
+        ],
+        [
+          "4K7",
+          10,
+          "R1206",
+          "R1,R2,R3,R4,R5,R6,R7,R8,R9,R11",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C326768",
+            "Manufacturer": "YAGEO(国巨)",
+            "Manufacturer Part": "SR1206JR-7W4K7L",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C326768&%26type=1&ref=editor",
+            "spiceSymbolName": "SR1206JR-7W4K7L",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "d74e5c405a07432b8d81fde07ec4cdc8"
+          }
+        ],
+        [
+          "2K2",
+          2,
+          "R1206",
+          "R10,R12",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C326768",
+            "Manufacturer": "YAGEO(国巨)",
+            "Manufacturer Part": "SR1206JR-7W4K7L",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C326768&%26type=1&ref=editor",
+            "spiceSymbolName": "SR1206JR-7W4K7L",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "d74e5c405a07432b8d81fde07ec4cdc8"
+          }
+        ],
+        [
+          "1K",
+          2,
+          "R1206",
+          "R13,R14",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "UNI-ROYAL(厚声)",
+            "Manufacturer Part": "1206W4F1001T5E",
+            "Supplier Part": "C4410",
+            "JLCPCB Part Class": "Basic Part",
+            "link": "https://lcsc.com/eda_search?q=C4410&%26type=1&ref=editor",
+            "spiceSymbolName": "1206W4F1001T5E",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "d2131730481b0d5cef6db74e7482102b"
+          }
+        ],
+        [
+          "1N4148_C9900015438",
+          4,
+          "LL-34_L3.5-W1.5-RD",
+          "U3,U4,U5,U6",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900015438",
+            "Manufacturer": "null",
+            "Manufacturer Part": "1N4148",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C9900015438&%26type=1&ref=editor",
+            "spiceSymbolName": "1N4148_C9900015438",
+            "puuid": "b4b5e120d2f0444981b8be27d5c062ab",
+            "uuid": "22fe14eaf6094635b8e0840eb715c1ef"
+          }
+        ],
+        [
+          "LM393BIDR",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U1",
+          {
+            "subpart_no": "1",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2865059",
+            "Manufacturer": "TI(德州仪器)",
+            "Manufacturer Part": "LM393BIDR",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C2865059&%26type=1&ref=editor",
+            "spiceSymbolName": "LM393BIDR",
+            "puuid": "806a55eb4d3c40ab838f70f86785d85e",
+            "uuid": "fc2bcd1980f040f892cf480a0de6be73"
+          }
+        ],
+        [
+          "MC14077BCL",
+          1,
+          "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
+          "U2",
+          {
+            "description": "Quad XNOR Gate",
+            "subpart_no": "1",
+            "spiceSymbolName": "MC14077BCL",
+            "Manufacturer Part": "MC14077BDR2G",
+            "Package Display": "No",
+            "Supplier": "LCSC",
+            "Supplier Part": "C184249",
+            "Manufacturer": "onsemi(安森美)",
+            "puuid": "19591644493b46b2b3c4b7e703ce6a0c",
+            "uuid": "65737df89ec54a67be72fe53eeca518c"
+          }
+        ]
+      ],
+      "components": {
+        "03aa0ea4fa714964b8ddc604305c9869": 1,
+        "65737df89ec54a67be72fe53eeca518c": 1,
+        "fc2bcd1980f040f892cf480a0de6be73": 1,
+        "bb157efdd3784c4c9c23783c41f258ac": 1,
+        "d74e5c405a07432b8d81fde07ec4cdc8": 12,
+        "d2131730481b0d5cef6db74e7482102b": 2,
+        "a0e7949b1b3a46c796b905e048b46948": 2,
+        "f167ec2d941c4c5495a3daea45f1b471": 2,
+        "22fe14eaf6094635b8e0840eb715c1ef": 4
+      }
+    },
+    {
+      "uuid": "41c1d861c4e51f9d20ca69ce6af97134",
+      "title": "PCB_LcsNodes-Building-Block-LCS-Bus-DCC-Signals-4",
+      "filename": "PCB_LcsNodes-Building-Block-LCS-Bus-DCC-Signals-4.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "7bdec8012728462a85919a4d0d033579": 4,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 14,
+        "806a55eb4d3c40ab838f70f86785d85e": 1,
+        "19591644493b46b2b3c4b7e703ce6a0c": 1
+      },
+      "BOM": [],
+      "updateTime": 1695817171,
+      "createTime": 1695798998,
+      "histories": [],
+      "created_at": "2023-09-27 09:16:38",
+      "updated_at": "2023-09-27 14:19:31"
+    }
+  ],
+  "sort": [],
+  "title": "LcsNodes-Building-Block-LCS-Bus-DCC-Signals-4",
+  "foldername": "LcsNodes-Building-Block-LCS-Bus-DCC-Signals-4",
+  "schfilename": "LcsNodes-Building-Block-LCS-Bus-DCC-Signals-4.json",
+  "schfilemtime": 1695904759155
+}

@@ -1,0 +1,39 @@
+{
+  "uuid": "2a6c687f8a3b8de5662afef57ee2bd74",
+  "path": "Offline/LcsNodes-Node-Storage-Concepts",
+  "name": "LcsNodes-Node-Storage-Concepts",
+  "content": "",
+  "created_at": "2023-04-12 20:24:38",
+  "updated_at": "2023-04-12 20:33:18",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "73e2ba9e1364a7f7a67dc4bc3b020540",
+      "title": "Node-Storage-Concepts",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {},
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1681324398,
+      "createTime": 1681323879,
+      "histories": [],
+      "created_at": "2023-04-12 20:24:39",
+      "updated_at": "2023-04-12 20:33:18"
+    }
+  ],
+  "sort": [],
+  "title": "LcsNodes-Node-Storage-Concepts",
+  "foldername": "LcsNodes-Node-Storage-Concepts",
+  "schfilename": "LcsNodes-Node-Storage-Concepts.json",
+  "schfilemtime": 1681324398615
+}

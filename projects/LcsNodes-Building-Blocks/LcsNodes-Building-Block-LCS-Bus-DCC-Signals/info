@@ -1,0 +1,180 @@
+{
+  "uuid": "48f3248962c3b80dd32fab7bb0e1fcf1",
+  "path": "Offline/LcsNodes-Building-Block-LCS-Bus-DCC-Signals",
+  "name": "LcsNodes-Building-Block-LCS-Bus-DCC-Signals",
+  "content": "",
+  "created_at": "2022-03-24 08:11:17",
+  "updated_at": "2023-09-11 21:11:18",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "94447148f14eee3008b8f4a2885a78f4",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "5d56951fd43d4b5083b0f3cd9bfd5587": 6,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 4,
+        "03aa0ea4fa714964b8ddc604305c9869": 1,
+        "0489aebb256842c09cff8d754fe136f2": 1,
+        "96e3b6d217374aa299d2b657bb01f371": 2,
+        "65737df89ec54a67be72fe53eeca518c": 1,
+        "92db6e1105934ee1b907a0ca8c5a8344": 1,
+        "5437133bb3bd4628901af589d7f3d153": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1n",
+          2,
+          "1206",
+          "C1,C3",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Manufacturer": "",
+            "puuid": "a9583a3e61994f79bca1e6cf3aee21e3",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "100n",
+          2,
+          "C1206",
+          "C2,C4",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Manufacturer": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "2K2",
+          1,
+          "1206",
+          "R1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "a9583a3e61994f79bca1e6cf3aee21e3",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "2K2",
+          1,
+          "1206",
+          "R2",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Manufacturer": "",
+            "puuid": "a9583a3e61994f79bca1e6cf3aee21e3",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "1K",
+          4,
+          "1206",
+          "R3,R4,R5,R6",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "a9583a3e61994f79bca1e6cf3aee21e3",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "6N137S1(TA)",
+          2,
+          "SMD-8_L9.8-W6.6-P2.54-LS10.3-BL",
+          "U2,U3",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C110020",
+            "Manufacturer": "EVERLIGHT(亿光)",
+            "Manufacturer Part": "6N137S1(TA)",
+            "Contributor": "LCSC",
+            "JLCPCB Part Class": "Basic Part",
+            "spiceSymbolName": "6N137S1(TA)",
+            "puuid": "2e99ef1193db4d38839d9ba07168453a",
+            "uuid": "96e3b6d217374aa299d2b657bb01f371"
+          }
+        ],
+        [
+          "74AHC1GU04GW",
+          1,
+          "SOT-353_L2.2-W1.4-P0.65-LS2.4-BR",
+          "U4",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "Nexperia(安世)",
+            "Manufacturer Part": "74AHC1GU04GW,125",
+            "Supplier Part": "C5514",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "74AHC1GU04GW",
+            "puuid": "4150fd4e5ba14479909d64cb0c79baa2",
+            "uuid": "5437133bb3bd4628901af589d7f3d153"
+          }
+        ],
+        [
+          "MC14077BCL",
+          1,
+          "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
+          "U1",
+          {
+            "description": "Quad XNOR Gate",
+            "subpart_no": "1",
+            "spiceSymbolName": "MC14077BCL",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Supplier": "",
+            "Supplier Part": "",
+            "Manufacturer": "",
+            "puuid": "19591644493b46b2b3c4b7e703ce6a0c",
+            "uuid": "65737df89ec54a67be72fe53eeca518c"
+          }
+        ]
+      ],
+      "updateTime": 1694459478,
+      "createTime": 1648105877,
+      "histories": [],
+      "created_at": "2022-03-24 08:11:17",
+      "updated_at": "2023-09-11 21:11:18"
+    }
+  ],
+  "sort": [],
+  "title": "LcsNodes-Building-Block-LCS-Bus-DCC-Signals",
+  "foldername": "LcsNodes-Building-Block-LCS-Bus-DCC-Signals",
+  "schfilename": "LcsNodes-Building-Block-LCS-Bus-DCC-Signals.json",
+  "schfilemtime": 1694459479001
+}

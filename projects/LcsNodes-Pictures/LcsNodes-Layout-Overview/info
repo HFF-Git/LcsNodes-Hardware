@@ -1,0 +1,39 @@
+{
+  "uuid": "1b624421124d63f3e14b244f8c0b7c76",
+  "path": "Offline/LcsNodes-Layout-Overview",
+  "name": "LcsNodes-Layout-Overview",
+  "content": "",
+  "created_at": "2023-04-01 11:41:31",
+  "updated_at": "2023-04-13 08:52:08",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "8e958d75afeb79563b621141fb5075d8",
+      "title": "Layout-Overview",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {},
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1681368728,
+      "createTime": 1680342092,
+      "histories": [],
+      "created_at": "2023-04-01 11:41:32",
+      "updated_at": "2023-04-13 08:52:08"
+    }
+  ],
+  "sort": [],
+  "title": "LcsNodes-Layout-Overview",
+  "foldername": "LcsNodes-Layout-Overview",
+  "schfilename": "LcsNodes-Layout-Overview.json",
+  "schfilemtime": 1681368728150
+}

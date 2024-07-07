@@ -1,0 +1,74 @@
+{
+  "uuid": "2b28e43c60982b6bd93f7b0911e73e04",
+  "path": "Offline/LcsNodes-Extension-Experimental-PCB-A.02.01",
+  "name": "LcsNodes-Extension-Experimental-PCB-A.02.01",
+  "content": "",
+  "created_at": "2022-05-05 14:48:36",
+  "updated_at": "2022-09-19 08:29:22",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "1435348b6d16ec2b8266366df3caa1be",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "bbf837444018465c80aa019d7e2b660e": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "LcsNodes-Extension-Experimenal-PCB-A.02.01",
+          1,
+          "LCSNODES-EXPERIMENTAL-PCB-9X12CM",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "9b3ffb718fce4ff79e81ac41de3b9979",
+            "uuid": "bbf837444018465c80aa019d7e2b660e"
+          }
+        ]
+      ],
+      "updateTime": 1663568962,
+      "createTime": 1651754916,
+      "histories": [],
+      "created_at": "2022-05-05 14:48:36",
+      "updated_at": "2022-09-19 08:29:22"
+    },
+    {
+      "uuid": "393ead38c6a7d46821e412914164335f",
+      "puuid": "2b28e43c60982b6bd93f7b0911e73e04",
+      "title": "PCB_LcsNodes-Extension-Experimental-PCB-A.02.01",
+      "filename": "PCB_LcsNodes-Extension-Experimental-PCB-A.02.01.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "9b3ffb718fce4ff79e81ac41de3b9979": 1
+      },
+      "BOM": [],
+      "updateTime": 1653662140,
+      "createTime": 1651755240,
+      "histories": [],
+      "created_at": "2022-05-05 14:54:00",
+      "updated_at": "2022-05-27 16:35:40"
+    }
+  ],
+  "sort": [],
+  "title": "LcsNodes-Extension-Experimental-PCB-A.02.01",
+  "foldername": "LcsNodes-Extension-Experimental-PCB-A.02.01",
+  "schfilename": "LcsNodes-Extension-Experimental-PCB-A.02.01.json",
+  "schfilemtime": 1663568962125
+}

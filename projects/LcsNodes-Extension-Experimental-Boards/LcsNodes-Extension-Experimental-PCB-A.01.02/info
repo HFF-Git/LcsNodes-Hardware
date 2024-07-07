@@ -1,0 +1,106 @@
+{
+  "uuid": "21f4c704ff903f84cb27dc678e62e39d",
+  "path": "Offline/LcsNodes-Extension-Experimental-PCB-A.01.02",
+  "name": "LcsNodes-Extension-Experimental-PCB-A.01.02",
+  "content": "",
+  "created_at": "2022-03-12 10:56:05",
+  "updated_at": "2022-09-29 07:58:09",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "af3eb86b23b45d928fc29eb7fe13da5a",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "d851786b5c664ff789b13c0741460439": 1,
+        "3e6f29258f104200b999f7386a01951c": 1,
+        "ba3aedbdd1e54d4ea1945ba3e8e07cbe": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Extension Connector - IN",
+          1,
+          "HDR-M-2.54_2X10",
+          "H-IN",
+          {
+            "BOM_Supplier Part": "C124359",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e76cf636bce14c43815bf1fe21a7cd4f",
+            "uuid": "3e6f29258f104200b999f7386a01951c"
+          }
+        ],
+        [
+          "Extension Connector - OUT",
+          1,
+          "HDR-F-2.54_2X10",
+          "H-OUT",
+          {
+            "BOM_Supplier Part": "C30867",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f481a7812a11455ca71c88c49f2602a1",
+            "uuid": "ba3aedbdd1e54d4ea1945ba3e8e07cbe"
+          }
+        ],
+        [
+          "Piggyback Board Connector",
+          1,
+          "HDR-M-2.54_1X20",
+          "P1",
+          {
+            "BOM_Supplier Part": "C50981",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "fa8b3531a8854d41bcf2c462cb2bfc07",
+            "uuid": "d851786b5c664ff789b13c0741460439"
+          }
+        ]
+      ],
+      "updateTime": 1651146088,
+      "createTime": 1647078965,
+      "histories": [],
+      "created_at": "2022-03-12 10:56:05",
+      "updated_at": "2022-04-28 13:41:28"
+    },
+    {
+      "uuid": "14b06af89bed86f855c4296a994b9b0c",
+      "puuid": "21f4c704ff903f84cb27dc678e62e39d",
+      "title": "PCB_LcsNodes-Experimental-PCB-A01.02",
+      "filename": "PCB_LcsNodes-Experimental-PCB-A01.02.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "e76cf636bce14c43815bf1fe21a7cd4f": 1,
+        "f481a7812a11455ca71c88c49f2602a1": 1,
+        "fa8b3531a8854d41bcf2c462cb2bfc07": 1
+      },
+      "BOM": [],
+      "updateTime": 1653661506,
+      "createTime": 1647080492,
+      "histories": [],
+      "created_at": "2022-03-12 11:21:32",
+      "updated_at": "2022-05-27 16:25:06"
+    }
+  ],
+  "sort": [],
+  "title": "LcsNodes-Extension-Experimental-PCB-A.01.02",
+  "foldername": "LcsNodes-Extension-Experimental-PCB-A.01.02",
+  "schfilename": "LcsNodes-Extension-Experimental-PCB-A.01.02.json",
+  "schfilemtime": 1651146088783
+}

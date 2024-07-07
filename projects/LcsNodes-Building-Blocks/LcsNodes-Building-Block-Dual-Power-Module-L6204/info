@@ -1,0 +1,166 @@
+{
+  "uuid": "a996560a67d84e09be1083eb24934a35",
+  "path": "Offline/LcsNodes-Building-Block-Dual-Power-Module-L6204",
+  "name": "LcsNodes-Building-Block-Dual-Power-Module-L6204",
+  "content": "",
+  "created_at": "2022-03-19 08:31:14",
+  "updated_at": "2022-09-19 08:04:44",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "15f5c8cc484b78d974c1651e46fa7c44",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a1bddaea90b44e109a38e04d658aabfb": 1,
+        "396e2baa39fd43c39e0e5b424425eeab": 2,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 2,
+        "e76f3700a495449f89388aebc7c514e3": 6,
+        "486123a4bb814705bb1a3164561bb535": 2,
+        "c2f14ce5f9b3448db61fa68a28266404": 1,
+        "512bdc319a554b4b8e6cc91f1cd83ee4": 1,
+        "190b026539c54c11b9596846fd7bd5f8": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100n",
+          2,
+          "RAD-0.2",
+          "C1,C3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "75844c5980bb4094beb1dc6c0a3a9856",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "10n",
+          1,
+          "RAD-0.2",
+          "C2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "75844c5980bb4094beb1dc6c0a3a9856",
+            "uuid": "a1bddaea90b44e109a38e04d658aabfb"
+          }
+        ],
+        [
+          "1N4148DO35-10",
+          1,
+          "DO35-10",
+          "D1",
+          {
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "0ab73373a77a4052b763f9a2daa7f5d3",
+            "uuid": "396e2baa39fd43c39e0e5b424425eeab"
+          }
+        ],
+        [
+          "1N4148",
+          1,
+          "DO35-10",
+          "D2",
+          {
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "0ab73373a77a4052b763f9a2daa7f5d3",
+            "uuid": "396e2baa39fd43c39e0e5b424425eeab"
+          }
+        ],
+        [
+          "10k",
+          4,
+          "AXIAL-0.1",
+          "R1,R2,R7,R8",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "bc5680ae9f174cd4a2d41f65b9926a0e",
+            "uuid": "e76f3700a495449f89388aebc7c514e3"
+          }
+        ],
+        [
+          "1k",
+          2,
+          "AXIAL-0.1",
+          "R3,R4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "bc5680ae9f174cd4a2d41f65b9926a0e",
+            "uuid": "e76f3700a495449f89388aebc7c514e3"
+          }
+        ],
+        [
+          "0R5",
+          2,
+          "R_AXIAL-0.5",
+          "R5,R6",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e46b9352a8354a20870bdcdcb288663a",
+            "uuid": "486123a4bb814705bb1a3164561bb535"
+          }
+        ],
+        [
+          "L6204",
+          1,
+          "DIP20",
+          "U2",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "f080186d32194131aa87798f9fef35fa",
+            "uuid": "c2f14ce5f9b3448db61fa68a28266404"
+          }
+        ],
+        [
+          "LM358",
+          1,
+          "DIP08-KIT",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "10f0843816214d91a7eca0d2ba79b52d",
+            "uuid": "512bdc319a554b4b8e6cc91f1cd83ee4"
+          }
+        ]
+      ],
+      "updateTime": 1663567484,
+      "createTime": 1647675074,
+      "histories": [],
+      "created_at": "2022-03-19 08:31:14",
+      "updated_at": "2022-09-19 08:04:44"
+    }
+  ],
+  "sort": [],
+  "title": "LcsNodes-Building-Block-Dual-Power-Module-L6204",
+  "foldername": "LcsNodes-Building-Block-Dual-Power-Module-L6204",
+  "schfilename": "LcsNodes-Building-Block-Dual-Power-Module-L6204.json",
+  "schfilemtime": 1663567484134
+}

@@ -1,0 +1,291 @@
+{
+  "uuid": "96d0a65fa4c1a919012c53b881b64d63",
+  "path": "Offline/LcdNodes-Building-Block-LocoNet-Interface",
+  "name": "LcdNodes-Building-Block-LocoNet-Interface",
+  "content": "",
+  "created_at": "2023-06-20 11:17:17",
+  "updated_at": "2023-09-27 14:08:34",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "874d1e1b733f3edc59ee3d831e00d520",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "3d7703837c274d87b77976df7a270fdb": 1,
+        "e95628aafeaf4cc89f349341a81714e3": 11,
+        "9ccdc54878be45e7872dac4dc0b50622": 3,
+        "08d974ea4200430f9eabf9e62e7c19dc": 1,
+        "855ac913ba6847859c645247b4c9da75": 1,
+        "de79b090ca9e4b85b5576b54e33647f6": 2,
+        "21b019389fd84119881c7a546c5f6ec4": 1,
+        "a9aa2b14f188405792fa87ac344499a4": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "47p",
+          1,
+          "C1206",
+          "C1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C9900007291",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "CT41G-1206-X5R-50V-10uF-M(N)",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "9ccdc54878be45e7872dac4dc0b50622"
+          }
+        ],
+        [
+          "100n",
+          2,
+          "C1206",
+          "C2,C3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C9900007291",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "CT41G-1206-X5R-50V-10uF-M(N)",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "9ccdc54878be45e7872dac4dc0b50622"
+          }
+        ],
+        [
+          "Enable 12V",
+          1,
+          "HDR-M-2.54_1X2",
+          "J1",
+          {
+            "BOM_Supplier Part": "C124375",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "LocoNet",
+          1,
+          "HDR-M-2.54_1X2",
+          "J2",
+          {
+            "BOM_Supplier Part": "C124375",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "BC847",
+          2,
+          "SOT-323-3_L2.0-W1.3-P1.30-LS2.1-BR",
+          "Q1,Q2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C5182829",
+            "BOM_Manufacturer": "Nexperia(安世)",
+            "BOM_Manufacturer Part": "BC847CW-QBC847CW-QXX",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "e98891da83fd4e29afbfe03f858920c7",
+            "uuid": "de79b090ca9e4b85b5576b54e33647f6"
+          }
+        ],
+        [
+          "BC817",
+          1,
+          "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+          "Q3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Hottech(合科泰)",
+            "BOM_Manufacturer Part": "BC817-40",
+            "BOM_Supplier Part": "C181151",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "bade90667a6e4731855e9a223387b8a6",
+            "uuid": "21b019389fd84119881c7a546c5f6ec4"
+          }
+        ],
+        [
+          "12R",
+          2,
+          "R1206",
+          "R1,R2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C4087637",
+            "BOM_Manufacturer": "Ohmite",
+            "BOM_Manufacturer Part": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "47K",
+          1,
+          "R1206",
+          "R3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C4087637",
+            "BOM_Manufacturer": "Ohmite",
+            "BOM_Manufacturer Part": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "150K",
+          1,
+          "R1206",
+          "R4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C4087637",
+            "BOM_Manufacturer": "Ohmite",
+            "BOM_Manufacturer Part": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "27K",
+          1,
+          "R1206",
+          "R5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C4087637",
+            "BOM_Manufacturer": "Ohmite",
+            "BOM_Manufacturer Part": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "39K",
+          1,
+          "R1206",
+          "R6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C4087637",
+            "BOM_Manufacturer": "Ohmite",
+            "BOM_Manufacturer Part": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "240K",
+          1,
+          "R1206",
+          "R7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C4087637",
+            "BOM_Manufacturer": "Ohmite",
+            "BOM_Manufacturer Part": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "10K",
+          2,
+          "R1206",
+          "R8,R10",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C4087637",
+            "BOM_Manufacturer": "Ohmite",
+            "BOM_Manufacturer Part": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "4K7",
+          1,
+          "R1206",
+          "R9",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C4087637",
+            "BOM_Manufacturer": "Ohmite",
+            "BOM_Manufacturer Part": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "47R",
+          1,
+          "R1206",
+          "R11",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C4087637",
+            "BOM_Manufacturer": "Ohmite",
+            "BOM_Manufacturer Part": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "RJ12(6P6C)",
+          1,
+          "RJ12-TH_6P6C",
+          "RJ1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_JLCPCB Part Class": "",
+            "puuid": "906f08b7969d4ea8b5098c37b5a472e2",
+            "uuid": "3d7703837c274d87b77976df7a270fdb"
+          }
+        ],
+        [
+          "LM393ADRE4",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C3659061",
+            "BOM_Manufacturer": "TI(德州仪器)",
+            "BOM_Manufacturer Part": "LM393ADRE4",
+            "puuid": "806a55eb4d3c40ab838f70f86785d85e",
+            "uuid": "08d974ea4200430f9eabf9e62e7c19dc"
+          }
+        ]
+      ],
+      "updateTime": 1687593236,
+      "createTime": 1687252637,
+      "histories": [],
+      "created_at": "2023-06-20 11:17:17",
+      "updated_at": "2023-06-24 09:53:56"
+    }
+  ],
+  "sort": [],
+  "title": "LcdNodes-Building-Block-LocoNet-Interface",
+  "foldername": "LcdNodes-Building-Block-LocoNet-Interface",
+  "schfilename": "LcdNodes-Building-Block-LocoNet-Interface.json",
+  "schfilemtime": 1687593236062
+}

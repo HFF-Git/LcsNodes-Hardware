@@ -1,0 +1,39 @@
+{
+  "uuid": "36c544ccd50c23418cd90c901e4f6a18",
+  "path": "Offline/LcsNodes-Core-Library-Overview",
+  "name": "LcsNodes-Core-Library-Overview",
+  "content": "",
+  "created_at": "2023-04-02 12:39:01",
+  "updated_at": "2023-08-21 09:25:56",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "a89b53a7d376bb6482b92b74a0ed87a3",
+      "title": "Overal-Firmware-Structure",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {},
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1684231995,
+      "createTime": 1680431941,
+      "histories": [],
+      "created_at": "2023-04-02 12:39:01",
+      "updated_at": "2023-05-16 12:13:15"
+    }
+  ],
+  "sort": [],
+  "title": "LcsNodes-Core-Library-Overview",
+  "foldername": "LcsNodes-Core-Library-Overview",
+  "schfilename": "LcsNodes-Core-Library-Overview.json",
+  "schfilemtime": 1692602756807
+}
