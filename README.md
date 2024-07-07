@@ -1,2 +1,2 @@
 # LcsNodes-Hardware
-The hardware schematics and Gerber Files for LcsNodes components
+The hardware schematics, printed circuit boards and Gerber Files for LcsNodes components
