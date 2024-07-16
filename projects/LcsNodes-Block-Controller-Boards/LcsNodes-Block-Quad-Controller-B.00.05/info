@@ -4,7 +4,7 @@
   "name": "LcsNodes-Block-Quad-Controller-B.00.05",
   "content": "A block clontroller for 4 blocks.",
   "created_at": "2024-01-23 11:16:24",
-  "updated_at": "2024-07-07 11:36:56",
+  "updated_at": "2024-07-16 12:58:07",
   "stick": "",
   "documents": [
     {
@@ -2521,7 +2521,7 @@
             "Supplier Part": "",
             "Manufacturer": "",
             "puuid": "19591644493b46b2b3c4b7e703ce6a0c",
-            "uuid": "25c54ea488b14ccdb3a3313948b202a0"
+            "uuid": "bf7fb7ee780746f1bc3a6fb38676c2fe"
           }
         ],
         [
@@ -2570,9 +2570,9 @@
           }
         ],
         [
-          "0,1F",
+          "2200u",
           1,
-          "CAP-D12.5XF5.0",
+          "CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD-1",
           "C34",
           {
             "Contributor": "LCEDA_Lib",
@@ -2580,7 +2580,7 @@
             "Supplier": "",
             "spiceSymbolName": "C_Tan_SMD_A_EU",
             "Manufacturer Part": "",
-            "puuid": "6295c07e15584ea3b3052d80635b272b",
+            "puuid": "707d7c79bad8483c87b0c49ff97c7bd4",
             "uuid": "e545f26e87c74952857381bd0bff848e"
           }
         ],
@@ -2700,11 +2700,11 @@
           }
         ]
       ],
-      "updateTime": 1720273249,
+      "updateTime": 1721125516,
       "createTime": 1676709565,
       "histories": [],
       "created_at": "2023-02-18 09:39:25",
-      "updated_at": "2024-07-06 15:40:49"
+      "updated_at": "2024-07-16 12:25:16"
     },
     {
       "uuid": "5ba3d56f220ed26f2f4b7612e299cf0f",
@@ -2979,28 +2979,28 @@
         [
           "HD74HC32FP",
           1,
-          "SOP14",
+          "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
           "U8",
           {
             "description": "Quad 2-Input OR Gates",
             "subpart_no": "1",
             "spiceSymbolName": "HD74HC32FP",
             "Manufacturer Part": "",
-            "puuid": "c70ac54b309f48b4bb5af2f31fb473f5",
+            "puuid": "19591644493b46b2b3c4b7e703ce6a0c",
             "uuid": "3effa3b0c0834e62b466c8da216b05e9"
           }
         ],
         [
           "HD74HC08FP",
           1,
-          "SOP14",
+          "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
           "U9",
           {
             "description": "Quad 2-Input AND Gates",
             "subpart_no": "1",
             "spiceSymbolName": "HD74HC08FP",
             "Manufacturer Part": "",
-            "puuid": "c70ac54b309f48b4bb5af2f31fb473f5",
+            "puuid": "19591644493b46b2b3c4b7e703ce6a0c",
             "uuid": "9f533b2a348344bab19919e44eaf122d"
           }
         ],
@@ -3414,7 +3414,7 @@
         [
           "MC14077BD",
           1,
-          "SOIC14N",
+          "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
           "U16",
           {
             "description": "Quad XNOR Gate",
@@ -3425,8 +3425,8 @@
             "Supplier": "",
             "Supplier Part": "",
             "Manufacturer": "",
-            "puuid": "3a9291ac784b477889c6bb2f0d842699",
-            "uuid": "25c54ea488b14ccdb3a3313948b202a0"
+            "puuid": "19591644493b46b2b3c4b7e703ce6a0c",
+            "uuid": "bf7fb7ee780746f1bc3a6fb38676c2fe"
           }
         ],
         [
@@ -3475,9 +3475,9 @@
           }
         ],
         [
-          "0,1F",
+          "2200u",
           1,
-          "CAP-D12.5XF5.0",
+          "CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD-1",
           "C34",
           {
             "Contributor": "LCEDA_Lib",
@@ -3485,7 +3485,7 @@
             "Supplier": "",
             "spiceSymbolName": "C_Tan_SMD_A_EU",
             "Manufacturer Part": "",
-            "puuid": "6295c07e15584ea3b3052d80635b272b",
+            "puuid": "707d7c79bad8483c87b0c49ff97c7bd4",
             "uuid": "e545f26e87c74952857381bd0bff848e"
           }
         ],
@@ -3605,11 +3605,11 @@
           }
         ]
       ],
-      "updateTime": 1717937221,
+      "updateTime": 1721127251,
       "createTime": 1676709584,
       "histories": [],
       "created_at": "2023-02-18 09:39:44",
-      "updated_at": "2024-06-09 14:47:01"
+      "updated_at": "2024-07-16 12:54:11"
     },
     {
       "uuid": "2ca9b327282fccd5782f062c94876b44",
@@ -6348,11 +6348,11 @@
         "e22b6bd92f084998af49afa4da1dfe45": 4
       },
       "BOM": [],
-      "updateTime": 1720345016,
+      "updateTime": 1721127487,
       "createTime": 1676800145,
       "histories": [],
       "created_at": "2023-02-19 10:49:05",
-      "updated_at": "2024-07-07 11:36:56"
+      "updated_at": "2024-07-16 12:58:07"
     }
   ],
   "sort": [
@@ -6367,5 +6367,5 @@
   "title": "LcsNodes-Block-Quad-Controller-B.00.05",
   "foldername": "LcsNodes-Block-Quad-Controller-B.00.05",
   "schfilename": "LcsNodes-Block-Quad-Controller-B.00.05.json",
-  "schfilemtime": 1720341641104
+  "schfilemtime": 1721127251874
 }
