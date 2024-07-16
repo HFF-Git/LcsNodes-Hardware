@@ -4,7 +4,7 @@
   "name": "LcsNodes-Block-Quad-Controller-B.00.05",
   "content": "A block clontroller for 4 blocks.",
   "created_at": "2024-01-23 11:16:24",
-  "updated_at": "2024-07-16 12:58:07",
+  "updated_at": "2024-07-16 18:24:28",
   "stick": "",
   "documents": [
     {
@@ -3196,7 +3196,7 @@
         [
           "LM324-SR_C280708",
           1,
-          "SOP-14_L8.6-W3.9-P1.27-LS6.0-BL",
+          "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
           "U10",
           {
             "Supplier": "LCSC",
@@ -3206,7 +3206,8 @@
             "subpart_no": "1",
             "JLCPCB Part Class": "Extended Part",
             "spiceSymbolName": "LM324-SR_C280708",
-            "puuid": "e69ddeebe4e34357ab0ade32765aa5fb",
+            "Package Display": "No",
+            "puuid": "19591644493b46b2b3c4b7e703ce6a0c",
             "uuid": "e8b81f14dc474febb10a17f3a89e609c"
           }
         ],
@@ -3605,11 +3606,11 @@
           }
         ]
       ],
-      "updateTime": 1721127251,
+      "updateTime": 1721136275,
       "createTime": 1676709584,
       "histories": [],
       "created_at": "2023-02-18 09:39:44",
-      "updated_at": "2024-07-16 12:54:11"
+      "updated_at": "2024-07-16 15:24:35"
     },
     {
       "uuid": "2ca9b327282fccd5782f062c94876b44",
@@ -5898,7 +5899,7 @@
         [
           "LM324-SR_C280708",
           1,
-          "SOP-14_L8.6-W3.9-P1.27-LS6.0-BL",
+          "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
           "U10",
           {
             "Supplier": "LCSC",
@@ -5908,7 +5909,8 @@
             "subpart_no": "1",
             "JLCPCB Part Class": "Extended Part",
             "spiceSymbolName": "LM324-SR_C280708",
-            "puuid": "e69ddeebe4e34357ab0ade32765aa5fb",
+            "Package Display": "No",
+            "puuid": "19591644493b46b2b3c4b7e703ce6a0c",
             "uuid": "e8b81f14dc474febb10a17f3a89e609c"
           }
         ],
@@ -6128,7 +6130,7 @@
             "Supplier Part": "",
             "Manufacturer": "",
             "puuid": "19591644493b46b2b3c4b7e703ce6a0c",
-            "uuid": "25c54ea488b14ccdb3a3313948b202a0"
+            "uuid": "bf7fb7ee780746f1bc3a6fb38676c2fe"
           }
         ],
         [
@@ -6307,11 +6309,11 @@
           }
         ]
       ],
-      "updateTime": 1720337919,
+      "updateTime": 1721136237,
       "createTime": 1676710041,
       "histories": [],
       "created_at": "2023-02-18 09:47:21",
-      "updated_at": "2024-07-07 09:38:39"
+      "updated_at": "2024-07-16 15:23:57"
     },
     {
       "uuid": "fbda56e883f7ad8231fe0577997e770c",
@@ -6322,9 +6324,9 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "19591644493b46b2b3c4b7e703ce6a0c": 6,
         "91e8625ab54d4b48a78457e6f8258781": 1,
         "62ddd832b4204f5fb6ccf017f43de83b": 2,
-        "19591644493b46b2b3c4b7e703ce6a0c": 5,
         "707d7c79bad8483c87b0c49ff97c7bd4": 1,
         "7bdec8012728462a85919a4d0d033579": 29,
         "e0f45a5edd25471dacc10f351b436550": 2,
@@ -6336,7 +6338,6 @@
         "489d6e0dac1348e3a91c03e101947bd4": 1,
         "1c34cd829c754d4281bf2e17f44685f7": 1,
         "37a711dd47574887bb799f651f3c2b95": 2,
-        "e69ddeebe4e34357ab0ade32765aa5fb": 1,
         "6d56825aeea34995ac0791ce3b2142b9": 1,
         "6adf0d677d7c4bf29b8711760efc3b51": 1,
         "07fc3b2a934c48c5bd9ad426093fecbe": 1,
@@ -6348,11 +6349,11 @@
         "e22b6bd92f084998af49afa4da1dfe45": 4
       },
       "BOM": [],
-      "updateTime": 1721127487,
+      "updateTime": 1721147068,
       "createTime": 1676800145,
       "histories": [],
       "created_at": "2023-02-19 10:49:05",
-      "updated_at": "2024-07-16 12:58:07"
+      "updated_at": "2024-07-16 18:24:28"
     }
   ],
   "sort": [
@@ -6367,5 +6368,5 @@
   "title": "LcsNodes-Block-Quad-Controller-B.00.05",
   "foldername": "LcsNodes-Block-Quad-Controller-B.00.05",
   "schfilename": "LcsNodes-Block-Quad-Controller-B.00.05.json",
-  "schfilemtime": 1721127251874
+  "schfilemtime": 1721136275963
 }
