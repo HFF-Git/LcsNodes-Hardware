@@ -1,0 +1,747 @@
+{
+  "uuid": "150c4ae3d724693b57aec9ee2ac34622",
+  "path": "Offline/LcsNodes-Extension-Servo-Board-32-S-B.01.00",
+  "name": "LcsNodes-Extension-Servo-Board-32-S-B.01.00",
+  "content": "A 32-channel servo board for LcsNodes.",
+  "created_at": "2023-05-06 10:15:00",
+  "updated_at": "2024-07-18 15:43:59",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "1c08daad8ca17e7fc3f606f83deeaa37",
+      "title": "High Level Schematic",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {},
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100n",
+          4,
+          "C1206",
+          "C1,C3,C4,C8",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1000u",
+          2,
+          "CAP-SMD_BD10.0-L10.3-W10.3-FD-LS11.0",
+          "C2,C7",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10u",
+          1,
+          "CAP-D5.0×H5.5",
+          "C5",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "22u",
+          1,
+          "CAP-D5.0×H5.5",
+          "C6",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1N5819/S",
+          1,
+          "SMA_L4.3-W2.6-LS5.2-R-RD",
+          "D1",
+          {
+            "Manufacturer Part": "1N5819/S",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900003833"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x3",
+          33,
+          "HDR-M-2.54_1X3",
+          "J1,J2,J3,J4,J5,J6,J7,J8,J9,J10,J11,J12,J13,J14,J15,J16,J17,J18,J19,J20,J21,J22,J23,J24,J25,J26,J27,J28,J29,J30,J31,J32,J34",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C180248"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          1,
+          "HDR-M-2.54_1X2",
+          "J33",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C124375"
+          }
+        ],
+        [
+          "LED-0805_G",
+          1,
+          "LED-1206",
+          "LED1",
+          {
+            "Manufacturer Part": "NCD0805G1",
+            "Manufacturer": "国星光电",
+            "Supplier": "",
+            "Supplier Part": "C84260"
+          }
+        ],
+        [
+          "LCS-NODES-SYM-EXT-10xL",
+          1,
+          "LCS-NODES-FP-EXT-PCB-10X8",
+          "PCB1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "330",
+          32,
+          "R1206",
+          "R1,R2,R3,R4,R5,R6,R7,R10,R11,R12,R13,R14,R15,R16,R17,R18,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R36,R37,R38",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10K",
+          4,
+          "R1206",
+          "R8,R9,R19,R39",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1K",
+          2,
+          "R1206",
+          "R20,R21",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "470",
+          1,
+          "R1206",
+          "R22",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "PCA9685",
+          2,
+          "TSSOP-28_L9.7-W4.4-P0.65-LS6.4-BL",
+          "U1,U4",
+          {
+            "Manufacturer Part": "PCA9685PW/Q900,118",
+            "Manufacturer": "NXP",
+            "Supplier": "LCSC",
+            "Supplier Part": "C92206"
+          }
+        ],
+        [
+          "NLV14077BDG",
+          1,
+          "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+          "U2",
+          {
+            "Manufacturer Part": "NLV14077BDG",
+            "Manufacturer": "onsemi(安森美)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C897321"
+          }
+        ],
+        [
+          "24LC32A-I/SM",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U3",
+          {
+            "Manufacturer Part": "24LC32A-I/SM",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C616088"
+          }
+        ],
+        [
+          "Gaptec_LC78",
+          1,
+          "GAPTEC_LC78",
+          "U5",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ]
+      ],
+      "updateTime": 1721309456,
+      "createTime": 1683874913,
+      "histories": [],
+      "created_at": "2023-05-12 09:01:53",
+      "updated_at": "2024-07-18 15:30:56"
+    },
+    {
+      "uuid": "fa6a9f5533deff47cd19aa0e1d15b832",
+      "title": "Connectors",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1721309456,
+      "createTime": 1683528566,
+      "histories": [],
+      "created_at": "2023-05-08 08:49:26",
+      "updated_at": "2024-07-18 15:30:56",
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100n",
+          4,
+          "C1206",
+          "C1,C3,C4,C8",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1000u",
+          2,
+          "CAP-SMD_BD10.0-L10.3-W10.3-FD-LS11.0",
+          "C2,C7",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10u",
+          1,
+          "CAP-D5.0×H5.5",
+          "C5",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "22u",
+          1,
+          "CAP-D5.0×H5.5",
+          "C6",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1N5819/S",
+          1,
+          "SMA_L4.3-W2.6-LS5.2-R-RD",
+          "D1",
+          {
+            "Manufacturer Part": "1N5819/S",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900003833"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x3",
+          33,
+          "HDR-M-2.54_1X3",
+          "J1,J2,J3,J4,J5,J6,J7,J8,J9,J10,J11,J12,J13,J14,J15,J16,J17,J18,J19,J20,J21,J22,J23,J24,J25,J26,J27,J28,J29,J30,J31,J32,J34",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C180248"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          1,
+          "HDR-M-2.54_1X2",
+          "J33",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C124375"
+          }
+        ],
+        [
+          "LED-0805_G",
+          1,
+          "LED-1206",
+          "LED1",
+          {
+            "Manufacturer Part": "NCD0805G1",
+            "Manufacturer": "国星光电",
+            "Supplier": "",
+            "Supplier Part": "C84260"
+          }
+        ],
+        [
+          "LCS-NODES-SYM-EXT-10xL",
+          1,
+          "LCS-NODES-FP-EXT-PCB-10X8",
+          "PCB1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "330",
+          32,
+          "R1206",
+          "R1,R2,R3,R4,R5,R6,R7,R10,R11,R12,R13,R14,R15,R16,R17,R18,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R36,R37,R38",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10K",
+          4,
+          "R1206",
+          "R8,R9,R19,R39",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1K",
+          2,
+          "R1206",
+          "R20,R21",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "470",
+          1,
+          "R1206",
+          "R22",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "PCA9685",
+          2,
+          "TSSOP-28_L9.7-W4.4-P0.65-LS6.4-BL",
+          "U1,U4",
+          {
+            "Manufacturer Part": "PCA9685PW/Q900,118",
+            "Manufacturer": "NXP",
+            "Supplier": "LCSC",
+            "Supplier Part": "C92206"
+          }
+        ],
+        [
+          "NLV14077BDG",
+          1,
+          "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+          "U2",
+          {
+            "Manufacturer Part": "NLV14077BDG",
+            "Manufacturer": "onsemi(安森美)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C897321"
+          }
+        ],
+        [
+          "24LC32A-I/SM",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U3",
+          {
+            "Manufacturer Part": "24LC32A-I/SM",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C616088"
+          }
+        ],
+        [
+          "Gaptec_LC78",
+          1,
+          "GAPTEC_LC78",
+          "U5",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ]
+      ],
+      "components": {
+        "4e0d39fd2094493bae83787f3a77838b": 1,
+        "a68dc5e6a9944c46b7604648a43dcd65": 32
+      }
+    },
+    {
+      "uuid": "ad828c988c3fa0b27b1663aa7f2870bf",
+      "title": "Logic",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1721309456,
+      "createTime": 1683528566,
+      "histories": [],
+      "created_at": "2023-05-08 08:49:26",
+      "updated_at": "2024-07-18 15:30:56",
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100n",
+          4,
+          "C1206",
+          "C1,C3,C4,C8",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1000u",
+          2,
+          "CAP-SMD_BD10.0-L10.3-W10.3-FD-LS11.0",
+          "C2,C7",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10u",
+          1,
+          "CAP-D5.0×H5.5",
+          "C5",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "22u",
+          1,
+          "CAP-D5.0×H5.5",
+          "C6",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1N5819/S",
+          1,
+          "SMA_L4.3-W2.6-LS5.2-R-RD",
+          "D1",
+          {
+            "Manufacturer Part": "1N5819/S",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900003833"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x3",
+          33,
+          "HDR-M-2.54_1X3",
+          "J1,J2,J3,J4,J5,J6,J7,J8,J9,J10,J11,J12,J13,J14,J15,J16,J17,J18,J19,J20,J21,J22,J23,J24,J25,J26,J27,J28,J29,J30,J31,J32,J34",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C180248"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          1,
+          "HDR-M-2.54_1X2",
+          "J33",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C124375"
+          }
+        ],
+        [
+          "LED-0805_G",
+          1,
+          "LED-1206",
+          "LED1",
+          {
+            "Manufacturer Part": "NCD0805G1",
+            "Manufacturer": "国星光电",
+            "Supplier": "",
+            "Supplier Part": "C84260"
+          }
+        ],
+        [
+          "LCS-NODES-SYM-EXT-10xL",
+          1,
+          "LCS-NODES-FP-EXT-PCB-10X8",
+          "PCB1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "330",
+          32,
+          "R1206",
+          "R1,R2,R3,R4,R5,R6,R7,R10,R11,R12,R13,R14,R15,R16,R17,R18,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R36,R37,R38",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10K",
+          4,
+          "R1206",
+          "R8,R9,R19,R39",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1K",
+          2,
+          "R1206",
+          "R20,R21",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "470",
+          1,
+          "R1206",
+          "R22",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "PCA9685",
+          2,
+          "TSSOP-28_L9.7-W4.4-P0.65-LS6.4-BL",
+          "U1,U4",
+          {
+            "Manufacturer Part": "PCA9685PW/Q900,118",
+            "Manufacturer": "NXP",
+            "Supplier": "LCSC",
+            "Supplier Part": "C92206"
+          }
+        ],
+        [
+          "NLV14077BDG",
+          1,
+          "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+          "U2",
+          {
+            "Manufacturer Part": "NLV14077BDG",
+            "Manufacturer": "onsemi(安森美)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C897321"
+          }
+        ],
+        [
+          "24LC32A-I/SM",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U3",
+          {
+            "Manufacturer Part": "24LC32A-I/SM",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C616088"
+          }
+        ],
+        [
+          "Gaptec_LC78",
+          1,
+          "GAPTEC_LC78",
+          "U5",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ]
+      ],
+      "components": {
+        "a9aa2b14f188405792fa87ac344499a4": 1,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 4,
+        "5d56951fd43d4b5083b0f3cd9bfd5587": 38,
+        "56994305955647eda299fec7cb5fcf23": 2,
+        "65b4454ea3fa472ca681ada6039ebf92": 2,
+        "2f379218ad414010bbfe428493a52848": 2,
+        "1c2f4d9c31d64b0c8b07997478bdbc19": 1,
+        "77ff4e3668d049dfad2b98e3ec6c3129": 1,
+        "a68dc5e6a9944c46b7604648a43dcd65": 1,
+        "63139acf1b0743849669fd840159ae52": 1,
+        "ed9eb2faffb34286820a54a14e9e9e24": 1,
+        "ba1f207f2c0447edbd5beb657b435022": 1,
+        "ec21d28f29214934b3c5761b7bb01e1e": 1
+      }
+    },
+    {
+      "uuid": "59983cf59e46534040c8bd96f04087cd",
+      "title": "PCB_LcsNodes-Extension-Servo-Board-32-S-B.01.00",
+      "filename": "PCB_LcsNodes-Extension-Servo-Board-32-S-B.01.00.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1721310239,
+      "createTime": 1683528878,
+      "histories": [],
+      "created_at": "2023-05-08 08:54:38",
+      "updated_at": "2024-07-18 15:43:59",
+      "components": {
+        "62ddd832b4204f5fb6ccf017f43de83b": 1,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 39,
+        "806a55eb4d3c40ab838f70f86785d85e": 1,
+        "43b26d5258474e5a951af5ae597d6694": 1,
+        "7bdec8012728462a85919a4d0d033579": 4,
+        "0f2364c02f094100b1b3205c9d829099": 1,
+        "906c99ea5dec4828b079c976cc1781e8": 1,
+        "9f77654394344f25b3de138e0fe05ff6": 33,
+        "1c34cd829c754d4281bf2e17f44685f7": 1,
+        "77c578a743d44930b8d88c38f9637b99": 2,
+        "2897ea2aed674deb8892c3862bcaddea": 2,
+        "167b97894dec4a7f8d57d82286320642": 2,
+        "70aa5812f21f4991bf427395d51849f4": 1
+      }
+    }
+  ],
+  "sort": [
+    "1c08daad8ca17e7fc3f606f83deeaa37",
+    "fa6a9f5533deff47cd19aa0e1d15b832",
+    "ad828c988c3fa0b27b1663aa7f2870bf"
+  ],
+  "title": "LcsNodes-Extension-Servo-Board-32-S-B.01.00",
+  "foldername": "LcsNodes-Extension-Servo-Board-32-S-B.01.00",
+  "schfilename": "LcsNodes-Extension-Servo-Board-32-S-B.01.00.json",
+  "schfilemtime": 1721309456496
+}
