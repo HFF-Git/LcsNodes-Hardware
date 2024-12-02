@@ -4,7 +4,7 @@
   "name": "LcsNodes-Block-Combo-Controller-B.01.00",
   "content": "A block controller, with a dual 2.8 Amp bridge that can be configured as a dual block controller or a mono block controller with double amperage.",
   "created_at": "2024-01-30 08:59:26",
-  "updated_at": "2024-08-07 17:41:00",
+  "updated_at": "2024-12-02 11:13:30",
   "stick": "",
   "documents": [
     {
@@ -3697,11 +3697,11 @@
           }
         ]
       ],
-      "updateTime": 1721220131,
+      "updateTime": 1733134410,
       "createTime": 1706186923,
       "histories": [],
       "created_at": "2024-01-25 13:48:43",
-      "updated_at": "2024-07-17 14:42:11"
+      "updated_at": "2024-12-02 11:13:30"
     },
     {
       "uuid": "41a1eb173ca56707eb7a01c753eead6b",
@@ -3758,5 +3758,5 @@
   "title": "LcsNodes-Block-Combo-Controller-B.01.00",
   "foldername": "LcsNodes-Block-Combo-Controller-B.01.00",
   "schfilename": "LcsNodes-Block-Combo-Controller-B.01.00.json",
-  "schfilemtime": 1721220131267
+  "schfilemtime": 1733134410800
 }

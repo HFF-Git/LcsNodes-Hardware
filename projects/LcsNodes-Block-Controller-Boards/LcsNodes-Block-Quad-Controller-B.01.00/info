@@ -4,7 +4,7 @@
   "name": "LcsNodes-Block-Quad-Controller-B.01.00",
   "content": "A LCS block controller for 4 blocks, Railcom detectors and power measurement.",
   "created_at": "2024-01-23 11:16:24",
-  "updated_at": "2024-10-06 17:06:24",
+  "updated_at": "2024-12-02 11:13:56",
   "stick": "",
   "documents": [
     {
@@ -4333,11 +4333,11 @@
           }
         ]
       ],
-      "updateTime": 1721220075,
+      "updateTime": 1733134436,
       "createTime": 1676710041,
       "histories": [],
       "created_at": "2023-02-18 09:47:21",
-      "updated_at": "2024-07-17 14:41:15"
+      "updated_at": "2024-12-02 11:13:56"
     },
     {
       "uuid": "fbda56e883f7ad8231fe0577997e770c",
@@ -4392,5 +4392,5 @@
   "title": "LcsNodes-Block-Quad-Controller-B.01.00",
   "foldername": "LcsNodes-Block-Quad-Controller-B.01.00",
   "schfilename": "LcsNodes-Block-Quad-Controller-B.01.00.json",
-  "schfilemtime": 1721220075521
+  "schfilemtime": 1733134436330
 }
