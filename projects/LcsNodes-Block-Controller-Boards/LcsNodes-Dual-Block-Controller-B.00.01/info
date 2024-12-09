@@ -4,7 +4,7 @@
   "name": "LcsNodes-Dual-Block-Controller-B.00.01",
   "content": "A dual block controller, with a dual 2.8 Amp bridge.",
   "created_at": "2024-01-30 08:59:26",
-  "updated_at": "2024-12-02 11:14:03",
+  "updated_at": "2024-12-09 13:43:37",
   "stick": "",
   "documents": [
     {
@@ -5088,11 +5088,11 @@
         "1c34cd829c754d4281bf2e17f44685f7": 1
       },
       "BOM": [],
-      "updateTime": 1707389782,
+      "updateTime": 1733748217,
       "createTime": 1706434374,
       "histories": [],
       "created_at": "2024-01-28 10:32:54",
-      "updated_at": "2024-02-08 11:56:22"
+      "updated_at": "2024-12-09 13:43:37"
     }
   ],
   "sort": [
