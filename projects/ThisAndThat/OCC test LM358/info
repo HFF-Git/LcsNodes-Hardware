@@ -1,0 +1,231 @@
+{
+  "uuid": "ef51dabfce4d740c1fb73276d689811c",
+  "path": "Offline/OCC%20test%20LM358",
+  "name": "OCC test LM358",
+  "content": "Schematic piece for a different OCC detector",
+  "created_at": "2024-12-10 09:30:11",
+  "updated_at": "2025-01-12 13:52:38",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "017ed3907ca05225443555791ec83487",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "2fa53d590f544429ab8fcbd581d715c1": 6,
+        "ef426d4a8d544b74a9057e9a2a21b39a": 2,
+        "922ee7eb0196436ab76cf1c8ef504d31": 2,
+        "2adc78078a1c4b80b67a3c5d3ab7681c": 1,
+        "dbfa7da092bc44faa13a86aaa683160b": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100n",
+          1,
+          "RAD-0.1",
+          "C1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "SB340L",
+          2,
+          "DO-27_BD5.2-L8.9-P12.90-D1.5-RD",
+          "D1,D2",
+          {
+            "Manufacturer Part": "SB340L",
+            "Manufacturer": "PINGWEI(平伟)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C432802"
+          }
+        ],
+        [
+          "CONN-TH_2P-P5.08",
+          2,
+          "CONN-TH_2P-P5.08",
+          "P1,P2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "100k",
+          3,
+          "R1206",
+          "R1,R4,R6",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "20",
+          1,
+          "R1206",
+          "R2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "20k",
+          2,
+          "R1206",
+          "R3,R5",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "LM358AWDT",
+          1,
+          "SO-8_L4.9-W3.9-P1.27-LS5.9-BL",
+          "U1",
+          {
+            "Manufacturer Part": "LM358AWDT",
+            "Manufacturer": "ST(意法半导体)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2969987"
+          }
+        ]
+      ],
+      "updateTime": 1734696165,
+      "createTime": 1733819412,
+      "histories": [],
+      "created_at": "2024-12-10 09:30:12",
+      "updated_at": "2024-12-20 13:02:45"
+    },
+    {
+      "uuid": "4e2a50b9834a95216aaed06daa5d637e",
+      "puuid": "ef51dabfce4d740c1fb73276d689811c",
+      "title": "PCB_OCC test",
+      "filename": "PCB_OCC test.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "4065aec2d1df405fb5d7a2576675a673": 2,
+        "e51909bf23504bf8a04c047f1f5257e0": 2,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 6,
+        "c7ea67703a744a75a83a491c6f376b72": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "SB340L",
+          2,
+          "DO-27_BD5.2-L8.9-P12.90-D1.5-RD",
+          "D1,D2",
+          {
+            "Manufacturer Part": "SB340L",
+            "Manufacturer": "PINGWEI(平伟)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C432802"
+          }
+        ],
+        [
+          "CONN-TH_2P-P5.08",
+          2,
+          "CONN-TH_2P-P5.08",
+          "P1,P2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1k",
+          3,
+          "R1206",
+          "R1,R4,R6",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "20",
+          1,
+          "R1206",
+          "R2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "20k",
+          2,
+          "R1206",
+          "R3,R5",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "LM358AWDT",
+          1,
+          "SO-8_L4.9-W3.9-P1.27-LS5.9-BL",
+          "U1",
+          {
+            "Manufacturer Part": "LM358AWDT",
+            "Manufacturer": "ST(意法半导体)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2969987"
+          }
+        ]
+      ],
+      "updateTime": 1733820255,
+      "createTime": 1733820255,
+      "histories": [],
+      "created_at": "2024-12-10 09:44:15",
+      "updated_at": "2024-12-10 09:44:15"
+    }
+  ],
+  "sort": [],
+  "title": "OCC test LM358",
+  "foldername": "OCC test LM358",
+  "schfilename": "OCC test LM358.json",
+  "schfilemtime": 1734696165607
+}

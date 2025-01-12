@@ -1,25 +1,28 @@
 {
-  "uuid": "ef51dabfce4d740c1fb73276d689811c",
-  "path": "Offline/OCC%20test",
-  "name": "OCC test",
+  "uuid": "20aa75c46e0621a1c9a1c913df8e1a5d",
+  "path": "Offline/OCC%20test%20LM339",
+  "name": "OCC test LM339",
   "content": "Schematic piece for a different OCC detector",
-  "created_at": "2024-12-10 09:30:11",
-  "updated_at": "2024-12-20 13:02:45",
+  "created_at": "2025-01-02 14:51:18",
+  "updated_at": "2025-01-12 13:52:53",
   "stick": "",
   "documents": [
     {
-      "uuid": "017ed3907ca05225443555791ec83487",
+      "uuid": "4058a71324f97f6636c92a0a5f34fe7b",
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "2fa53d590f544429ab8fcbd581d715c1": 6,
+        "2fa53d590f544429ab8fcbd581d715c1": 4,
         "ef426d4a8d544b74a9057e9a2a21b39a": 2,
         "922ee7eb0196436ab76cf1c8ef504d31": 2,
-        "2adc78078a1c4b80b67a3c5d3ab7681c": 1,
-        "dbfa7da092bc44faa13a86aaa683160b": 1
+        "dbfa7da092bc44faa13a86aaa683160b": 1,
+        "6799336de3f94eac969bf4df6d05290e": 1,
+        "a05604903db7446eb4540f7e8824785c": 1,
+        "fa2c88deae2f45ccbd7bb4e4dbeaf43f": 1,
+        "6402d324fc4840a3a7823428f4356990": 1
       },
       "BOM": [
         [
@@ -66,10 +69,10 @@
           }
         ],
         [
-          "100k",
+          "10K",
           3,
           "R1206",
-          "R1,R4,R6",
+          "R1,R3,R5",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -78,7 +81,7 @@
           }
         ],
         [
-          "20",
+          "470",
           1,
           "R1206",
           "R2",
@@ -90,39 +93,26 @@
           }
         ],
         [
-          "20k",
-          2,
-          "R1206",
-          "R3,R5",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "LM358AWDT",
+          "LM339S",
           1,
-          "SO-8_L4.9-W3.9-P1.27-LS5.9-BL",
-          "U1",
+          "SOP-14_L8.8-W3.9-P1.27-LS6.0-BL",
+          "U2",
           {
-            "Manufacturer Part": "LM358AWDT",
-            "Manufacturer": "ST(意法半导体)",
+            "Manufacturer Part": "LM339S",
+            "Manufacturer": "IDCHIP(英锐芯)",
             "Supplier": "LCSC",
-            "Supplier Part": "C2969987"
+            "Supplier Part": "C19193841"
           }
         ]
       ],
-      "updateTime": 1734696165,
+      "updateTime": 1735826354,
       "createTime": 1733819412,
       "histories": [],
       "created_at": "2024-12-10 09:30:12",
-      "updated_at": "2024-12-20 13:02:45"
+      "updated_at": "2025-01-02 14:59:14"
     },
     {
-      "uuid": "4e2a50b9834a95216aaed06daa5d637e",
-      "puuid": "ef51dabfce4d740c1fb73276d689811c",
+      "uuid": "c09ee2a930dff756ae877dce188166dc",
       "title": "PCB_OCC test",
       "filename": "PCB_OCC test.json",
       "description": "",
@@ -224,8 +214,8 @@
     }
   ],
   "sort": [],
-  "title": "OCC test",
-  "foldername": "OCC test",
-  "schfilename": "OCC test.json",
-  "schfilemtime": 1734696165607
+  "title": "OCC test LM339",
+  "foldername": "OCC test LM339",
+  "schfilename": "OCC test LM339.json",
+  "schfilemtime": 1735826354085
 }
