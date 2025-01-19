@@ -1,0 +1,5290 @@
+{
+  "uuid": "048643a27d0e514242016fc17986cfdb",
+  "path": "Offline/LcsNodes-Base-Station-Board-B.02.00",
+  "name": "LcsNodes-Base-Station-Board-B.02.00",
+  "content": "A Raspberry Pi Pico based DCC base station. \n- RPico, CanBus, NVM, L6205 Power Module, RailCom Detector",
+  "created_at": "2025-01-19 12:22:15",
+  "updated_at": "2025-01-19 12:24:17",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "6418b3795b8298285c9ae33b75fb6584",
+      "title": "High Level Schematic",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1737285857,
+      "createTime": 1697360463,
+      "histories": [],
+      "created_at": "2023-10-15 11:01:03",
+      "updated_at": "2025-01-19 12:24:17",
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Opt",
+          1,
+          "SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0_C23873",
+          "B1",
+          {
+            "Manufacturer Part": "K2-1102DP-E4SW-04",
+            "Manufacturer": "韩国韩荣",
+            "Supplier": "LCSC",
+            "Supplier Part": "C136684"
+          }
+        ],
+        [
+          "100n",
+          12,
+          "C1206",
+          "C1,C2,C3,C4,C5,C7,C8,C10,C13,C16,C17,C20",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10n",
+          1,
+          "C1206",
+          "C6",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "100u",
+          1,
+          "CAP-D6.3×H7.7",
+          "C9",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "220n",
+          3,
+          "C1206",
+          "C11,C12,C14",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "47p",
+          1,
+          "C1206",
+          "C15",
+          {
+            "Manufacturer Part": "CT41G-1206-X5R-50V-10uF-M(N)",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900007291"
+          }
+        ],
+        [
+          "10u",
+          2,
+          "CAP-D5.0×H5.5",
+          "C18,C22",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "22u",
+          2,
+          "CAP-D5.0×H5.5",
+          "C19,C23",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "0,1F",
+          1,
+          "CAP-D12.5XF5.0",
+          "C21",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1N4148",
+          2,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D1,D2",
+          {
+            "Manufacturer Part": "1N4148",
+            "Manufacturer": "SEMTECH",
+            "Supplier": "LCSC",
+            "Supplier Part": "C14516"
+          }
+        ],
+        [
+          "1N5819/S",
+          5,
+          "SMA_L4.3-W2.6-LS5.2-R-RD",
+          "D3,D4,D5,D6,D7",
+          {
+            "Manufacturer Part": "1N5819/S",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900003833"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          4,
+          "HDR-M-2.54_1X2",
+          "J1,J4,J5,J6",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C124375"
+          }
+        ],
+        [
+          "Enable 12V",
+          1,
+          "HDR-M-2.54_1X2",
+          "J2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C124375"
+          }
+        ],
+        [
+          "LocoNet",
+          1,
+          "HDR-M-2.54_1X2",
+          "J3",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C124375"
+          }
+        ],
+        [
+          "LED-0603_R",
+          1,
+          "LED-1206",
+          "LED1",
+          {
+            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C72044"
+          }
+        ],
+        [
+          "LED-0805_G",
+          1,
+          "LED-1206",
+          "LED2",
+          {
+            "Manufacturer Part": "NCD0805G1",
+            "Manufacturer": "国星光电",
+            "Supplier": "",
+            "Supplier Part": "C84260"
+          }
+        ],
+        [
+          "CONN-TH_2P-P5.08",
+          2,
+          "CONN-TH_2P-P5.08",
+          "P-MAIN1,P-PROG1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "LCS-NODES-SYM-BLOCK-CTRL-10xYY",
+          1,
+          "LCS-NODES-FP-MAIN-CTRL-10X12",
+          "PCB1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "MOSFET-NCHANNELBSS138",
+          5,
+          "SOT23-3",
+          "Q1,Q2,Q3,Q4,Q5",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "BC817",
+          1,
+          "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+          "Q6",
+          {
+            "Manufacturer Part": "BC817-40",
+            "Manufacturer": "Hottech(合科泰)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C181151"
+          }
+        ],
+        [
+          "BC847",
+          2,
+          "SOT-323-3_L2.0-W1.3-P1.30-LS2.1-BR",
+          "Q7,Q8",
+          {
+            "Manufacturer Part": "BC847CW-QBC847CW-QXX",
+            "Manufacturer": "Nexperia(安世)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5182829"
+          }
+        ],
+        [
+          "DMG2305UX",
+          1,
+          "SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR-1",
+          "Q9",
+          {
+            "Manufacturer Part": "DMG2305UX",
+            "Manufacturer": "TECH PUBLIC(台舟)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2940629"
+          }
+        ],
+        [
+          "4K7",
+          5,
+          "R1206",
+          "R1,R2,R14,R15,R58",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10K",
+          13,
+          "R1206",
+          "R3,R6,R7,R8,R9,R10,R11,R12,R13,R21,R22,R52,R60",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "470",
+          2,
+          "R1206",
+          "R4,R5",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "120",
+          1,
+          "R1206",
+          "R16",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10k",
+          4,
+          "R1206",
+          "R17,R18,R38,R45",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "0R1",
+          4,
+          "R_AXIAL-0.8",
+          "R19,R20,R28,R29",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1M",
+          8,
+          "R1206",
+          "R23,R24,R34,R35,R36,R37,R46,R47",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "100",
+          2,
+          "R1206",
+          "R25,R62",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "220",
+          8,
+          "R1206",
+          "R26,R27,R30,R31,R39,R40,R43,R44",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "0R5",
+          2,
+          "R_AXIAL-0.8",
+          "R32,R33",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1K",
+          2,
+          "R1206",
+          "R41,R48",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1k",
+          2,
+          "R1206",
+          "R42,R49",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "12R",
+          2,
+          "R1206",
+          "R50,R51",
+          {
+            "Manufacturer Part": "HVF1206T5002FET",
+            "Manufacturer": "Ohmite",
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637"
+          }
+        ],
+        [
+          "47K",
+          1,
+          "R1206",
+          "R53",
+          {
+            "Manufacturer Part": "HVF1206T5002FET",
+            "Manufacturer": "Ohmite",
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637"
+          }
+        ],
+        [
+          "27K",
+          1,
+          "R1206",
+          "R54",
+          {
+            "Manufacturer Part": "HVF1206T5002FET",
+            "Manufacturer": "Ohmite",
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637"
+          }
+        ],
+        [
+          "240K",
+          1,
+          "R1206",
+          "R55",
+          {
+            "Manufacturer Part": "HVF1206T5002FET",
+            "Manufacturer": "Ohmite",
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637"
+          }
+        ],
+        [
+          "150K",
+          1,
+          "R1206",
+          "R56",
+          {
+            "Manufacturer Part": "HVF1206T5002FET",
+            "Manufacturer": "Ohmite",
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637"
+          }
+        ],
+        [
+          "39K",
+          1,
+          "R1206",
+          "R57",
+          {
+            "Manufacturer Part": "HVF1206T5002FET",
+            "Manufacturer": "Ohmite",
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637"
+          }
+        ],
+        [
+          "47R",
+          1,
+          "R1206",
+          "R59",
+          {
+            "Manufacturer Part": "HVF1206T5002FET",
+            "Manufacturer": "Ohmite",
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637"
+          }
+        ],
+        [
+          "56K",
+          1,
+          "R1206",
+          "R61",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "100K",
+          1,
+          "R1206",
+          "R63",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "470Ohm MELF resistor",
+          1,
+          "10 OHM MELF RESISTOR",
+          "R64",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10Ohm MELF resistor",
+          1,
+          "10 OHM MELF RESISTOR",
+          "R65",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "RJ12(6P6C)",
+          1,
+          "RJ12-TH_6P6C",
+          "RJ1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "24FCXXX-I/SN",
+          2,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U1,U3",
+          {
+            "Manufacturer Part": "24FC256-I/SN",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C145385"
+          }
+        ],
+        [
+          "Main controller - RASPBERRY Pi Pico",
+          1,
+          "RASPBERRY PI PICO",
+          "U2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "MCP2562-H/P",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.1-BL",
+          "U4",
+          {
+            "Manufacturer Part": "MCP2562-H/P",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C640348"
+          }
+        ],
+        [
+          "LM339ADR",
+          1,
+          "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
+          "U5",
+          {
+            "Manufacturer Part": "TI",
+            "Manufacturer": "LM339ADR",
+            "Supplier": "LCSC",
+            "Supplier Part": "C74559"
+          }
+        ],
+        [
+          "L6205N",
+          1,
+          "PDIP-20_L24.5-W7.3-P2.54-LS7.9-BL",
+          "U6",
+          {
+            "Manufacturer Part": "L6205N",
+            "Manufacturer": "STMicroelectronics",
+            "Supplier": "LCSC",
+            "Supplier Part": "C962260"
+          }
+        ],
+        [
+          "LM358MX/NOPB",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U7",
+          {
+            "Manufacturer Part": "LM358MX/NOPB",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C16416"
+          }
+        ],
+        [
+          "LM393ADRE4",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U8",
+          {
+            "Manufacturer Part": "LM393ADRE4",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3659061"
+          }
+        ],
+        [
+          "Gaptec_LC78",
+          2,
+          "GAPTEC_LC78",
+          "U9,U10",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ]
+      ],
+      "components": {}
+    },
+    {
+      "uuid": "e675c13f2b60c8b53e32c875133e72d8",
+      "title": "Controller",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1699351760,
+      "createTime": 1697360463,
+      "histories": [],
+      "created_at": "2023-10-15 11:01:03",
+      "updated_at": "2023-11-07 11:09:20",
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Opt",
+          1,
+          "SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0_C23873",
+          "B1",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C136684",
+            "Manufacturer": "韩国韩荣",
+            "Manufacturer Part": "K2-1102DP-E4SW-04",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "K4-6×6_TH",
+            "Package Display": "No",
+            "puuid": "91e8625ab54d4b48a78457e6f8258781",
+            "uuid": "18479f1c4d4749c5a4c4387846c5d657"
+          }
+        ],
+        [
+          "100n",
+          4,
+          "C1206",
+          "C1,C2,C3,C4",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Manufacturer": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          1,
+          "HDR-M-2.54_1X2",
+          "J1",
+          {
+            "Supplier Part": "C124375",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x2",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "LED-0603_R",
+          1,
+          "LED-1206",
+          "LED1",
+          {
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "Supplier Part": "C72044",
+            "Supplier": "LCSC",
+            "link": "",
+            "Contributor": "LCEDA_01",
+            "spiceSymbolName": "LED-0603_R",
+            "puuid": "62ddd832b4204f5fb6ccf017f43de83b",
+            "uuid": "5cbe824183374fac8e4c1ae848199ce3"
+          }
+        ],
+        [
+          "LED-0805_G",
+          1,
+          "LED-1206",
+          "LED2",
+          {
+            "Manufacturer": "国星光电",
+            "Manufacturer Part": "NCD0805G1",
+            "Supplier Part": "C84260",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "LED-0805_G",
+            "puuid": "62ddd832b4204f5fb6ccf017f43de83b",
+            "uuid": "ba1f207f2c0447edbd5beb657b435022"
+          }
+        ],
+        [
+          "MOSFET-NCHANNELBSS138",
+          5,
+          "SOT23-3",
+          "Q1,Q2,Q3,Q4,Q5",
+          {
+            "description": "Common NMOSFET Parts",
+            "Contributor": "SparkFun",
+            "spiceSymbolName": "MOSFET-NCHANNELBSS138",
+            "Manufacturer Part": "",
+            "puuid": "d8084adcadf04b6eadecdc8fd3a4bef9",
+            "uuid": "1f55cd7da439440ba626bd7741d4ad9e"
+          }
+        ],
+        [
+          "4K7",
+          4,
+          "R1206",
+          "R1,R2,R14,R15",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0805_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "ed9eb2faffb34286820a54a14e9e9e24"
+          }
+        ],
+        [
+          "10K",
+          9,
+          "R1206",
+          "R3,R6,R7,R8,R9,R10,R11,R12,R13",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0805_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "ed9eb2faffb34286820a54a14e9e9e24"
+          }
+        ],
+        [
+          "470",
+          2,
+          "R1206",
+          "R4,R5",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0805_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "ed9eb2faffb34286820a54a14e9e9e24"
+          }
+        ],
+        [
+          "120",
+          1,
+          "R1206",
+          "R16",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "spiceSymbolName": "RESISTOR-AXIAL-0.1",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e76f3700a495449f89388aebc7c514e3"
+          }
+        ],
+        [
+          "24FCXXX-I/SN",
+          2,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U1,U3",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Manufacturer Part": "24FC256-I/SN",
+            "Contributor": "LCSC",
+            "Supplier Part": "C145385",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "24FC256-I/SN",
+            "puuid": "806a55eb4d3c40ab838f70f86785d85e",
+            "uuid": "5c889cc040dc491da07dce8971e13b31"
+          }
+        ],
+        [
+          "Main controller - RASPBERRY Pi Pico",
+          1,
+          "RASPBERRY PI PICO",
+          "U2",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "untung91",
+            "spiceSymbolName": "RASPBERRY Pi Pico Through Holes",
+            "puuid": "6adf0d677d7c4bf29b8711760efc3b51",
+            "uuid": "f5e28939ee4b413a81608a3f66d6e3bc"
+          }
+        ],
+        [
+          "MCP2562-H/P",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.1-BL",
+          "U4",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C640348",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Manufacturer Part": "MCP2562-H/P",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "MCP2562-H/P",
+            "puuid": "1012bfc264ed4c3c95b7659697ddf346",
+            "uuid": "e611ae6de7f34e0eae8494a79a790895"
+          }
+        ],
+        [
+          "100n",
+          2,
+          "C1206",
+          "C5,C13",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Manufacturer": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "10n",
+          1,
+          "C1206",
+          "C6",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "100n",
+          3,
+          "C1206",
+          "C7,C8,C10",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "100u",
+          1,
+          "CAP-D6.3×H7.7",
+          "C9",
+          {
+            "Contributor": "LCEDA_Lib",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "CE_SMD_D5.0×H5.5_EU",
+            "Manufacturer Part": "",
+            "puuid": "e0f45a5edd25471dacc10f351b436550",
+            "uuid": "2f379218ad414010bbfe428493a52848"
+          }
+        ],
+        [
+          "220n",
+          1,
+          "C1206",
+          "C11",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "220n",
+          2,
+          "C1206",
+          "C12,C14",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Manufacturer": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "1N4148",
+          1,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer Part": "1N4148",
+            "Manufacturer": "SEMTECH",
+            "Supplier Part": "C14516",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "1N4148",
+            "puuid": "f6e7bbafc8d6494ea48c85ec766fa6c7",
+            "uuid": "ed535c8fe56245c1a5180026fdcb7303"
+          }
+        ],
+        [
+          "1N4148",
+          1,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D2",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer Part": "1N4148",
+            "Manufacturer": "SEMTECH",
+            "Supplier Part": "C14516",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "1N4148",
+            "Package Display": "No",
+            "puuid": "f6e7bbafc8d6494ea48c85ec766fa6c7",
+            "uuid": "ed535c8fe56245c1a5180026fdcb7303"
+          }
+        ],
+        [
+          "10k",
+          2,
+          "R1206",
+          "R17,R18",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "0R1",
+          1,
+          "R_AXIAL-0.8",
+          "R19",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "puuid": "2d77835a35ce42c3a8a708639960ec8e",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "0R1",
+          3,
+          "R_AXIAL-0.8",
+          "R20,R28,R29",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "2d77835a35ce42c3a8a708639960ec8e",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "10K",
+          2,
+          "R1206",
+          "R21,R22",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "1M",
+          8,
+          "R1206",
+          "R23,R24,R34,R35,R36,R37,R46,R47",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "100",
+          1,
+          "R1206",
+          "R25",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "spiceSymbolName": "RESISTOR-AXIAL-0.1",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e76f3700a495449f89388aebc7c514e3"
+          }
+        ],
+        [
+          "220",
+          8,
+          "R1206",
+          "R26,R27,R30,R31,R39,R40,R43,R44",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "0R5",
+          2,
+          "R_AXIAL-0.8",
+          "R32,R33",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.5_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Manufacturer": "",
+            "puuid": "2d77835a35ce42c3a8a708639960ec8e",
+            "uuid": "486123a4bb814705bb1a3164561bb535"
+          }
+        ],
+        [
+          "10k",
+          2,
+          "R1206",
+          "R38,R45",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "spiceSymbolName": "RESISTOR-AXIAL-0.1",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e76f3700a495449f89388aebc7c514e3"
+          }
+        ],
+        [
+          "1K",
+          2,
+          "R1206",
+          "R41,R48",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "spiceSymbolName": "RESISTOR-AXIAL-0.1",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e76f3700a495449f89388aebc7c514e3"
+          }
+        ],
+        [
+          "1k",
+          2,
+          "R1206",
+          "R42,R49",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "spiceSymbolName": "RESISTOR-AXIAL-0.1",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e76f3700a495449f89388aebc7c514e3"
+          }
+        ],
+        [
+          "L6205N",
+          1,
+          "PDIP-20_L24.5-W7.3-P2.54-LS7.9-BL",
+          "U6",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C962260",
+            "Manufacturer": "STMicroelectronics",
+            "Manufacturer Part": "L6205N",
+            "Contributor": "LCSC",
+            "spiceSymbolName": "L6205N",
+            "puuid": "effeb61c7b5141ac841a36f472e8f6bd",
+            "uuid": "d691d0fe88bd488899d0323987ab550b"
+          }
+        ],
+        [
+          "LM339ADR",
+          1,
+          "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
+          "U5",
+          {
+            "Supplier Part": "C74559",
+            "Supplier": "LCSC",
+            "Manufacturer": "LM339ADR",
+            "Manufacturer Part": "TI",
+            "subpart_no": "1",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "LM339ADR",
+            "puuid": "19591644493b46b2b3c4b7e703ce6a0c",
+            "uuid": "4234e318dc7945c38feff7d4ff83024a"
+          }
+        ],
+        [
+          "LM358MX/NOPB",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U7",
+          {
+            "subpart_no": "1",
+            "image": "http://image.lceda.cn/szlcsc/C16416.jpg",
+            "Supplier Part": "C16416",
+            "Supplier": "LCSC",
+            "Manufacturer": "TI(德州仪器)",
+            "Manufacturer Part": "LM358MX/NOPB",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C16416&%26type=1&ref=editor",
+            "spiceSymbolName": "LM358MX/NOPB",
+            "puuid": "806a55eb4d3c40ab838f70f86785d85e",
+            "uuid": "eb37bee025f2473eaae8cb42c5a9faf0"
+          }
+        ],
+        [
+          "47p",
+          1,
+          "C1206",
+          "C15",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900007291",
+            "Manufacturer": "null",
+            "Manufacturer Part": "CT41G-1206-X5R-50V-10uF-M(N)",
+            "link": "https://atta.szlcsc.comnull",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "CT41G-1206-X5R-50V-10UF-M(N)",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "9ccdc54878be45e7872dac4dc0b50622"
+          }
+        ],
+        [
+          "100n",
+          2,
+          "C1206",
+          "C16,C17",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900007291",
+            "Manufacturer": "null",
+            "Manufacturer Part": "CT41G-1206-X5R-50V-10uF-M(N)",
+            "link": "https://atta.szlcsc.comnull",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "CT41G-1206-X5R-50V-10UF-M(N)",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "9ccdc54878be45e7872dac4dc0b50622"
+          }
+        ],
+        [
+          "1N5819/S",
+          2,
+          "SMA_L4.3-W2.6-LS5.2-R-RD",
+          "D3,D4",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900003833",
+            "Manufacturer Part": "1N5819/S",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "LCSC",
+            "spiceSymbolName": "1N5819/S",
+            "puuid": "906c99ea5dec4828b079c976cc1781e8",
+            "uuid": "77ff4e3668d049dfad2b98e3ec6c3129"
+          }
+        ],
+        [
+          "Enable 12V",
+          1,
+          "HDR-M-2.54_1X2",
+          "J2",
+          {
+            "Supplier Part": "C124375",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x2",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "LocoNet",
+          1,
+          "HDR-M-2.54_1X2",
+          "J3",
+          {
+            "Supplier Part": "C124375",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x2",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "BC817",
+          1,
+          "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+          "Q6",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "Hottech(合科泰)",
+            "Manufacturer Part": "BC817-40",
+            "Contributor": "LCSC",
+            "Supplier Part": "C181151",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "BC817-40",
+            "puuid": "bade90667a6e4731855e9a223387b8a6",
+            "uuid": "21b019389fd84119881c7a546c5f6ec4"
+          }
+        ],
+        [
+          "BC847",
+          2,
+          "SOT-323-3_L2.0-W1.3-P1.30-LS2.1-BR",
+          "Q7,Q8",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C5182829",
+            "Manufacturer": "Nexperia(安世)",
+            "Manufacturer Part": "BC847CW-QBC847CW-QXX",
+            "link": "https://atta.szlcsc.com/upload/public/pdf/source/20220920/079F28AA67300DB8DEDEEFA28BB33B43.pdf",
+            "Contributor": "lcsc",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "BC847CW-QBC847CW-QXX",
+            "puuid": "e98891da83fd4e29afbfe03f858920c7",
+            "uuid": "de79b090ca9e4b85b5576b54e33647f6"
+          }
+        ],
+        [
+          "12R",
+          2,
+          "R1206",
+          "R50,R51",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "10K",
+          2,
+          "R1206",
+          "R52,R60",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "47K",
+          1,
+          "R1206",
+          "R53",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "27K",
+          1,
+          "R1206",
+          "R54",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "240K",
+          1,
+          "R1206",
+          "R55",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "150K",
+          1,
+          "R1206",
+          "R56",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "39K",
+          1,
+          "R1206",
+          "R57",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "4K7",
+          1,
+          "R1206",
+          "R58",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "47R",
+          1,
+          "R1206",
+          "R59",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "RJ12(6P6C)",
+          1,
+          "RJ12-TH_6P6C",
+          "RJ1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "JLCPCB Part Class": "",
+            "Contributor": "yulin0826",
+            "spiceSymbolName": "RJ12(6P6C)",
+            "puuid": "906f08b7969d4ea8b5098c37b5a472e2",
+            "uuid": "3d7703837c274d87b77976df7a270fdb"
+          }
+        ],
+        [
+          "LM393ADRE4",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U8",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C3659061",
+            "Manufacturer": "TI(德州仪器)",
+            "Manufacturer Part": "LM393ADRE4",
+            "link": "https://atta.szlcsc.com/upload/public/pdf/source/20230221/4AD22C75DCC6447290BC7CE521BA2EAE.pdf",
+            "subpart_no": "1",
+            "spiceSymbolName": "LM393ADRE4",
+            "puuid": "806a55eb4d3c40ab838f70f86785d85e",
+            "uuid": "08d974ea4200430f9eabf9e62e7c19dc"
+          }
+        ],
+        [
+          "10u",
+          2,
+          "CAP-D5.0×H5.5",
+          "C18,C22",
+          {
+            "Contributor": "LCEDA_Lib",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "CE_SMD_D5.0×H5.5_EU",
+            "Manufacturer Part": "",
+            "puuid": "2897ea2aed674deb8892c3862bcaddea",
+            "uuid": "2f379218ad414010bbfe428493a52848"
+          }
+        ],
+        [
+          "22u",
+          2,
+          "CAP-D5.0×H5.5",
+          "C19,C23",
+          {
+            "Contributor": "LCEDA_Lib",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "CE_SMD_D5.0×H5.5_EU",
+            "Manufacturer Part": "",
+            "puuid": "2897ea2aed674deb8892c3862bcaddea",
+            "uuid": "2f379218ad414010bbfe428493a52848"
+          }
+        ],
+        [
+          "100n",
+          1,
+          "C1206",
+          "C20",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_RAD-0.2_EU",
+            "Manufacturer Part": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "a1bddaea90b44e109a38e04d658aabfb"
+          }
+        ],
+        [
+          "0,1F",
+          1,
+          "CAP-D12.5XF5.0",
+          "C21",
+          {
+            "Contributor": "LCEDA_Lib",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "C_Tan_SMD_A_EU",
+            "Manufacturer Part": "",
+            "puuid": "6295c07e15584ea3b3052d80635b272b",
+            "uuid": "e545f26e87c74952857381bd0bff848e"
+          }
+        ],
+        [
+          "1N5819/S",
+          3,
+          "SMA_L4.3-W2.6-LS5.2-R-RD",
+          "D5,D6,D7",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900003833",
+            "Manufacturer Part": "1N5819/S",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "LCSC",
+            "spiceSymbolName": "1N5819/S",
+            "puuid": "906c99ea5dec4828b079c976cc1781e8",
+            "uuid": "77ff4e3668d049dfad2b98e3ec6c3129"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          3,
+          "HDR-M-2.54_1X2",
+          "J4,J5,J6",
+          {
+            "Supplier Part": "C124375",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x2",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "CONN-TH_2P-P5.08",
+          2,
+          "CONN-TH_2P-P5.08",
+          "P-MAIN1,P-PROG1",
+          {
+            "Supplier Part": "",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "CONN-TH_2P-P5.08",
+            "puuid": "e51909bf23504bf8a04c047f1f5257e0",
+            "uuid": "ef426d4a8d544b74a9057e9a2a21b39a"
+          }
+        ],
+        [
+          "LCS-NODES-SYM-BLOCK-CTRL-10xYY",
+          1,
+          "LCS-NODES-FP-MAIN-CTRL-10X12",
+          "PCB1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "helmut-f",
+            "spiceSymbolName": "LCS-NODES-SYM-BLOCK-CTRL-10X16",
+            "Package Display": "No",
+            "puuid": "baae2c6a2c8a431bb86fedd89063c167",
+            "uuid": "7e5004e24ffa42b1b1a0258846f253bd"
+          }
+        ],
+        [
+          "DMG2305UX",
+          1,
+          "SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR-1",
+          "Q9",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C2940629",
+            "Manufacturer": "TECH PUBLIC(台舟)",
+            "Manufacturer Part": "DMG2305UX",
+            "link": "https://atta.szlcsc.com//upload/public/pdf/source/20220124/672A40BC72F4DE27873D6595D2E3AF1A.pdf",
+            "Contributor": "LCSC",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "DMG2305UX",
+            "puuid": "48f726f118674c1c98ad35c23ffe8764",
+            "uuid": "7ec6184175344a2094a139dbc983bb03"
+          }
+        ],
+        [
+          "56K",
+          1,
+          "R1206",
+          "R61",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "100",
+          1,
+          "R1206",
+          "R62",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "100K",
+          1,
+          "R1206",
+          "R63",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "470Ohm MELF resistor",
+          1,
+          "10 OHM MELF RESISTOR",
+          "R64",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "hi10",
+            "spiceSymbolName": "10Ohm MELF resistor",
+            "puuid": "25e61c240eca40c996f224224ae297e0",
+            "uuid": "78f1a6e4a34a41d89c236bd04e706b5d"
+          }
+        ],
+        [
+          "10Ohm MELF resistor",
+          1,
+          "10 OHM MELF RESISTOR",
+          "R65",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "hi10",
+            "spiceSymbolName": "10Ohm MELF resistor",
+            "puuid": "25e61c240eca40c996f224224ae297e0",
+            "uuid": "78f1a6e4a34a41d89c236bd04e706b5d"
+          }
+        ],
+        [
+          "Gaptec_LC78",
+          2,
+          "GAPTEC_LC78",
+          "U9,U10",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "SpicyMemeBoi",
+            "spiceSymbolName": "Gaptec_LC78",
+            "Package Display": "No",
+            "puuid": "1c34cd829c754d4281bf2e17f44685f7",
+            "uuid": "1c2f4d9c31d64b0c8b07997478bdbc19"
+          }
+        ]
+      ],
+      "components": {
+        "ed9eb2faffb34286820a54a14e9e9e24": 15,
+        "18479f1c4d4749c5a4c4387846c5d657": 1,
+        "5cbe824183374fac8e4c1ae848199ce3": 1,
+        "ba1f207f2c0447edbd5beb657b435022": 1,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 4,
+        "5c889cc040dc491da07dce8971e13b31": 2,
+        "f5e28939ee4b413a81608a3f66d6e3bc": 1,
+        "a9aa2b14f188405792fa87ac344499a4": 1,
+        "e76f3700a495449f89388aebc7c514e3": 1,
+        "1f55cd7da439440ba626bd7741d4ad9e": 5,
+        "e611ae6de7f34e0eae8494a79a790895": 1
+      }
+    },
+    {
+      "uuid": "0c0fa18498aa2e93195cbf8a0d31848b",
+      "title": "Dual Power Module",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1699351760,
+      "createTime": 1697360463,
+      "histories": [],
+      "created_at": "2023-10-15 11:01:03",
+      "updated_at": "2023-11-07 11:09:20",
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Opt",
+          1,
+          "SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0_C23873",
+          "B1",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C136684",
+            "Manufacturer": "韩国韩荣",
+            "Manufacturer Part": "K2-1102DP-E4SW-04",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "K4-6×6_TH",
+            "Package Display": "No",
+            "puuid": "91e8625ab54d4b48a78457e6f8258781",
+            "uuid": "18479f1c4d4749c5a4c4387846c5d657"
+          }
+        ],
+        [
+          "100n",
+          4,
+          "C1206",
+          "C1,C2,C3,C4",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Manufacturer": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          1,
+          "HDR-M-2.54_1X2",
+          "J1",
+          {
+            "Supplier Part": "C124375",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x2",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "LED-0603_R",
+          1,
+          "LED-1206",
+          "LED1",
+          {
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "Supplier Part": "C72044",
+            "Supplier": "LCSC",
+            "link": "",
+            "Contributor": "LCEDA_01",
+            "spiceSymbolName": "LED-0603_R",
+            "puuid": "62ddd832b4204f5fb6ccf017f43de83b",
+            "uuid": "5cbe824183374fac8e4c1ae848199ce3"
+          }
+        ],
+        [
+          "LED-0805_G",
+          1,
+          "LED-1206",
+          "LED2",
+          {
+            "Manufacturer": "国星光电",
+            "Manufacturer Part": "NCD0805G1",
+            "Supplier Part": "C84260",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "LED-0805_G",
+            "puuid": "62ddd832b4204f5fb6ccf017f43de83b",
+            "uuid": "ba1f207f2c0447edbd5beb657b435022"
+          }
+        ],
+        [
+          "MOSFET-NCHANNELBSS138",
+          5,
+          "SOT23-3",
+          "Q1,Q2,Q3,Q4,Q5",
+          {
+            "description": "Common NMOSFET Parts",
+            "Contributor": "SparkFun",
+            "spiceSymbolName": "MOSFET-NCHANNELBSS138",
+            "Manufacturer Part": "",
+            "puuid": "d8084adcadf04b6eadecdc8fd3a4bef9",
+            "uuid": "1f55cd7da439440ba626bd7741d4ad9e"
+          }
+        ],
+        [
+          "4K7",
+          4,
+          "R1206",
+          "R1,R2,R14,R15",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0805_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "ed9eb2faffb34286820a54a14e9e9e24"
+          }
+        ],
+        [
+          "10K",
+          9,
+          "R1206",
+          "R3,R6,R7,R8,R9,R10,R11,R12,R13",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0805_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "ed9eb2faffb34286820a54a14e9e9e24"
+          }
+        ],
+        [
+          "470",
+          2,
+          "R1206",
+          "R4,R5",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0805_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "ed9eb2faffb34286820a54a14e9e9e24"
+          }
+        ],
+        [
+          "120",
+          1,
+          "R1206",
+          "R16",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "spiceSymbolName": "RESISTOR-AXIAL-0.1",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e76f3700a495449f89388aebc7c514e3"
+          }
+        ],
+        [
+          "24FCXXX-I/SN",
+          2,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U1,U3",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Manufacturer Part": "24FC256-I/SN",
+            "Contributor": "LCSC",
+            "Supplier Part": "C145385",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "24FC256-I/SN",
+            "puuid": "806a55eb4d3c40ab838f70f86785d85e",
+            "uuid": "5c889cc040dc491da07dce8971e13b31"
+          }
+        ],
+        [
+          "Main controller - RASPBERRY Pi Pico",
+          1,
+          "RASPBERRY PI PICO",
+          "U2",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "untung91",
+            "spiceSymbolName": "RASPBERRY Pi Pico Through Holes",
+            "puuid": "6adf0d677d7c4bf29b8711760efc3b51",
+            "uuid": "f5e28939ee4b413a81608a3f66d6e3bc"
+          }
+        ],
+        [
+          "MCP2562-H/P",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.1-BL",
+          "U4",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C640348",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Manufacturer Part": "MCP2562-H/P",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "MCP2562-H/P",
+            "puuid": "1012bfc264ed4c3c95b7659697ddf346",
+            "uuid": "e611ae6de7f34e0eae8494a79a790895"
+          }
+        ],
+        [
+          "100n",
+          2,
+          "C1206",
+          "C5,C13",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Manufacturer": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "10n",
+          1,
+          "C1206",
+          "C6",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "100n",
+          3,
+          "C1206",
+          "C7,C8,C10",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "100u",
+          1,
+          "CAP-D6.3×H7.7",
+          "C9",
+          {
+            "Contributor": "LCEDA_Lib",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "CE_SMD_D5.0×H5.5_EU",
+            "Manufacturer Part": "",
+            "puuid": "e0f45a5edd25471dacc10f351b436550",
+            "uuid": "2f379218ad414010bbfe428493a52848"
+          }
+        ],
+        [
+          "220n",
+          1,
+          "C1206",
+          "C11",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "220n",
+          2,
+          "C1206",
+          "C12,C14",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Manufacturer": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "1N4148",
+          1,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer Part": "1N4148",
+            "Manufacturer": "SEMTECH",
+            "Supplier Part": "C14516",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "1N4148",
+            "puuid": "f6e7bbafc8d6494ea48c85ec766fa6c7",
+            "uuid": "ed535c8fe56245c1a5180026fdcb7303"
+          }
+        ],
+        [
+          "1N4148",
+          1,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D2",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer Part": "1N4148",
+            "Manufacturer": "SEMTECH",
+            "Supplier Part": "C14516",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "1N4148",
+            "Package Display": "No",
+            "puuid": "f6e7bbafc8d6494ea48c85ec766fa6c7",
+            "uuid": "ed535c8fe56245c1a5180026fdcb7303"
+          }
+        ],
+        [
+          "10k",
+          2,
+          "R1206",
+          "R17,R18",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "0R1",
+          1,
+          "R_AXIAL-0.8",
+          "R19",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "puuid": "2d77835a35ce42c3a8a708639960ec8e",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "0R1",
+          3,
+          "R_AXIAL-0.8",
+          "R20,R28,R29",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "2d77835a35ce42c3a8a708639960ec8e",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "10K",
+          2,
+          "R1206",
+          "R21,R22",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "1M",
+          8,
+          "R1206",
+          "R23,R24,R34,R35,R36,R37,R46,R47",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "100",
+          1,
+          "R1206",
+          "R25",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "spiceSymbolName": "RESISTOR-AXIAL-0.1",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e76f3700a495449f89388aebc7c514e3"
+          }
+        ],
+        [
+          "220",
+          8,
+          "R1206",
+          "R26,R27,R30,R31,R39,R40,R43,R44",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "0R5",
+          2,
+          "R_AXIAL-0.8",
+          "R32,R33",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.5_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Manufacturer": "",
+            "puuid": "2d77835a35ce42c3a8a708639960ec8e",
+            "uuid": "486123a4bb814705bb1a3164561bb535"
+          }
+        ],
+        [
+          "10k",
+          2,
+          "R1206",
+          "R38,R45",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "spiceSymbolName": "RESISTOR-AXIAL-0.1",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e76f3700a495449f89388aebc7c514e3"
+          }
+        ],
+        [
+          "1K",
+          2,
+          "R1206",
+          "R41,R48",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "spiceSymbolName": "RESISTOR-AXIAL-0.1",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e76f3700a495449f89388aebc7c514e3"
+          }
+        ],
+        [
+          "1k",
+          2,
+          "R1206",
+          "R42,R49",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "spiceSymbolName": "RESISTOR-AXIAL-0.1",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e76f3700a495449f89388aebc7c514e3"
+          }
+        ],
+        [
+          "L6205N",
+          1,
+          "PDIP-20_L24.5-W7.3-P2.54-LS7.9-BL",
+          "U6",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C962260",
+            "Manufacturer": "STMicroelectronics",
+            "Manufacturer Part": "L6205N",
+            "Contributor": "LCSC",
+            "spiceSymbolName": "L6205N",
+            "puuid": "effeb61c7b5141ac841a36f472e8f6bd",
+            "uuid": "d691d0fe88bd488899d0323987ab550b"
+          }
+        ],
+        [
+          "LM339ADR",
+          1,
+          "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
+          "U5",
+          {
+            "Supplier Part": "C74559",
+            "Supplier": "LCSC",
+            "Manufacturer": "LM339ADR",
+            "Manufacturer Part": "TI",
+            "subpart_no": "1",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "LM339ADR",
+            "puuid": "19591644493b46b2b3c4b7e703ce6a0c",
+            "uuid": "4234e318dc7945c38feff7d4ff83024a"
+          }
+        ],
+        [
+          "LM358MX/NOPB",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U7",
+          {
+            "subpart_no": "1",
+            "image": "http://image.lceda.cn/szlcsc/C16416.jpg",
+            "Supplier Part": "C16416",
+            "Supplier": "LCSC",
+            "Manufacturer": "TI(德州仪器)",
+            "Manufacturer Part": "LM358MX/NOPB",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C16416&%26type=1&ref=editor",
+            "spiceSymbolName": "LM358MX/NOPB",
+            "puuid": "806a55eb4d3c40ab838f70f86785d85e",
+            "uuid": "eb37bee025f2473eaae8cb42c5a9faf0"
+          }
+        ],
+        [
+          "47p",
+          1,
+          "C1206",
+          "C15",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900007291",
+            "Manufacturer": "null",
+            "Manufacturer Part": "CT41G-1206-X5R-50V-10uF-M(N)",
+            "link": "https://atta.szlcsc.comnull",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "CT41G-1206-X5R-50V-10UF-M(N)",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "9ccdc54878be45e7872dac4dc0b50622"
+          }
+        ],
+        [
+          "100n",
+          2,
+          "C1206",
+          "C16,C17",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900007291",
+            "Manufacturer": "null",
+            "Manufacturer Part": "CT41G-1206-X5R-50V-10uF-M(N)",
+            "link": "https://atta.szlcsc.comnull",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "CT41G-1206-X5R-50V-10UF-M(N)",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "9ccdc54878be45e7872dac4dc0b50622"
+          }
+        ],
+        [
+          "1N5819/S",
+          2,
+          "SMA_L4.3-W2.6-LS5.2-R-RD",
+          "D3,D4",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900003833",
+            "Manufacturer Part": "1N5819/S",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "LCSC",
+            "spiceSymbolName": "1N5819/S",
+            "puuid": "906c99ea5dec4828b079c976cc1781e8",
+            "uuid": "77ff4e3668d049dfad2b98e3ec6c3129"
+          }
+        ],
+        [
+          "Enable 12V",
+          1,
+          "HDR-M-2.54_1X2",
+          "J2",
+          {
+            "Supplier Part": "C124375",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x2",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "LocoNet",
+          1,
+          "HDR-M-2.54_1X2",
+          "J3",
+          {
+            "Supplier Part": "C124375",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x2",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "BC817",
+          1,
+          "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+          "Q6",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "Hottech(合科泰)",
+            "Manufacturer Part": "BC817-40",
+            "Contributor": "LCSC",
+            "Supplier Part": "C181151",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "BC817-40",
+            "puuid": "bade90667a6e4731855e9a223387b8a6",
+            "uuid": "21b019389fd84119881c7a546c5f6ec4"
+          }
+        ],
+        [
+          "BC847",
+          2,
+          "SOT-323-3_L2.0-W1.3-P1.30-LS2.1-BR",
+          "Q7,Q8",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C5182829",
+            "Manufacturer": "Nexperia(安世)",
+            "Manufacturer Part": "BC847CW-QBC847CW-QXX",
+            "link": "https://atta.szlcsc.com/upload/public/pdf/source/20220920/079F28AA67300DB8DEDEEFA28BB33B43.pdf",
+            "Contributor": "lcsc",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "BC847CW-QBC847CW-QXX",
+            "puuid": "e98891da83fd4e29afbfe03f858920c7",
+            "uuid": "de79b090ca9e4b85b5576b54e33647f6"
+          }
+        ],
+        [
+          "12R",
+          2,
+          "R1206",
+          "R50,R51",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "10K",
+          2,
+          "R1206",
+          "R52,R60",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "47K",
+          1,
+          "R1206",
+          "R53",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "27K",
+          1,
+          "R1206",
+          "R54",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "240K",
+          1,
+          "R1206",
+          "R55",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "150K",
+          1,
+          "R1206",
+          "R56",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "39K",
+          1,
+          "R1206",
+          "R57",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "4K7",
+          1,
+          "R1206",
+          "R58",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "47R",
+          1,
+          "R1206",
+          "R59",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "RJ12(6P6C)",
+          1,
+          "RJ12-TH_6P6C",
+          "RJ1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "JLCPCB Part Class": "",
+            "Contributor": "yulin0826",
+            "spiceSymbolName": "RJ12(6P6C)",
+            "puuid": "906f08b7969d4ea8b5098c37b5a472e2",
+            "uuid": "3d7703837c274d87b77976df7a270fdb"
+          }
+        ],
+        [
+          "LM393ADRE4",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U8",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C3659061",
+            "Manufacturer": "TI(德州仪器)",
+            "Manufacturer Part": "LM393ADRE4",
+            "link": "https://atta.szlcsc.com/upload/public/pdf/source/20230221/4AD22C75DCC6447290BC7CE521BA2EAE.pdf",
+            "subpart_no": "1",
+            "spiceSymbolName": "LM393ADRE4",
+            "puuid": "806a55eb4d3c40ab838f70f86785d85e",
+            "uuid": "08d974ea4200430f9eabf9e62e7c19dc"
+          }
+        ],
+        [
+          "10u",
+          2,
+          "CAP-D5.0×H5.5",
+          "C18,C22",
+          {
+            "Contributor": "LCEDA_Lib",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "CE_SMD_D5.0×H5.5_EU",
+            "Manufacturer Part": "",
+            "puuid": "2897ea2aed674deb8892c3862bcaddea",
+            "uuid": "2f379218ad414010bbfe428493a52848"
+          }
+        ],
+        [
+          "22u",
+          2,
+          "CAP-D5.0×H5.5",
+          "C19,C23",
+          {
+            "Contributor": "LCEDA_Lib",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "CE_SMD_D5.0×H5.5_EU",
+            "Manufacturer Part": "",
+            "puuid": "2897ea2aed674deb8892c3862bcaddea",
+            "uuid": "2f379218ad414010bbfe428493a52848"
+          }
+        ],
+        [
+          "100n",
+          1,
+          "C1206",
+          "C20",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_RAD-0.2_EU",
+            "Manufacturer Part": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "a1bddaea90b44e109a38e04d658aabfb"
+          }
+        ],
+        [
+          "0,1F",
+          1,
+          "CAP-D12.5XF5.0",
+          "C21",
+          {
+            "Contributor": "LCEDA_Lib",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "C_Tan_SMD_A_EU",
+            "Manufacturer Part": "",
+            "puuid": "6295c07e15584ea3b3052d80635b272b",
+            "uuid": "e545f26e87c74952857381bd0bff848e"
+          }
+        ],
+        [
+          "1N5819/S",
+          3,
+          "SMA_L4.3-W2.6-LS5.2-R-RD",
+          "D5,D6,D7",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900003833",
+            "Manufacturer Part": "1N5819/S",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "LCSC",
+            "spiceSymbolName": "1N5819/S",
+            "puuid": "906c99ea5dec4828b079c976cc1781e8",
+            "uuid": "77ff4e3668d049dfad2b98e3ec6c3129"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          3,
+          "HDR-M-2.54_1X2",
+          "J4,J5,J6",
+          {
+            "Supplier Part": "C124375",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x2",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "CONN-TH_2P-P5.08",
+          2,
+          "CONN-TH_2P-P5.08",
+          "P-MAIN1,P-PROG1",
+          {
+            "Supplier Part": "",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "CONN-TH_2P-P5.08",
+            "puuid": "e51909bf23504bf8a04c047f1f5257e0",
+            "uuid": "ef426d4a8d544b74a9057e9a2a21b39a"
+          }
+        ],
+        [
+          "LCS-NODES-SYM-BLOCK-CTRL-10xYY",
+          1,
+          "LCS-NODES-FP-MAIN-CTRL-10X12",
+          "PCB1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "helmut-f",
+            "spiceSymbolName": "LCS-NODES-SYM-BLOCK-CTRL-10X16",
+            "Package Display": "No",
+            "puuid": "baae2c6a2c8a431bb86fedd89063c167",
+            "uuid": "7e5004e24ffa42b1b1a0258846f253bd"
+          }
+        ],
+        [
+          "DMG2305UX",
+          1,
+          "SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR-1",
+          "Q9",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C2940629",
+            "Manufacturer": "TECH PUBLIC(台舟)",
+            "Manufacturer Part": "DMG2305UX",
+            "link": "https://atta.szlcsc.com//upload/public/pdf/source/20220124/672A40BC72F4DE27873D6595D2E3AF1A.pdf",
+            "Contributor": "LCSC",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "DMG2305UX",
+            "puuid": "48f726f118674c1c98ad35c23ffe8764",
+            "uuid": "7ec6184175344a2094a139dbc983bb03"
+          }
+        ],
+        [
+          "56K",
+          1,
+          "R1206",
+          "R61",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "100",
+          1,
+          "R1206",
+          "R62",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "100K",
+          1,
+          "R1206",
+          "R63",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "470Ohm MELF resistor",
+          1,
+          "10 OHM MELF RESISTOR",
+          "R64",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "hi10",
+            "spiceSymbolName": "10Ohm MELF resistor",
+            "puuid": "25e61c240eca40c996f224224ae297e0",
+            "uuid": "78f1a6e4a34a41d89c236bd04e706b5d"
+          }
+        ],
+        [
+          "10Ohm MELF resistor",
+          1,
+          "10 OHM MELF RESISTOR",
+          "R65",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "hi10",
+            "spiceSymbolName": "10Ohm MELF resistor",
+            "puuid": "25e61c240eca40c996f224224ae297e0",
+            "uuid": "78f1a6e4a34a41d89c236bd04e706b5d"
+          }
+        ],
+        [
+          "Gaptec_LC78",
+          2,
+          "GAPTEC_LC78",
+          "U9,U10",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "SpicyMemeBoi",
+            "spiceSymbolName": "Gaptec_LC78",
+            "Package Display": "No",
+            "puuid": "1c34cd829c754d4281bf2e17f44685f7",
+            "uuid": "1c2f4d9c31d64b0c8b07997478bdbc19"
+          }
+        ]
+      ],
+      "components": {
+        "5d56951fd43d4b5083b0f3cd9bfd5587": 24,
+        "486123a4bb814705bb1a3164561bb535": 2,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 9,
+        "d691d0fe88bd488899d0323987ab550b": 1,
+        "ed535c8fe56245c1a5180026fdcb7303": 2,
+        "e76f3700a495449f89388aebc7c514e3": 7,
+        "2f379218ad414010bbfe428493a52848": 1,
+        "c41a7ce5d64b4e3fbee4a15d17a8e8a6": 1,
+        "0da4d11a5fcd472189c7741e9c5f686a": 1,
+        "d9c7ca3a0ca743e9b94fd728cc8248c9": 1,
+        "4234e318dc7945c38feff7d4ff83024a": 1,
+        "eb37bee025f2473eaae8cb42c5a9faf0": 1,
+        "9fcb107709ff4e86935a5954d4ccaeab": 1
+      }
+    },
+    {
+      "uuid": "3c13a488b2e17ce64c9819c3421bdc67",
+      "title": "LocoNet Interface",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1717939469,
+      "createTime": 1697360463,
+      "histories": [],
+      "created_at": "2023-10-15 11:01:03",
+      "updated_at": "2024-06-09 15:24:29",
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Opt",
+          1,
+          "SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0_C23873",
+          "B1",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C136684",
+            "Manufacturer": "韩国韩荣",
+            "Manufacturer Part": "K2-1102DP-E4SW-04",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "K4-6×6_TH",
+            "Package Display": "No",
+            "puuid": "91e8625ab54d4b48a78457e6f8258781",
+            "uuid": "18479f1c4d4749c5a4c4387846c5d657"
+          }
+        ],
+        [
+          "100n",
+          4,
+          "C1206",
+          "C1,C2,C3,C4",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Manufacturer": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          1,
+          "HDR-M-2.54_1X2",
+          "J1",
+          {
+            "Supplier Part": "C124375",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x2",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "LED-0603_R",
+          1,
+          "LED-1206",
+          "LED1",
+          {
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "Supplier Part": "C72044",
+            "Supplier": "LCSC",
+            "link": "",
+            "Contributor": "LCEDA_01",
+            "spiceSymbolName": "LED-0603_R",
+            "puuid": "62ddd832b4204f5fb6ccf017f43de83b",
+            "uuid": "5cbe824183374fac8e4c1ae848199ce3"
+          }
+        ],
+        [
+          "LED-0805_G",
+          1,
+          "LED-1206",
+          "LED2",
+          {
+            "Manufacturer": "国星光电",
+            "Manufacturer Part": "NCD0805G1",
+            "Supplier Part": "C84260",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "LED-0805_G",
+            "puuid": "62ddd832b4204f5fb6ccf017f43de83b",
+            "uuid": "ba1f207f2c0447edbd5beb657b435022"
+          }
+        ],
+        [
+          "MOSFET-NCHANNELBSS138",
+          5,
+          "SOT23-3",
+          "Q1,Q2,Q3,Q4,Q5",
+          {
+            "description": "Common NMOSFET Parts",
+            "Contributor": "SparkFun",
+            "spiceSymbolName": "MOSFET-NCHANNELBSS138",
+            "Manufacturer Part": "",
+            "puuid": "d8084adcadf04b6eadecdc8fd3a4bef9",
+            "uuid": "1f55cd7da439440ba626bd7741d4ad9e"
+          }
+        ],
+        [
+          "4K7",
+          4,
+          "R1206",
+          "R1,R2,R14,R15",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0805_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "ed9eb2faffb34286820a54a14e9e9e24"
+          }
+        ],
+        [
+          "10K",
+          9,
+          "R1206",
+          "R3,R6,R7,R8,R9,R10,R11,R12,R13",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0805_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "ed9eb2faffb34286820a54a14e9e9e24"
+          }
+        ],
+        [
+          "470",
+          2,
+          "R1206",
+          "R4,R5",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0805_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "ed9eb2faffb34286820a54a14e9e9e24"
+          }
+        ],
+        [
+          "120",
+          1,
+          "R1206",
+          "R16",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "spiceSymbolName": "RESISTOR-AXIAL-0.1",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e76f3700a495449f89388aebc7c514e3"
+          }
+        ],
+        [
+          "24FCXXX-I/SN",
+          2,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U1,U3",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Manufacturer Part": "24FC256-I/SN",
+            "Contributor": "LCSC",
+            "Supplier Part": "C145385",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "24FC256-I/SN",
+            "puuid": "806a55eb4d3c40ab838f70f86785d85e",
+            "uuid": "5c889cc040dc491da07dce8971e13b31"
+          }
+        ],
+        [
+          "Main controller - RASPBERRY Pi Pico",
+          1,
+          "RASPBERRY PI PICO",
+          "U2",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "untung91",
+            "spiceSymbolName": "RASPBERRY Pi Pico Through Holes",
+            "puuid": "6adf0d677d7c4bf29b8711760efc3b51",
+            "uuid": "f5e28939ee4b413a81608a3f66d6e3bc"
+          }
+        ],
+        [
+          "MCP2562-H/P",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.1-BL",
+          "U4",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C640348",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Manufacturer Part": "MCP2562-H/P",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "MCP2562-H/P",
+            "puuid": "1012bfc264ed4c3c95b7659697ddf346",
+            "uuid": "e611ae6de7f34e0eae8494a79a790895"
+          }
+        ],
+        [
+          "100n",
+          2,
+          "C1206",
+          "C5,C13",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Manufacturer": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "10n",
+          1,
+          "C1206",
+          "C6",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "100n",
+          3,
+          "C1206",
+          "C7,C8,C10",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "100u",
+          1,
+          "CAP-D6.3×H7.7",
+          "C9",
+          {
+            "Contributor": "LCEDA_Lib",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "CE_SMD_D5.0×H5.5_EU",
+            "Manufacturer Part": "",
+            "puuid": "e0f45a5edd25471dacc10f351b436550",
+            "uuid": "2f379218ad414010bbfe428493a52848"
+          }
+        ],
+        [
+          "220n",
+          1,
+          "C1206",
+          "C11",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "220n",
+          2,
+          "C1206",
+          "C12,C14",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Manufacturer": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "1N4148",
+          1,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer Part": "1N4148",
+            "Manufacturer": "SEMTECH",
+            "Supplier Part": "C14516",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "1N4148",
+            "puuid": "f6e7bbafc8d6494ea48c85ec766fa6c7",
+            "uuid": "ed535c8fe56245c1a5180026fdcb7303"
+          }
+        ],
+        [
+          "1N4148",
+          1,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D2",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer Part": "1N4148",
+            "Manufacturer": "SEMTECH",
+            "Supplier Part": "C14516",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "1N4148",
+            "Package Display": "No",
+            "puuid": "f6e7bbafc8d6494ea48c85ec766fa6c7",
+            "uuid": "ed535c8fe56245c1a5180026fdcb7303"
+          }
+        ],
+        [
+          "10k",
+          2,
+          "R1206",
+          "R17,R18",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "0R1",
+          1,
+          "R_AXIAL-0.8",
+          "R19",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "puuid": "2d77835a35ce42c3a8a708639960ec8e",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "0R1",
+          3,
+          "R_AXIAL-0.8",
+          "R20,R28,R29",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "2d77835a35ce42c3a8a708639960ec8e",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "10K",
+          2,
+          "R1206",
+          "R21,R22",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "1M",
+          8,
+          "R1206",
+          "R23,R24,R34,R35,R36,R37,R46,R47",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "100",
+          1,
+          "R1206",
+          "R25",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "spiceSymbolName": "RESISTOR-AXIAL-0.1",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e76f3700a495449f89388aebc7c514e3"
+          }
+        ],
+        [
+          "220",
+          8,
+          "R1206",
+          "R26,R27,R30,R31,R39,R40,R43,R44",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "0R5",
+          2,
+          "R_AXIAL-0.8",
+          "R32,R33",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.5_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Manufacturer": "",
+            "puuid": "2d77835a35ce42c3a8a708639960ec8e",
+            "uuid": "486123a4bb814705bb1a3164561bb535"
+          }
+        ],
+        [
+          "10k",
+          2,
+          "R1206",
+          "R38,R45",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "spiceSymbolName": "RESISTOR-AXIAL-0.1",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e76f3700a495449f89388aebc7c514e3"
+          }
+        ],
+        [
+          "1K",
+          2,
+          "R1206",
+          "R41,R48",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "spiceSymbolName": "RESISTOR-AXIAL-0.1",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e76f3700a495449f89388aebc7c514e3"
+          }
+        ],
+        [
+          "1k",
+          2,
+          "R1206",
+          "R42,R49",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "spiceSymbolName": "RESISTOR-AXIAL-0.1",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e76f3700a495449f89388aebc7c514e3"
+          }
+        ],
+        [
+          "L6205N",
+          1,
+          "PDIP-20_L24.5-W7.3-P2.54-LS7.9-BL",
+          "U6",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C962260",
+            "Manufacturer": "STMicroelectronics",
+            "Manufacturer Part": "L6205N",
+            "Contributor": "LCSC",
+            "spiceSymbolName": "L6205N",
+            "puuid": "effeb61c7b5141ac841a36f472e8f6bd",
+            "uuid": "d691d0fe88bd488899d0323987ab550b"
+          }
+        ],
+        [
+          "LM339ADR",
+          1,
+          "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
+          "U5",
+          {
+            "Supplier Part": "C74559",
+            "Supplier": "LCSC",
+            "Manufacturer": "LM339ADR",
+            "Manufacturer Part": "TI",
+            "subpart_no": "1",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "LM339ADR",
+            "puuid": "19591644493b46b2b3c4b7e703ce6a0c",
+            "uuid": "4234e318dc7945c38feff7d4ff83024a"
+          }
+        ],
+        [
+          "LM358MX/NOPB",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U7",
+          {
+            "subpart_no": "1",
+            "image": "http://image.lceda.cn/szlcsc/C16416.jpg",
+            "Supplier Part": "C16416",
+            "Supplier": "LCSC",
+            "Manufacturer": "TI(德州仪器)",
+            "Manufacturer Part": "LM358MX/NOPB",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C16416&%26type=1&ref=editor",
+            "spiceSymbolName": "LM358MX/NOPB",
+            "puuid": "806a55eb4d3c40ab838f70f86785d85e",
+            "uuid": "eb37bee025f2473eaae8cb42c5a9faf0"
+          }
+        ],
+        [
+          "47p",
+          1,
+          "C1206",
+          "C15",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900007291",
+            "Manufacturer": "null",
+            "Manufacturer Part": "CT41G-1206-X5R-50V-10uF-M(N)",
+            "link": "https://atta.szlcsc.comnull",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "CT41G-1206-X5R-50V-10UF-M(N)",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "9ccdc54878be45e7872dac4dc0b50622"
+          }
+        ],
+        [
+          "100n",
+          2,
+          "C1206",
+          "C16,C17",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900007291",
+            "Manufacturer": "null",
+            "Manufacturer Part": "CT41G-1206-X5R-50V-10uF-M(N)",
+            "link": "https://atta.szlcsc.comnull",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "CT41G-1206-X5R-50V-10UF-M(N)",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "9ccdc54878be45e7872dac4dc0b50622"
+          }
+        ],
+        [
+          "1N5819/S",
+          2,
+          "SMA_L4.3-W2.6-LS5.2-R-RD",
+          "D3,D4",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900003833",
+            "Manufacturer Part": "1N5819/S",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "LCSC",
+            "spiceSymbolName": "1N5819/S",
+            "puuid": "906c99ea5dec4828b079c976cc1781e8",
+            "uuid": "77ff4e3668d049dfad2b98e3ec6c3129"
+          }
+        ],
+        [
+          "Enable 12V",
+          1,
+          "HDR-M-2.54_1X2",
+          "J2",
+          {
+            "Supplier Part": "C124375",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x2",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "LocoNet",
+          1,
+          "HDR-M-2.54_1X2",
+          "J3",
+          {
+            "Supplier Part": "C124375",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x2",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "BC817",
+          1,
+          "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+          "Q6",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "Hottech(合科泰)",
+            "Manufacturer Part": "BC817-40",
+            "Contributor": "LCSC",
+            "Supplier Part": "C181151",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "BC817-40",
+            "puuid": "bade90667a6e4731855e9a223387b8a6",
+            "uuid": "21b019389fd84119881c7a546c5f6ec4"
+          }
+        ],
+        [
+          "BC847",
+          2,
+          "SOT-323-3_L2.0-W1.3-P1.30-LS2.1-BR",
+          "Q7,Q8",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C5182829",
+            "Manufacturer": "Nexperia(安世)",
+            "Manufacturer Part": "BC847CW-QBC847CW-QXX",
+            "link": "https://atta.szlcsc.com/upload/public/pdf/source/20220920/079F28AA67300DB8DEDEEFA28BB33B43.pdf",
+            "Contributor": "lcsc",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "BC847CW-QBC847CW-QXX",
+            "puuid": "e98891da83fd4e29afbfe03f858920c7",
+            "uuid": "de79b090ca9e4b85b5576b54e33647f6"
+          }
+        ],
+        [
+          "12R",
+          2,
+          "R1206",
+          "R50,R51",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "10K",
+          2,
+          "R1206",
+          "R52,R60",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "47K",
+          1,
+          "R1206",
+          "R53",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "27K",
+          1,
+          "R1206",
+          "R54",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "240K",
+          1,
+          "R1206",
+          "R55",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "150K",
+          1,
+          "R1206",
+          "R56",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "39K",
+          1,
+          "R1206",
+          "R57",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "4K7",
+          1,
+          "R1206",
+          "R58",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "47R",
+          1,
+          "R1206",
+          "R59",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "RJ12(6P6C)",
+          1,
+          "RJ12-TH_6P6C",
+          "RJ1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "JLCPCB Part Class": "",
+            "Contributor": "yulin0826",
+            "spiceSymbolName": "RJ12(6P6C)",
+            "puuid": "906f08b7969d4ea8b5098c37b5a472e2",
+            "uuid": "3d7703837c274d87b77976df7a270fdb"
+          }
+        ],
+        [
+          "LM393ADRE4",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U8",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C3659061",
+            "Manufacturer": "TI(德州仪器)",
+            "Manufacturer Part": "LM393ADRE4",
+            "link": "https://atta.szlcsc.com/upload/public/pdf/source/20230221/4AD22C75DCC6447290BC7CE521BA2EAE.pdf",
+            "subpart_no": "1",
+            "spiceSymbolName": "LM393ADRE4",
+            "puuid": "806a55eb4d3c40ab838f70f86785d85e",
+            "uuid": "08d974ea4200430f9eabf9e62e7c19dc"
+          }
+        ],
+        [
+          "10u",
+          2,
+          "CAP-D5.0×H5.5",
+          "C18,C22",
+          {
+            "Contributor": "LCEDA_Lib",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "CE_SMD_D5.0×H5.5_EU",
+            "Manufacturer Part": "",
+            "puuid": "2897ea2aed674deb8892c3862bcaddea",
+            "uuid": "2f379218ad414010bbfe428493a52848"
+          }
+        ],
+        [
+          "22u",
+          2,
+          "CAP-D5.0×H5.5",
+          "C19,C23",
+          {
+            "Contributor": "LCEDA_Lib",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "CE_SMD_D5.0×H5.5_EU",
+            "Manufacturer Part": "",
+            "puuid": "2897ea2aed674deb8892c3862bcaddea",
+            "uuid": "2f379218ad414010bbfe428493a52848"
+          }
+        ],
+        [
+          "100n",
+          1,
+          "C1206",
+          "C20",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_RAD-0.2_EU",
+            "Manufacturer Part": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "a1bddaea90b44e109a38e04d658aabfb"
+          }
+        ],
+        [
+          "0,1F",
+          1,
+          "CAP-D12.5XF5.0",
+          "C21",
+          {
+            "Contributor": "LCEDA_Lib",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "C_Tan_SMD_A_EU",
+            "Manufacturer Part": "",
+            "puuid": "6295c07e15584ea3b3052d80635b272b",
+            "uuid": "e545f26e87c74952857381bd0bff848e"
+          }
+        ],
+        [
+          "1N5819/S",
+          3,
+          "SMA_L4.3-W2.6-LS5.2-R-RD",
+          "D5,D6,D7",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900003833",
+            "Manufacturer Part": "1N5819/S",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "LCSC",
+            "spiceSymbolName": "1N5819/S",
+            "puuid": "906c99ea5dec4828b079c976cc1781e8",
+            "uuid": "77ff4e3668d049dfad2b98e3ec6c3129"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          3,
+          "HDR-M-2.54_1X2",
+          "J4,J5,J6",
+          {
+            "Supplier Part": "C124375",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x2",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "CONN-TH_2P-P5.08",
+          2,
+          "CONN-TH_2P-P5.08",
+          "P-MAIN1,P-PROG1",
+          {
+            "Supplier Part": "",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "CONN-TH_2P-P5.08",
+            "puuid": "e51909bf23504bf8a04c047f1f5257e0",
+            "uuid": "ef426d4a8d544b74a9057e9a2a21b39a"
+          }
+        ],
+        [
+          "LCS-NODES-SYM-BLOCK-CTRL-10xYY",
+          1,
+          "LCS-NODES-FP-MAIN-CTRL-10X12",
+          "PCB1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "helmut-f",
+            "spiceSymbolName": "LCS-NODES-SYM-BLOCK-CTRL-10X16",
+            "Package Display": "No",
+            "puuid": "baae2c6a2c8a431bb86fedd89063c167",
+            "uuid": "7e5004e24ffa42b1b1a0258846f253bd"
+          }
+        ],
+        [
+          "DMG2305UX",
+          1,
+          "SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR-1",
+          "Q9",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C2940629",
+            "Manufacturer": "TECH PUBLIC(台舟)",
+            "Manufacturer Part": "DMG2305UX",
+            "link": "https://atta.szlcsc.com//upload/public/pdf/source/20220124/672A40BC72F4DE27873D6595D2E3AF1A.pdf",
+            "Contributor": "LCSC",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "DMG2305UX",
+            "puuid": "48f726f118674c1c98ad35c23ffe8764",
+            "uuid": "7ec6184175344a2094a139dbc983bb03"
+          }
+        ],
+        [
+          "56K",
+          1,
+          "R1206",
+          "R61",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "100",
+          1,
+          "R1206",
+          "R62",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "100K",
+          1,
+          "R1206",
+          "R63",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "470Ohm MELF resistor",
+          1,
+          "10 OHM MELF RESISTOR",
+          "R64",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "hi10",
+            "spiceSymbolName": "10Ohm MELF resistor",
+            "puuid": "25e61c240eca40c996f224224ae297e0",
+            "uuid": "78f1a6e4a34a41d89c236bd04e706b5d"
+          }
+        ],
+        [
+          "10Ohm MELF resistor",
+          1,
+          "10 OHM MELF RESISTOR",
+          "R65",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "hi10",
+            "spiceSymbolName": "10Ohm MELF resistor",
+            "puuid": "25e61c240eca40c996f224224ae297e0",
+            "uuid": "78f1a6e4a34a41d89c236bd04e706b5d"
+          }
+        ],
+        [
+          "Gaptec_LC78",
+          2,
+          "GAPTEC_LC78",
+          "U9,U10",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "SpicyMemeBoi",
+            "spiceSymbolName": "Gaptec_LC78",
+            "Package Display": "No",
+            "puuid": "1c34cd829c754d4281bf2e17f44685f7",
+            "uuid": "1c2f4d9c31d64b0c8b07997478bdbc19"
+          }
+        ]
+      ],
+      "components": {
+        "e95628aafeaf4cc89f349341a81714e3": 11,
+        "de79b090ca9e4b85b5576b54e33647f6": 2,
+        "a9aa2b14f188405792fa87ac344499a4": 2,
+        "9ccdc54878be45e7872dac4dc0b50622": 3,
+        "21b019389fd84119881c7a546c5f6ec4": 1,
+        "855ac913ba6847859c645247b4c9da75": 1,
+        "08d974ea4200430f9eabf9e62e7c19dc": 1,
+        "3d7703837c274d87b77976df7a270fdb": 1,
+        "77ff4e3668d049dfad2b98e3ec6c3129": 2
+      }
+    },
+    {
+      "uuid": "5b0b5bdc547594af3985f1453132b970",
+      "title": "Connectors, Power Supply",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1705917789,
+      "createTime": 1697360463,
+      "histories": [],
+      "created_at": "2023-10-15 11:01:03",
+      "updated_at": "2024-01-22 11:03:09",
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Opt",
+          1,
+          "SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0_C23873",
+          "B1",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C136684",
+            "Manufacturer": "韩国韩荣",
+            "Manufacturer Part": "K2-1102DP-E4SW-04",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "K4-6×6_TH",
+            "Package Display": "No",
+            "puuid": "91e8625ab54d4b48a78457e6f8258781",
+            "uuid": "18479f1c4d4749c5a4c4387846c5d657"
+          }
+        ],
+        [
+          "100n",
+          4,
+          "C1206",
+          "C1,C2,C3,C4",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Manufacturer": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          1,
+          "HDR-M-2.54_1X2",
+          "J1",
+          {
+            "Supplier Part": "C124375",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x2",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "LED-0603_R",
+          1,
+          "LED-1206",
+          "LED1",
+          {
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "Supplier Part": "C72044",
+            "Supplier": "LCSC",
+            "link": "",
+            "Contributor": "LCEDA_01",
+            "spiceSymbolName": "LED-0603_R",
+            "puuid": "62ddd832b4204f5fb6ccf017f43de83b",
+            "uuid": "5cbe824183374fac8e4c1ae848199ce3"
+          }
+        ],
+        [
+          "LED-0805_G",
+          1,
+          "LED-1206",
+          "LED2",
+          {
+            "Manufacturer": "国星光电",
+            "Manufacturer Part": "NCD0805G1",
+            "Supplier Part": "C84260",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "LED-0805_G",
+            "puuid": "62ddd832b4204f5fb6ccf017f43de83b",
+            "uuid": "ba1f207f2c0447edbd5beb657b435022"
+          }
+        ],
+        [
+          "MOSFET-NCHANNELBSS138",
+          5,
+          "SOT23-3",
+          "Q1,Q2,Q3,Q4,Q5",
+          {
+            "description": "Common NMOSFET Parts",
+            "Contributor": "SparkFun",
+            "spiceSymbolName": "MOSFET-NCHANNELBSS138",
+            "Manufacturer Part": "",
+            "puuid": "d8084adcadf04b6eadecdc8fd3a4bef9",
+            "uuid": "1f55cd7da439440ba626bd7741d4ad9e"
+          }
+        ],
+        [
+          "4K7",
+          4,
+          "R1206",
+          "R1,R2,R14,R15",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0805_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "ed9eb2faffb34286820a54a14e9e9e24"
+          }
+        ],
+        [
+          "10K",
+          9,
+          "R1206",
+          "R3,R6,R7,R8,R9,R10,R11,R12,R13",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0805_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "ed9eb2faffb34286820a54a14e9e9e24"
+          }
+        ],
+        [
+          "470",
+          2,
+          "R1206",
+          "R4,R5",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0805_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "ed9eb2faffb34286820a54a14e9e9e24"
+          }
+        ],
+        [
+          "120",
+          1,
+          "R1206",
+          "R16",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "spiceSymbolName": "RESISTOR-AXIAL-0.1",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e76f3700a495449f89388aebc7c514e3"
+          }
+        ],
+        [
+          "24FCXXX-I/SN",
+          2,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U1,U3",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Manufacturer Part": "24FC256-I/SN",
+            "Contributor": "LCSC",
+            "Supplier Part": "C145385",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "24FC256-I/SN",
+            "puuid": "806a55eb4d3c40ab838f70f86785d85e",
+            "uuid": "5c889cc040dc491da07dce8971e13b31"
+          }
+        ],
+        [
+          "Main controller - RASPBERRY Pi Pico",
+          1,
+          "RASPBERRY PI PICO",
+          "U2",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "untung91",
+            "spiceSymbolName": "RASPBERRY Pi Pico Through Holes",
+            "puuid": "6adf0d677d7c4bf29b8711760efc3b51",
+            "uuid": "f5e28939ee4b413a81608a3f66d6e3bc"
+          }
+        ],
+        [
+          "MCP2562-H/P",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.1-BL",
+          "U4",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C640348",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Manufacturer Part": "MCP2562-H/P",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "MCP2562-H/P",
+            "puuid": "1012bfc264ed4c3c95b7659697ddf346",
+            "uuid": "e611ae6de7f34e0eae8494a79a790895"
+          }
+        ],
+        [
+          "100n",
+          2,
+          "C1206",
+          "C5,C13",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Manufacturer": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "10n",
+          1,
+          "C1206",
+          "C6",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "100n",
+          3,
+          "C1206",
+          "C7,C8,C10",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "100u",
+          1,
+          "CAP-D6.3×H7.7",
+          "C9",
+          {
+            "Contributor": "LCEDA_Lib",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "CE_SMD_D5.0×H5.5_EU",
+            "Manufacturer Part": "",
+            "puuid": "e0f45a5edd25471dacc10f351b436550",
+            "uuid": "2f379218ad414010bbfe428493a52848"
+          }
+        ],
+        [
+          "220n",
+          1,
+          "C1206",
+          "C11",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "220n",
+          2,
+          "C1206",
+          "C12,C14",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Manufacturer": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "1N4148",
+          1,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer Part": "1N4148",
+            "Manufacturer": "SEMTECH",
+            "Supplier Part": "C14516",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "1N4148",
+            "puuid": "f6e7bbafc8d6494ea48c85ec766fa6c7",
+            "uuid": "ed535c8fe56245c1a5180026fdcb7303"
+          }
+        ],
+        [
+          "1N4148",
+          1,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D2",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer Part": "1N4148",
+            "Manufacturer": "SEMTECH",
+            "Supplier Part": "C14516",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "1N4148",
+            "Package Display": "No",
+            "puuid": "f6e7bbafc8d6494ea48c85ec766fa6c7",
+            "uuid": "ed535c8fe56245c1a5180026fdcb7303"
+          }
+        ],
+        [
+          "10k",
+          2,
+          "R1206",
+          "R17,R18",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "0R1",
+          1,
+          "R_AXIAL-0.8",
+          "R19",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "puuid": "2d77835a35ce42c3a8a708639960ec8e",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "0R1",
+          3,
+          "R_AXIAL-0.8",
+          "R20,R28,R29",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "2d77835a35ce42c3a8a708639960ec8e",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "10K",
+          2,
+          "R1206",
+          "R21,R22",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "1M",
+          8,
+          "R1206",
+          "R23,R24,R34,R35,R36,R37,R46,R47",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "100",
+          1,
+          "R1206",
+          "R25",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "spiceSymbolName": "RESISTOR-AXIAL-0.1",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e76f3700a495449f89388aebc7c514e3"
+          }
+        ],
+        [
+          "220",
+          8,
+          "R1206",
+          "R26,R27,R30,R31,R39,R40,R43,R44",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "0R5",
+          2,
+          "R_AXIAL-0.8",
+          "R32,R33",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.5_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "Manufacturer": "",
+            "puuid": "2d77835a35ce42c3a8a708639960ec8e",
+            "uuid": "486123a4bb814705bb1a3164561bb535"
+          }
+        ],
+        [
+          "10k",
+          2,
+          "R1206",
+          "R38,R45",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "spiceSymbolName": "RESISTOR-AXIAL-0.1",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e76f3700a495449f89388aebc7c514e3"
+          }
+        ],
+        [
+          "1K",
+          2,
+          "R1206",
+          "R41,R48",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "spiceSymbolName": "RESISTOR-AXIAL-0.1",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e76f3700a495449f89388aebc7c514e3"
+          }
+        ],
+        [
+          "1k",
+          2,
+          "R1206",
+          "R42,R49",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "spiceSymbolName": "RESISTOR-AXIAL-0.1",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e76f3700a495449f89388aebc7c514e3"
+          }
+        ],
+        [
+          "L6205N",
+          1,
+          "PDIP-20_L24.5-W7.3-P2.54-LS7.9-BL",
+          "U6",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C962260",
+            "Manufacturer": "STMicroelectronics",
+            "Manufacturer Part": "L6205N",
+            "Contributor": "LCSC",
+            "spiceSymbolName": "L6205N",
+            "puuid": "effeb61c7b5141ac841a36f472e8f6bd",
+            "uuid": "d691d0fe88bd488899d0323987ab550b"
+          }
+        ],
+        [
+          "LM339ADR",
+          1,
+          "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
+          "U5",
+          {
+            "Supplier Part": "C74559",
+            "Supplier": "LCSC",
+            "Manufacturer": "LM339ADR",
+            "Manufacturer Part": "TI",
+            "subpart_no": "1",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "LM339ADR",
+            "puuid": "19591644493b46b2b3c4b7e703ce6a0c",
+            "uuid": "4234e318dc7945c38feff7d4ff83024a"
+          }
+        ],
+        [
+          "LM358MX/NOPB",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U7",
+          {
+            "subpart_no": "1",
+            "image": "http://image.lceda.cn/szlcsc/C16416.jpg",
+            "Supplier Part": "C16416",
+            "Supplier": "LCSC",
+            "Manufacturer": "TI(德州仪器)",
+            "Manufacturer Part": "LM358MX/NOPB",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C16416&%26type=1&ref=editor",
+            "spiceSymbolName": "LM358MX/NOPB",
+            "puuid": "806a55eb4d3c40ab838f70f86785d85e",
+            "uuid": "eb37bee025f2473eaae8cb42c5a9faf0"
+          }
+        ],
+        [
+          "47p",
+          1,
+          "C1206",
+          "C15",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900007291",
+            "Manufacturer": "null",
+            "Manufacturer Part": "CT41G-1206-X5R-50V-10uF-M(N)",
+            "link": "https://atta.szlcsc.comnull",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "CT41G-1206-X5R-50V-10UF-M(N)",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "9ccdc54878be45e7872dac4dc0b50622"
+          }
+        ],
+        [
+          "100n",
+          2,
+          "C1206",
+          "C16,C17",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900007291",
+            "Manufacturer": "null",
+            "Manufacturer Part": "CT41G-1206-X5R-50V-10uF-M(N)",
+            "link": "https://atta.szlcsc.comnull",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "CT41G-1206-X5R-50V-10UF-M(N)",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "9ccdc54878be45e7872dac4dc0b50622"
+          }
+        ],
+        [
+          "1N5819/S",
+          2,
+          "SMA_L4.3-W2.6-LS5.2-R-RD",
+          "D3,D4",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900003833",
+            "Manufacturer Part": "1N5819/S",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "LCSC",
+            "spiceSymbolName": "1N5819/S",
+            "puuid": "906c99ea5dec4828b079c976cc1781e8",
+            "uuid": "77ff4e3668d049dfad2b98e3ec6c3129"
+          }
+        ],
+        [
+          "Enable 12V",
+          1,
+          "HDR-M-2.54_1X2",
+          "J2",
+          {
+            "Supplier Part": "C124375",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x2",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "LocoNet",
+          1,
+          "HDR-M-2.54_1X2",
+          "J3",
+          {
+            "Supplier Part": "C124375",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x2",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "BC817",
+          1,
+          "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+          "Q6",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "Hottech(合科泰)",
+            "Manufacturer Part": "BC817-40",
+            "Contributor": "LCSC",
+            "Supplier Part": "C181151",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "BC817-40",
+            "puuid": "bade90667a6e4731855e9a223387b8a6",
+            "uuid": "21b019389fd84119881c7a546c5f6ec4"
+          }
+        ],
+        [
+          "BC847",
+          2,
+          "SOT-323-3_L2.0-W1.3-P1.30-LS2.1-BR",
+          "Q7,Q8",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C5182829",
+            "Manufacturer": "Nexperia(安世)",
+            "Manufacturer Part": "BC847CW-QBC847CW-QXX",
+            "link": "https://atta.szlcsc.com/upload/public/pdf/source/20220920/079F28AA67300DB8DEDEEFA28BB33B43.pdf",
+            "Contributor": "lcsc",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "BC847CW-QBC847CW-QXX",
+            "puuid": "e98891da83fd4e29afbfe03f858920c7",
+            "uuid": "de79b090ca9e4b85b5576b54e33647f6"
+          }
+        ],
+        [
+          "12R",
+          2,
+          "R1206",
+          "R50,R51",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "10K",
+          2,
+          "R1206",
+          "R52,R60",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "47K",
+          1,
+          "R1206",
+          "R53",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "27K",
+          1,
+          "R1206",
+          "R54",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "240K",
+          1,
+          "R1206",
+          "R55",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "150K",
+          1,
+          "R1206",
+          "R56",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "39K",
+          1,
+          "R1206",
+          "R57",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "4K7",
+          1,
+          "R1206",
+          "R58",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "47R",
+          1,
+          "R1206",
+          "R59",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5002FET",
+            "link": "https://atta.szlcsc.comnull",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HVF1206T5002FET",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e95628aafeaf4cc89f349341a81714e3"
+          }
+        ],
+        [
+          "RJ12(6P6C)",
+          1,
+          "RJ12-TH_6P6C",
+          "RJ1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "JLCPCB Part Class": "",
+            "Contributor": "yulin0826",
+            "spiceSymbolName": "RJ12(6P6C)",
+            "puuid": "906f08b7969d4ea8b5098c37b5a472e2",
+            "uuid": "3d7703837c274d87b77976df7a270fdb"
+          }
+        ],
+        [
+          "LM393ADRE4",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U8",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C3659061",
+            "Manufacturer": "TI(德州仪器)",
+            "Manufacturer Part": "LM393ADRE4",
+            "link": "https://atta.szlcsc.com/upload/public/pdf/source/20230221/4AD22C75DCC6447290BC7CE521BA2EAE.pdf",
+            "subpart_no": "1",
+            "spiceSymbolName": "LM393ADRE4",
+            "puuid": "806a55eb4d3c40ab838f70f86785d85e",
+            "uuid": "08d974ea4200430f9eabf9e62e7c19dc"
+          }
+        ],
+        [
+          "10u",
+          2,
+          "CAP-D5.0×H5.5",
+          "C18,C22",
+          {
+            "Contributor": "LCEDA_Lib",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "CE_SMD_D5.0×H5.5_EU",
+            "Manufacturer Part": "",
+            "puuid": "2897ea2aed674deb8892c3862bcaddea",
+            "uuid": "2f379218ad414010bbfe428493a52848"
+          }
+        ],
+        [
+          "22u",
+          2,
+          "CAP-D5.0×H5.5",
+          "C19,C23",
+          {
+            "Contributor": "LCEDA_Lib",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "CE_SMD_D5.0×H5.5_EU",
+            "Manufacturer Part": "",
+            "puuid": "2897ea2aed674deb8892c3862bcaddea",
+            "uuid": "2f379218ad414010bbfe428493a52848"
+          }
+        ],
+        [
+          "100n",
+          1,
+          "C1206",
+          "C20",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_RAD-0.2_EU",
+            "Manufacturer Part": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "a1bddaea90b44e109a38e04d658aabfb"
+          }
+        ],
+        [
+          "0,1F",
+          1,
+          "CAP-D12.5XF5.0",
+          "C21",
+          {
+            "Contributor": "LCEDA_Lib",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "C_Tan_SMD_A_EU",
+            "Manufacturer Part": "",
+            "puuid": "6295c07e15584ea3b3052d80635b272b",
+            "uuid": "e545f26e87c74952857381bd0bff848e"
+          }
+        ],
+        [
+          "1N5819/S",
+          3,
+          "SMA_L4.3-W2.6-LS5.2-R-RD",
+          "D5,D6,D7",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900003833",
+            "Manufacturer Part": "1N5819/S",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "LCSC",
+            "spiceSymbolName": "1N5819/S",
+            "puuid": "906c99ea5dec4828b079c976cc1781e8",
+            "uuid": "77ff4e3668d049dfad2b98e3ec6c3129"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          3,
+          "HDR-M-2.54_1X2",
+          "J4,J5,J6",
+          {
+            "Supplier Part": "C124375",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x2",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "CONN-TH_2P-P5.08",
+          2,
+          "CONN-TH_2P-P5.08",
+          "P-MAIN1,P-PROG1",
+          {
+            "Supplier Part": "",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "CONN-TH_2P-P5.08",
+            "puuid": "e51909bf23504bf8a04c047f1f5257e0",
+            "uuid": "ef426d4a8d544b74a9057e9a2a21b39a"
+          }
+        ],
+        [
+          "LCS-NODES-SYM-BLOCK-CTRL-10xYY",
+          1,
+          "LCS-NODES-FP-MAIN-CTRL-10X12",
+          "PCB1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "helmut-f",
+            "spiceSymbolName": "LCS-NODES-SYM-BLOCK-CTRL-10X16",
+            "Package Display": "No",
+            "puuid": "baae2c6a2c8a431bb86fedd89063c167",
+            "uuid": "7e5004e24ffa42b1b1a0258846f253bd"
+          }
+        ],
+        [
+          "DMG2305UX",
+          1,
+          "SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR-1",
+          "Q9",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C2940629",
+            "Manufacturer": "TECH PUBLIC(台舟)",
+            "Manufacturer Part": "DMG2305UX",
+            "link": "https://atta.szlcsc.com//upload/public/pdf/source/20220124/672A40BC72F4DE27873D6595D2E3AF1A.pdf",
+            "Contributor": "LCSC",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "DMG2305UX",
+            "puuid": "48f726f118674c1c98ad35c23ffe8764",
+            "uuid": "7ec6184175344a2094a139dbc983bb03"
+          }
+        ],
+        [
+          "56K",
+          1,
+          "R1206",
+          "R61",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "100",
+          1,
+          "R1206",
+          "R62",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "100K",
+          1,
+          "R1206",
+          "R63",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_AXIAL-0.3_EU",
+            "Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "470Ohm MELF resistor",
+          1,
+          "10 OHM MELF RESISTOR",
+          "R64",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "hi10",
+            "spiceSymbolName": "10Ohm MELF resistor",
+            "puuid": "25e61c240eca40c996f224224ae297e0",
+            "uuid": "78f1a6e4a34a41d89c236bd04e706b5d"
+          }
+        ],
+        [
+          "10Ohm MELF resistor",
+          1,
+          "10 OHM MELF RESISTOR",
+          "R65",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "hi10",
+            "spiceSymbolName": "10Ohm MELF resistor",
+            "puuid": "25e61c240eca40c996f224224ae297e0",
+            "uuid": "78f1a6e4a34a41d89c236bd04e706b5d"
+          }
+        ],
+        [
+          "Gaptec_LC78",
+          2,
+          "GAPTEC_LC78",
+          "U9,U10",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "SpicyMemeBoi",
+            "spiceSymbolName": "Gaptec_LC78",
+            "Package Display": "No",
+            "puuid": "1c34cd829c754d4281bf2e17f44685f7",
+            "uuid": "1c2f4d9c31d64b0c8b07997478bdbc19"
+          }
+        ]
+      ],
+      "components": {
+        "2f379218ad414010bbfe428493a52848": 4,
+        "5d56951fd43d4b5083b0f3cd9bfd5587": 3,
+        "a1bddaea90b44e109a38e04d658aabfb": 1,
+        "1c2f4d9c31d64b0c8b07997478bdbc19": 2,
+        "77ff4e3668d049dfad2b98e3ec6c3129": 3,
+        "7ec6184175344a2094a139dbc983bb03": 1,
+        "7e5004e24ffa42b1b1a0258846f253bd": 1,
+        "ef426d4a8d544b74a9057e9a2a21b39a": 2,
+        "a9aa2b14f188405792fa87ac344499a4": 3,
+        "78f1a6e4a34a41d89c236bd04e706b5d": 2,
+        "e545f26e87c74952857381bd0bff848e": 1
+      }
+    },
+    {
+      "uuid": "5d74a99f3e37e46a1bf3a354085b8f40",
+      "title": "PCB_LcsNodes-Base-Station-Board-B.01.00",
+      "filename": "PCB_LcsNodes-Base-Station-Board-B.01.00.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1705918245,
+      "createTime": 1697360719,
+      "histories": [],
+      "created_at": "2023-10-15 11:05:19",
+      "updated_at": "2024-01-22 11:10:45",
+      "components": {
+        "baae2c6a2c8a431bb86fedd89063c167": 1,
+        "2d77835a35ce42c3a8a708639960ec8e": 6,
+        "7bdec8012728462a85919a4d0d033579": 17,
+        "e0f45a5edd25471dacc10f351b436550": 1,
+        "2897ea2aed674deb8892c3862bcaddea": 4,
+        "6295c07e15584ea3b3052d80635b272b": 1,
+        "906c99ea5dec4828b079c976cc1781e8": 5,
+        "70aa5812f21f4991bf427395d51849f4": 6,
+        "62ddd832b4204f5fb6ccf017f43de83b": 2,
+        "bade90667a6e4731855e9a223387b8a6": 1,
+        "e98891da83fd4e29afbfe03f858920c7": 2,
+        "48f726f118674c1c98ad35c23ffe8764": 1,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 57,
+        "25e61c240eca40c996f224224ae297e0": 2,
+        "806a55eb4d3c40ab838f70f86785d85e": 4,
+        "6adf0d677d7c4bf29b8711760efc3b51": 1,
+        "1012bfc264ed4c3c95b7659697ddf346": 1,
+        "19591644493b46b2b3c4b7e703ce6a0c": 1,
+        "effeb61c7b5141ac841a36f472e8f6bd": 1,
+        "1c34cd829c754d4281bf2e17f44685f7": 2,
+        "d8084adcadf04b6eadecdc8fd3a4bef9": 5,
+        "f6e7bbafc8d6494ea48c85ec766fa6c7": 2,
+        "906f08b7969d4ea8b5098c37b5a472e2": 1,
+        "e51909bf23504bf8a04c047f1f5257e0": 2,
+        "91e8625ab54d4b48a78457e6f8258781": 1
+      }
+    }
+  ],
+  "sort": [
+    "6418b3795b8298285c9ae33b75fb6584",
+    "e675c13f2b60c8b53e32c875133e72d8",
+    "0c0fa18498aa2e93195cbf8a0d31848b",
+    "3c13a488b2e17ce64c9819c3421bdc67",
+    "5b0b5bdc547594af3985f1453132b970"
+  ],
+  "title": "LcsNodes-Base-Station-Board-B.02.00",
+  "foldername": "LcsNodes-Base-Station-Board-B.02.00",
+  "schfilename": "LcsNodes-Base-Station-Board-B.02.00.json",
+  "schfilemtime": 1737285858045
+}
