@@ -4,7 +4,7 @@
   "name": "LcsNodes-Main-Controller-Board-B.02.00",
   "content": "LcsNodes main Controller board with PICO, new PCB format.",
   "created_at": "2025-01-15 10:03:18",
-  "updated_at": "2025-01-19 10:22:31",
+  "updated_at": "2025-01-21 10:25:04",
   "stick": "",
   "documents": [
     {
@@ -349,11 +349,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1737278551,
+      "updateTime": 1737451197,
       "createTime": 1693213366,
       "histories": [],
       "created_at": "2023-08-28 11:02:46",
-      "updated_at": "2025-01-19 10:22:31",
+      "updated_at": "2025-01-21 10:19:57",
       "BOM": [
         [
           "Value",
@@ -424,9 +424,9 @@
         ],
         [
           "1N5819/S",
-          4,
+          3,
           "SMA_L4.3-W2.6-LS5.2-R-RD",
-          "D1,D2,D3,D4",
+          "D1,D2,D3",
           {
             "Manufacturer Part": "1N5819/S",
             "Manufacturer": "",
@@ -558,7 +558,7 @@
           "4K7",
           5,
           "R1206",
-          "R6,R7,R38,R39,R42",
+          "R6,R7,R39,R40,R43",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -594,7 +594,7 @@
           "10K",
           28,
           "R1206",
-          "R10,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R36,R37,R40,R41,R43",
+          "R10,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R36,R37,R38,R41,R42,R44",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -677,7 +677,7 @@
       ],
       "components": {
         "7ec6184175344a2094a139dbc983bb03": 1,
-        "77ff4e3668d049dfad2b98e3ec6c3129": 4,
+        "77ff4e3668d049dfad2b98e3ec6c3129": 3,
         "1c2f4d9c31d64b0c8b07997478bdbc19": 2,
         "5d56951fd43d4b5083b0f3cd9bfd5587": 7,
         "a1bddaea90b44e109a38e04d658aabfb": 1,
@@ -703,11 +703,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1737278551,
+      "updateTime": 1737451197,
       "createTime": 1693213366,
       "histories": [],
       "created_at": "2023-08-28 11:02:46",
-      "updated_at": "2025-01-19 10:22:31",
+      "updated_at": "2025-01-21 10:19:57",
       "BOM": [
         [
           "Value",
@@ -778,9 +778,9 @@
         ],
         [
           "1N5819/S",
-          4,
+          3,
           "SMA_L4.3-W2.6-LS5.2-R-RD",
-          "D1,D2,D3,D4",
+          "D1,D2,D3",
           {
             "Manufacturer Part": "1N5819/S",
             "Manufacturer": "",
@@ -912,7 +912,7 @@
           "4K7",
           5,
           "R1206",
-          "R6,R7,R38,R39,R42",
+          "R6,R7,R39,R40,R43",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -948,7 +948,7 @@
           "10K",
           28,
           "R1206",
-          "R10,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R36,R37,R40,R41,R43",
+          "R10,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R36,R37,R38,R41,R42,R44",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1045,8 +1045,9 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "62ddd832b4204f5fb6ccf017f43de83b": 3,
+        "906c99ea5dec4828b079c976cc1781e8": 3,
         "8e9b1be4bcb6420dbd1d09bf04b02792": 44,
+        "62ddd832b4204f5fb6ccf017f43de83b": 3,
         "91e8625ab54d4b48a78457e6f8258781": 1,
         "9f77654394344f25b3de138e0fe05ff6": 1,
         "7754fb401bbb4a84978dccc9875b550b": 1,
@@ -1058,7 +1059,6 @@
         "806a55eb4d3c40ab838f70f86785d85e": 1,
         "1c34cd829c754d4281bf2e17f44685f7": 2,
         "707d7c79bad8483c87b0c49ff97c7bd4": 1,
-        "906c99ea5dec4828b079c976cc1781e8": 4,
         "70aa5812f21f4991bf427395d51849f4": 2,
         "48f726f118674c1c98ad35c23ffe8764": 1
       },
@@ -1407,11 +1407,11 @@
           }
         ]
       ],
-      "updateTime": 1737278333,
+      "updateTime": 1737451504,
       "createTime": 1736936224,
       "histories": [],
       "created_at": "2025-01-15 11:17:04",
-      "updated_at": "2025-01-19 10:18:53"
+      "updated_at": "2025-01-21 10:25:04"
     }
   ],
   "sort": [
@@ -1422,5 +1422,5 @@
   "title": "LcsNodes-Main-Controller-Board-B.02.00",
   "foldername": "LcsNodes-Main-Controller-Board-B.02.00",
   "schfilename": "LcsNodes-Main-Controller-Board-B.02.00.json",
-  "schfilemtime": 1737278551726
+  "schfilemtime": 1737451197225
 }
