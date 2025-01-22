@@ -4,7 +4,7 @@
   "name": "LcsNodes-Extension-Combo-1-Board-B.02.00",
   "content": "A LcsNodes Extension Board for a dual channel block controller. It contains OCC detect, Signal, Serve and GPIO sockets.",
   "created_at": "2024-05-03 07:33:52",
-  "updated_at": "2025-01-22 15:41:32",
+  "updated_at": "2025-01-22 17:56:22",
   "stick": "",
   "documents": [
     {
@@ -571,8 +571,8 @@
         "65b4454ea3fa472ca681ada6039ebf92": 1,
         "78e17fa83fef4241af2ba017b86fc265": 16,
         "470b56bc858049e3be26262d6feb3fde": 1,
-        "be48a332a6ab4f609f12cd682a0fd0d9": 1,
         "fb82e4cef088466e83a5da161c0dbbab": 8,
+        "be48a332a6ab4f609f12cd682a0fd0d9": 1,
         "f905d92dec8d467ea5a4c65855aa37eb": 1
       },
       "BOM": [
@@ -908,11 +908,11 @@
           }
         ]
       ],
-      "updateTime": 1737556671,
+      "updateTime": 1737564425,
       "createTime": 1737534177,
       "histories": [],
       "created_at": "2025-01-22 09:22:57",
-      "updated_at": "2025-01-22 15:37:51"
+      "updated_at": "2025-01-22 17:47:05"
     },
     {
       "uuid": "707a07b071f2663784180ff7494da06e",
@@ -1299,11 +1299,11 @@
         "a043f6f5ce214277a2e9ff0bb0a41cd5": 2
       },
       "BOM": [],
-      "updateTime": 1737556892,
+      "updateTime": 1737564982,
       "createTime": 1681969428,
       "histories": [],
       "created_at": "2023-04-20 07:43:48",
-      "updated_at": "2025-01-22 15:41:32"
+      "updated_at": "2025-01-22 17:56:22"
     }
   ],
   "sort": [
@@ -1315,5 +1315,5 @@
   "title": "LcsNodes-Extension-Combo-1-Board-B.02.00",
   "foldername": "LcsNodes-Extension-Combo-1-Board-B.02.00",
   "schfilename": "LcsNodes-Extension-Combo-1-Board-B.02.00.json",
-  "schfilemtime": 1737556671440
+  "schfilemtime": 1737564425220
 }
