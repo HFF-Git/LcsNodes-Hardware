@@ -4,7 +4,7 @@
   "name": "LcsNodes-Block-Combo-Controller-B.02.00",
   "content": "A block controller, with a dual 2.8 Amp bridge that can be configured as a dual block controller or a mono block controller with double amperage.",
   "created_at": "2025-01-19 11:01:26",
-  "updated_at": "2025-01-19 12:24:09",
+  "updated_at": "2025-01-22 10:13:53",
   "stick": "",
   "documents": [
     {
@@ -1885,9 +1885,9 @@
         ],
         [
           "LED-0805_G",
-          1,
+          2,
           "LED-1206",
-          "LED2",
+          "LED2,LED3",
           {
             "Manufacturer Part": "NCD0805G1",
             "Manufacturer": "国星光电",
@@ -1896,9 +1896,9 @@
           }
         ],
         [
-          "LCS-NODES-SYM-BLOCK-CTRL-10X16",
+          "LCS-SYM-MAIN-CTRL",
           1,
-          "LCS-NODES-FP-BLOCK-CTRL-10X12",
+          "LCS-FP-MAIN-CTRL-10X12",
           "PCB1",
           {
             "Manufacturer Part": "",
@@ -1969,9 +1969,9 @@
         ],
         [
           "470",
-          3,
+          4,
           "R1206",
-          "R5,R6,R16",
+          "R5,R6,R16,R54",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2091,7 +2091,7 @@
           "100K",
           1,
           "R1206",
-          "R54",
+          "R55",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2232,11 +2232,11 @@
           }
         ]
       ],
-      "updateTime": 1737281911,
+      "updateTime": 1737537052,
       "createTime": 1706601643,
       "histories": [],
       "created_at": "2024-01-30 09:00:43",
-      "updated_at": "2025-01-19 11:18:31"
+      "updated_at": "2025-01-22 10:10:52"
     },
     {
       "uuid": "1d2569adfd2931dedaca41648f51891a",
@@ -3005,9 +3005,9 @@
         ],
         [
           "LED-0805_G",
-          1,
+          2,
           "LED-1206",
-          "LED2",
+          "LED2,LED3",
           {
             "Manufacturer Part": "NCD0805G1",
             "Manufacturer": "国星光电",
@@ -3016,9 +3016,9 @@
           }
         ],
         [
-          "LCS-NODES-SYM-BLOCK-CTRL-10X16",
+          "LCS-SYM-MAIN-CTRL",
           1,
-          "LCS-NODES-FP-BLOCK-CTRL-10X12",
+          "LCS-FP-MAIN-CTRL-10X12",
           "PCB1",
           {
             "Manufacturer Part": "",
@@ -3089,9 +3089,9 @@
         ],
         [
           "470",
-          3,
+          4,
           "R1206",
-          "R5,R6,R16",
+          "R5,R6,R16,R54",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3211,7 +3211,7 @@
           "100K",
           1,
           "R1206",
-          "R54",
+          "R55",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3352,11 +3352,11 @@
           }
         ]
       ],
-      "updateTime": 1737281911,
+      "updateTime": 1737537052,
       "createTime": 1737281327,
       "histories": [],
       "created_at": "2025-01-19 11:08:47",
-      "updated_at": "2025-01-19 11:18:31"
+      "updated_at": "2025-01-22 10:10:52"
     },
     {
       "uuid": "0cfe9772f53cd8a5a9f0053814d2d886",
@@ -3373,8 +3373,8 @@
         "77ff4e3668d049dfad2b98e3ec6c3129": 2,
         "7ec6184175344a2094a139dbc983bb03": 1,
         "e545f26e87c74952857381bd0bff848e": 1,
-        "942aca96e61448878a92168ac1a42b91": 1,
-        "ba1f207f2c0447edbd5beb657b435022": 1
+        "ba1f207f2c0447edbd5beb657b435022": 1,
+        "942aca96e61448878a92168ac1a42b91": 1
       },
       "BOM": [
         [
@@ -3580,7 +3580,7 @@
           "LCS-SYM-MAIN-CTRL",
           1,
           "LCS-FP-MAIN-CTRL-10X12",
-          "PCB2",
+          "PCB1",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3652,7 +3652,7 @@
           "470",
           4,
           "R1206",
-          "R5,R6,R16,R55",
+          "R5,R6,R16,R54",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3772,7 +3772,7 @@
           "100K",
           1,
           "R1206",
-          "R54",
+          "R55",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3913,11 +3913,11 @@
           }
         ]
       ],
-      "updateTime": 1737284868,
+      "updateTime": 1737537052,
       "createTime": 1706186923,
       "histories": [],
       "created_at": "2024-01-25 13:48:43",
-      "updated_at": "2025-01-19 12:07:48"
+      "updated_at": "2025-01-22 10:10:52"
     },
     {
       "uuid": "db2a6d8a9c0bc82cf10a43721ba60459",
@@ -3956,11 +3956,11 @@
         "1c34cd829c754d4281bf2e17f44685f7": 1
       },
       "BOM": [],
-      "updateTime": 1737285685,
+      "updateTime": 1737537233,
       "createTime": 1706434374,
       "histories": [],
       "created_at": "2024-01-28 10:32:54",
-      "updated_at": "2025-01-19 12:21:25"
+      "updated_at": "2025-01-22 10:13:53"
     }
   ],
   "sort": [
@@ -3975,5 +3975,5 @@
   "title": "LcsNodes-Block-Combo-Controller-B.02.00",
   "foldername": "LcsNodes-Block-Combo-Controller-B.02.00",
   "schfilename": "LcsNodes-Block-Combo-Controller-B.02.00.json",
-  "schfilemtime": 1737285849355
+  "schfilemtime": 1737537052309
 }
