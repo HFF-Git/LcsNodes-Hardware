@@ -4,7 +4,7 @@
   "name": "LcsNodes-Extension-Combo-1-Board-B.02.00",
   "content": "A LcsNodes Extension Board for a dual channel block controller. It contains OCC detect, Signal, Serve and GPIO sockets.",
   "created_at": "2024-05-03 07:33:52",
-  "updated_at": "2025-01-23 14:24:18",
+  "updated_at": "2025-01-23 18:32:14",
   "stick": "",
   "documents": [
     {
@@ -722,7 +722,7 @@
       "thumb": "/images/thumb-default.png",
       "components": {
         "5d56951fd43d4b5083b0f3cd9bfd5587": 18,
-        "56994305955647eda299fec7cb5fcf23": 3,
+        "56994305955647eda299fec7cb5fcf23": 2,
         "fd11c9e744c44aeab6011e8bd4c3ea86": 3,
         "65b4454ea3fa472ca681ada6039ebf92": 1,
         "78e17fa83fef4241af2ba017b86fc265": 16,
@@ -788,10 +788,10 @@
           }
         ],
         [
-          "100u",
-          2,
-          "CAP-SMD_BD6.3-L6.6-W6.6-LS7.6-FD",
-          "C6,C9",
+          "1000u",
+          1,
+          "CAP-SMD_BD10.0-L10.3-W10.3-FD-LS11.0",
+          "C7",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -800,10 +800,10 @@
           }
         ],
         [
-          "1000u",
+          "100u",
           1,
-          "CAP-SMD_BD10.0-L10.3-W10.3-FD-LS11.0",
-          "C7",
+          "CAP-SMD_BD6.3-L6.6-W6.6-LS7.6-FD",
+          "C9",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1064,11 +1064,11 @@
           }
         ]
       ],
-      "updateTime": 1737637385,
+      "updateTime": 1737652284,
       "createTime": 1737534177,
       "histories": [],
       "created_at": "2025-01-22 09:22:57",
-      "updated_at": "2025-01-23 14:03:05"
+      "updated_at": "2025-01-23 18:11:24"
     },
     {
       "uuid": "707a07b071f2663784180ff7494da06e",
@@ -1442,24 +1442,24 @@
         "806a55eb4d3c40ab838f70f86785d85e": 1,
         "2897ea2aed674deb8892c3862bcaddea": 2,
         "7bdec8012728462a85919a4d0d033579": 5,
-        "98429e10446f41e793c95f63ad2f3e11": 2,
         "77c578a743d44930b8d88c38f9637b99": 1,
         "f6e7bbafc8d6494ea48c85ec766fa6c7": 8,
         "b4b5e120d2f0444981b8be27d5c062ab": 16,
         "1c34cd829c754d4281bf2e17f44685f7": 1,
         "b23a3cd50ffb4bd580712ba1d52d77dd": 1,
         "167b97894dec4a7f8d57d82286320642": 1,
+        "98429e10446f41e793c95f63ad2f3e11": 1,
         "906c99ea5dec4828b079c976cc1781e8": 1,
         "57d9225bafd043e0ac992b3498c4a0c3": 1,
         "0f2364c02f094100b1b3205c9d829099": 1,
         "a043f6f5ce214277a2e9ff0bb0a41cd5": 2
       },
       "BOM": [],
-      "updateTime": 1737638658,
+      "updateTime": 1737653534,
       "createTime": 1681969428,
       "histories": [],
       "created_at": "2023-04-20 07:43:48",
-      "updated_at": "2025-01-23 14:24:18"
+      "updated_at": "2025-01-23 18:32:14"
     }
   ],
   "sort": [
@@ -1471,5 +1471,5 @@
   "title": "LcsNodes-Extension-Combo-1-Board-B.02.00",
   "foldername": "LcsNodes-Extension-Combo-1-Board-B.02.00",
   "schfilename": "LcsNodes-Extension-Combo-1-Board-B.02.00.json",
-  "schfilemtime": 1737637385710
+  "schfilemtime": 1737652284835
 }
