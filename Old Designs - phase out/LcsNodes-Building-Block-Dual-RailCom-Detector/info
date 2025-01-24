@@ -1,0 +1,158 @@
+{
+  "uuid": "f533fe83341a79d5a57eea7ba66c7458",
+  "path": "Offline/LcsNodes-Building-Block-Dual-RailCom-Detector",
+  "name": "LcsNodes-Building-Block-Dual-RailCom-Detector",
+  "content": "",
+  "created_at": "2022-03-19 08:36:39",
+  "updated_at": "2022-11-28 08:20:46",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "b087be835393dc5dfc4325899d295036",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 2,
+        "c41a7ce5d64b4e3fbee4a15d17a8e8a6": 1,
+        "0da4d11a5fcd472189c7741e9c5f686a": 1,
+        "d9c7ca3a0ca743e9b94fd728cc8248c9": 1,
+        "4234e318dc7945c38feff7d4ff83024a": 1,
+        "5d56951fd43d4b5083b0f3cd9bfd5587": 26,
+        "0789eb7152014955ae0b6a09e65ed546": 1,
+        "1233dc5397bd484e9d63ad20249c602a": 1,
+        "6901b898d9314909bc60a210b69a9eaa": 1,
+        "1db5e25dcf764b65a4f150fb8efe4670": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100n",
+          2,
+          "C1206",
+          "C9,C10",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "10K",
+          4,
+          "R1206",
+          "R25,R26,R27,R28",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "1M",
+          8,
+          "R1206",
+          "R29,R30,R38,R39,R40,R41,R49,R50",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "1k",
+          2,
+          "R1206",
+          "R31,R42",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "220",
+          8,
+          "R1206",
+          "R32,R33,R36,R37,R43,R44,R47,R48",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "0R1",
+          4,
+          "L_AXIAL-0.5",
+          "R34,R35,R45,R46",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9d6e712ce00646ba83f5df75ac998085",
+            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+          }
+        ],
+        [
+          "LM339ADR",
+          2,
+          "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
+          "U1,U10",
+          {
+            "BOM_Supplier Part": "C74559",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "LM339ADR",
+            "BOM_Manufacturer Part": "TI",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "19591644493b46b2b3c4b7e703ce6a0c",
+            "uuid": "4234e318dc7945c38feff7d4ff83024a"
+          }
+        ],
+        [
+          "74HC00",
+          2,
+          "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
+          "U2,U11",
+          {
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "19591644493b46b2b3c4b7e703ce6a0c",
+            "uuid": "1233dc5397bd484e9d63ad20249c602a"
+          }
+        ]
+      ],
+      "updateTime": 1669620046,
+      "createTime": 1647675399,
+      "histories": [],
+      "created_at": "2022-03-19 08:36:39",
+      "updated_at": "2022-11-28 08:20:46"
+    }
+  ],
+  "sort": [],
+  "title": "LcsNodes-Building-Block-Dual-RailCom-Detector",
+  "foldername": "LcsNodes-Building-Block-Dual-RailCom-Detector",
+  "schfilename": "LcsNodes-Building-Block-RailCom-Detector.json",
+  "schfilemtime": 1669620046562
+}
