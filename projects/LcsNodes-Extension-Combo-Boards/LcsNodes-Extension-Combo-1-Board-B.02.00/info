@@ -4,7 +4,7 @@
   "name": "LcsNodes-Extension-Combo-1-Board-B.02.00",
   "content": "A LcsNodes Extension Board for a dual channel block controller. It contains OCC detect, Signal, Serve and GPIO sockets.",
   "created_at": "2024-05-03 07:33:52",
-  "updated_at": "2025-01-23 18:32:14",
+  "updated_at": "2025-01-24 15:40:42",
   "stick": "",
   "documents": [
     {
@@ -1455,11 +1455,11 @@
         "a043f6f5ce214277a2e9ff0bb0a41cd5": 2
       },
       "BOM": [],
-      "updateTime": 1737653534,
+      "updateTime": 1737729642,
       "createTime": 1681969428,
       "histories": [],
       "created_at": "2023-04-20 07:43:48",
-      "updated_at": "2025-01-23 18:32:14"
+      "updated_at": "2025-01-24 15:40:42"
     }
   ],
   "sort": [
