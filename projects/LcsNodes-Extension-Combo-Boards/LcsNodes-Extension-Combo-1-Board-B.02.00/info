@@ -4,7 +4,7 @@
   "name": "LcsNodes-Extension-Combo-1-Board-B.02.00",
   "content": "A LcsNodes Extension Board for a dual channel block controller. It contains OCC detect, Signal, Serve and GPIO sockets.",
   "created_at": "2024-05-03 07:33:52",
-  "updated_at": "2025-01-24 15:40:42",
+  "updated_at": "2025-01-27 17:38:59",
   "stick": "",
   "documents": [
     {
@@ -72,10 +72,10 @@
           }
         ],
         [
-          "100u",
-          2,
-          "CAP-SMD_BD6.3-L6.6-W6.6-LS7.6-FD",
-          "C6,C9",
+          "1000u",
+          1,
+          "CAP-SMD_BD10.0-L10.3-W10.3-FD-LS11.0",
+          "C7",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -84,10 +84,10 @@
           }
         ],
         [
-          "1000u",
+          "100u",
           1,
-          "CAP-SMD_BD10.0-L10.3-W10.3-FD-LS11.0",
-          "C7",
+          "CAP-SMD_BD6.3-L6.6-W6.6-LS7.6-FD",
+          "C9",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -348,11 +348,11 @@
           }
         ]
       ],
-      "updateTime": 1737626731,
+      "updateTime": 1737994779,
       "createTime": 1683118448,
       "histories": [],
       "created_at": "2023-05-03 14:54:08",
-      "updated_at": "2025-01-23 11:05:31"
+      "updated_at": "2025-01-27 17:19:39"
     },
     {
       "uuid": "585f4b5835d967b3f0773403abd37dad",
@@ -372,7 +372,7 @@
         "77ff4e3668d049dfad2b98e3ec6c3129": 1,
         "1c2f4d9c31d64b0c8b07997478bdbc19": 1,
         "2f379218ad414010bbfe428493a52848": 2,
-        "6c04f4b3aa284716b04754a76126cbf1": 1
+        "c8cef8ebc2fe476a91af89632ed28e6c": 1
       },
       "BOM": [
         [
@@ -431,10 +431,10 @@
           }
         ],
         [
-          "100u",
-          2,
-          "CAP-SMD_BD6.3-L6.6-W6.6-LS7.6-FD",
-          "C6,C9",
+          "1000u",
+          1,
+          "CAP-SMD_BD10.0-L10.3-W10.3-FD-LS11.0",
+          "C7",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -443,10 +443,10 @@
           }
         ],
         [
-          "1000u",
+          "100u",
           1,
-          "CAP-SMD_BD10.0-L10.3-W10.3-FD-LS11.0",
-          "C7",
+          "CAP-SMD_BD6.3-L6.6-W6.6-LS7.6-FD",
+          "C9",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -539,10 +539,10 @@
           }
         ],
         [
-          "LCS-SYM-EXT-L-R",
+          "LCS-SYM-EXT-L",
           1,
-          "LCS-FP-EXT-L-R-10X12",
-          "PCB1",
+          "LCS-FP-EXT-L-10X12",
+          "PCB2",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -707,11 +707,11 @@
           }
         ]
       ],
-      "updateTime": 1737630976,
+      "updateTime": 1737995694,
       "createTime": 1681973470,
       "histories": [],
       "created_at": "2023-04-20 08:51:10",
-      "updated_at": "2025-01-23 12:16:16"
+      "updated_at": "2025-01-27 17:34:54"
     },
     {
       "uuid": "95f2e4eaffd8b21c5fcf37b875cf4910",
@@ -1141,10 +1141,10 @@
           }
         ],
         [
-          "100u",
-          2,
-          "CAP-SMD_BD6.3-L6.6-W6.6-LS7.6-FD",
-          "C6,C9",
+          "1000u",
+          1,
+          "CAP-SMD_BD10.0-L10.3-W10.3-FD-LS11.0",
+          "C7",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1153,10 +1153,10 @@
           }
         ],
         [
-          "1000u",
+          "100u",
           1,
-          "CAP-SMD_BD10.0-L10.3-W10.3-FD-LS11.0",
-          "C7",
+          "CAP-SMD_BD6.3-L6.6-W6.6-LS7.6-FD",
+          "C9",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1249,10 +1249,10 @@
           }
         ],
         [
-          "LCS-SYM-EXT-L-R",
+          "LCS-SYM-EXT-L",
           1,
-          "LCS-FP-EXT-L-R-10X12",
-          "PCB1",
+          "LCS-FP-EXT-L-10X12",
+          "PCB2",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1417,11 +1417,11 @@
           }
         ]
       ],
-      "updateTime": 1737556671,
+      "updateTime": 1737995694,
       "createTime": 1681975988,
       "histories": [],
       "created_at": "2023-04-20 09:33:08",
-      "updated_at": "2025-01-22 15:37:51"
+      "updated_at": "2025-01-27 17:34:54"
     },
     {
       "uuid": "4b1c2214d31195f1c98c8b75390135f0",
@@ -1432,10 +1432,10 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "cb9948dd86b9429a8b5f3093f768b706": 1,
         "e5ff423634c14561ade34618192283a8": 1,
         "f481a7812a11455ca71c88c49f2602a1": 1,
         "8e9b1be4bcb6420dbd1d09bf04b02792": 47,
-        "5d308d2d012746598f29990bb6cada48": 1,
         "9f77654394344f25b3de138e0fe05ff6": 5,
         "4cf29752e2494dd48d2e74b91145f789": 8,
         "62ddd832b4204f5fb6ccf017f43de83b": 1,
@@ -1455,11 +1455,11 @@
         "a043f6f5ce214277a2e9ff0bb0a41cd5": 2
       },
       "BOM": [],
-      "updateTime": 1737729642,
+      "updateTime": 1737995939,
       "createTime": 1681969428,
       "histories": [],
       "created_at": "2023-04-20 07:43:48",
-      "updated_at": "2025-01-24 15:40:42"
+      "updated_at": "2025-01-27 17:38:59"
     }
   ],
   "sort": [
@@ -1471,5 +1471,5 @@
   "title": "LcsNodes-Extension-Combo-1-Board-B.02.00",
   "foldername": "LcsNodes-Extension-Combo-1-Board-B.02.00",
   "schfilename": "LcsNodes-Extension-Combo-1-Board-B.02.00.json",
-  "schfilemtime": 1737652284835
+  "schfilemtime": 1737995694505
 }

@@ -4,7 +4,7 @@
   "name": "LcsNodes-Extension-Occ-Detect-B.02.00",
   "content": "",
   "created_at": "2024-05-03 07:33:52",
-  "updated_at": "2025-01-27 13:00:39",
+  "updated_at": "2025-01-27 17:31:27",
   "stick": "",
   "documents": [
     {
@@ -262,7 +262,7 @@
         [
           "LCS-SYM-EXT-L",
           1,
-          "LCS-FP-EXT-L-10X12",
+          "LCS-FP-EXT-ADAPTER-10X4",
           "PCB2",
           {
             "Manufacturer Part": "",
@@ -368,11 +368,11 @@
           }
         ]
       ],
-      "updateTime": 1737977664,
+      "updateTime": 1737995487,
       "createTime": 1681973470,
       "histories": [],
       "created_at": "2023-04-20 08:51:10",
-      "updated_at": "2025-01-27 12:34:24"
+      "updated_at": "2025-01-27 17:31:27"
     },
     {
       "uuid": "06881417ca0c4d550120772ea2b6c12c",
@@ -956,5 +956,5 @@
   "title": "LcsNodes-Extension-Occ-Detect-B.02.00",
   "foldername": "LcsNodes-Extension-Occ-Detect-B.02.00",
   "schfilename": "LcsNodes-Extension-Occ-Detect-B.02.00.json",
-  "schfilemtime": 1737977664375
+  "schfilemtime": 1737995487535
 }
