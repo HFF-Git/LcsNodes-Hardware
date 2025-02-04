@@ -4,7 +4,7 @@
   "name": "LcsNodes-Base-Station-Board-B.02.00",
   "content": "A Raspberry Pi Pico based DCC base station. \n- RPico, CanBus, NVM, L6205 Power Module, RailCom Detector",
   "created_at": "2025-01-19 12:22:15",
-  "updated_at": "2025-01-24 11:59:22",
+  "updated_at": "2025-02-04 17:16:56",
   "stick": "",
   "documents": [
     {
@@ -3913,11 +3913,11 @@
       "docType": "3",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1737536875,
+      "updateTime": 1738685816,
       "createTime": 1697360719,
       "histories": [],
       "created_at": "2023-10-15 11:05:19",
-      "updated_at": "2025-01-22 10:07:55",
+      "updated_at": "2025-02-04 17:16:56",
       "components": {
         "7bdec8012728462a85919a4d0d033579": 16,
         "e0f45a5edd25471dacc10f351b436550": 1,

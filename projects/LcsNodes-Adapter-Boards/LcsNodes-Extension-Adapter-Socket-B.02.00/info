@@ -4,7 +4,7 @@
   "name": "LcsNodes-Extension-Adapter-Socket-B.02.00",
   "content": "A little adapter board from Extension Bus Connectors to a set of screw-block terminals.",
   "created_at": "2025-01-18 13:56:27",
-  "updated_at": "2025-01-19 10:01:49",
+  "updated_at": "2025-02-04 17:05:02",
   "stick": "",
   "documents": [
     {
@@ -124,8 +124,8 @@
     },
     {
       "uuid": "d01c59126945d5278af181457ff977e0",
-      "title": "PCB_LcsNodes-Extension-Adapter-Socket-B.01.00",
-      "filename": "PCB_LcsNodes-Extension-Adapter-Socket-B.01.00.json",
+      "title": "PCB_LcsNodes-Extension-Adapter-Socket-B.02.00",
+      "filename": "PCB_LcsNodes-Extension-Adapter-Socket-B.02.00.json",
       "description": "",
       "docType": "3",
       "master": "",
