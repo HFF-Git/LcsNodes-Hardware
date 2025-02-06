@@ -4,7 +4,7 @@
   "name": "LcsNodes-Extension-Occ-Detect-B.02.00",
   "content": "",
   "created_at": "2024-05-03 07:33:52",
-  "updated_at": "2025-01-30 09:58:24",
+  "updated_at": "2025-02-06 12:14:27",
   "stick": "",
   "documents": [
     {
@@ -194,10 +194,8 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "fd11c9e744c44aeab6011e8bd4c3ea86": 3,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 2,
         "be48a332a6ab4f609f12cd682a0fd0d9": 1,
-        "5d56951fd43d4b5083b0f3cd9bfd5587": 4,
-        "63139acf1b0743849669fd840159ae52": 1,
         "ec21d28f29214934b3c5761b7bb01e1e": 1,
         "c8cef8ebc2fe476a91af89632ed28e6c": 1
       },
@@ -223,9 +221,9 @@
         ],
         [
           "100n",
-          3,
+          2,
           "C1206",
-          "C1,C2,C3",
+          "C2,C3",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -248,32 +246,8 @@
         [
           "LCS-SYM-EXT-L",
           1,
-          "LCS-FP-EXT-ADAPTER-10X4",
+          "LCS-FP-EXT-L-10X12",
           "PCB2",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "10K",
-          18,
-          "R1206",
-          "R1,R2,R22,R23,R24,R25,R26,R27,R28,R29,R46,R47,R48,R49,R50,R51,R52,R53",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "1K",
-          2,
-          "R1206",
-          "R3,R4",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -306,15 +280,15 @@
           }
         ],
         [
-          "NLV14077BDG",
-          1,
-          "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
-          "U1",
+          "10K",
+          16,
+          "R1206",
+          "R22,R23,R24,R25,R26,R27,R28,R29,R46,R47,R48,R49,R50,R51,R52,R53",
           {
-            "Manufacturer Part": "NLV14077BDG",
-            "Manufacturer": "onsemi(安森美)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C897321"
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
           }
         ],
         [
@@ -354,11 +328,11 @@
           }
         ]
       ],
-      "updateTime": 1738225914,
+      "updateTime": 1738840398,
       "createTime": 1681973470,
       "histories": [],
       "created_at": "2023-04-20 08:51:10",
-      "updated_at": "2025-01-30 09:31:54"
+      "updated_at": "2025-02-06 12:13:18"
     },
     {
       "uuid": "06881417ca0c4d550120772ea2b6c12c",
@@ -579,9 +553,9 @@
         ],
         [
           "100n",
-          3,
+          2,
           "C1206",
-          "C1,C2,C3",
+          "C2,C3",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -602,18 +576,6 @@
           }
         ],
         [
-          "LED-0805_G",
-          1,
-          "LED-1206",
-          "LED1",
-          {
-            "Manufacturer Part": "NCD0805G1",
-            "Manufacturer": "国星光电",
-            "Supplier": "",
-            "Supplier Part": "C84260"
-          }
-        ],
-        [
           "LCS-SYM-EXT-L",
           1,
           "LCS-FP-EXT-L-10X12",
@@ -626,34 +588,10 @@
           }
         ],
         [
-          "10K",
-          18,
-          "R1206",
-          "R1,R2,R22,R23,R24,R25,R26,R27,R28,R29,R46,R47,R48,R49,R50,R51,R52,R53",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "1K",
-          2,
-          "R1206",
-          "R3,R4",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
           "470",
-          17,
+          16,
           "R1206",
-          "R5,R6,R7,R10,R11,R14,R15,R18,R19,R30,R31,R34,R35,R38,R39,R42,R43",
+          "R6,R7,R10,R11,R14,R15,R18,R19,R30,R31,R34,R35,R38,R39,R42,R43",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -674,15 +612,15 @@
           }
         ],
         [
-          "NLV14077BDG",
-          1,
-          "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
-          "U1",
+          "10K",
+          16,
+          "R1206",
+          "R22,R23,R24,R25,R26,R27,R28,R29,R46,R47,R48,R49,R50,R51,R52,R53",
           {
-            "Manufacturer Part": "NLV14077BDG",
-            "Manufacturer": "onsemi(安森美)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C897321"
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
           }
         ],
         [
@@ -722,11 +660,11 @@
           }
         ]
       ],
-      "updateTime": 1737965082,
+      "updateTime": 1738839807,
       "createTime": 1681832987,
       "histories": [],
       "created_at": "2023-04-18 17:49:47",
-      "updated_at": "2025-01-27 09:04:42"
+      "updated_at": "2025-02-06 12:03:27"
     },
     {
       "uuid": "edc0a509da61e59d154b72edc54aa9f7",
@@ -738,16 +676,14 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "cb9948dd86b9429a8b5f3093f768b706": 1,
         "4cf29752e2494dd48d2e74b91145f789": 16,
-        "7bdec8012728462a85919a4d0d033579": 3,
+        "7bdec8012728462a85919a4d0d033579": 2,
         "f481a7812a11455ca71c88c49f2602a1": 2,
-        "62ddd832b4204f5fb6ccf017f43de83b": 1,
-        "8e9b1be4bcb6420dbd1d09bf04b02792": 53,
-        "0f2364c02f094100b1b3205c9d829099": 1,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 48,
         "806a55eb4d3c40ab838f70f86785d85e": 1,
         "b23a3cd50ffb4bd580712ba1d52d77dd": 1,
-        "a043f6f5ce214277a2e9ff0bb0a41cd5": 4,
-        "cb9948dd86b9429a8b5f3093f768b706": 1
+        "a043f6f5ce214277a2e9ff0bb0a41cd5": 4
       },
       "BOM": [
         [
@@ -926,11 +862,11 @@
           }
         ]
       ],
-      "updateTime": 1738227504,
+      "updateTime": 1738840467,
       "createTime": 1737902371,
       "histories": [],
       "created_at": "2025-01-26 15:39:31",
-      "updated_at": "2025-01-30 09:58:24"
+      "updated_at": "2025-02-06 12:14:27"
     }
   ],
   "sort": [
@@ -942,5 +878,5 @@
   "title": "LcsNodes-Extension-Occ-Detect-B.02.00",
   "foldername": "LcsNodes-Extension-Occ-Detect-B.02.00",
   "schfilename": "LcsNodes-Extension-Occ-Detect-B.02.00.json",
-  "schfilemtime": 1738225914492
+  "schfilemtime": 1738840398392
 }

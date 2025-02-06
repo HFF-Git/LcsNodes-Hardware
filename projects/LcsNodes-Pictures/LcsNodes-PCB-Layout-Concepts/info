@@ -4,34 +4,11 @@
   "name": "LcsNodes-PCB-Layout-Concepts",
   "content": "",
   "created_at": "2023-03-13 12:57:53",
-  "updated_at": "2025-01-12 14:33:15",
+  "updated_at": "2025-02-06 13:21:22",
   "stick": "",
   "documents": [
     {
       "uuid": "9977f036ed11edc07b9067df7466b400",
-      "title": "General-Board-Layout-Concepts-New",
-      "description": "",
-      "docType": "1",
-      "master": "",
-      "thumb": "/images/thumb-default.png",
-      "components": {},
-      "BOM": [
-        [
-          "Value",
-          "Quantity",
-          "Package",
-          "Components",
-          "CustomPara"
-        ]
-      ],
-      "updateTime": 1736688795,
-      "createTime": 1736688795,
-      "histories": [],
-      "created_at": "2025-01-12 14:33:15",
-      "updated_at": "2025-01-12 14:33:15"
-    },
-    {
-      "uuid": "e2dcda420c3caff840948eda7bae27b7",
       "title": "General-Board-Layout-Concepts",
       "description": "",
       "docType": "1",
@@ -47,21 +24,19 @@
           "CustomPara"
         ]
       ],
-      "updateTime": 1678725437,
-      "createTime": 1678708673,
+      "updateTime": 1738844482,
+      "createTime": 1736688795,
       "histories": [],
-      "created_at": "2023-03-13 12:57:53",
-      "updated_at": "2023-03-13 17:37:17"
+      "created_at": "2025-01-12 14:33:15",
+      "updated_at": "2025-02-06 13:21:22"
     }
   ],
   "sort": [
-    "dae69b4641fd95d8f80d77afd3e41ce4",
-    "36d83aac768a2b5f2f538458a244f41b",
-    "235d3c98131816fc8171fe944515d494",
-    "9977f036ed11edc07b9067df7466b400"
+    "9977f036ed11edc07b9067df7466b400",
+    "e2dcda420c3caff840948eda7bae27b7"
   ],
   "title": "LcsNodes-PCB-Layout-Concepts",
   "foldername": "LcsNodes-PCB-Layout-Concepts",
   "schfilename": "LcsNodes-PCB-Layout-Concepts.json",
-  "schfilemtime": 1736688795965
+  "schfilemtime": 1738844482665
 }

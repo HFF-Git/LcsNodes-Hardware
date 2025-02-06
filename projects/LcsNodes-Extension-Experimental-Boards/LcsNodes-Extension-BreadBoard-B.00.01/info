@@ -4,7 +4,7 @@
   "name": "LcsNodes-Extension-BreadBoard-B.00.01",
   "content": "An extension board PCB with bread board style space for prototype designs.",
   "created_at": "2023-08-19 20:56:11",
-  "updated_at": "2024-02-04 12:18:21",
+  "updated_at": "2025-02-06 11:54:55",
   "stick": "",
   "documents": [
     {
@@ -18,12 +18,10 @@
         "4e0d39fd2094493bae83787f3a77838b": 1,
         "10e59c224da3485bb9bc37d57e60cd0d": 1,
         "a9aa2b14f188405792fa87ac344499a4": 1,
-        "5d56951fd43d4b5083b0f3cd9bfd5587": 4,
-        "63139acf1b0743849669fd840159ae52": 1,
-        "fd11c9e744c44aeab6011e8bd4c3ea86": 2,
         "d851786b5c664ff789b13c0741460439": 2,
         "f5b1d9403e49471cab43bc5a1bec336f": 2,
-        "92c32ceaaac84139add7ebda884f0a47": 2
+        "92c32ceaaac84139add7ebda884f0a47": 2,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 1
       },
       "BOM": [
         [
@@ -35,19 +33,14 @@
         ],
         [
           "100n",
-          2,
+          1,
           "C1206",
-          "C1,C2",
+          "C2",
           {
-            "Supplier Part": "",
-            "Supplier": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "C_0603_EU",
             "Manufacturer Part": "",
-            "Package Display": "No",
             "Manufacturer": "",
-            "puuid": "7bdec8012728462a85919a4d0d033579",
-            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+            "Supplier": "",
+            "Supplier Part": ""
           }
         ],
         [
@@ -56,14 +49,10 @@
           "HDR-M-2.54_1X8",
           "J1,J2",
           {
-            "Supplier Part": "C190820",
-            "Supplier": "LCSC",
-            "Manufacturer": "",
             "Manufacturer Part": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "HDR-M-2.54_1x8",
-            "puuid": "fb11a1cdebf6433b8a3c664a100689e6",
-            "uuid": "92c32ceaaac84139add7ebda884f0a47"
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C190820"
           }
         ],
         [
@@ -72,15 +61,10 @@
           "HDR-M-2.54_1X20",
           "J3,J4",
           {
-            "Supplier Part": "C50981",
-            "Supplier": "LCSC",
-            "Manufacturer": "",
             "Manufacturer Part": "",
-            "image": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "HDR-M-2.54_1x20",
-            "puuid": "fa8b3531a8854d41bcf2c462cb2bfc07",
-            "uuid": "d851786b5c664ff789b13c0741460439"
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C50981"
           }
         ],
         [
@@ -89,14 +73,10 @@
           "HDR-M-2.54_1X4",
           "J5,J6",
           {
-            "Supplier Part": "C124378",
-            "Supplier": "LCSC",
-            "Manufacturer": "",
             "Manufacturer Part": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "HDR-M-2.54_1x4",
-            "puuid": "282f7786cb6144d097ae00194c3e3fb3",
-            "uuid": "f5b1d9403e49471cab43bc5a1bec336f"
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C124378"
           }
         ],
         [
@@ -105,14 +85,10 @@
           "HDR-M-2.54_1X2",
           "J7",
           {
-            "Supplier Part": "C124375",
-            "Supplier": "LCSC",
-            "Manufacturer": "",
             "Manufacturer Part": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "HDR-M-2.54_1x2",
-            "puuid": "70aa5812f21f4991bf427395d51849f4",
-            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C124375"
           }
         ],
         [
@@ -121,63 +97,10 @@
           "LCS-NODES-FP-EXT-PCB-10X12",
           "PCB1",
           {
+            "Manufacturer Part": "",
             "Manufacturer": "",
-            "Manufacturer Part": "",
-            "Supplier Part": "",
             "Supplier": "",
-            "link": "",
-            "Contributor": "helmut-f",
-            "spiceSymbolName": "LCS-NODES-SYM-EXT-10X8",
-            "Package Display": "No",
-            "puuid": "21df296bc84f4a9da2f6a36d8c64d9eb",
-            "uuid": "4e0d39fd2094493bae83787f3a77838b"
-          }
-        ],
-        [
-          "10K",
-          2,
-          "R1206",
-          "R1,R2",
-          {
-            "Supplier Part": "",
-            "Supplier": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "R_AXIAL-0.3_EU",
-            "Manufacturer Part": "",
-            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
-            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
-          }
-        ],
-        [
-          "1K",
-          2,
-          "R1206",
-          "R3,R4",
-          {
-            "Supplier Part": "",
-            "Supplier": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "R_AXIAL-0.3_EU",
-            "Manufacturer Part": "",
-            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
-            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
-          }
-        ],
-        [
-          "NLV14077BDG",
-          1,
-          "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
-          "U1",
-          {
-            "Supplier": "LCSC",
-            "Supplier Part": "C897321",
-            "Manufacturer": "onsemi(安森美)",
-            "Manufacturer Part": "NLV14077BDG",
-            "Contributor": "LCSC",
-            "JLCPCB Part Class": "Extended Part",
-            "spiceSymbolName": "NLV14077BDG",
-            "puuid": "0f2364c02f094100b1b3205c9d829099",
-            "uuid": "63139acf1b0743849669fd840159ae52"
+            "Supplier Part": ""
           }
         ],
         [
@@ -186,23 +109,18 @@
           "SOP-8_L5.0-W3.9-P1.27-LS6.0-BL",
           "U2",
           {
-            "Supplier": "LCSC",
-            "Supplier Part": "C2062025",
-            "Manufacturer": "ST(意法半导体)",
             "Manufacturer Part": "M24C04-FMN6TP",
-            "Contributor": "LCSC",
-            "JLCPCB Part Class": "Extended Part",
-            "spiceSymbolName": "M24C04-FMN6TP",
-            "puuid": "8dd4e509197045bca8e1a82eed28ab26",
-            "uuid": "10e59c224da3485bb9bc37d57e60cd0d"
+            "Manufacturer": "ST(意法半导体)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2062025"
           }
         ]
       ],
-      "updateTime": 1707045488,
+      "updateTime": 1738839295,
       "createTime": 1692471372,
       "histories": [],
       "created_at": "2023-08-19 20:56:12",
-      "updated_at": "2024-02-04 12:18:08"
+      "updated_at": "2025-02-06 11:54:55"
     },
     {
       "uuid": "31c9bc091285c8ce00b339f6040300b9",
@@ -236,5 +154,5 @@
   "title": "LcsNodes-Extension-BreadBoard-B.00.01",
   "foldername": "LcsNodes-Extension-BreadBoard-B.00.01",
   "schfilename": "LcsNodes-Extension-BreadBoard-B.00.01.json",
-  "schfilemtime": 1707045488958
+  "schfilemtime": 1738839295472
 }

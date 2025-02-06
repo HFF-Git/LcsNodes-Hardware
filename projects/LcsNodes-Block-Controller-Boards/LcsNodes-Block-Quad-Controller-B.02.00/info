@@ -4,7 +4,7 @@
   "name": "LcsNodes-Block-Quad-Controller-B.02.00",
   "content": "A LCS block controller for 4 blocks, Railcom detectors and power measurement.",
   "created_at": "2025-01-24 10:37:22",
-  "updated_at": "2025-02-04 17:34:37",
+  "updated_at": "2025-02-06 11:51:22",
   "stick": "",
   "documents": [
     {
@@ -3504,11 +3504,11 @@
           }
         ]
       ],
-      "updateTime": 1737716065,
+      "updateTime": 1738838742,
       "createTime": 1676724364,
       "histories": [],
       "created_at": "2023-02-18 13:46:04",
-      "updated_at": "2025-01-24 11:54:25"
+      "updated_at": "2025-02-06 11:45:42"
     },
     {
       "uuid": "06e8aa5745eec784f922545a271e619c",
@@ -4089,11 +4089,11 @@
           }
         ]
       ],
-      "updateTime": 1737716080,
+      "updateTime": 1738838742,
       "createTime": 1676710041,
       "histories": [],
       "created_at": "2023-02-18 09:47:21",
-      "updated_at": "2025-01-24 11:54:40"
+      "updated_at": "2025-02-06 11:45:42"
     },
     {
       "uuid": "d9d8d60d43837cdf0a82ec954eeab7cb",
@@ -4129,11 +4129,11 @@
         "e22b6bd92f084998af49afa4da1dfe45": 4
       },
       "BOM": [],
-      "updateTime": 1738686877,
+      "updateTime": 1738839082,
       "createTime": 1676800145,
       "histories": [],
       "created_at": "2023-02-19 10:49:05",
-      "updated_at": "2025-02-04 17:34:37"
+      "updated_at": "2025-02-06 11:51:22"
     }
   ],
   "sort": [
@@ -4148,5 +4148,5 @@
   "title": "LcsNodes-Block-Quad-Controller-B.02.00",
   "foldername": "LcsNodes-Block-Quad-Controller-B.02.00",
   "schfilename": "LcsNodes-Block-Quad-Controller-B.02.00.json",
-  "schfilemtime": 1737716080351
+  "schfilemtime": 1738838742747
 }
