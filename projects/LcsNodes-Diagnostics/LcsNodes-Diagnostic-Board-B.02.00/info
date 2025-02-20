@@ -4,7 +4,7 @@
   "name": "LcsNodes-Diagnostic-Board-B.02.00",
   "content": "A little adapter board from Extension Bus Connectors to a set of screw-block terminals.",
   "created_at": "2025-01-19 12:24:56",
-  "updated_at": "2025-02-06 11:53:33",
+  "updated_at": "2025-02-20 13:37:07",
   "stick": "",
   "documents": [
     {
@@ -95,8 +95,8 @@
         [
           "LCS-SYM-EXT-L",
           1,
-          "LCS-FP-EXT-ADAPTER-10X4",
-          "PCB2",
+          "LCS-FP-EXT-L-10X4",
+          "PCB1",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -153,24 +153,24 @@
           }
         ]
       ],
-      "updateTime": 1738839199,
+      "updateTime": 1740055027,
       "createTime": 1705923722,
       "histories": [],
       "created_at": "2024-01-22 12:42:02",
-      "updated_at": "2025-02-06 11:53:19"
+      "updated_at": "2025-02-20 13:37:07"
     },
     {
       "uuid": "e8e1f5bfd1182aa0c50e43c2e8114394",
-      "title": "PCB_LcsNodes-Diag-B.01.00",
-      "filename": "PCB_LcsNodes-Diag-B.01.00.json",
+      "title": "PCB_LcsNodes-Diag-Board-B.02.00",
+      "filename": "PCB_LcsNodes-Diag-Board-B.02.00.json",
       "description": "",
       "docType": "3",
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "2b29d999c07b4c538a96e6e10175c687": 1,
         "62ddd832b4204f5fb6ccf017f43de83b": 25,
         "8e9b1be4bcb6420dbd1d09bf04b02792": 29,
-        "2b29d999c07b4c538a96e6e10175c687": 1,
         "df3ca37cb13d499cb713e9aa6fdd0c7b": 2,
         "70aa5812f21f4991bf427395d51849f4": 5,
         "fb11a1cdebf6433b8a3c664a100689e6": 1,
@@ -178,16 +178,16 @@
         "91e8625ab54d4b48a78457e6f8258781": 2
       },
       "BOM": [],
-      "updateTime": 1738839213,
+      "updateTime": 1740055007,
       "createTime": 1705924631,
       "histories": [],
       "created_at": "2024-01-22 12:57:11",
-      "updated_at": "2025-02-06 11:53:33"
+      "updated_at": "2025-02-20 13:36:47"
     }
   ],
   "sort": [],
   "title": "LcsNodes-Diagnostic-Board-B.02.00",
   "foldername": "LcsNodes-Diagnostic-Board-B.02.00",
   "schfilename": "LcsNodes-Diagnostic-Board-B.02.00.json",
-  "schfilemtime": 1738839199065
+  "schfilemtime": 1740055027845
 }

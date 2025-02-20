@@ -4,7 +4,7 @@
   "name": "LcsNodes-Base-Station-Board-B.02.00",
   "content": "A Raspberry Pi Pico based DCC base station. \n- RPico, CanBus, NVM, L6205 Power Module, RailCom Detector",
   "created_at": "2025-01-19 12:22:15",
-  "updated_at": "2025-02-06 11:19:34",
+  "updated_at": "2025-02-20 14:48:40",
   "stick": "",
   "documents": [
     {
@@ -14,682 +14,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1737449768,
+      "updateTime": 1740057847,
       "createTime": 1697360463,
       "histories": [],
       "created_at": "2023-10-15 11:01:03",
-      "updated_at": "2025-01-21 09:56:08",
-      "BOM": [
-        [
-          "Value",
-          "Quantity",
-          "Package",
-          "Components",
-          "CustomPara"
-        ],
-        [
-          "Opt",
-          1,
-          "SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0_C23873",
-          "B1",
-          {
-            "Manufacturer Part": "K2-1102DP-E4SW-04",
-            "Manufacturer": "韩国韩荣",
-            "Supplier": "LCSC",
-            "Supplier Part": "C136684"
-          }
-        ],
-        [
-          "100n",
-          12,
-          "C1206",
-          "C1,C2,C3,C4,C5,C7,C8,C10,C13,C16,C17,C20",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "10n",
-          1,
-          "C1206",
-          "C6",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "100u",
-          1,
-          "CAP-D6.3×H7.7",
-          "C9",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "220n",
-          3,
-          "C1206",
-          "C11,C12,C14",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "47p",
-          1,
-          "C1206",
-          "C15",
-          {
-            "Manufacturer Part": "CT41G-1206-X5R-50V-10uF-M(N)",
-            "Manufacturer": "null",
-            "Supplier": "LCSC",
-            "Supplier Part": "C9900007291"
-          }
-        ],
-        [
-          "10u",
-          2,
-          "CAP-D5.0×H5.5",
-          "C18,C22",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "22u",
-          2,
-          "CAP-D5.0×H5.5",
-          "C19,C23",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "0,1F",
-          1,
-          "CAP-D12.5XF5.0",
-          "C21",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "1N4148",
-          2,
-          "SOD-80C_L3.3-W1.5-RD",
-          "D1,D2",
-          {
-            "Manufacturer Part": "1N4148",
-            "Manufacturer": "SEMTECH",
-            "Supplier": "LCSC",
-            "Supplier Part": "C14516"
-          }
-        ],
-        [
-          "1N5819/S",
-          5,
-          "SMA_L4.3-W2.6-LS5.2-R-RD",
-          "D3,D4,D5,D6,D8",
-          {
-            "Manufacturer Part": "1N5819/S",
-            "Manufacturer": "",
-            "Supplier": "LCSC",
-            "Supplier Part": "C9900003833"
-          }
-        ],
-        [
-          "HDR-M-2.54_1x2",
-          4,
-          "HDR-M-2.54_1X2",
-          "J1,J5,J6,J7",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "LCSC",
-            "Supplier Part": "C124375"
-          }
-        ],
-        [
-          "Enable 12V",
-          1,
-          "HDR-M-2.54_1X2",
-          "J2",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "LCSC",
-            "Supplier Part": "C124375"
-          }
-        ],
-        [
-          "LocoNet",
-          1,
-          "HDR-M-2.54_1X2",
-          "J3",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "LCSC",
-            "Supplier Part": "C124375"
-          }
-        ],
-        [
-          "LED-0603_R",
-          1,
-          "LED-1206",
-          "LED1",
-          {
-            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
-            "Manufacturer": "EVERLIGHT(台湾亿光)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C72044"
-          }
-        ],
-        [
-          "LED-0805_G",
-          2,
-          "LED-1206",
-          "LED2,LED3",
-          {
-            "Manufacturer Part": "NCD0805G1",
-            "Manufacturer": "国星光电",
-            "Supplier": "",
-            "Supplier Part": "C84260"
-          }
-        ],
-        [
-          "CONN-TH_2P-P5.08",
-          2,
-          "CONN-TH_2P-P5.08",
-          "P-MAIN1,P-PROG1",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "LCSC",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "LCS-NODES-SYM-BLOCK-CTRL-10xYY",
-          1,
-          "LCS-NODES-FP-MAIN-CTRL-10X12",
-          "PCB1",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "MOSFET-NCHANNELBSS138",
-          5,
-          "SOT23-3",
-          "Q1,Q2,Q3,Q4,Q5",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "BC817",
-          1,
-          "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
-          "Q6",
-          {
-            "Manufacturer Part": "BC817-40",
-            "Manufacturer": "Hottech(合科泰)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C181151"
-          }
-        ],
-        [
-          "BC847",
-          2,
-          "SOT-323-3_L2.0-W1.3-P1.30-LS2.1-BR",
-          "Q7,Q8",
-          {
-            "Manufacturer Part": "BC847CW-QBC847CW-QXX",
-            "Manufacturer": "Nexperia(安世)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C5182829"
-          }
-        ],
-        [
-          "DMG2305UX",
-          1,
-          "SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR-1",
-          "Q9",
-          {
-            "Manufacturer Part": "DMG2305UX",
-            "Manufacturer": "TECH PUBLIC(台舟)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C2940629"
-          }
-        ],
-        [
-          "4K7",
-          5,
-          "R1206",
-          "R1,R2,R14,R15,R58",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "10K",
-          13,
-          "R1206",
-          "R3,R6,R7,R8,R9,R10,R11,R12,R13,R21,R22,R52,R60",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "470",
-          3,
-          "R1206",
-          "R4,R5,R66",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "120",
-          1,
-          "R1206",
-          "R16",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "10k",
-          4,
-          "R1206",
-          "R17,R18,R38,R45",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "0R1",
-          4,
-          "R_AXIAL-0.8",
-          "R19,R20,R28,R29",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "1M",
-          8,
-          "R1206",
-          "R23,R24,R34,R35,R36,R37,R46,R47",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "100",
-          2,
-          "R1206",
-          "R25,R62",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "220",
-          8,
-          "R1206",
-          "R26,R27,R30,R31,R39,R40,R43,R44",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "0R5",
-          2,
-          "R_AXIAL-0.8",
-          "R32,R33",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "1K",
-          2,
-          "R1206",
-          "R41,R48",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "1k",
-          2,
-          "R1206",
-          "R42,R49",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "12R",
-          2,
-          "R1206",
-          "R50,R51",
-          {
-            "Manufacturer Part": "HVF1206T5002FET",
-            "Manufacturer": "Ohmite",
-            "Supplier": "LCSC",
-            "Supplier Part": "C4087637"
-          }
-        ],
-        [
-          "47K",
-          1,
-          "R1206",
-          "R53",
-          {
-            "Manufacturer Part": "HVF1206T5002FET",
-            "Manufacturer": "Ohmite",
-            "Supplier": "LCSC",
-            "Supplier Part": "C4087637"
-          }
-        ],
-        [
-          "27K",
-          1,
-          "R1206",
-          "R54",
-          {
-            "Manufacturer Part": "HVF1206T5002FET",
-            "Manufacturer": "Ohmite",
-            "Supplier": "LCSC",
-            "Supplier Part": "C4087637"
-          }
-        ],
-        [
-          "240K",
-          1,
-          "R1206",
-          "R55",
-          {
-            "Manufacturer Part": "HVF1206T5002FET",
-            "Manufacturer": "Ohmite",
-            "Supplier": "LCSC",
-            "Supplier Part": "C4087637"
-          }
-        ],
-        [
-          "150K",
-          1,
-          "R1206",
-          "R56",
-          {
-            "Manufacturer Part": "HVF1206T5002FET",
-            "Manufacturer": "Ohmite",
-            "Supplier": "LCSC",
-            "Supplier Part": "C4087637"
-          }
-        ],
-        [
-          "39K",
-          1,
-          "R1206",
-          "R57",
-          {
-            "Manufacturer Part": "HVF1206T5002FET",
-            "Manufacturer": "Ohmite",
-            "Supplier": "LCSC",
-            "Supplier Part": "C4087637"
-          }
-        ],
-        [
-          "47R",
-          1,
-          "R1206",
-          "R59",
-          {
-            "Manufacturer Part": "HVF1206T5002FET",
-            "Manufacturer": "Ohmite",
-            "Supplier": "LCSC",
-            "Supplier Part": "C4087637"
-          }
-        ],
-        [
-          "56K",
-          1,
-          "R1206",
-          "R61",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "100K",
-          1,
-          "R1206",
-          "R63",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "470Ohm MELF resistor",
-          1,
-          "10 OHM MELF RESISTOR",
-          "R64",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "10Ohm MELF resistor",
-          1,
-          "10 OHM MELF RESISTOR",
-          "R65",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "RJ12(6P6C)",
-          1,
-          "RJ12-TH_6P6C",
-          "RJ1",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "24FCXXX-I/SN",
-          2,
-          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
-          "U1,U3",
-          {
-            "Manufacturer Part": "24FC256-I/SN",
-            "Manufacturer": "MICROCHIP(美国微芯)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C145385"
-          }
-        ],
-        [
-          "Main controller - RASPBERRY Pi Pico",
-          1,
-          "RASPBERRY PI PICO",
-          "U2",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "MCP2562-H/P",
-          1,
-          "SOIC-8_L4.9-W3.9-P1.27-LS6.1-BL",
-          "U4",
-          {
-            "Manufacturer Part": "MCP2562-H/P",
-            "Manufacturer": "MICROCHIP(美国微芯)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C640348"
-          }
-        ],
-        [
-          "LM339ADR",
-          1,
-          "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
-          "U5",
-          {
-            "Manufacturer Part": "TI",
-            "Manufacturer": "LM339ADR",
-            "Supplier": "LCSC",
-            "Supplier Part": "C74559"
-          }
-        ],
-        [
-          "L6205N",
-          1,
-          "PDIP-20_L24.5-W7.3-P2.54-LS7.9-BL",
-          "U6",
-          {
-            "Manufacturer Part": "L6205N",
-            "Manufacturer": "STMicroelectronics",
-            "Supplier": "LCSC",
-            "Supplier Part": "C962260"
-          }
-        ],
-        [
-          "LM358MX/NOPB",
-          1,
-          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
-          "U7",
-          {
-            "Manufacturer Part": "LM358MX/NOPB",
-            "Manufacturer": "TI(德州仪器)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C16416"
-          }
-        ],
-        [
-          "LM393ADRE4",
-          1,
-          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
-          "U8",
-          {
-            "Manufacturer Part": "LM393ADRE4",
-            "Manufacturer": "TI(德州仪器)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C3659061"
-          }
-        ],
-        [
-          "Gaptec_LC78",
-          2,
-          "GAPTEC_LC78",
-          "U9,U10",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ]
-      ],
-      "components": {}
-    },
-    {
-      "uuid": "e675c13f2b60c8b53e32c875133e72d8",
-      "title": "Controller",
-      "description": "",
-      "docType": "1",
-      "master": "",
-      "thumb": "/images/thumb-default.png",
-      "updateTime": 1737532793,
-      "createTime": 1697360463,
-      "histories": [],
-      "created_at": "2023-10-15 11:01:03",
-      "updated_at": "2025-01-22 08:59:53",
+      "updated_at": "2025-02-20 14:24:07",
       "BOM": [
         [
           "Value",
@@ -1311,17 +640,652 @@
           }
         ]
       ],
+      "components": {}
+    },
+    {
+      "uuid": "e675c13f2b60c8b53e32c875133e72d8",
+      "title": "Controller",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1740059293,
+      "createTime": 1697360463,
+      "histories": [],
+      "created_at": "2023-10-15 11:01:03",
+      "updated_at": "2025-02-20 14:48:13",
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Opt",
+          1,
+          "SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0_C23873",
+          "B1",
+          {
+            "Manufacturer Part": "K2-1102DP-E4SW-04",
+            "Manufacturer": "韩国韩荣",
+            "Supplier": "LCSC",
+            "Supplier Part": "C136684"
+          }
+        ],
+        [
+          "100n",
+          11,
+          "C1206",
+          "C1,C2,C3,C5,C6,C9,C10,C12,C15,C16,C19",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10n",
+          1,
+          "C1206",
+          "C4",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "220n",
+          3,
+          "C1206",
+          "C7,C11,C13",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "100u",
+          1,
+          "CAP-D6.3×H7.7",
+          "C8",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "47p",
+          1,
+          "C1206",
+          "C14",
+          {
+            "Manufacturer Part": "CT41G-1206-X5R-50V-10uF-M(N)",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900007291"
+          }
+        ],
+        [
+          "10u",
+          2,
+          "CAP-D5.0×H5.5",
+          "C17,C21",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "22u",
+          2,
+          "CAP-D5.0×H5.5",
+          "C18,C22",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "0,1F",
+          1,
+          "CAP-D12.5XF5.0",
+          "C20",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1N4148",
+          2,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D1,D2",
+          {
+            "Manufacturer Part": "1N4148",
+            "Manufacturer": "SEMTECH",
+            "Supplier": "LCSC",
+            "Supplier Part": "C14516"
+          }
+        ],
+        [
+          "1N5819/S",
+          5,
+          "SMA_L4.3-W2.6-LS5.2-R-RD",
+          "D3,D4,D5,D6,D7",
+          {
+            "Manufacturer Part": "1N5819/S",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900003833"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          4,
+          "HDR-M-2.54_1X2",
+          "J1,J4,J5,J6",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C124375"
+          }
+        ],
+        [
+          "Enable 12V",
+          1,
+          "HDR-M-2.54_1X2",
+          "J2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C124375"
+          }
+        ],
+        [
+          "LocoNet",
+          1,
+          "HDR-M-2.54_1X2",
+          "J3",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C124375"
+          }
+        ],
+        [
+          "LED-0805_G",
+          2,
+          "LED-1206",
+          "LED1,LED2",
+          {
+            "Manufacturer Part": "NCD0805G1",
+            "Manufacturer": "国星光电",
+            "Supplier": "",
+            "Supplier Part": "C84260"
+          }
+        ],
+        [
+          "LCS-SYM-MAIN-CTRL",
+          1,
+          "LCS-FP-MAIN-CTRL-10X12",
+          "PCB1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "MOSFET-NCHANNELBSS138",
+          5,
+          "SOT23-3",
+          "Q1,Q2,Q3,Q4,Q5",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "BC817",
+          1,
+          "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+          "Q6",
+          {
+            "Manufacturer Part": "BC817-40",
+            "Manufacturer": "Hottech(合科泰)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C181151"
+          }
+        ],
+        [
+          "BC847",
+          2,
+          "SOT-323-3_L2.0-W1.3-P1.30-LS2.1-BR",
+          "Q7,Q8",
+          {
+            "Manufacturer Part": "BC847CW-QBC847CW-QXX",
+            "Manufacturer": "Nexperia(安世)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5182829"
+          }
+        ],
+        [
+          "DMG2305UX",
+          1,
+          "SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR-1",
+          "Q9",
+          {
+            "Manufacturer Part": "DMG2305UX",
+            "Manufacturer": "TECH PUBLIC(台舟)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2940629"
+          }
+        ],
+        [
+          "4K7",
+          5,
+          "R1206",
+          "R1,R2,R12,R13,R57",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10K",
+          13,
+          "R1206",
+          "R3,R4,R5,R6,R7,R8,R9,R10,R11,R25,R26,R51,R59",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "470",
+          2,
+          "R1206",
+          "R14,R62",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "120",
+          1,
+          "R1206",
+          "R15",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "100",
+          2,
+          "R1206",
+          "R16,R61",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10k",
+          8,
+          "R1206",
+          "R17,R18,R19,R20,R23,R24,R29,R36",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "0R47",
+          2,
+          "R_AXIAL-0.7",
+          "R21,R22",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1M",
+          8,
+          "R1206",
+          "R27,R28,R38,R39,R41,R42,R47,R48",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1K",
+          2,
+          "R1206",
+          "R30,R37",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "220",
+          8,
+          "R1206",
+          "R31,R32,R34,R35,R43,R44,R45,R46",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1k",
+          2,
+          "R1206",
+          "R33,R40",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "12R",
+          2,
+          "R1206",
+          "R49,R50",
+          {
+            "Manufacturer Part": "HVF1206T5002FET",
+            "Manufacturer": "Ohmite",
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637"
+          }
+        ],
+        [
+          "47K",
+          1,
+          "R1206",
+          "R52",
+          {
+            "Manufacturer Part": "HVF1206T5002FET",
+            "Manufacturer": "Ohmite",
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637"
+          }
+        ],
+        [
+          "27K",
+          1,
+          "R1206",
+          "R53",
+          {
+            "Manufacturer Part": "HVF1206T5002FET",
+            "Manufacturer": "Ohmite",
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637"
+          }
+        ],
+        [
+          "240K",
+          1,
+          "R1206",
+          "R54",
+          {
+            "Manufacturer Part": "HVF1206T5002FET",
+            "Manufacturer": "Ohmite",
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637"
+          }
+        ],
+        [
+          "150K",
+          1,
+          "R1206",
+          "R55",
+          {
+            "Manufacturer Part": "HVF1206T5002FET",
+            "Manufacturer": "Ohmite",
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637"
+          }
+        ],
+        [
+          "39K",
+          1,
+          "R1206",
+          "R56",
+          {
+            "Manufacturer Part": "HVF1206T5002FET",
+            "Manufacturer": "Ohmite",
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637"
+          }
+        ],
+        [
+          "47R",
+          1,
+          "R1206",
+          "R58",
+          {
+            "Manufacturer Part": "HVF1206T5002FET",
+            "Manufacturer": "Ohmite",
+            "Supplier": "LCSC",
+            "Supplier Part": "C4087637"
+          }
+        ],
+        [
+          "56K",
+          1,
+          "R1206",
+          "R60",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "100K",
+          1,
+          "R1206",
+          "R63",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "470Ohm MELF resistor",
+          1,
+          "10 OHM MELF RESISTOR",
+          "R64",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10Ohm MELF resistor",
+          1,
+          "10 OHM MELF RESISTOR",
+          "R65",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "RJ12(6P6C)",
+          1,
+          "RJ12-TH_6P6C",
+          "RJ1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "Main controller - RASPBERRY Pi Pico",
+          1,
+          "RASPBERRY PI PICO",
+          "U1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "24FCXXX-I/SN",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U2",
+          {
+            "Manufacturer Part": "24FC256-I/SN",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C145385"
+          }
+        ],
+        [
+          "MCP2562-H/P",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.1-BL",
+          "U3",
+          {
+            "Manufacturer Part": "MCP2562-H/P",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C640348"
+          }
+        ],
+        [
+          "L6205PD",
+          1,
+          "POWERSO20_L15.9-W11.0-P1.27-LS14.2-BL-EP",
+          "U4",
+          {
+            "Manufacturer Part": "L6205PD013TR",
+            "Manufacturer": "ST(意法半导体)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C36543"
+          }
+        ],
+        [
+          "LM358MX/NOPB",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U5",
+          {
+            "Manufacturer Part": "LM358MX/NOPB",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C16416"
+          }
+        ],
+        [
+          "LM339ADR",
+          1,
+          "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
+          "U6",
+          {
+            "Manufacturer Part": "TI",
+            "Manufacturer": "LM339ADR",
+            "Supplier": "LCSC",
+            "Supplier Part": "C74559"
+          }
+        ],
+        [
+          "LM393ADRE4",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U7",
+          {
+            "Manufacturer Part": "LM393ADRE4",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3659061"
+          }
+        ],
+        [
+          "Gaptec_LC78",
+          2,
+          "GAPTEC_LC78",
+          "U8,U9",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ]
+      ],
       "components": {
-        "ed9eb2faffb34286820a54a14e9e9e24": 15,
         "18479f1c4d4749c5a4c4387846c5d657": 1,
-        "ba1f207f2c0447edbd5beb657b435022": 2,
+        "ed9eb2faffb34286820a54a14e9e9e24": 14,
         "fd11c9e744c44aeab6011e8bd4c3ea86": 3,
         "5c889cc040dc491da07dce8971e13b31": 1,
         "f5e28939ee4b413a81608a3f66d6e3bc": 1,
         "a9aa2b14f188405792fa87ac344499a4": 1,
         "e76f3700a495449f89388aebc7c514e3": 1,
         "1f55cd7da439440ba626bd7741d4ad9e": 5,
-        "e611ae6de7f34e0eae8494a79a790895": 1
+        "e611ae6de7f34e0eae8494a79a790895": 1,
+        "ba1f207f2c0447edbd5beb657b435022": 1
       }
     },
     {
@@ -1518,9 +1482,9 @@
         ],
         [
           "LED-0805_G",
-          3,
+          2,
           "LED-1206",
-          "LED1,LED2,LED3",
+          "LED1,LED2",
           {
             "Manufacturer Part": "NCD0805G1",
             "Manufacturer": "国星光电",
@@ -1592,7 +1556,7 @@
           "4K7",
           5,
           "R1206",
-          "R1,R2,R12,R13,R58",
+          "R1,R2,R12,R13,R57",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1604,7 +1568,7 @@
           "10K",
           13,
           "R1206",
-          "R3,R4,R5,R6,R7,R8,R9,R10,R11,R26,R27,R52,R60",
+          "R3,R4,R5,R6,R7,R8,R9,R10,R11,R25,R26,R51,R59",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1614,9 +1578,9 @@
         ],
         [
           "470",
-          3,
+          2,
           "R1206",
-          "R14,R15,R63",
+          "R14,R62",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1628,7 +1592,7 @@
           "120",
           1,
           "R1206",
-          "R16",
+          "R15",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1640,7 +1604,7 @@
           "100",
           2,
           "R1206",
-          "R17,R62",
+          "R16,R61",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1652,7 +1616,7 @@
           "10k",
           8,
           "R1206",
-          "R18,R19,R20,R21,R24,R25,R30,R37",
+          "R17,R18,R19,R20,R23,R24,R29,R36",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1664,7 +1628,7 @@
           "0R47",
           2,
           "R_AXIAL-0.7",
-          "R22,R23",
+          "R21,R22",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1676,7 +1640,7 @@
           "1M",
           8,
           "R1206",
-          "R28,R29,R39,R40,R42,R43,R48,R49",
+          "R27,R28,R38,R39,R41,R42,R47,R48",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1688,7 +1652,7 @@
           "1K",
           2,
           "R1206",
-          "R31,R38",
+          "R30,R37",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1700,7 +1664,7 @@
           "220",
           8,
           "R1206",
-          "R32,R33,R35,R36,R44,R45,R46,R47",
+          "R31,R32,R34,R35,R43,R44,R45,R46",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1712,7 +1676,7 @@
           "1k",
           2,
           "R1206",
-          "R34,R41",
+          "R33,R40",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1724,7 +1688,7 @@
           "12R",
           2,
           "R1206",
-          "R50,R51",
+          "R49,R50",
           {
             "Manufacturer Part": "HVF1206T5002FET",
             "Manufacturer": "Ohmite",
@@ -1736,7 +1700,7 @@
           "47K",
           1,
           "R1206",
-          "R53",
+          "R52",
           {
             "Manufacturer Part": "HVF1206T5002FET",
             "Manufacturer": "Ohmite",
@@ -1748,7 +1712,7 @@
           "27K",
           1,
           "R1206",
-          "R54",
+          "R53",
           {
             "Manufacturer Part": "HVF1206T5002FET",
             "Manufacturer": "Ohmite",
@@ -1760,7 +1724,7 @@
           "240K",
           1,
           "R1206",
-          "R55",
+          "R54",
           {
             "Manufacturer Part": "HVF1206T5002FET",
             "Manufacturer": "Ohmite",
@@ -1772,7 +1736,7 @@
           "150K",
           1,
           "R1206",
-          "R56",
+          "R55",
           {
             "Manufacturer Part": "HVF1206T5002FET",
             "Manufacturer": "Ohmite",
@@ -1784,7 +1748,7 @@
           "39K",
           1,
           "R1206",
-          "R57",
+          "R56",
           {
             "Manufacturer Part": "HVF1206T5002FET",
             "Manufacturer": "Ohmite",
@@ -1796,7 +1760,7 @@
           "47R",
           1,
           "R1206",
-          "R59",
+          "R58",
           {
             "Manufacturer Part": "HVF1206T5002FET",
             "Manufacturer": "Ohmite",
@@ -1808,7 +1772,7 @@
           "56K",
           1,
           "R1206",
-          "R61",
+          "R60",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1820,7 +1784,7 @@
           "100K",
           1,
           "R1206",
-          "R64",
+          "R63",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1832,7 +1796,7 @@
           "470Ohm MELF resistor",
           1,
           "10 OHM MELF RESISTOR",
-          "R65",
+          "R64",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1844,7 +1808,7 @@
           "10Ohm MELF resistor",
           1,
           "10 OHM MELF RESISTOR",
-          "R66",
+          "R65",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1961,11 +1925,11 @@
           }
         ]
       ],
-      "updateTime": 1737467399,
+      "updateTime": 1740059293,
       "createTime": 1737363794,
       "histories": [],
       "created_at": "2025-01-20 10:03:14",
-      "updated_at": "2025-01-21 14:49:59"
+      "updated_at": "2025-02-20 14:48:13"
     },
     {
       "uuid": "0c0fa18498aa2e93195cbf8a0d31848b",
@@ -1974,11 +1938,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1737467399,
+      "updateTime": 1740059293,
       "createTime": 1697360463,
       "histories": [],
       "created_at": "2023-10-15 11:01:03",
-      "updated_at": "2025-01-21 14:49:59",
+      "updated_at": "2025-02-20 14:48:13",
       "BOM": [
         [
           "Value",
@@ -2157,9 +2121,9 @@
         ],
         [
           "LED-0805_G",
-          3,
+          2,
           "LED-1206",
-          "LED1,LED2,LED3",
+          "LED1,LED2",
           {
             "Manufacturer Part": "NCD0805G1",
             "Manufacturer": "国星光电",
@@ -2231,7 +2195,7 @@
           "4K7",
           5,
           "R1206",
-          "R1,R2,R12,R13,R58",
+          "R1,R2,R12,R13,R57",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2243,7 +2207,7 @@
           "10K",
           13,
           "R1206",
-          "R3,R4,R5,R6,R7,R8,R9,R10,R11,R26,R27,R52,R60",
+          "R3,R4,R5,R6,R7,R8,R9,R10,R11,R25,R26,R51,R59",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2253,9 +2217,9 @@
         ],
         [
           "470",
-          3,
+          2,
           "R1206",
-          "R14,R15,R63",
+          "R14,R62",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2267,7 +2231,7 @@
           "120",
           1,
           "R1206",
-          "R16",
+          "R15",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2279,7 +2243,7 @@
           "100",
           2,
           "R1206",
-          "R17,R62",
+          "R16,R61",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2291,7 +2255,7 @@
           "10k",
           8,
           "R1206",
-          "R18,R19,R20,R21,R24,R25,R30,R37",
+          "R17,R18,R19,R20,R23,R24,R29,R36",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2303,7 +2267,7 @@
           "0R47",
           2,
           "R_AXIAL-0.7",
-          "R22,R23",
+          "R21,R22",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2315,7 +2279,7 @@
           "1M",
           8,
           "R1206",
-          "R28,R29,R39,R40,R42,R43,R48,R49",
+          "R27,R28,R38,R39,R41,R42,R47,R48",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2327,7 +2291,7 @@
           "1K",
           2,
           "R1206",
-          "R31,R38",
+          "R30,R37",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2339,7 +2303,7 @@
           "220",
           8,
           "R1206",
-          "R32,R33,R35,R36,R44,R45,R46,R47",
+          "R31,R32,R34,R35,R43,R44,R45,R46",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2351,7 +2315,7 @@
           "1k",
           2,
           "R1206",
-          "R34,R41",
+          "R33,R40",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2363,7 +2327,7 @@
           "12R",
           2,
           "R1206",
-          "R50,R51",
+          "R49,R50",
           {
             "Manufacturer Part": "HVF1206T5002FET",
             "Manufacturer": "Ohmite",
@@ -2375,7 +2339,7 @@
           "47K",
           1,
           "R1206",
-          "R53",
+          "R52",
           {
             "Manufacturer Part": "HVF1206T5002FET",
             "Manufacturer": "Ohmite",
@@ -2387,7 +2351,7 @@
           "27K",
           1,
           "R1206",
-          "R54",
+          "R53",
           {
             "Manufacturer Part": "HVF1206T5002FET",
             "Manufacturer": "Ohmite",
@@ -2399,7 +2363,7 @@
           "240K",
           1,
           "R1206",
-          "R55",
+          "R54",
           {
             "Manufacturer Part": "HVF1206T5002FET",
             "Manufacturer": "Ohmite",
@@ -2411,7 +2375,7 @@
           "150K",
           1,
           "R1206",
-          "R56",
+          "R55",
           {
             "Manufacturer Part": "HVF1206T5002FET",
             "Manufacturer": "Ohmite",
@@ -2423,7 +2387,7 @@
           "39K",
           1,
           "R1206",
-          "R57",
+          "R56",
           {
             "Manufacturer Part": "HVF1206T5002FET",
             "Manufacturer": "Ohmite",
@@ -2435,7 +2399,7 @@
           "47R",
           1,
           "R1206",
-          "R59",
+          "R58",
           {
             "Manufacturer Part": "HVF1206T5002FET",
             "Manufacturer": "Ohmite",
@@ -2447,7 +2411,7 @@
           "56K",
           1,
           "R1206",
-          "R61",
+          "R60",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2459,7 +2423,7 @@
           "100K",
           1,
           "R1206",
-          "R64",
+          "R63",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2471,7 +2435,7 @@
           "470Ohm MELF resistor",
           1,
           "10 OHM MELF RESISTOR",
-          "R65",
+          "R64",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2483,7 +2447,7 @@
           "10Ohm MELF resistor",
           1,
           "10 OHM MELF RESISTOR",
-          "R66",
+          "R65",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2619,11 +2583,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1737467399,
+      "updateTime": 1740059293,
       "createTime": 1697360463,
       "histories": [],
       "created_at": "2023-10-15 11:01:03",
-      "updated_at": "2025-01-21 14:49:59",
+      "updated_at": "2025-02-20 14:48:13",
       "BOM": [
         [
           "Value",
@@ -2802,9 +2766,9 @@
         ],
         [
           "LED-0805_G",
-          3,
+          2,
           "LED-1206",
-          "LED1,LED2,LED3",
+          "LED1,LED2",
           {
             "Manufacturer Part": "NCD0805G1",
             "Manufacturer": "国星光电",
@@ -2876,7 +2840,7 @@
           "4K7",
           5,
           "R1206",
-          "R1,R2,R12,R13,R58",
+          "R1,R2,R12,R13,R57",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2888,7 +2852,7 @@
           "10K",
           13,
           "R1206",
-          "R3,R4,R5,R6,R7,R8,R9,R10,R11,R26,R27,R52,R60",
+          "R3,R4,R5,R6,R7,R8,R9,R10,R11,R25,R26,R51,R59",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2898,9 +2862,9 @@
         ],
         [
           "470",
-          3,
+          2,
           "R1206",
-          "R14,R15,R63",
+          "R14,R62",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2912,7 +2876,7 @@
           "120",
           1,
           "R1206",
-          "R16",
+          "R15",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2924,7 +2888,7 @@
           "100",
           2,
           "R1206",
-          "R17,R62",
+          "R16,R61",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2936,7 +2900,7 @@
           "10k",
           8,
           "R1206",
-          "R18,R19,R20,R21,R24,R25,R30,R37",
+          "R17,R18,R19,R20,R23,R24,R29,R36",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2948,7 +2912,7 @@
           "0R47",
           2,
           "R_AXIAL-0.7",
-          "R22,R23",
+          "R21,R22",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2960,7 +2924,7 @@
           "1M",
           8,
           "R1206",
-          "R28,R29,R39,R40,R42,R43,R48,R49",
+          "R27,R28,R38,R39,R41,R42,R47,R48",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2972,7 +2936,7 @@
           "1K",
           2,
           "R1206",
-          "R31,R38",
+          "R30,R37",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2984,7 +2948,7 @@
           "220",
           8,
           "R1206",
-          "R32,R33,R35,R36,R44,R45,R46,R47",
+          "R31,R32,R34,R35,R43,R44,R45,R46",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2996,7 +2960,7 @@
           "1k",
           2,
           "R1206",
-          "R34,R41",
+          "R33,R40",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3008,7 +2972,7 @@
           "12R",
           2,
           "R1206",
-          "R50,R51",
+          "R49,R50",
           {
             "Manufacturer Part": "HVF1206T5002FET",
             "Manufacturer": "Ohmite",
@@ -3020,7 +2984,7 @@
           "47K",
           1,
           "R1206",
-          "R53",
+          "R52",
           {
             "Manufacturer Part": "HVF1206T5002FET",
             "Manufacturer": "Ohmite",
@@ -3032,7 +2996,7 @@
           "27K",
           1,
           "R1206",
-          "R54",
+          "R53",
           {
             "Manufacturer Part": "HVF1206T5002FET",
             "Manufacturer": "Ohmite",
@@ -3044,7 +3008,7 @@
           "240K",
           1,
           "R1206",
-          "R55",
+          "R54",
           {
             "Manufacturer Part": "HVF1206T5002FET",
             "Manufacturer": "Ohmite",
@@ -3056,7 +3020,7 @@
           "150K",
           1,
           "R1206",
-          "R56",
+          "R55",
           {
             "Manufacturer Part": "HVF1206T5002FET",
             "Manufacturer": "Ohmite",
@@ -3068,7 +3032,7 @@
           "39K",
           1,
           "R1206",
-          "R57",
+          "R56",
           {
             "Manufacturer Part": "HVF1206T5002FET",
             "Manufacturer": "Ohmite",
@@ -3080,7 +3044,7 @@
           "47R",
           1,
           "R1206",
-          "R59",
+          "R58",
           {
             "Manufacturer Part": "HVF1206T5002FET",
             "Manufacturer": "Ohmite",
@@ -3092,7 +3056,7 @@
           "56K",
           1,
           "R1206",
-          "R61",
+          "R60",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3104,7 +3068,7 @@
           "100K",
           1,
           "R1206",
-          "R64",
+          "R63",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3116,7 +3080,7 @@
           "470Ohm MELF resistor",
           1,
           "10 OHM MELF RESISTOR",
-          "R65",
+          "R64",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3128,7 +3092,7 @@
           "10Ohm MELF resistor",
           1,
           "10 OHM MELF RESISTOR",
-          "R66",
+          "R65",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3264,11 +3228,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1738837121,
+      "updateTime": 1740059293,
       "createTime": 1697360463,
       "histories": [],
       "created_at": "2023-10-15 11:01:03",
-      "updated_at": "2025-02-06 11:18:41",
+      "updated_at": "2025-02-20 14:48:13",
       "BOM": [
         [
           "Value",
@@ -3447,9 +3411,9 @@
         ],
         [
           "LED-0805_G",
-          3,
+          2,
           "LED-1206",
-          "LED1,LED2,LED3",
+          "LED1,LED2",
           {
             "Manufacturer Part": "NCD0805G1",
             "Manufacturer": "国星光电",
@@ -3521,7 +3485,7 @@
           "4K7",
           5,
           "R1206",
-          "R1,R2,R12,R13,R58",
+          "R1,R2,R12,R13,R57",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3533,7 +3497,7 @@
           "10K",
           13,
           "R1206",
-          "R3,R4,R5,R6,R7,R8,R9,R10,R11,R26,R27,R52,R60",
+          "R3,R4,R5,R6,R7,R8,R9,R10,R11,R25,R26,R51,R59",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3543,9 +3507,9 @@
         ],
         [
           "470",
-          3,
+          2,
           "R1206",
-          "R14,R15,R63",
+          "R14,R62",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3557,7 +3521,7 @@
           "120",
           1,
           "R1206",
-          "R16",
+          "R15",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3569,7 +3533,7 @@
           "100",
           2,
           "R1206",
-          "R17,R62",
+          "R16,R61",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3581,7 +3545,7 @@
           "10k",
           8,
           "R1206",
-          "R18,R19,R20,R21,R24,R25,R30,R37",
+          "R17,R18,R19,R20,R23,R24,R29,R36",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3593,7 +3557,7 @@
           "0R47",
           2,
           "R_AXIAL-0.7",
-          "R22,R23",
+          "R21,R22",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3605,7 +3569,7 @@
           "1M",
           8,
           "R1206",
-          "R28,R29,R39,R40,R42,R43,R48,R49",
+          "R27,R28,R38,R39,R41,R42,R47,R48",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3617,7 +3581,7 @@
           "1K",
           2,
           "R1206",
-          "R31,R38",
+          "R30,R37",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3629,7 +3593,7 @@
           "220",
           8,
           "R1206",
-          "R32,R33,R35,R36,R44,R45,R46,R47",
+          "R31,R32,R34,R35,R43,R44,R45,R46",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3641,7 +3605,7 @@
           "1k",
           2,
           "R1206",
-          "R34,R41",
+          "R33,R40",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3653,7 +3617,7 @@
           "12R",
           2,
           "R1206",
-          "R50,R51",
+          "R49,R50",
           {
             "Manufacturer Part": "HVF1206T5002FET",
             "Manufacturer": "Ohmite",
@@ -3665,7 +3629,7 @@
           "47K",
           1,
           "R1206",
-          "R53",
+          "R52",
           {
             "Manufacturer Part": "HVF1206T5002FET",
             "Manufacturer": "Ohmite",
@@ -3677,7 +3641,7 @@
           "27K",
           1,
           "R1206",
-          "R54",
+          "R53",
           {
             "Manufacturer Part": "HVF1206T5002FET",
             "Manufacturer": "Ohmite",
@@ -3689,7 +3653,7 @@
           "240K",
           1,
           "R1206",
-          "R55",
+          "R54",
           {
             "Manufacturer Part": "HVF1206T5002FET",
             "Manufacturer": "Ohmite",
@@ -3701,7 +3665,7 @@
           "150K",
           1,
           "R1206",
-          "R56",
+          "R55",
           {
             "Manufacturer Part": "HVF1206T5002FET",
             "Manufacturer": "Ohmite",
@@ -3713,7 +3677,7 @@
           "39K",
           1,
           "R1206",
-          "R57",
+          "R56",
           {
             "Manufacturer Part": "HVF1206T5002FET",
             "Manufacturer": "Ohmite",
@@ -3725,7 +3689,7 @@
           "47R",
           1,
           "R1206",
-          "R59",
+          "R58",
           {
             "Manufacturer Part": "HVF1206T5002FET",
             "Manufacturer": "Ohmite",
@@ -3737,7 +3701,7 @@
           "56K",
           1,
           "R1206",
-          "R61",
+          "R60",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3749,7 +3713,7 @@
           "100K",
           1,
           "R1206",
-          "R64",
+          "R63",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3761,7 +3725,7 @@
           "470Ohm MELF resistor",
           1,
           "10 OHM MELF RESISTOR",
-          "R65",
+          "R64",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3773,7 +3737,7 @@
           "10Ohm MELF resistor",
           1,
           "10 OHM MELF RESISTOR",
-          "R66",
+          "R65",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3913,12 +3877,17 @@
       "docType": "3",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1738837174,
+      "updateTime": 1740059320,
       "createTime": 1697360719,
       "histories": [],
       "created_at": "2023-10-15 11:05:19",
-      "updated_at": "2025-02-06 11:19:34",
+      "updated_at": "2025-02-20 14:48:40",
       "components": {
+        "62ddd832b4204f5fb6ccf017f43de83b": 2,
+        "7754fb401bbb4a84978dccc9875b550b": 1,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 61,
+        "960b5f1425a648b69804b12510e06d86": 2,
+        "25e61c240eca40c996f224224ae297e0": 2,
         "7bdec8012728462a85919a4d0d033579": 16,
         "e0f45a5edd25471dacc10f351b436550": 1,
         "2897ea2aed674deb8892c3862bcaddea": 4,
@@ -3926,17 +3895,12 @@
         "f6e7bbafc8d6494ea48c85ec766fa6c7": 2,
         "906c99ea5dec4828b079c976cc1781e8": 5,
         "70aa5812f21f4991bf427395d51849f4": 6,
-        "7754fb401bbb4a84978dccc9875b550b": 1,
-        "8e9b1be4bcb6420dbd1d09bf04b02792": 62,
-        "960b5f1425a648b69804b12510e06d86": 2,
-        "25e61c240eca40c996f224224ae297e0": 2,
         "6adf0d677d7c4bf29b8711760efc3b51": 1,
         "806a55eb4d3c40ab838f70f86785d85e": 3,
         "1012bfc264ed4c3c95b7659697ddf346": 1,
         "37a711dd47574887bb799f651f3c2b95": 1,
         "19591644493b46b2b3c4b7e703ce6a0c": 1,
         "1c34cd829c754d4281bf2e17f44685f7": 2,
-        "62ddd832b4204f5fb6ccf017f43de83b": 3,
         "bade90667a6e4731855e9a223387b8a6": 1,
         "e98891da83fd4e29afbfe03f858920c7": 2,
         "48f726f118674c1c98ad35c23ffe8764": 1,
@@ -3957,5 +3921,5 @@
   "title": "LcsNodes-Base-Station-Board-B.02.00",
   "foldername": "LcsNodes-Base-Station-Board-B.02.00",
   "schfilename": "LcsNodes-Base-Station-Board-B.02.00.json",
-  "schfilemtime": 1738837121400
+  "schfilemtime": 1740059293800
 }
