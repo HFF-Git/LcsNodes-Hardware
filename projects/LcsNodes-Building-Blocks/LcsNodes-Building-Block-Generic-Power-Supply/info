@@ -4,7 +4,7 @@
   "name": "LcsNodes-Building-Block-Generic-Power-Supply",
   "content": "",
   "created_at": "2022-03-18 11:53:15",
-  "updated_at": "2022-09-19 08:23:50",
+  "updated_at": "2025-02-23 13:03:51",
   "stick": "",
   "documents": [
     {
@@ -39,12 +39,10 @@
           "DO-41",
           "A1,A2,A3",
           {
-            "BOM_Supplier": "Digi-Key",
-            "BOM_Supplier Part": "1N5819GOS-ND",
-            "BOM_Manufacturer": "ON Semiconductor",
-            "BOM_Manufacturer Part": "1N5819G",
-            "puuid": "a310fb6f873749d088d802e008e009fd",
-            "uuid": "f6ef388eb62b422ab248b72408e38120"
+            "Manufacturer Part": "1N5819G",
+            "Manufacturer": "ON Semiconductor",
+            "Supplier": "Digi-Key",
+            "Supplier Part": "1N5819GOS-ND"
           }
         ],
         [
@@ -53,11 +51,10 @@
           "CAP-D6.3×F2.5",
           "C1",
           {
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "BOM_Manufacturer Part": "",
-            "puuid": "f22f57806f1b484c9525ae585bd9e142",
-            "uuid": "56994305955647eda299fec7cb5fcf23"
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
           }
         ],
         [
@@ -66,11 +63,10 @@
           "RAD-0.2",
           "C2,C3,C5",
           {
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "BOM_Manufacturer Part": "",
-            "puuid": "75844c5980bb4094beb1dc6c0a3a9856",
-            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
           }
         ],
         [
@@ -79,11 +75,10 @@
           "CASE-A_3216",
           "C4",
           {
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "BOM_Manufacturer Part": "",
-            "puuid": "ce25118ef0b041b8a773e71ca28ae65d",
-            "uuid": "e545f26e87c74952857381bd0bff848e"
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
           }
         ],
         [
@@ -92,12 +87,10 @@
           "DCSKTP",
           "P1",
           {
-            "BOM_Manufacturer Part": "",
-            "BOM_Supplier": "",
-            "BOM_Supplier Part": "",
-            "BOM_Manufacturer": "",
-            "puuid": "0d1a93cbce6a44bfb996c5f8f87a2883",
-            "uuid": "788b0897c6804d0e9f900b3152da2b35"
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
           }
         ],
         [
@@ -106,12 +99,10 @@
           "HVMDIP-4_L4.9-W6.2-P2.54-LS7.7-BL",
           "Q1",
           {
-            "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C727522",
-            "BOM_Manufacturer": "VISHAY(威世)",
-            "BOM_Manufacturer Part": "IRFD9014PBF",
-            "puuid": "54304d27f37c44419fabd9e6ddc1ecfc",
-            "uuid": "5c2f615484bf4ef4be0eadd4876746fd"
+            "Manufacturer Part": "IRFD9014PBF",
+            "Manufacturer": "VISHAY(威世)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C727522"
           }
         ],
         [
@@ -120,11 +111,10 @@
           "R_AXIAL-0.3",
           "R1",
           {
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "BOM_Manufacturer Part": "",
-            "puuid": "3eb1249f3ebb4284ae221b0379016582",
-            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
           }
         ],
         [
@@ -133,11 +123,10 @@
           "R_AXIAL-0.3",
           "R2",
           {
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "BOM_Manufacturer Part": "",
-            "puuid": "3eb1249f3ebb4284ae221b0379016582",
-            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
           }
         ],
         [
@@ -146,11 +135,10 @@
           "R_AXIAL-0.3",
           "R3",
           {
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "BOM_Manufacturer Part": "",
-            "puuid": "3eb1249f3ebb4284ae221b0379016582",
-            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
           }
         ],
         [
@@ -159,11 +147,10 @@
           "R_AXIAL-0.3",
           "R4",
           {
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "BOM_Manufacturer Part": "",
-            "puuid": "3eb1249f3ebb4284ae221b0379016582",
-            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
           }
         ],
         [
@@ -172,25 +159,23 @@
           "GAPTEC_LC78",
           "U1",
           {
-            "BOM_Manufacturer": "",
-            "BOM_Manufacturer Part": "",
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "puuid": "1c34cd829c754d4281bf2e17f44685f7",
-            "uuid": "9097ade20a6941ee8199db4fc8aa5aa3"
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
           }
         ]
       ],
-      "updateTime": 1663568630,
+      "updateTime": 1740312231,
       "createTime": 1647600795,
       "histories": [],
       "created_at": "2022-03-18 11:53:15",
-      "updated_at": "2022-09-19 08:23:50"
+      "updated_at": "2025-02-23 13:03:51"
     }
   ],
   "sort": [],
   "title": "LcsNodes-Building-Block-Generic-Power-Supply",
   "foldername": "LcsNodes-Building-Block-Generic-Power-Supply",
   "schfilename": "LcsNodes-Building-Block-Generic-Power-Supply.json",
-  "schfilemtime": 1663568630518
+  "schfilemtime": 1740312231243
 }

@@ -4,7 +4,7 @@
   "name": "LcsNodes-Building-Block-LCS-Bus-DCC-Signals",
   "content": "",
   "created_at": "2022-03-24 08:11:17",
-  "updated_at": "2023-09-11 21:11:18",
+  "updated_at": "2025-02-23 12:54:40",
   "stick": "",
   "documents": [
     {
@@ -15,14 +15,15 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "5d56951fd43d4b5083b0f3cd9bfd5587": 6,
-        "fd11c9e744c44aeab6011e8bd4c3ea86": 4,
-        "03aa0ea4fa714964b8ddc604305c9869": 1,
-        "0489aebb256842c09cff8d754fe136f2": 1,
-        "96e3b6d217374aa299d2b657bb01f371": 2,
-        "65737df89ec54a67be72fe53eeca518c": 1,
-        "92db6e1105934ee1b907a0ca8c5a8344": 1,
-        "5437133bb3bd4628901af589d7f3d153": 1
+        "bf7fb7ee780746f1bc3a6fb38676c2fe": 1,
+        "fdd0f7b7c86f424aa62edcc618bbea93": 1,
+        "11072b8380344b3caa92b24df0b715da": 1,
+        "25c54ea488b14ccdb3a3313948b202a0": 1,
+        "f167ec2d941c4c5495a3daea45f1b471": 2,
+        "a0e7949b1b3a46c796b905e048b46948": 1,
+        "d2131730481b0d5cef6db74e7482102b": 2,
+        "d74e5c405a07432b8d81fde07ec4cdc8": 4,
+        "c63b9b9c9175422b9c8585eb6d5f8c11": 1
       },
       "BOM": [
         [
@@ -33,148 +34,112 @@
           "CustomPara"
         ],
         [
-          "1n",
-          2,
-          "1206",
-          "C1,C3",
-          {
-            "Supplier Part": "",
-            "Supplier": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "C_0603_EU",
-            "Manufacturer Part": "",
-            "Package Display": "No",
-            "Manufacturer": "",
-            "puuid": "a9583a3e61994f79bca1e6cf3aee21e3",
-            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
-          }
-        ],
-        [
-          "100n",
+          "1nF",
           2,
           "C1206",
-          "C2,C4",
+          "C5,C6",
           {
-            "Supplier Part": "",
-            "Supplier": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "C_0603_EU",
-            "Manufacturer Part": "",
-            "Package Display": "No",
-            "Manufacturer": "",
-            "puuid": "7bdec8012728462a85919a4d0d033579",
-            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+            "Manufacturer Part": "CC1206JRNPO9BN102",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C113881"
           }
         ],
         [
-          "2K2",
+          "100nF",
           1,
-          "1206",
-          "R1",
+          "C1206",
+          "C7",
           {
-            "Supplier Part": "",
-            "Supplier": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "R_AXIAL-0.3_EU",
-            "Manufacturer Part": "",
-            "puuid": "a9583a3e61994f79bca1e6cf3aee21e3",
-            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+            "Manufacturer Part": "CC1206KKX7R0BB104",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C107181"
           }
         ],
         [
-          "2K2",
-          1,
-          "1206",
-          "R2",
+          "10K",
+          2,
+          "R1206",
+          "R13,R14",
           {
-            "Supplier Part": "",
-            "Supplier": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "R_AXIAL-0.3_EU",
-            "Manufacturer Part": "",
-            "Package Display": "No",
-            "Manufacturer": "",
-            "puuid": "a9583a3e61994f79bca1e6cf3aee21e3",
-            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
+            "Manufacturer Part": "SR1206JR-7W4K7L",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C326768"
           }
         ],
         [
           "1K",
-          4,
-          "1206",
-          "R3,R4,R5,R6",
-          {
-            "Supplier Part": "",
-            "Supplier": "",
-            "Contributor": "LCEDA_Lib",
-            "spiceSymbolName": "R_AXIAL-0.3_EU",
-            "Manufacturer Part": "",
-            "puuid": "a9583a3e61994f79bca1e6cf3aee21e3",
-            "uuid": "5d56951fd43d4b5083b0f3cd9bfd5587"
-          }
-        ],
-        [
-          "6N137S1(TA)",
           2,
-          "SMD-8_L9.8-W6.6-P2.54-LS10.3-BL",
-          "U2,U3",
+          "R1206",
+          "R15,R17",
           {
+            "Manufacturer Part": "SR1206JR-7W4K7L",
+            "Manufacturer": "YAGEO(国巨)",
             "Supplier": "LCSC",
-            "Supplier Part": "C110020",
-            "Manufacturer": "EVERLIGHT(亿光)",
-            "Manufacturer Part": "6N137S1(TA)",
-            "Contributor": "LCSC",
-            "JLCPCB Part Class": "Basic Part",
-            "spiceSymbolName": "6N137S1(TA)",
-            "puuid": "2e99ef1193db4d38839d9ba07168453a",
-            "uuid": "96e3b6d217374aa299d2b657bb01f371"
+            "Supplier Part": "C326768"
           }
         ],
         [
-          "74AHC1GU04GW",
+          "470",
           1,
-          "SOT-353_L2.2-W1.4-P0.65-LS2.4-BR",
-          "U4",
+          "R1206",
+          "R16",
           {
+            "Manufacturer Part": "1206W4F1001T5E",
+            "Manufacturer": "UNI-ROYAL(厚声)",
             "Supplier": "LCSC",
-            "Manufacturer": "Nexperia(安世)",
-            "Manufacturer Part": "74AHC1GU04GW,125",
-            "Supplier Part": "C5514",
-            "JLCPCB Part Class": "Extended Part",
-            "spiceSymbolName": "74AHC1GU04GW",
-            "puuid": "4150fd4e5ba14479909d64cb0c79baa2",
-            "uuid": "5437133bb3bd4628901af589d7f3d153"
+            "Supplier Part": "C4410"
           }
         ],
         [
-          "MC14077BCL",
+          "4k7",
           1,
-          "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
-          "U1",
+          "R1206",
+          "R18",
           {
-            "description": "Quad XNOR Gate",
-            "subpart_no": "1",
-            "spiceSymbolName": "MC14077BCL",
+            "Manufacturer Part": "1206W4F1001T5E",
+            "Manufacturer": "UNI-ROYAL(厚声)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C4410"
+          }
+        ],
+        [
+          "MC14077BD",
+          1,
+          "SOIC14N",
+          "U5",
+          {
             "Manufacturer Part": "",
-            "Package Display": "No",
-            "Supplier": "",
-            "Supplier Part": "",
             "Manufacturer": "",
-            "puuid": "19591644493b46b2b3c4b7e703ce6a0c",
-            "uuid": "65737df89ec54a67be72fe53eeca518c"
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "HCPL2631SDM",
+          1,
+          "SMT-8_L9.7-W6.6-P2.54-LS10.3-TR",
+          "U6",
+          {
+            "Manufacturer Part": "HCPL2631SDM",
+            "Manufacturer": "onsemi(安森美)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C899529"
           }
         ]
       ],
-      "updateTime": 1694459478,
+      "updateTime": 1740311680,
       "createTime": 1648105877,
       "histories": [],
       "created_at": "2022-03-24 08:11:17",
-      "updated_at": "2023-09-11 21:11:18"
+      "updated_at": "2025-02-23 12:54:40"
     }
   ],
   "sort": [],
   "title": "LcsNodes-Building-Block-LCS-Bus-DCC-Signals",
   "foldername": "LcsNodes-Building-Block-LCS-Bus-DCC-Signals",
   "schfilename": "LcsNodes-Building-Block-LCS-Bus-DCC-Signals.json",
-  "schfilemtime": 1694459479001
+  "schfilemtime": 1740311680434
 }

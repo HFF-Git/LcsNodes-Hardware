@@ -4,7 +4,7 @@
   "name": "LcsNodes-Base-Station-Board-B.02.00",
   "content": "A Raspberry Pi Pico based DCC base station. \n- RPico, CanBus, NVM, L6205 Power Module, RailCom Detector",
   "created_at": "2025-01-19 12:22:15",
-  "updated_at": "2025-02-20 14:48:40",
+  "updated_at": "2025-02-23 13:33:46",
   "stick": "",
   "documents": [
     {
@@ -14,11 +14,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1740057847,
+      "updateTime": 1740311502,
       "createTime": 1697360463,
       "histories": [],
       "created_at": "2023-10-15 11:01:03",
-      "updated_at": "2025-02-20 14:24:07",
+      "updated_at": "2025-02-23 12:51:42",
       "BOM": [
         [
           "Value",
@@ -197,9 +197,9 @@
         ],
         [
           "LED-0805_G",
-          3,
+          2,
           "LED-1206",
-          "LED1,LED2,LED3",
+          "LED1,LED2",
           {
             "Manufacturer Part": "NCD0805G1",
             "Manufacturer": "国星光电",
@@ -271,7 +271,7 @@
           "4K7",
           5,
           "R1206",
-          "R1,R2,R12,R13,R58",
+          "R1,R2,R12,R13,R57",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -283,7 +283,7 @@
           "10K",
           13,
           "R1206",
-          "R3,R4,R5,R6,R7,R8,R9,R10,R11,R26,R27,R52,R60",
+          "R3,R4,R5,R6,R7,R8,R9,R10,R11,R25,R26,R51,R59",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -293,9 +293,9 @@
         ],
         [
           "470",
-          3,
+          2,
           "R1206",
-          "R14,R15,R63",
+          "R14,R62",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -307,7 +307,7 @@
           "120",
           1,
           "R1206",
-          "R16",
+          "R15",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -319,7 +319,7 @@
           "100",
           2,
           "R1206",
-          "R17,R62",
+          "R16,R61",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -331,7 +331,7 @@
           "10k",
           8,
           "R1206",
-          "R18,R19,R20,R21,R24,R25,R30,R37",
+          "R17,R18,R19,R20,R23,R24,R29,R36",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -343,7 +343,7 @@
           "0R47",
           2,
           "R_AXIAL-0.7",
-          "R22,R23",
+          "R21,R22",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -355,7 +355,7 @@
           "1M",
           8,
           "R1206",
-          "R28,R29,R39,R40,R42,R43,R48,R49",
+          "R27,R28,R38,R39,R41,R42,R47,R48",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -367,7 +367,7 @@
           "1K",
           2,
           "R1206",
-          "R31,R38",
+          "R30,R37",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -379,7 +379,7 @@
           "220",
           8,
           "R1206",
-          "R32,R33,R35,R36,R44,R45,R46,R47",
+          "R31,R32,R34,R35,R43,R44,R45,R46",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -391,7 +391,7 @@
           "1k",
           2,
           "R1206",
-          "R34,R41",
+          "R33,R40",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -403,7 +403,7 @@
           "12R",
           2,
           "R1206",
-          "R50,R51",
+          "R49,R50",
           {
             "Manufacturer Part": "HVF1206T5002FET",
             "Manufacturer": "Ohmite",
@@ -415,7 +415,7 @@
           "47K",
           1,
           "R1206",
-          "R53",
+          "R52",
           {
             "Manufacturer Part": "HVF1206T5002FET",
             "Manufacturer": "Ohmite",
@@ -427,7 +427,7 @@
           "27K",
           1,
           "R1206",
-          "R54",
+          "R53",
           {
             "Manufacturer Part": "HVF1206T5002FET",
             "Manufacturer": "Ohmite",
@@ -439,7 +439,7 @@
           "240K",
           1,
           "R1206",
-          "R55",
+          "R54",
           {
             "Manufacturer Part": "HVF1206T5002FET",
             "Manufacturer": "Ohmite",
@@ -451,7 +451,7 @@
           "150K",
           1,
           "R1206",
-          "R56",
+          "R55",
           {
             "Manufacturer Part": "HVF1206T5002FET",
             "Manufacturer": "Ohmite",
@@ -463,7 +463,7 @@
           "39K",
           1,
           "R1206",
-          "R57",
+          "R56",
           {
             "Manufacturer Part": "HVF1206T5002FET",
             "Manufacturer": "Ohmite",
@@ -475,7 +475,7 @@
           "47R",
           1,
           "R1206",
-          "R59",
+          "R58",
           {
             "Manufacturer Part": "HVF1206T5002FET",
             "Manufacturer": "Ohmite",
@@ -487,7 +487,7 @@
           "56K",
           1,
           "R1206",
-          "R61",
+          "R60",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -499,7 +499,7 @@
           "100K",
           1,
           "R1206",
-          "R64",
+          "R63",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -511,7 +511,7 @@
           "470Ohm MELF resistor",
           1,
           "10 OHM MELF RESISTOR",
-          "R65",
+          "R64",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -523,7 +523,7 @@
           "10Ohm MELF resistor",
           1,
           "10 OHM MELF RESISTOR",
-          "R66",
+          "R65",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -649,11 +649,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1740059293,
+      "updateTime": 1740311502,
       "createTime": 1697360463,
       "histories": [],
       "created_at": "2023-10-15 11:01:03",
-      "updated_at": "2025-02-20 14:48:13",
+      "updated_at": "2025-02-23 12:51:42",
       "BOM": [
         [
           "Value",
@@ -1925,11 +1925,11 @@
           }
         ]
       ],
-      "updateTime": 1740059293,
+      "updateTime": 1740311502,
       "createTime": 1737363794,
       "histories": [],
       "created_at": "2025-01-20 10:03:14",
-      "updated_at": "2025-02-20 14:48:13"
+      "updated_at": "2025-02-23 12:51:42"
     },
     {
       "uuid": "0c0fa18498aa2e93195cbf8a0d31848b",
@@ -1938,11 +1938,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1740059293,
+      "updateTime": 1740311502,
       "createTime": 1697360463,
       "histories": [],
       "created_at": "2023-10-15 11:01:03",
-      "updated_at": "2025-02-20 14:48:13",
+      "updated_at": "2025-02-23 12:51:42",
       "BOM": [
         [
           "Value",
@@ -2583,11 +2583,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1740059293,
+      "updateTime": 1740311502,
       "createTime": 1697360463,
       "histories": [],
       "created_at": "2023-10-15 11:01:03",
-      "updated_at": "2025-02-20 14:48:13",
+      "updated_at": "2025-02-23 12:51:42",
       "BOM": [
         [
           "Value",
@@ -3228,11 +3228,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1740059293,
+      "updateTime": 1740313969,
       "createTime": 1697360463,
       "histories": [],
       "created_at": "2023-10-15 11:01:03",
-      "updated_at": "2025-02-20 14:48:13",
+      "updated_at": "2025-02-23 13:32:49",
       "BOM": [
         [
           "Value",
@@ -3338,10 +3338,10 @@
           }
         ],
         [
-          "0,1F",
+          "2200u",
           1,
-          "CAP-D12.5XF5.0",
-          "C20",
+          "CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD-1",
+          "C23",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3863,10 +3863,10 @@
         "7ec6184175344a2094a139dbc983bb03": 1,
         "a9aa2b14f188405792fa87ac344499a4": 3,
         "78f1a6e4a34a41d89c236bd04e706b5d": 2,
-        "e545f26e87c74952857381bd0bff848e": 1,
         "ba1f207f2c0447edbd5beb657b435022": 1,
         "ed9eb2faffb34286820a54a14e9e9e24": 1,
-        "942aca96e61448878a92168ac1a42b91": 1
+        "942aca96e61448878a92168ac1a42b91": 1,
+        "e545f26e87c74952857381bd0bff848e": 1
       }
     },
     {
@@ -3877,12 +3877,13 @@
       "docType": "3",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1740059320,
+      "updateTime": 1740314026,
       "createTime": 1697360719,
       "histories": [],
       "created_at": "2023-10-15 11:05:19",
-      "updated_at": "2025-02-20 14:48:40",
+      "updated_at": "2025-02-23 13:33:46",
       "components": {
+        "707d7c79bad8483c87b0c49ff97c7bd4": 1,
         "62ddd832b4204f5fb6ccf017f43de83b": 2,
         "7754fb401bbb4a84978dccc9875b550b": 1,
         "8e9b1be4bcb6420dbd1d09bf04b02792": 61,
@@ -3891,7 +3892,6 @@
         "7bdec8012728462a85919a4d0d033579": 16,
         "e0f45a5edd25471dacc10f351b436550": 1,
         "2897ea2aed674deb8892c3862bcaddea": 4,
-        "6295c07e15584ea3b3052d80635b272b": 1,
         "f6e7bbafc8d6494ea48c85ec766fa6c7": 2,
         "906c99ea5dec4828b079c976cc1781e8": 5,
         "70aa5812f21f4991bf427395d51849f4": 6,
@@ -3921,5 +3921,5 @@
   "title": "LcsNodes-Base-Station-Board-B.02.00",
   "foldername": "LcsNodes-Base-Station-Board-B.02.00",
   "schfilename": "LcsNodes-Base-Station-Board-B.02.00.json",
-  "schfilemtime": 1740059293800
+  "schfilemtime": 1740313969660
 }
