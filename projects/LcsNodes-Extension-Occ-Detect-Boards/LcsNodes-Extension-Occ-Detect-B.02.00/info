@@ -4,7 +4,7 @@
   "name": "LcsNodes-Extension-Occ-Detect-B.02.00",
   "content": "",
   "created_at": "2024-05-03 07:33:52",
-  "updated_at": "2025-02-06 12:14:27",
+  "updated_at": "2025-02-24 10:18:06",
   "stick": "",
   "documents": [
     {
@@ -37,9 +37,9 @@
         ],
         [
           "100n",
-          3,
+          2,
           "C1206",
-          "C1,C2,C3",
+          "C2,C3",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -60,46 +60,10 @@
           }
         ],
         [
-          "LED-0805_G",
+          "LCS-SYM-EXT-L",
           1,
-          "LED-1206",
-          "LED1",
-          {
-            "Manufacturer Part": "NCD0805G1",
-            "Manufacturer": "国星光电",
-            "Supplier": "",
-            "Supplier Part": "C84260"
-          }
-        ],
-        [
-          "LCS-SYM-EXT-L-R",
-          1,
-          "LCS-FP-EXT-L-R-10X12",
-          "PCB1",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "10K",
-          18,
-          "R1206",
-          "R1,R2,R22,R23,R24,R25,R26,R27,R28,R29,R46,R47,R48,R49,R50,R51,R52,R53",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "1K",
-          2,
-          "R1206",
-          "R3,R4",
+          "LCS-FP-EXT-L-10X12",
+          "PCB2",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -109,9 +73,9 @@
         ],
         [
           "470",
-          17,
+          16,
           "R1206",
-          "R5,R6,R7,R10,R11,R14,R15,R18,R19,R30,R31,R34,R35,R38,R39,R42,R43",
+          "R6,R7,R10,R11,R14,R15,R18,R19,R30,R31,R34,R35,R38,R39,R42,R43",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -132,15 +96,15 @@
           }
         ],
         [
-          "NLV14077BDG",
-          1,
-          "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
-          "U1",
+          "10K",
+          16,
+          "R1206",
+          "R22,R23,R24,R25,R26,R27,R28,R29,R46,R47,R48,R49,R50,R51,R52,R53",
           {
-            "Manufacturer Part": "NLV14077BDG",
-            "Manufacturer": "onsemi(安森美)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C897321"
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
           }
         ],
         [
@@ -180,11 +144,11 @@
           }
         ]
       ],
-      "updateTime": 1737902153,
+      "updateTime": 1740387733,
       "createTime": 1683118448,
       "histories": [],
       "created_at": "2023-05-03 14:54:08",
-      "updated_at": "2025-01-26 15:35:53"
+      "updated_at": "2025-02-24 10:02:13"
     },
     {
       "uuid": "37a995b6ad5b6dd0c0cc5343b8d06118",
@@ -247,7 +211,7 @@
           "LCS-SYM-EXT-L",
           1,
           "LCS-FP-EXT-L-10X12",
-          "PCB2",
+          "PCB1",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -328,11 +292,11 @@
           }
         ]
       ],
-      "updateTime": 1738840398,
+      "updateTime": 1740388181,
       "createTime": 1681973470,
       "histories": [],
       "created_at": "2023-04-20 08:51:10",
-      "updated_at": "2025-02-06 12:13:18"
+      "updated_at": "2025-02-24 10:09:41"
     },
     {
       "uuid": "06881417ca0c4d550120772ea2b6c12c",
@@ -369,9 +333,9 @@
         ],
         [
           "100n",
-          3,
+          2,
           "C1206",
-          "C1,C2,C3",
+          "C2,C3",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -392,46 +356,10 @@
           }
         ],
         [
-          "LED-0805_G",
-          1,
-          "LED-1206",
-          "LED1",
-          {
-            "Manufacturer Part": "NCD0805G1",
-            "Manufacturer": "国星光电",
-            "Supplier": "",
-            "Supplier Part": "C84260"
-          }
-        ],
-        [
           "LCS-SYM-EXT-L",
           1,
-          "LCS-FP-EXT-L-10X12",
-          "PCB2",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "10K",
-          18,
-          "R1206",
-          "R1,R2,R22,R23,R24,R25,R26,R27,R28,R29,R46,R47,R48,R49,R50,R51,R52,R53",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "1K",
-          2,
-          "R1206",
-          "R3,R4",
+          "LCS-FP-EXT-ADAPTER-10X4",
+          "PCB1",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -441,9 +369,9 @@
         ],
         [
           "470",
-          17,
+          16,
           "R1206",
-          "R5,R6,R7,R10,R11,R14,R15,R18,R19,R30,R31,R34,R35,R38,R39,R42,R43",
+          "R6,R7,R10,R11,R14,R15,R18,R19,R30,R31,R34,R35,R38,R39,R42,R43",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -464,15 +392,15 @@
           }
         ],
         [
-          "NLV14077BDG",
-          1,
-          "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
-          "U1",
+          "10K",
+          16,
+          "R1206",
+          "R22,R23,R24,R25,R26,R27,R28,R29,R46,R47,R48,R49,R50,R51,R52,R53",
           {
-            "Manufacturer Part": "NLV14077BDG",
-            "Manufacturer": "onsemi(安森美)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C897321"
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
           }
         ],
         [
@@ -512,11 +440,11 @@
           }
         ]
       ],
-      "updateTime": 1737965617,
+      "updateTime": 1740388118,
       "createTime": 1681975988,
       "histories": [],
       "created_at": "2023-04-20 09:33:08",
-      "updated_at": "2025-01-27 09:13:37"
+      "updated_at": "2025-02-24 10:08:38"
     },
     {
       "uuid": "57aa148b088ed64c0952e5c29f883fdb",
@@ -578,8 +506,8 @@
         [
           "LCS-SYM-EXT-L",
           1,
-          "LCS-FP-EXT-L-10X12",
-          "PCB2",
+          "LCS-FP-EXT-ADAPTER-10X4",
+          "PCB1",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -660,11 +588,11 @@
           }
         ]
       ],
-      "updateTime": 1738839807,
+      "updateTime": 1740388118,
       "createTime": 1681832987,
       "histories": [],
       "created_at": "2023-04-18 17:49:47",
-      "updated_at": "2025-02-06 12:03:27"
+      "updated_at": "2025-02-24 10:08:38"
     },
     {
       "uuid": "edc0a509da61e59d154b72edc54aa9f7",
@@ -862,11 +790,11 @@
           }
         ]
       ],
-      "updateTime": 1738840467,
+      "updateTime": 1740388686,
       "createTime": 1737902371,
       "histories": [],
       "created_at": "2025-01-26 15:39:31",
-      "updated_at": "2025-02-06 12:14:27"
+      "updated_at": "2025-02-24 10:18:06"
     }
   ],
   "sort": [
@@ -878,5 +806,5 @@
   "title": "LcsNodes-Extension-Occ-Detect-B.02.00",
   "foldername": "LcsNodes-Extension-Occ-Detect-B.02.00",
   "schfilename": "LcsNodes-Extension-Occ-Detect-B.02.00.json",
-  "schfilemtime": 1738840398392
+  "schfilemtime": 1740388181852
 }

@@ -4,7 +4,7 @@
   "name": "LcsNodes-Dual-Block-Controller-B.02.00",
   "content": "A block controller, with a dual 2.8 Amp bridge that can be configured as a dual block controller or a mono block controller with double amperage.",
   "created_at": "2025-01-19 11:01:26",
-  "updated_at": "2025-02-23 15:03:59",
+  "updated_at": "2025-02-24 09:27:15",
   "stick": "",
   "documents": [
     {
@@ -1243,10 +1243,22 @@
           }
         ],
         [
+          "3.3V",
+          2,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D3,D4",
+          {
+            "Manufacturer Part": "Diode Zener",
+            "Manufacturer": "SEMTECH",
+            "Supplier": "LCSC",
+            "Supplier Part": "C14516"
+          }
+        ],
+        [
           "1N5819/S",
           2,
           "SMA_L4.3-W2.6-LS5.2-R-RD",
-          "D3,D4",
+          "D5,D6",
           {
             "Manufacturer Part": "1N5819/S",
             "Manufacturer": "",
@@ -1603,11 +1615,11 @@
           }
         ]
       ],
-      "updateTime": 1740317218,
+      "updateTime": 1740384182,
       "createTime": 1706186880,
       "histories": [],
       "created_at": "2024-01-25 13:48:00",
-      "updated_at": "2025-02-23 14:26:58"
+      "updated_at": "2025-02-24 09:03:02"
     },
     {
       "uuid": "f8cd1f409e553b9b3bf274c67fa482d3",
@@ -2167,7 +2179,8 @@
         "ed535c8fe56245c1a5180026fdcb7303": 2,
         "486123a4bb814705bb1a3164561bb535": 2,
         "5d56951fd43d4b5083b0f3cd9bfd5587": 8,
-        "f39523d1440141cb8f5b2369d47ecc33": 1
+        "f39523d1440141cb8f5b2369d47ecc33": 1,
+        "fb82e4cef088466e83a5da161c0dbbab": 2
       },
       "BOM": [
         [
@@ -2310,10 +2323,22 @@
           }
         ],
         [
+          "3.3V",
+          2,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D3,D4",
+          {
+            "Manufacturer Part": "Diode Zener",
+            "Manufacturer": "SEMTECH",
+            "Supplier": "LCSC",
+            "Supplier Part": "C14516"
+          }
+        ],
+        [
           "1N5819/S",
           2,
           "SMA_L4.3-W2.6-LS5.2-R-RD",
-          "D3,D4",
+          "D5,D6",
           {
             "Manufacturer Part": "1N5819/S",
             "Manufacturer": "",
@@ -2670,11 +2695,11 @@
           }
         ]
       ],
-      "updateTime": 1740317236,
+      "updateTime": 1740384818,
       "createTime": 1706186708,
       "histories": [],
       "created_at": "2024-01-25 13:45:08",
-      "updated_at": "2025-02-23 14:27:16"
+      "updated_at": "2025-02-24 09:13:38"
     },
     {
       "uuid": "3ad610943292e13ff0684461eb14dcc4",
@@ -3357,10 +3382,22 @@
           }
         ],
         [
+          "3.3V",
+          2,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D3,D4",
+          {
+            "Manufacturer Part": "Diode Zener",
+            "Manufacturer": "SEMTECH",
+            "Supplier": "LCSC",
+            "Supplier Part": "C14516"
+          }
+        ],
+        [
           "1N5819/S",
           2,
           "SMA_L4.3-W2.6-LS5.2-R-RD",
-          "D3,D4",
+          "D5,D6",
           {
             "Manufacturer Part": "1N5819/S",
             "Manufacturer": "",
@@ -3717,11 +3754,11 @@
           }
         ]
       ],
-      "updateTime": 1740319373,
+      "updateTime": 1740383948,
       "createTime": 1706186923,
       "histories": [],
       "created_at": "2024-01-25 13:48:43",
-      "updated_at": "2025-02-23 15:02:53"
+      "updated_at": "2025-02-24 08:59:08"
     },
     {
       "uuid": "db2a6d8a9c0bc82cf10a43721ba60459",
@@ -3732,6 +3769,8 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "906c99ea5dec4828b079c976cc1781e8": 2,
+        "f6e7bbafc8d6494ea48c85ec766fa6c7": 4,
         "9f77654394344f25b3de138e0fe05ff6": 5,
         "7bdec8012728462a85919a4d0d033579": 18,
         "2897ea2aed674deb8892c3862bcaddea": 2,
@@ -3744,7 +3783,6 @@
         "19591644493b46b2b3c4b7e703ce6a0c": 1,
         "1c34cd829c754d4281bf2e17f44685f7": 1,
         "e0f45a5edd25471dacc10f351b436550": 1,
-        "f6e7bbafc8d6494ea48c85ec766fa6c7": 2,
         "e22b6bd92f084998af49afa4da1dfe45": 2,
         "5348c6e027c344959c8fedcead8c169e": 2,
         "91e8625ab54d4b48a78457e6f8258781": 1,
@@ -3754,16 +3792,15 @@
         "806a55eb4d3c40ab838f70f86785d85e": 1,
         "6adf0d677d7c4bf29b8711760efc3b51": 1,
         "1012bfc264ed4c3c95b7659697ddf346": 1,
-        "906c99ea5dec4828b079c976cc1781e8": 2,
         "3a9291ac784b477889c6bb2f0d842699": 1,
         "489d6e0dac1348e3a91c03e101947bd4": 1
       },
       "BOM": [],
-      "updateTime": 1740319212,
+      "updateTime": 1740385635,
       "createTime": 1706434374,
       "histories": [],
       "created_at": "2024-01-28 10:32:54",
-      "updated_at": "2025-02-23 15:00:12"
+      "updated_at": "2025-02-24 09:27:15"
     }
   ],
   "sort": [
@@ -3778,5 +3815,5 @@
   "title": "LcsNodes-Dual-Block-Controller-B.02.00",
   "foldername": "LcsNodes-Dual-Block-Controller-B.02.00",
   "schfilename": "LcsNodes-Dual-Block-Controller-B.02.00.json",
-  "schfilemtime": 1740319373430
+  "schfilemtime": 1740384818439
 }

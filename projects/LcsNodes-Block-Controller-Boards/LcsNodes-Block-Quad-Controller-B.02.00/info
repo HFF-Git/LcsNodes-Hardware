@@ -4,7 +4,7 @@
   "name": "LcsNodes-Block-Quad-Controller-B.02.00",
   "content": "A LCS block controller for 4 blocks, Railcom detectors and power measurement.",
   "created_at": "2025-01-24 10:37:22",
-  "updated_at": "2025-02-20 09:43:50",
+  "updated_at": "2025-02-24 09:58:23",
   "stick": "",
   "documents": [
     {
@@ -37,9 +37,9 @@
         ],
         [
           "100n",
-          17,
+          16,
           "C1206",
-          "C1,C2,C3,C4,C5,C6,C7,C8,C11,C14,C15,C21,C22,C25,C26,C27,C33",
+          "C1,C2,C3,C4,C5,C6,C7,C8,C14,C15,C21,C22,C25,C26,C27,C33",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -52,18 +52,6 @@
           1,
           "C1206",
           "C9",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "220n",
-          4,
-          "C1206",
-          "C10,C12,C18,C19",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -156,6 +144,18 @@
           }
         ],
         [
+          "220n",
+          4,
+          "C1206",
+          "C35,C36,C37,C38",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
           "BAT47",
           2,
           "SOD-80C_L3.3-W1.5-RD",
@@ -177,6 +177,18 @@
             "Manufacturer": "",
             "Supplier": "LCSC",
             "Supplier Part": "C9900003833"
+          }
+        ],
+        [
+          "3.3V",
+          4,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D5,D6,D7,D8",
+          {
+            "Manufacturer Part": "Diode Zener",
+            "Manufacturer": "SEMTECH",
+            "Supplier": "LCSC",
+            "Supplier Part": "C14516"
           }
         ],
         [
@@ -301,21 +313,9 @@
         ],
         [
           "10k",
-          12,
+          7,
           "R1206",
-          "R13,R14,R16,R17,R18,R19,R23,R24,R26,R27,R28,R29",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "1k",
-          4,
-          "R1206",
-          "R15,R20,R25,R30",
+          "R16,R17,R27,R28,R79,R80,R81",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -492,18 +492,6 @@
           }
         ],
         [
-          "LM324-SR_C280708",
-          1,
-          "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
-          "U10",
-          {
-            "Manufacturer Part": "LM324-SR",
-            "Manufacturer": "Gainsil(聚洵)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C280708"
-          }
-        ],
-        [
           "L6205PD",
           2,
           "POWERSO20_L15.9-W11.0-P1.27-LS14.2-BL-EP",
@@ -576,11 +564,11 @@
           }
         ]
       ],
-      "updateTime": 1737716004,
+      "updateTime": 1740386513,
       "createTime": 1675846585,
       "histories": [],
       "created_at": "2023-02-08 09:56:25",
-      "updated_at": "2025-01-24 11:53:24"
+      "updated_at": "2025-02-24 09:41:53"
     },
     {
       "uuid": "b9f11764d3b0e6a4960d9c27c98c910a",
@@ -624,9 +612,9 @@
         ],
         [
           "100n",
-          17,
+          16,
           "C1206",
-          "C1,C2,C3,C4,C5,C6,C7,C8,C11,C14,C15,C21,C22,C25,C26,C27,C33",
+          "C1,C2,C3,C4,C5,C6,C7,C8,C14,C15,C21,C22,C25,C26,C27,C33",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -639,18 +627,6 @@
           1,
           "C1206",
           "C9",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "220n",
-          4,
-          "C1206",
-          "C10,C12,C18,C19",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -743,6 +719,18 @@
           }
         ],
         [
+          "220n",
+          4,
+          "C1206",
+          "C35,C36,C37,C38",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
           "BAT47",
           2,
           "SOD-80C_L3.3-W1.5-RD",
@@ -764,6 +752,18 @@
             "Manufacturer": "",
             "Supplier": "LCSC",
             "Supplier Part": "C9900003833"
+          }
+        ],
+        [
+          "3.3V",
+          4,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D5,D6,D7,D8",
+          {
+            "Manufacturer Part": "Diode Zener",
+            "Manufacturer": "SEMTECH",
+            "Supplier": "LCSC",
+            "Supplier Part": "C14516"
           }
         ],
         [
@@ -888,21 +888,9 @@
         ],
         [
           "10k",
-          12,
+          7,
           "R1206",
-          "R13,R14,R16,R17,R18,R19,R23,R24,R26,R27,R28,R29",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "1k",
-          4,
-          "R1206",
-          "R15,R20,R25,R30",
+          "R16,R17,R27,R28,R79,R80,R81",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1079,18 +1067,6 @@
           }
         ],
         [
-          "LM324-SR_C280708",
-          1,
-          "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
-          "U10",
-          {
-            "Manufacturer Part": "LM324-SR",
-            "Manufacturer": "Gainsil(聚洵)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C280708"
-          }
-        ],
-        [
           "L6205PD",
           2,
           "POWERSO20_L15.9-W11.0-P1.27-LS14.2-BL-EP",
@@ -1163,11 +1139,11 @@
           }
         ]
       ],
-      "updateTime": 1737716004,
+      "updateTime": 1740386670,
       "createTime": 1676709574,
       "histories": [],
       "created_at": "2023-02-18 09:39:34",
-      "updated_at": "2025-01-24 11:53:24"
+      "updated_at": "2025-02-24 09:44:30"
     },
     {
       "uuid": "4f0896042051cb4c1807dec2b8bf594a",
@@ -1210,9 +1186,9 @@
         ],
         [
           "100n",
-          17,
+          16,
           "C1206",
-          "C1,C2,C3,C4,C5,C6,C7,C8,C11,C14,C15,C21,C22,C25,C26,C27,C33",
+          "C1,C2,C3,C4,C5,C6,C7,C8,C14,C15,C21,C22,C25,C26,C27,C33",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1225,18 +1201,6 @@
           1,
           "C1206",
           "C9",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "220n",
-          4,
-          "C1206",
-          "C10,C12,C18,C19",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1329,6 +1293,18 @@
           }
         ],
         [
+          "220n",
+          4,
+          "C1206",
+          "C35,C36,C37,C38",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
           "BAT47",
           2,
           "SOD-80C_L3.3-W1.5-RD",
@@ -1350,6 +1326,18 @@
             "Manufacturer": "",
             "Supplier": "LCSC",
             "Supplier Part": "C9900003833"
+          }
+        ],
+        [
+          "3.3V",
+          4,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D5,D6,D7,D8",
+          {
+            "Manufacturer Part": "Diode Zener",
+            "Manufacturer": "SEMTECH",
+            "Supplier": "LCSC",
+            "Supplier Part": "C14516"
           }
         ],
         [
@@ -1474,21 +1462,9 @@
         ],
         [
           "10k",
-          12,
+          7,
           "R1206",
-          "R13,R14,R16,R17,R18,R19,R23,R24,R26,R27,R28,R29",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "1k",
-          4,
-          "R1206",
-          "R15,R20,R25,R30",
+          "R16,R17,R27,R28,R79,R80,R81",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1665,18 +1641,6 @@
           }
         ],
         [
-          "LM324-SR_C280708",
-          1,
-          "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
-          "U10",
-          {
-            "Manufacturer Part": "LM324-SR",
-            "Manufacturer": "Gainsil(聚洵)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C280708"
-          }
-        ],
-        [
           "L6205PD",
           2,
           "POWERSO20_L15.9-W11.0-P1.27-LS14.2-BL-EP",
@@ -1749,11 +1713,11 @@
           }
         ]
       ],
-      "updateTime": 1737716022,
+      "updateTime": 1740386670,
       "createTime": 1676709565,
       "histories": [],
       "created_at": "2023-02-18 09:39:25",
-      "updated_at": "2025-01-24 11:53:42"
+      "updated_at": "2025-02-24 09:44:30"
     },
     {
       "uuid": "8baf18daee03ed61b51a24a80faa8a29",
@@ -1763,18 +1727,14 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "e8b81f14dc474febb10a17f3a89e609c": 1,
-        "e3e619bcbb1849a0957aded0d7857873": 1,
-        "2a8d4e54a51b4548a470874eec3bdb48": 1,
-        "cf0b8c98d1294320b585a93c32e3d87e": 1,
-        "e76f3700a495449f89388aebc7c514e3": 12,
-        "fd11c9e744c44aeab6011e8bd4c3ea86": 15,
         "fa16a799dadc4feea6243c7b13c94552": 1,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 14,
         "f39523d1440141cb8f5b2369d47ecc33": 2,
-        "5d56951fd43d4b5083b0f3cd9bfd5587": 4,
+        "5d56951fd43d4b5083b0f3cd9bfd5587": 7,
         "486123a4bb814705bb1a3164561bb535": 4,
         "ed535c8fe56245c1a5180026fdcb7303": 2,
-        "2f379218ad414010bbfe428493a52848": 2
+        "2f379218ad414010bbfe428493a52848": 2,
+        "fb82e4cef088466e83a5da161c0dbbab": 4
       },
       "BOM": [
         [
@@ -1798,9 +1758,9 @@
         ],
         [
           "100n",
-          17,
+          16,
           "C1206",
-          "C1,C2,C3,C4,C5,C6,C7,C8,C11,C14,C15,C21,C22,C25,C26,C27,C33",
+          "C1,C2,C3,C4,C5,C6,C7,C8,C14,C15,C21,C22,C25,C26,C27,C33",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1813,18 +1773,6 @@
           1,
           "C1206",
           "C9",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "220n",
-          4,
-          "C1206",
-          "C10,C12,C18,C19",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1917,6 +1865,18 @@
           }
         ],
         [
+          "220n",
+          4,
+          "C1206",
+          "C35,C36,C37,C38",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
           "BAT47",
           2,
           "SOD-80C_L3.3-W1.5-RD",
@@ -1938,6 +1898,18 @@
             "Manufacturer": "",
             "Supplier": "LCSC",
             "Supplier Part": "C9900003833"
+          }
+        ],
+        [
+          "3.3V",
+          4,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D5,D6,D7,D8",
+          {
+            "Manufacturer Part": "Diode Zener",
+            "Manufacturer": "SEMTECH",
+            "Supplier": "LCSC",
+            "Supplier Part": "C14516"
           }
         ],
         [
@@ -1980,7 +1952,7 @@
           "LCS-SYM-MAIN-CTRL",
           1,
           "LCS-FP-MAIN-CTRL-10X16",
-          "PCB1",
+          "PCB2",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2062,21 +2034,9 @@
         ],
         [
           "10k",
-          12,
+          7,
           "R1206",
-          "R13,R14,R16,R17,R18,R19,R23,R24,R26,R27,R28,R29",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "1k",
-          4,
-          "R1206",
-          "R15,R20,R25,R30",
+          "R16,R17,R27,R28,R79,R80,R81",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2253,18 +2213,6 @@
           }
         ],
         [
-          "LM324-SR_C280708",
-          1,
-          "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
-          "U10",
-          {
-            "Manufacturer Part": "LM324-SR",
-            "Manufacturer": "Gainsil(聚洵)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C280708"
-          }
-        ],
-        [
           "L6205PD",
           2,
           "POWERSO20_L15.9-W11.0-P1.27-LS14.2-BL-EP",
@@ -2337,11 +2285,11 @@
           }
         ]
       ],
-      "updateTime": 1737716036,
+      "updateTime": 1740387503,
       "createTime": 1676709584,
       "histories": [],
       "created_at": "2023-02-18 09:39:44",
-      "updated_at": "2025-01-24 11:53:56"
+      "updated_at": "2025-02-24 09:58:23"
     },
     {
       "uuid": "32a1069c60816414f97b2c9e9b6c05dc",
@@ -2380,9 +2328,9 @@
         ],
         [
           "100n",
-          17,
+          16,
           "C1206",
-          "C1,C2,C3,C4,C5,C6,C7,C8,C11,C14,C15,C21,C22,C25,C26,C27,C33",
+          "C1,C2,C3,C4,C5,C6,C7,C8,C14,C15,C21,C22,C25,C26,C27,C33",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2395,18 +2343,6 @@
           1,
           "C1206",
           "C9",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "220n",
-          4,
-          "C1206",
-          "C10,C12,C18,C19",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2499,6 +2435,18 @@
           }
         ],
         [
+          "220n",
+          4,
+          "C1206",
+          "C35,C36,C37,C38",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
           "BAT47",
           2,
           "SOD-80C_L3.3-W1.5-RD",
@@ -2520,6 +2468,18 @@
             "Manufacturer": "",
             "Supplier": "LCSC",
             "Supplier Part": "C9900003833"
+          }
+        ],
+        [
+          "3.3V",
+          4,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D5,D6,D7,D8",
+          {
+            "Manufacturer Part": "Diode Zener",
+            "Manufacturer": "SEMTECH",
+            "Supplier": "LCSC",
+            "Supplier Part": "C14516"
           }
         ],
         [
@@ -2644,21 +2604,9 @@
         ],
         [
           "10k",
-          12,
+          7,
           "R1206",
-          "R13,R14,R16,R17,R18,R19,R23,R24,R26,R27,R28,R29",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "1k",
-          4,
-          "R1206",
-          "R15,R20,R25,R30",
+          "R16,R17,R27,R28,R79,R80,R81",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2835,18 +2783,6 @@
           }
         ],
         [
-          "LM324-SR_C280708",
-          1,
-          "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
-          "U10",
-          {
-            "Manufacturer Part": "LM324-SR",
-            "Manufacturer": "Gainsil(聚洵)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C280708"
-          }
-        ],
-        [
           "L6205PD",
           2,
           "POWERSO20_L15.9-W11.0-P1.27-LS14.2-BL-EP",
@@ -2919,11 +2855,11 @@
           }
         ]
       ],
-      "updateTime": 1737716050,
+      "updateTime": 1740386741,
       "createTime": 1676709655,
       "histories": [],
       "created_at": "2023-02-18 09:40:55",
-      "updated_at": "2025-01-24 11:54:10"
+      "updated_at": "2025-02-24 09:45:41"
     },
     {
       "uuid": "bbb8f9bb2d8892015990b995d606f06f",
@@ -2965,9 +2901,9 @@
         ],
         [
           "100n",
-          17,
+          16,
           "C1206",
-          "C1,C2,C3,C4,C5,C6,C7,C8,C11,C14,C15,C21,C22,C25,C26,C27,C33",
+          "C1,C2,C3,C4,C5,C6,C7,C8,C14,C15,C21,C22,C25,C26,C27,C33",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2980,18 +2916,6 @@
           1,
           "C1206",
           "C9",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "220n",
-          4,
-          "C1206",
-          "C10,C12,C18,C19",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3084,6 +3008,18 @@
           }
         ],
         [
+          "220n",
+          4,
+          "C1206",
+          "C35,C36,C37,C38",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
           "BAT47",
           2,
           "SOD-80C_L3.3-W1.5-RD",
@@ -3105,6 +3041,18 @@
             "Manufacturer": "",
             "Supplier": "LCSC",
             "Supplier Part": "C9900003833"
+          }
+        ],
+        [
+          "3.3V",
+          4,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D5,D6,D7,D8",
+          {
+            "Manufacturer Part": "Diode Zener",
+            "Manufacturer": "SEMTECH",
+            "Supplier": "LCSC",
+            "Supplier Part": "C14516"
           }
         ],
         [
@@ -3229,21 +3177,9 @@
         ],
         [
           "10k",
-          12,
+          7,
           "R1206",
-          "R13,R14,R16,R17,R18,R19,R23,R24,R26,R27,R28,R29",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "1k",
-          4,
-          "R1206",
-          "R15,R20,R25,R30",
+          "R16,R17,R27,R28,R79,R80,R81",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3420,18 +3356,6 @@
           }
         ],
         [
-          "LM324-SR_C280708",
-          1,
-          "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
-          "U10",
-          {
-            "Manufacturer Part": "LM324-SR",
-            "Manufacturer": "Gainsil(聚洵)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C280708"
-          }
-        ],
-        [
           "L6205PD",
           2,
           "POWERSO20_L15.9-W11.0-P1.27-LS14.2-BL-EP",
@@ -3504,11 +3428,11 @@
           }
         ]
       ],
-      "updateTime": 1738838742,
+      "updateTime": 1740386870,
       "createTime": 1676724364,
       "histories": [],
       "created_at": "2023-02-18 13:46:04",
-      "updated_at": "2025-02-06 11:45:42"
+      "updated_at": "2025-02-24 09:47:50"
     },
     {
       "uuid": "06e8aa5745eec784f922545a271e619c",
@@ -3550,9 +3474,9 @@
         ],
         [
           "100n",
-          17,
+          16,
           "C1206",
-          "C1,C2,C3,C4,C5,C6,C7,C8,C11,C14,C15,C21,C22,C25,C26,C27,C33",
+          "C1,C2,C3,C4,C5,C6,C7,C8,C14,C15,C21,C22,C25,C26,C27,C33",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3565,18 +3489,6 @@
           1,
           "C1206",
           "C9",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "220n",
-          4,
-          "C1206",
-          "C10,C12,C18,C19",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3669,6 +3581,18 @@
           }
         ],
         [
+          "220n",
+          4,
+          "C1206",
+          "C35,C36,C37,C38",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
           "BAT47",
           2,
           "SOD-80C_L3.3-W1.5-RD",
@@ -3690,6 +3614,18 @@
             "Manufacturer": "",
             "Supplier": "LCSC",
             "Supplier Part": "C9900003833"
+          }
+        ],
+        [
+          "3.3V",
+          4,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D5,D6,D7,D8",
+          {
+            "Manufacturer Part": "Diode Zener",
+            "Manufacturer": "SEMTECH",
+            "Supplier": "LCSC",
+            "Supplier Part": "C14516"
           }
         ],
         [
@@ -3732,7 +3668,7 @@
           "LCS-SYM-MAIN-CTRL",
           1,
           "LCS-FP-MAIN-CTRL-10X16",
-          "PCB1",
+          "PCB2",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3814,21 +3750,9 @@
         ],
         [
           "10k",
-          12,
+          7,
           "R1206",
-          "R13,R14,R16,R17,R18,R19,R23,R24,R26,R27,R28,R29",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "1k",
-          4,
-          "R1206",
-          "R15,R20,R25,R30",
+          "R16,R17,R27,R28,R79,R80,R81",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -4005,18 +3929,6 @@
           }
         ],
         [
-          "LM324-SR_C280708",
-          1,
-          "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
-          "U10",
-          {
-            "Manufacturer Part": "LM324-SR",
-            "Manufacturer": "Gainsil(聚洵)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C280708"
-          }
-        ],
-        [
           "L6205PD",
           2,
           "POWERSO20_L15.9-W11.0-P1.27-LS14.2-BL-EP",
@@ -4089,11 +4001,11 @@
           }
         ]
       ],
-      "updateTime": 1738838742,
+      "updateTime": 1740387503,
       "createTime": 1676710041,
       "histories": [],
       "created_at": "2023-02-18 09:47:21",
-      "updated_at": "2025-02-06 11:45:42"
+      "updated_at": "2025-02-24 09:58:23"
     },
     {
       "uuid": "d9d8d60d43837cdf0a82ec954eeab7cb",
@@ -4148,5 +4060,5 @@
   "title": "LcsNodes-Block-Quad-Controller-B.02.00",
   "foldername": "LcsNodes-Block-Quad-Controller-B.02.00",
   "schfilename": "LcsNodes-Block-Quad-Controller-B.02.00.json",
-  "schfilemtime": 1738838742747
+  "schfilemtime": 1740387503549
 }
