@@ -4,7 +4,7 @@
   "name": "LcsNodes-Quad-Block-Controller-B.02.00",
   "content": "A LCS block controller for 4 blocks, Railcom detectors and power measurement.",
   "created_at": "2025-01-24 10:37:22",
-  "updated_at": "2025-02-25 15:23:19",
+  "updated_at": "2025-03-07 09:20:45",
   "stick": "",
   "documents": [
     {
@@ -579,7 +579,7 @@
       "thumb": "/images/thumb-default.png",
       "components": {
         "e611ae6de7f34e0eae8494a79a790895": 1,
-        "ed9eb2faffb34286820a54a14e9e9e24": 11,
+        "ed9eb2faffb34286820a54a14e9e9e24": 10,
         "1f55cd7da439440ba626bd7741d4ad9e": 3,
         "e76f3700a495449f89388aebc7c514e3": 1,
         "a9aa2b14f188405792fa87ac344499a4": 1,
@@ -587,7 +587,6 @@
         "f5e28939ee4b413a81608a3f66d6e3bc": 1,
         "5c889cc040dc491da07dce8971e13b31": 1,
         "ba1f207f2c0447edbd5beb657b435022": 1,
-        "5cbe824183374fac8e4c1ae848199ce3": 1,
         "18479f1c4d4749c5a4c4387846c5d657": 1
       },
       "BOM": [
@@ -614,7 +613,7 @@
           "100n",
           16,
           "C1206",
-          "C1,C2,C3,C4,C5,C6,C7,C8,C14,C15,C21,C22,C25,C26,C27,C33",
+          "C1,C2,C3,C4,C5,C6,C7,C8,C12,C13,C17,C20,C21,C25,C26,C32",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -635,10 +634,22 @@
           }
         ],
         [
+          "220n",
+          4,
+          "C1206",
+          "C10,C16,C18,C24",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
           "1n",
           4,
           "C1206",
-          "C13,C17,C20,C24",
+          "C11,C15,C19,C23",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -650,7 +661,7 @@
           "100u",
           2,
           "CAP-D6.3×H7.7",
-          "C16,C23",
+          "C14,C22",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -662,7 +673,7 @@
           "100nF",
           1,
           "C1206",
-          "C28",
+          "C27",
           {
             "Manufacturer Part": "CC1206KKX7R0BB104",
             "Manufacturer": "YAGEO(国巨)",
@@ -674,7 +685,7 @@
           "1nF",
           2,
           "C1206",
-          "C29,C30",
+          "C28,C29",
           {
             "Manufacturer Part": "CC1206JRNPO9BN102",
             "Manufacturer": "YAGEO(国巨)",
@@ -686,7 +697,7 @@
           "10u",
           1,
           "CAP-D5.0×H5.5",
-          "C31",
+          "C30",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -698,7 +709,7 @@
           "22u",
           1,
           "CAP-D5.0×H5.5",
-          "C32",
+          "C31",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -710,19 +721,7 @@
           "2200u",
           1,
           "CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD-1",
-          "C34",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "220n",
-          4,
-          "C1206",
-          "C35,C36,C37,C38",
+          "C33",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -743,27 +742,27 @@
           }
         ],
         [
-          "1N5819/S",
-          2,
-          "SMA_L4.3-W2.6-LS5.2-R-RD",
-          "D3,D4",
-          {
-            "Manufacturer Part": "1N5819/S",
-            "Manufacturer": "",
-            "Supplier": "LCSC",
-            "Supplier Part": "C9900003833"
-          }
-        ],
-        [
           "3.3V",
           4,
           "SOD-80C_L3.3-W1.5-RD",
-          "D5,D6,D7,D8",
+          "D3,D4,D5,D6",
           {
             "Manufacturer Part": "Diode Zener",
             "Manufacturer": "SEMTECH",
             "Supplier": "LCSC",
             "Supplier Part": "C14516"
+          }
+        ],
+        [
+          "1N5819/S",
+          2,
+          "SMA_L4.3-W2.6-LS5.2-R-RD",
+          "D7,D8",
+          {
+            "Manufacturer Part": "1N5819/S",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900003833"
           }
         ],
         [
@@ -779,22 +778,22 @@
           }
         ],
         [
-          "LED-0603_R",
+          "HDR-M-2.54_1x3",
           1,
-          "LED-1206",
-          "LED1",
+          "HDR-M-2.54_1X3",
+          "J2",
           {
-            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
-            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Manufacturer Part": "",
+            "Manufacturer": "",
             "Supplier": "LCSC",
-            "Supplier Part": "C72044"
+            "Supplier Part": "C180248"
           }
         ],
         [
           "LED-0805_G",
           2,
           "LED-1206",
-          "LED2,LED3",
+          "LED1,LED3",
           {
             "Manufacturer Part": "NCD0805G1",
             "Manufacturer": "国星光电",
@@ -842,7 +841,7 @@
           "4K7",
           4,
           "R1206",
-          "R1,R2,R11,R12",
+          "R1,R2,R10,R11",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -866,7 +865,7 @@
           "10K",
           11,
           "R1206",
-          "R4,R7,R8,R9,R10,R33,R34,R35,R36,R69,R70",
+          "R4,R6,R7,R8,R9,R24,R25,R26,R27,R61,R62",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -876,9 +875,9 @@
         ],
         [
           "470",
-          4,
+          5,
           "R1206",
-          "R5,R6,R72,R77",
+          "R5,R63,R64,R66,R69",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -888,9 +887,9 @@
         ],
         [
           "10k",
-          7,
+          8,
           "R1206",
-          "R16,R17,R27,R28,R79,R80,R81",
+          "R12,R13,R14,R15,R18,R19,R20,R21",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -902,7 +901,7 @@
           "0R47",
           4,
           "R_AXIAL-0.7",
-          "R21,R22,R31,R32",
+          "R16,R17,R22,R23",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -914,7 +913,7 @@
           "1M",
           16,
           "R1206",
-          "R37,R38,R39,R40,R49,R50,R51,R52,R53,R54,R55,R56,R65,R66,R67,R68",
+          "R28,R29,R30,R31,R40,R41,R42,R43,R44,R45,R46,R47,R56,R57,R58,R59",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -926,7 +925,7 @@
           "220",
           16,
           "R1206",
-          "R41,R42,R43,R44,R45,R46,R47,R48,R57,R58,R59,R60,R61,R62,R63,R64",
+          "R32,R33,R34,R35,R36,R37,R38,R39,R48,R49,R50,R51,R52,R53,R54,R55",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -935,22 +934,10 @@
           }
         ],
         [
-          "1K",
-          2,
-          "R1206",
-          "R71,R73",
-          {
-            "Manufacturer Part": "SR1206JR-7W4K7L",
-            "Manufacturer": "YAGEO(国巨)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C326768"
-          }
-        ],
-        [
           "4k7",
           1,
           "R1206",
-          "R74",
+          "R65",
           {
             "Manufacturer Part": "1206W4F1001T5E",
             "Manufacturer": "UNI-ROYAL(厚声)",
@@ -962,7 +949,7 @@
           "56K",
           1,
           "R1206",
-          "R75",
+          "R67",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -974,7 +961,7 @@
           "100",
           1,
           "R1206",
-          "R76",
+          "R68",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -986,7 +973,7 @@
           "100K",
           1,
           "R1206",
-          "R78",
+          "R70",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1070,7 +1057,7 @@
           "L6205PD",
           2,
           "POWERSO20_L15.9-W11.0-P1.27-LS14.2-BL-EP",
-          "U11,U12",
+          "U10,U12",
           {
             "Manufacturer Part": "L6205PD013TR",
             "Manufacturer": "ST(意法半导体)",
@@ -1082,7 +1069,7 @@
           "CD4051BM/TR",
           1,
           "SO-16_L9.9-W3.9-P1.27-LS6.1-BL",
-          "U13",
+          "U11",
           {
             "Manufacturer Part": "CD4051BM/TR",
             "Manufacturer": "HGSEMI(华冠)",
@@ -1094,7 +1081,7 @@
           "LM339ADR",
           2,
           "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
-          "U14,U15",
+          "U13,U14",
           {
             "Manufacturer Part": "TI",
             "Manufacturer": "LM339ADR",
@@ -1106,7 +1093,7 @@
           "MC14077BD",
           1,
           "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
-          "U16",
+          "U15",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1118,7 +1105,7 @@
           "HCPL2631SDM",
           1,
           "SMT-8_L9.7-W6.6-P2.54-LS10.3-TR",
-          "U17",
+          "U16",
           {
             "Manufacturer Part": "HCPL2631SDM",
             "Manufacturer": "onsemi(安森美)",
@@ -1130,7 +1117,7 @@
           "Gaptec_LC78",
           1,
           "GAPTEC_LC78",
-          "U18",
+          "U17",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1139,11 +1126,11 @@
           }
         ]
       ],
-      "updateTime": 1740386670,
+      "updateTime": 1741335645,
       "createTime": 1676709574,
       "histories": [],
       "created_at": "2023-02-18 09:39:34",
-      "updated_at": "2025-02-24 09:44:30"
+      "updated_at": "2025-03-07 09:20:45"
     },
     {
       "uuid": "4f0896042051cb4c1807dec2b8bf594a",
@@ -1760,7 +1747,7 @@
           "100n",
           16,
           "C1206",
-          "C1,C2,C3,C4,C5,C6,C7,C8,C12,C13,C17,C20,C21,C26,C27,C33",
+          "C1,C2,C3,C4,C5,C6,C7,C8,C12,C13,C17,C20,C21,C25,C26,C32",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1820,7 +1807,7 @@
           "100nF",
           1,
           "C1206",
-          "C28",
+          "C27",
           {
             "Manufacturer Part": "CC1206KKX7R0BB104",
             "Manufacturer": "YAGEO(国巨)",
@@ -1832,7 +1819,7 @@
           "1nF",
           2,
           "C1206",
-          "C29,C30",
+          "C28,C29",
           {
             "Manufacturer Part": "CC1206JRNPO9BN102",
             "Manufacturer": "YAGEO(国巨)",
@@ -1844,7 +1831,7 @@
           "10u",
           1,
           "CAP-D5.0×H5.5",
-          "C31",
+          "C30",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1856,7 +1843,7 @@
           "22u",
           1,
           "CAP-D5.0×H5.5",
-          "C32",
+          "C31",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1868,7 +1855,7 @@
           "2200u",
           1,
           "CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD-1",
-          "C34",
+          "C33",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1889,18 +1876,6 @@
           }
         ],
         [
-          "1N5819/S",
-          2,
-          "SMA_L4.3-W2.6-LS5.2-R-RD",
-          "D3,D4",
-          {
-            "Manufacturer Part": "1N5819/S",
-            "Manufacturer": "",
-            "Supplier": "LCSC",
-            "Supplier Part": "C9900003833"
-          }
-        ],
-        [
           "3.3V",
           4,
           "SOD-80C_L3.3-W1.5-RD",
@@ -1910,6 +1885,18 @@
             "Manufacturer": "SEMTECH",
             "Supplier": "LCSC",
             "Supplier Part": "C14516"
+          }
+        ],
+        [
+          "1N5819/S",
+          2,
+          "SMA_L4.3-W2.6-LS5.2-R-RD",
+          "D7,D8",
+          {
+            "Manufacturer Part": "1N5819/S",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900003833"
           }
         ],
         [
@@ -1925,22 +1912,22 @@
           }
         ],
         [
-          "LED-0603_R",
+          "HDR-M-2.54_1x3",
           1,
-          "LED-1206",
-          "LED1",
+          "HDR-M-2.54_1X3",
+          "J2",
           {
-            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
-            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Manufacturer Part": "",
+            "Manufacturer": "",
             "Supplier": "LCSC",
-            "Supplier Part": "C72044"
+            "Supplier Part": "C180248"
           }
         ],
         [
           "LED-0805_G",
           2,
           "LED-1206",
-          "LED2,LED3",
+          "LED1,LED3",
           {
             "Manufacturer Part": "NCD0805G1",
             "Manufacturer": "国星光电",
@@ -1952,7 +1939,7 @@
           "LCS-SYM-MAIN-CTRL",
           1,
           "LCS-FP-MAIN-CTRL-10X16",
-          "PCB2",
+          "PCB1",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1988,7 +1975,7 @@
           "4K7",
           4,
           "R1206",
-          "R1,R2,R11,R12",
+          "R1,R2,R10,R11",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2012,7 +1999,7 @@
           "10K",
           11,
           "R1206",
-          "R4,R7,R8,R9,R10,R33,R34,R35,R36,R69,R70",
+          "R4,R6,R7,R8,R9,R24,R25,R26,R27,R61,R62",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2022,9 +2009,9 @@
         ],
         [
           "470",
-          4,
+          5,
           "R1206",
-          "R5,R6,R72,R77",
+          "R5,R63,R64,R66,R69",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2036,7 +2023,7 @@
           "10k",
           8,
           "R1206",
-          "R13,R14,R15,R16,R19,R20,R21,R22",
+          "R12,R13,R14,R15,R18,R19,R20,R21",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2048,7 +2035,7 @@
           "0R47",
           4,
           "R_AXIAL-0.7",
-          "R17,R18,R23,R24",
+          "R16,R17,R22,R23",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2060,7 +2047,7 @@
           "1M",
           16,
           "R1206",
-          "R37,R38,R39,R40,R49,R50,R51,R52,R53,R54,R55,R56,R65,R66,R67,R68",
+          "R28,R29,R30,R31,R40,R41,R42,R43,R44,R45,R46,R47,R56,R57,R58,R59",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2072,7 +2059,7 @@
           "220",
           16,
           "R1206",
-          "R41,R42,R43,R44,R45,R46,R47,R48,R57,R58,R59,R60,R61,R62,R63,R64",
+          "R32,R33,R34,R35,R36,R37,R38,R39,R48,R49,R50,R51,R52,R53,R54,R55",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2081,22 +2068,10 @@
           }
         ],
         [
-          "1K",
-          2,
-          "R1206",
-          "R71,R73",
-          {
-            "Manufacturer Part": "SR1206JR-7W4K7L",
-            "Manufacturer": "YAGEO(国巨)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C326768"
-          }
-        ],
-        [
           "4k7",
           1,
           "R1206",
-          "R74",
+          "R65",
           {
             "Manufacturer Part": "1206W4F1001T5E",
             "Manufacturer": "UNI-ROYAL(厚声)",
@@ -2108,7 +2083,7 @@
           "56K",
           1,
           "R1206",
-          "R75",
+          "R67",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2120,7 +2095,7 @@
           "100",
           1,
           "R1206",
-          "R76",
+          "R68",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2132,7 +2107,7 @@
           "100K",
           1,
           "R1206",
-          "R78",
+          "R70",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2240,7 +2215,7 @@
           "LM339ADR",
           2,
           "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
-          "U14,U15",
+          "U13,U14",
           {
             "Manufacturer Part": "TI",
             "Manufacturer": "LM339ADR",
@@ -2252,7 +2227,7 @@
           "MC14077BD",
           1,
           "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
-          "U16",
+          "U15",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2264,7 +2239,7 @@
           "HCPL2631SDM",
           1,
           "SMT-8_L9.7-W6.6-P2.54-LS10.3-TR",
-          "U17",
+          "U16",
           {
             "Manufacturer Part": "HCPL2631SDM",
             "Manufacturer": "onsemi(安森美)",
@@ -2276,7 +2251,7 @@
           "Gaptec_LC78",
           1,
           "GAPTEC_LC78",
-          "U18",
+          "U17",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2285,11 +2260,11 @@
           }
         ]
       ],
-      "updateTime": 1740489672,
+      "updateTime": 1741335645,
       "createTime": 1676709584,
       "histories": [],
       "created_at": "2023-02-18 09:39:44",
-      "updated_at": "2025-02-25 14:21:12"
+      "updated_at": "2025-03-07 09:20:45"
     },
     {
       "uuid": "32a1069c60816414f97b2c9e9b6c05dc",
@@ -2495,22 +2470,22 @@
           }
         ],
         [
-          "LED-0603_R",
+          "HDR-M-2.54_1x3",
           1,
-          "LED-1206",
-          "LED1",
+          "HDR-M-2.54_1X3",
+          "J2",
           {
-            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
-            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Manufacturer Part": "",
+            "Manufacturer": "",
             "Supplier": "LCSC",
-            "Supplier Part": "C72044"
+            "Supplier Part": "C180248"
           }
         ],
         [
           "LED-0805_G",
           2,
           "LED-1206",
-          "LED2,LED3",
+          "LED1,LED3",
           {
             "Manufacturer Part": "NCD0805G1",
             "Manufacturer": "国星光电",
@@ -2558,7 +2533,7 @@
           "4K7",
           4,
           "R1206",
-          "R1,R2,R11,R12",
+          "R1,R2,R10,R11",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2582,7 +2557,7 @@
           "10K",
           11,
           "R1206",
-          "R4,R7,R8,R9,R10,R25,R26,R27,R28,R61,R62",
+          "R4,R6,R7,R8,R9,R24,R25,R26,R27,R61,R62",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2592,9 +2567,9 @@
         ],
         [
           "470",
-          4,
+          5,
           "R1206",
-          "R5,R6,R64,R69",
+          "R5,R63,R64,R66,R69",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2606,7 +2581,7 @@
           "10k",
           8,
           "R1206",
-          "R13,R14,R15,R16,R19,R20,R21,R22",
+          "R12,R13,R14,R15,R18,R19,R20,R21",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2618,7 +2593,7 @@
           "0R47",
           4,
           "R_AXIAL-0.7",
-          "R17,R18,R23,R24",
+          "R16,R17,R22,R23",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2630,7 +2605,7 @@
           "1M",
           16,
           "R1206",
-          "R29,R30,R31,R32,R41,R42,R43,R44,R45,R46,R47,R48,R57,R58,R59,R60",
+          "R28,R29,R30,R31,R40,R41,R42,R43,R44,R45,R46,R47,R56,R57,R58,R59",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2642,7 +2617,7 @@
           "220",
           16,
           "R1206",
-          "R33,R34,R35,R36,R37,R38,R39,R40,R49,R50,R51,R52,R53,R54,R55,R56",
+          "R32,R33,R34,R35,R36,R37,R38,R39,R48,R49,R50,R51,R52,R53,R54,R55",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2651,22 +2626,10 @@
           }
         ],
         [
-          "1K",
-          2,
-          "R1206",
-          "R63,R65",
-          {
-            "Manufacturer Part": "SR1206JR-7W4K7L",
-            "Manufacturer": "YAGEO(国巨)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C326768"
-          }
-        ],
-        [
           "4k7",
           1,
           "R1206",
-          "R66",
+          "R65",
           {
             "Manufacturer Part": "1206W4F1001T5E",
             "Manufacturer": "UNI-ROYAL(厚声)",
@@ -2855,11 +2818,11 @@
           }
         ]
       ],
-      "updateTime": 1740489703,
+      "updateTime": 1741335645,
       "createTime": 1676709655,
       "histories": [],
       "created_at": "2023-02-18 09:40:55",
-      "updated_at": "2025-02-25 14:21:43"
+      "updated_at": "2025-03-07 09:20:45"
     },
     {
       "uuid": "bbb8f9bb2d8892015990b995d606f06f",
@@ -2877,7 +2840,8 @@
         "25c54ea488b14ccdb3a3313948b202a0": 1,
         "11072b8380344b3caa92b24df0b715da": 1,
         "fdd0f7b7c86f424aa62edcc618bbea93": 1,
-        "bf7fb7ee780746f1bc3a6fb38676c2fe": 1
+        "bf7fb7ee780746f1bc3a6fb38676c2fe": 1,
+        "a68dc5e6a9944c46b7604648a43dcd65": 1
       },
       "BOM": [
         [
@@ -3068,6 +3032,18 @@
           }
         ],
         [
+          "HDR-M-2.54_1x3",
+          1,
+          "HDR-M-2.54_1X3",
+          "J2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C180248"
+          }
+        ],
+        [
           "LED-0603_R",
           1,
           "LED-1206",
@@ -3165,9 +3141,9 @@
         ],
         [
           "470",
-          4,
+          6,
           "R1206",
-          "R5,R6,R64,R69",
+          "R5,R6,R63,R64,R66,R69",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3224,22 +3200,10 @@
           }
         ],
         [
-          "1K",
-          2,
-          "R1206",
-          "R63,R65",
-          {
-            "Manufacturer Part": "SR1206JR-7W4K7L",
-            "Manufacturer": "YAGEO(国巨)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C326768"
-          }
-        ],
-        [
           "4k7",
           1,
           "R1206",
-          "R66",
+          "R65",
           {
             "Manufacturer Part": "1206W4F1001T5E",
             "Manufacturer": "UNI-ROYAL(厚声)",
@@ -3428,11 +3392,11 @@
           }
         ]
       ],
-      "updateTime": 1740489703,
+      "updateTime": 1741087683,
       "createTime": 1676724364,
       "histories": [],
       "created_at": "2023-02-18 13:46:04",
-      "updated_at": "2025-02-25 14:21:43"
+      "updated_at": "2025-03-04 12:28:03"
     },
     {
       "uuid": "06e8aa5745eec784f922545a271e619c",
@@ -4016,21 +3980,22 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "62ddd832b4204f5fb6ccf017f43de83b": 2,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 65,
+        "960b5f1425a648b69804b12510e06d86": 4,
+        "9f77654394344f25b3de138e0fe05ff6": 1,
         "2cb4c4a0e8974e6fa0a63a596ded6643": 1,
-        "8e9b1be4bcb6420dbd1d09bf04b02792": 66,
         "7bdec8012728462a85919a4d0d033579": 28,
         "e0f45a5edd25471dacc10f351b436550": 2,
         "2897ea2aed674deb8892c3862bcaddea": 2,
         "707d7c79bad8483c87b0c49ff97c7bd4": 1,
         "f6e7bbafc8d6494ea48c85ec766fa6c7": 6,
         "906c99ea5dec4828b079c976cc1781e8": 2,
-        "960b5f1425a648b69804b12510e06d86": 4,
         "37a711dd47574887bb799f651f3c2b95": 2,
         "6d56825aeea34995ac0791ce3b2142b9": 1,
         "19591644493b46b2b3c4b7e703ce6a0c": 5,
         "489d6e0dac1348e3a91c03e101947bd4": 1,
         "1c34cd829c754d4281bf2e17f44685f7": 1,
-        "62ddd832b4204f5fb6ccf017f43de83b": 3,
         "91e8625ab54d4b48a78457e6f8258781": 1,
         "6adf0d677d7c4bf29b8711760efc3b51": 1,
         "d8084adcadf04b6eadecdc8fd3a4bef9": 3,
@@ -4041,11 +4006,11 @@
         "e22b6bd92f084998af49afa4da1dfe45": 4
       },
       "BOM": [],
-      "updateTime": 1740493399,
+      "updateTime": 1741335616,
       "createTime": 1676800145,
       "histories": [],
       "created_at": "2023-02-19 10:49:05",
-      "updated_at": "2025-02-25 15:23:19"
+      "updated_at": "2025-03-07 09:20:16"
     }
   ],
   "sort": [
@@ -4060,5 +4025,5 @@
   "title": "LcsNodes-Quad-Block-Controller-B.02.00",
   "foldername": "LcsNodes-Quad-Block-Controller-B.02.00",
   "schfilename": "LcsNodes-Quad-Block-Controller-B.02.00.json",
-  "schfilemtime": 1740493076027
+  "schfilemtime": 1741335646014
 }

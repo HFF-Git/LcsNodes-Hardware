@@ -1,0 +1,142 @@
+{
+  "uuid": "e6ed012ec38586c2b65d621a22e136be",
+  "path": "Offline/LcsNodes-BYE-Board-B.01.00",
+  "name": "LcsNodes-BYE-Board-B.01.00",
+  "content": "An extension board PCB with bread board style space for prototype designs.",
+  "created_at": "2023-08-19 20:56:11",
+  "updated_at": "2025-03-10 16:59:13",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "70e5a9fbf06895f80f79ca7508f113fb",
+      "title": "Connectors",
+      "description": "A bread board style extension board for your own designs.",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "ec21d28f29214934b3c5761b7bb01e1e": 1,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 1,
+        "c8cef8ebc2fe476a91af89632ed28e6c": 1,
+        "ce91631041f646fd9775777b794167dd": 1,
+        "a15b8bce24fd483e8712c859e0846c88": 1,
+        "3e6f29258f104200b999f7386a01951c": 6
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100n",
+          1,
+          "C1206",
+          "C1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "HDR-M-2.54_1x10",
+          1,
+          "HDR-M-2.54_1X10",
+          "J1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C57369"
+          }
+        ],
+        [
+          "HDR-M-2.54_2x10",
+          6,
+          "HDR-M-2.54_2X10",
+          "J2,J3,J4,J5,J7,J8",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C124359"
+          }
+        ],
+        [
+          "HDR-M-2.54_2x20",
+          1,
+          "HDR-M-2.54_2X20",
+          "J6",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C50980"
+          }
+        ],
+        [
+          "LCS-SYM-EXT-L",
+          1,
+          "LCS-FP-EXT-L-10X12",
+          "PCB1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "24LC32A-I/SM",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U1",
+          {
+            "Manufacturer Part": "24LC32A-I/SM",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C616088"
+          }
+        ]
+      ],
+      "updateTime": 1741622353,
+      "createTime": 1692471372,
+      "histories": [],
+      "created_at": "2023-08-19 20:56:12",
+      "updated_at": "2025-03-10 16:59:13"
+    },
+    {
+      "uuid": "31c9bc091285c8ce00b339f6040300b9",
+      "puuid": "e6ed012ec38586c2b65d621a22e136be",
+      "title": "PCB_LcsNodes-Extension-BYE-B.01.00",
+      "filename": "PCB_LcsNodes-Extension-BYE-B.01.00.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "e76cf636bce14c43815bf1fe21a7cd4f": 6,
+        "cb9948dd86b9429a8b5f3093f768b706": 1,
+        "5197d7ed9a1d48d08dc84f6bfffc642d": 1,
+        "7bdec8012728462a85919a4d0d033579": 1,
+        "806a55eb4d3c40ab838f70f86785d85e": 1,
+        "0163104799714461abf84081b4477301": 1
+      },
+      "BOM": [],
+      "updateTime": 1741622310,
+      "createTime": 1692472137,
+      "histories": [],
+      "created_at": "2023-08-19 21:08:57",
+      "updated_at": "2025-03-10 16:58:30"
+    }
+  ],
+  "sort": [],
+  "title": "LcsNodes-BYE-Board-B.01.00",
+  "foldername": "LcsNodes-BYE-Board-B.01.00",
+  "schfilename": "LcsNodes-BYE-Board-B.01.00.json",
+  "schfilemtime": 1741622353288
+}

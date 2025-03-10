@@ -1,10 +1,10 @@
 {
   "uuid": "221c3a48cc074bd7604b41dea7fe7d1e",
-  "path": "Offline/LcsNodes-Extension-Occ-Detect-B.02.00",
-  "name": "LcsNodes-Extension-Occ-Detect-B.02.00",
+  "path": "Offline/LcsNodes-Extension-4x4-Occ-Detect-B.02.00",
+  "name": "LcsNodes-Extension-4x4-Occ-Detect-B.02.00",
   "content": "",
   "created_at": "2024-05-03 07:33:52",
-  "updated_at": "2025-02-24 10:18:06",
+  "updated_at": "2025-03-03 16:45:40",
   "stick": "",
   "documents": [
     {
@@ -63,7 +63,7 @@
           "LCS-SYM-EXT-L",
           1,
           "LCS-FP-EXT-L-10X12",
-          "PCB2",
+          "PCB1",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -144,11 +144,11 @@
           }
         ]
       ],
-      "updateTime": 1740387733,
+      "updateTime": 1741016740,
       "createTime": 1683118448,
       "histories": [],
       "created_at": "2023-05-03 14:54:08",
-      "updated_at": "2025-02-24 10:02:13"
+      "updated_at": "2025-03-03 16:45:40"
     },
     {
       "uuid": "37a995b6ad5b6dd0c0cc5343b8d06118",
@@ -292,11 +292,11 @@
           }
         ]
       ],
-      "updateTime": 1740388181,
+      "updateTime": 1741016613,
       "createTime": 1681973470,
       "histories": [],
       "created_at": "2023-04-20 08:51:10",
-      "updated_at": "2025-02-24 10:09:41"
+      "updated_at": "2025-03-03 16:43:33"
     },
     {
       "uuid": "06881417ca0c4d550120772ea2b6c12c",
@@ -358,7 +358,7 @@
         [
           "LCS-SYM-EXT-L",
           1,
-          "LCS-FP-EXT-ADAPTER-10X4",
+          "LCS-FP-EXT-L-10X12",
           "PCB1",
           {
             "Manufacturer Part": "",
@@ -440,11 +440,11 @@
           }
         ]
       ],
-      "updateTime": 1740388118,
+      "updateTime": 1741016668,
       "createTime": 1681975988,
       "histories": [],
       "created_at": "2023-04-20 09:33:08",
-      "updated_at": "2025-02-24 10:08:38"
+      "updated_at": "2025-03-03 16:44:28"
     },
     {
       "uuid": "57aa148b088ed64c0952e5c29f883fdb",
@@ -506,7 +506,7 @@
         [
           "LCS-SYM-EXT-L",
           1,
-          "LCS-FP-EXT-ADAPTER-10X4",
+          "LCS-FP-EXT-L-10X12",
           "PCB1",
           {
             "Manufacturer Part": "",
@@ -588,17 +588,17 @@
           }
         ]
       ],
-      "updateTime": 1740388118,
+      "updateTime": 1741016695,
       "createTime": 1681832987,
       "histories": [],
       "created_at": "2023-04-18 17:49:47",
-      "updated_at": "2025-02-24 10:08:38"
+      "updated_at": "2025-03-03 16:44:55"
     },
     {
       "uuid": "edc0a509da61e59d154b72edc54aa9f7",
       "puuid": "221c3a48cc074bd7604b41dea7fe7d1e",
-      "title": "PCB_LcsNodes-Extension-Occ-Detect-B.02.00",
-      "filename": "PCB_LcsNodes-Extension-Occ-Detect-B.02.00.json",
+      "title": "PCB_LcsNodes-Extension-4x4-Occ-Detect-B.02.00",
+      "filename": "PCB_LcsNodes-Extension-4x4-Occ-Detect-B.02.00.json",
       "description": "",
       "docType": "3",
       "master": "",
@@ -803,8 +803,8 @@
     "06881417ca0c4d550120772ea2b6c12c",
     "57aa148b088ed64c0952e5c29f883fdb"
   ],
-  "title": "LcsNodes-Extension-Occ-Detect-B.02.00",
-  "foldername": "LcsNodes-Extension-Occ-Detect-B.02.00",
-  "schfilename": "LcsNodes-Extension-Occ-Detect-B.02.00.json",
-  "schfilemtime": 1740388181852
+  "title": "LcsNodes-Extension-4x4-Occ-Detect-B.02.00",
+  "foldername": "LcsNodes-Extension-4x4-Occ-Detect-B.02.00",
+  "schfilename": "LcsNodes-Extension-4x4-Occ-Detect-B.02.00.json",
+  "schfilemtime": 1741016740986
 }

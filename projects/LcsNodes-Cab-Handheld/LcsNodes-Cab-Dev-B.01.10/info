@@ -4,7 +4,7 @@
   "name": "LcsNodes-Cab-Dev-B.01.10",
   "content": "",
   "created_at": "2022-04-29 12:00:46",
-  "updated_at": "2025-02-25 14:10:43",
+  "updated_at": "2025-03-10 17:06:49",
   "stick": "",
   "documents": [
     {
@@ -14,11 +14,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1740488920,
+      "updateTime": 1741622435,
       "createTime": 1705943716,
       "histories": [],
       "created_at": "2024-01-22 18:15:16",
-      "updated_at": "2025-02-25 14:08:40",
+      "updated_at": "2025-03-10 17:00:35",
       "BOM": [
         [
           "Value",
@@ -265,11 +265,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1740488912,
+      "updateTime": 1741622746,
       "createTime": 1705943716,
       "histories": [],
       "created_at": "2024-01-22 18:15:16",
-      "updated_at": "2025-02-25 14:08:32",
+      "updated_at": "2025-03-10 17:05:46",
       "BOM": [
         [
           "Value",
@@ -532,11 +532,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1740489043,
+      "updateTime": 1741622708,
       "createTime": 1705943716,
       "histories": [],
       "created_at": "2024-01-22 18:15:16",
-      "updated_at": "2025-02-25 14:10:43",
+      "updated_at": "2025-03-10 17:05:08",
       "BOM": [
         [
           "Value",
@@ -787,11 +787,11 @@
       "docType": "3",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1740489032,
+      "updateTime": 1741622809,
       "createTime": 1699347828,
       "histories": [],
       "created_at": "2023-11-07 10:03:48",
-      "updated_at": "2025-02-25 14:10:32",
+      "updated_at": "2025-03-10 17:06:49",
       "components": {
         "557c105168d444a992e25584f55bcbb2": 13,
         "7bdec8012728462a85919a4d0d033579": 5,
@@ -818,5 +818,5 @@
   "title": "LcsNodes-Cab-Dev-B.01.10",
   "foldername": "LcsNodes-Cab-Dev-B.01.10",
   "schfilename": "LcsNodes-Cab-Dev-B.01.10.json",
-  "schfilemtime": 1740489043305
+  "schfilemtime": 1741622746748
 }

@@ -4,7 +4,7 @@
   "name": "LcsNodes-Base-Station-Board-B.02.00",
   "content": "A Raspberry Pi Pico based DCC base station. \n- RPico, CanBus, NVM, L6205 Power Module, RailCom Detector",
   "created_at": "2025-01-19 12:22:15",
-  "updated_at": "2025-02-23 13:33:46",
+  "updated_at": "2025-03-03 16:33:13",
   "stick": "",
   "documents": [
     {
@@ -14,11 +14,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1740311502,
+      "updateTime": 1741015827,
       "createTime": 1697360463,
       "histories": [],
       "created_at": "2023-10-15 11:01:03",
-      "updated_at": "2025-02-23 12:51:42",
+      "updated_at": "2025-03-03 16:30:27",
       "BOM": [
         [
           "Value",
@@ -124,10 +124,10 @@
           }
         ],
         [
-          "0,1F",
+          "2200u",
           1,
-          "CAP-D12.5XF5.0",
-          "C20",
+          "CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD-1",
+          "C23",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -649,11 +649,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1740311502,
+      "updateTime": 1741015880,
       "createTime": 1697360463,
       "histories": [],
       "created_at": "2023-10-15 11:01:03",
-      "updated_at": "2025-02-23 12:51:42",
+      "updated_at": "2025-03-03 16:31:20",
       "BOM": [
         [
           "Value",
@@ -759,10 +759,10 @@
           }
         ],
         [
-          "0,1F",
+          "2200u",
           1,
-          "CAP-D12.5XF5.0",
-          "C20",
+          "CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD-1",
+          "C23",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1938,11 +1938,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1740311502,
+      "updateTime": 1741015911,
       "createTime": 1697360463,
       "histories": [],
       "created_at": "2023-10-15 11:01:03",
-      "updated_at": "2025-02-23 12:51:42",
+      "updated_at": "2025-03-03 16:31:51",
       "BOM": [
         [
           "Value",
@@ -2048,10 +2048,10 @@
           }
         ],
         [
-          "0,1F",
+          "2200u",
           1,
-          "CAP-D12.5XF5.0",
-          "C20",
+          "CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD-1",
+          "C23",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2583,11 +2583,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1740311502,
+      "updateTime": 1741015975,
       "createTime": 1697360463,
       "histories": [],
       "created_at": "2023-10-15 11:01:03",
-      "updated_at": "2025-02-23 12:51:42",
+      "updated_at": "2025-03-03 16:32:55",
       "BOM": [
         [
           "Value",
@@ -2693,10 +2693,10 @@
           }
         ],
         [
-          "0,1F",
+          "2200u",
           1,
-          "CAP-D12.5XF5.0",
-          "C20",
+          "CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD-1",
+          "C23",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3228,11 +3228,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1740313969,
+      "updateTime": 1741015993,
       "createTime": 1697360463,
       "histories": [],
       "created_at": "2023-10-15 11:01:03",
-      "updated_at": "2025-02-23 13:32:49",
+      "updated_at": "2025-03-03 16:33:13",
       "BOM": [
         [
           "Value",
@@ -3921,5 +3921,5 @@
   "title": "LcsNodes-Base-Station-Board-B.02.00",
   "foldername": "LcsNodes-Base-Station-Board-B.02.00",
   "schfilename": "LcsNodes-Base-Station-Board-B.02.00.json",
-  "schfilemtime": 1740313969660
+  "schfilemtime": 1741015993380
 }
