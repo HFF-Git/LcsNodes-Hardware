@@ -4,7 +4,7 @@
   "name": "LcsNodes-Extension-32-Servo-16-Dio-Board-B.02.00",
   "content": "A LcsNodes Extension Board for a dual channel block controller. It contains OCC detect, Signal, Serve and GPIO sockets.",
   "created_at": "2025-02-24 10:23:53",
-  "updated_at": "2025-02-28 11:06:48",
+  "updated_at": "2025-03-14 11:25:59",
   "stick": "",
   "documents": [
     {
@@ -25,45 +25,9 @@
         ],
         [
           "100n",
-          4,
+          6,
           "C1206",
-          "C1,C5,C7,C9",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "10u",
-          1,
-          "CAP-D5.0×H5.5",
-          "C2",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "22u",
-          1,
-          "CAP-D5.0×H5.5",
-          "C3",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "1000u",
-          2,
-          "CAP-SMD_BD10.0-L10.3-W10.3-FD-LS11.0",
-          "C4,C6",
+          "C1,C3,C5,C7,C9,C11",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -73,9 +37,9 @@
         ],
         [
           "100u",
-          1,
-          "CAP-SMD_BD6.3-L6.6-W6.6-LS7.6-FD",
-          "C8",
+          4,
+          "CAP-SMD_BD10.0-L10.3-W10.3-LS11.0-FD",
+          "C2,C6,C8,C10",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -84,22 +48,34 @@
           }
         ],
         [
-          "1N5819/S",
+          "470u",
           1,
-          "SMA_L4.3-W2.6-LS5.2-R-RD",
-          "D1",
+          "CAP-SMD_BD10.0-L10.3-W10.3-LS11.0-FD",
+          "C4",
           {
-            "Manufacturer Part": "1N5819/S",
+            "Manufacturer Part": "",
             "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "MBRS540T3G_C5563743",
+          2,
+          "SMC_L7.1-W6.2-LS8.1-RD",
+          "D1,D2",
+          {
+            "Manufacturer Part": "MBRS540T3G",
+            "Manufacturer": "FUXINSEMI(富芯森美)",
             "Supplier": "LCSC",
-            "Supplier Part": "C9900003833"
+            "Supplier Part": "C5563743"
           }
         ],
         [
           "5.1V",
           16,
           "SOD-80C_L3.3-W1.5-RD",
-          "D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17",
+          "D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18",
           {
             "Manufacturer Part": "Diode Zener",
             "Manufacturer": "SEMTECH",
@@ -108,22 +84,10 @@
           }
         ],
         [
-          "HDR-F-2.54_2x20",
-          1,
-          "HDR-F-2.54_2X20",
-          "H1",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "LCSC",
-            "Supplier Part": "C50982"
-          }
-        ],
-        [
           "HDR-F-2.54_2x10",
-          1,
+          3,
           "HDR-F-2.54_2X10",
-          "H2",
+          "H1,H2,H3",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -132,15 +96,15 @@
           }
         ],
         [
-          "HDR-M-2.54_1x3",
+          "33uh",
           1,
-          "HDR-M-2.54_1X3",
-          "J1",
+          "IND-SMD_L12.5-W12.5",
+          "L1",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
-            "Supplier": "LCSC",
-            "Supplier Part": "C180248"
+            "Supplier": "",
+            "Supplier Part": ""
           }
         ],
         [
@@ -192,15 +156,15 @@
           }
         ],
         [
-          "Gaptec_LC78",
+          "LM2596S-5.0/TR",
           1,
-          "GAPTEC_LC78",
+          "TO-263-5_L10.2-W8.6-P1.70-LS14.4-TL",
           "U2",
           {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
+            "Manufacturer Part": "LM2596S-5.0/TR",
+            "Manufacturer": "HGSEMI(华冠)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C194349"
           }
         ],
         [
@@ -228,11 +192,11 @@
           }
         ]
       ],
-      "updateTime": 1740637820,
+      "updateTime": 1741706219,
       "createTime": 1683118448,
       "histories": [],
       "created_at": "2023-05-03 14:54:08",
-      "updated_at": "2025-02-27 07:30:20"
+      "updated_at": "2025-03-11 16:16:59"
     },
     {
       "uuid": "ab660b742237486f580de59cfaf85341",
@@ -427,11 +391,11 @@
           }
         ]
       ],
-      "updateTime": 1740734885,
+      "updateTime": 1741706425,
       "createTime": 1681973470,
       "histories": [],
       "created_at": "2023-04-20 08:51:10",
-      "updated_at": "2025-02-28 10:28:05"
+      "updated_at": "2025-03-11 16:20:25"
     },
     {
       "uuid": "5a025bf38003c3f20e98b2a87663e9a6",
@@ -624,11 +588,11 @@
           }
         ]
       ],
-      "updateTime": 1740734885,
+      "updateTime": 1741706375,
       "createTime": 1740389922,
       "histories": [],
       "created_at": "2025-02-24 10:38:42",
-      "updated_at": "2025-02-28 10:28:05"
+      "updated_at": "2025-03-11 16:19:35"
     },
     {
       "uuid": "218f3ccb63f1878edf4a5e94f4f8a135",
@@ -822,17 +786,17 @@
           }
         ]
       ],
-      "updateTime": 1740734886,
+      "updateTime": 1741706375,
       "createTime": 1740389867,
       "histories": [],
       "created_at": "2025-02-24 10:37:47",
-      "updated_at": "2025-02-28 10:28:06"
+      "updated_at": "2025-03-11 16:19:35"
     },
     {
       "uuid": "ac6520faaa25db6e291f03fee2551612",
-      "title": "PCB_LcsNodes-Extension-Occ-Detect-B.02.00",
-      "filename": "PCB_LcsNodes-Extension-Occ-Detect-B.02.00.json",
-      "description": "",
+      "title": "PCB_LcsNodes-Extension-32-Servo-16-Dio-Board-B.02.00",
+      "filename": "PCB_LcsNodes-Extension-32-Servo-16-Dio-Board-B.02.00.json",
+      "description": "LcsNodes extension board with 32 servo and 16 digital I/O channels.",
       "docType": "3",
       "master": "",
       "thumb": "/images/thumb-default.png",
@@ -852,11 +816,11 @@
         "b23a3cd50ffb4bd580712ba1d52d77dd": 1
       },
       "BOM": [],
-      "updateTime": 1740737208,
+      "updateTime": 1741947959,
       "createTime": 1681969428,
       "histories": [],
       "created_at": "2023-04-20 07:43:48",
-      "updated_at": "2025-02-28 11:06:48"
+      "updated_at": "2025-03-14 11:25:59"
     }
   ],
   "sort": [
@@ -868,5 +832,5 @@
   "title": "LcsNodes-Extension-32-Servo-16-Dio-Board-B.02.00",
   "foldername": "LcsNodes-Extension-32-Servo-16-Dio-Board-B.02.00",
   "schfilename": "LcsNodes-Extension-32-Servo-16-Dio-Board-B.02.00.json",
-  "schfilemtime": 1740734886126
+  "schfilemtime": 1741706425834
 }

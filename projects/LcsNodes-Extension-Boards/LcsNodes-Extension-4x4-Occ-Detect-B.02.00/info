@@ -4,7 +4,7 @@
   "name": "LcsNodes-Extension-4x4-Occ-Detect-B.02.00",
   "content": "",
   "created_at": "2024-05-03 07:33:52",
-  "updated_at": "2025-03-03 16:45:40",
+  "updated_at": "2025-03-14 11:36:28",
   "stick": "",
   "documents": [
     {
@@ -187,7 +187,7 @@
           "100n",
           2,
           "C1206",
-          "C2,C3",
+          "C1,C2",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -223,7 +223,7 @@
           "470",
           16,
           "R1206",
-          "R6,R7,R10,R11,R14,R15,R18,R19,R30,R31,R34,R35,R38,R39,R42,R43",
+          "R1,R2,R5,R6,R9,R10,R13,R14,R25,R26,R29,R30,R33,R34,R37,R38",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -235,7 +235,7 @@
           "22",
           16,
           "R1206",
-          "R8,R9,R12,R13,R16,R17,R20,R21,R32,R33,R36,R37,R40,R41,R44,R45",
+          "R3,R4,R7,R8,R11,R12,R15,R16,R27,R28,R31,R32,R35,R36,R39,R40",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -247,7 +247,7 @@
           "10K",
           16,
           "R1206",
-          "R22,R23,R24,R25,R26,R27,R28,R29,R46,R47,R48,R49,R50,R51,R52,R53",
+          "R17,R18,R19,R20,R21,R22,R23,R24,R41,R42,R43,R44,R45,R46,R47,R48",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -259,7 +259,7 @@
           "24LC32A-I/SM",
           1,
           "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
-          "U2",
+          "U1",
           {
             "Manufacturer Part": "24LC32A-I/SM",
             "Manufacturer": "MICROCHIP(美国微芯)",
@@ -271,7 +271,7 @@
           "PCA9555PW,112",
           1,
           "TSSOP-24_L7.8-W4.4-P0.65-LS6.4-BL",
-          "U3",
+          "U2",
           {
             "Manufacturer Part": "PCA9555PW,112",
             "Manufacturer": "NXP(恩智浦)",
@@ -283,7 +283,7 @@
           "LTV-844S",
           4,
           "OPTO-SMD-16_L19.8-W6.5-P2.54-LS10.2-BL",
-          "U4,U5,U6,U7",
+          "U3,U4,U5,U6",
           {
             "Manufacturer Part": "LTV-844S",
             "Manufacturer": "LITEON(台湾光宝)",
@@ -292,11 +292,11 @@
           }
         ]
       ],
-      "updateTime": 1741016613,
+      "updateTime": 1741706318,
       "createTime": 1681973470,
       "histories": [],
       "created_at": "2023-04-20 08:51:10",
-      "updated_at": "2025-03-03 16:43:33"
+      "updated_at": "2025-03-11 16:18:38"
     },
     {
       "uuid": "06881417ca0c4d550120772ea2b6c12c",
@@ -335,7 +335,7 @@
           "100n",
           2,
           "C1206",
-          "C2,C3",
+          "C1,C2",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -371,7 +371,7 @@
           "470",
           16,
           "R1206",
-          "R6,R7,R10,R11,R14,R15,R18,R19,R30,R31,R34,R35,R38,R39,R42,R43",
+          "R1,R2,R5,R6,R9,R10,R13,R14,R25,R26,R29,R30,R33,R34,R37,R38",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -383,7 +383,7 @@
           "22",
           16,
           "R1206",
-          "R8,R9,R12,R13,R16,R17,R20,R21,R32,R33,R36,R37,R40,R41,R44,R45",
+          "R3,R4,R7,R8,R11,R12,R15,R16,R27,R28,R31,R32,R35,R36,R39,R40",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -395,7 +395,7 @@
           "10K",
           16,
           "R1206",
-          "R22,R23,R24,R25,R26,R27,R28,R29,R46,R47,R48,R49,R50,R51,R52,R53",
+          "R17,R18,R19,R20,R21,R22,R23,R24,R41,R42,R43,R44,R45,R46,R47,R48",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -407,7 +407,7 @@
           "24LC32A-I/SM",
           1,
           "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
-          "U2",
+          "U1",
           {
             "Manufacturer Part": "24LC32A-I/SM",
             "Manufacturer": "MICROCHIP(美国微芯)",
@@ -419,7 +419,7 @@
           "PCA9555PW,112",
           1,
           "TSSOP-24_L7.8-W4.4-P0.65-LS6.4-BL",
-          "U3",
+          "U2",
           {
             "Manufacturer Part": "PCA9555PW,112",
             "Manufacturer": "NXP(恩智浦)",
@@ -431,7 +431,7 @@
           "LTV-844S",
           4,
           "OPTO-SMD-16_L19.8-W6.5-P2.54-LS10.2-BL",
-          "U4,U5,U6,U7",
+          "U3,U4,U5,U6",
           {
             "Manufacturer Part": "LTV-844S",
             "Manufacturer": "LITEON(台湾光宝)",
@@ -440,11 +440,11 @@
           }
         ]
       ],
-      "updateTime": 1741016668,
+      "updateTime": 1741705343,
       "createTime": 1681975988,
       "histories": [],
       "created_at": "2023-04-20 09:33:08",
-      "updated_at": "2025-03-03 16:44:28"
+      "updated_at": "2025-03-11 16:02:23"
     },
     {
       "uuid": "57aa148b088ed64c0952e5c29f883fdb",
@@ -483,7 +483,7 @@
           "100n",
           2,
           "C1206",
-          "C2,C3",
+          "C1,C2",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -519,7 +519,7 @@
           "470",
           16,
           "R1206",
-          "R6,R7,R10,R11,R14,R15,R18,R19,R30,R31,R34,R35,R38,R39,R42,R43",
+          "R1,R2,R5,R6,R9,R10,R13,R14,R25,R26,R29,R30,R33,R34,R37,R38",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -531,7 +531,7 @@
           "22",
           16,
           "R1206",
-          "R8,R9,R12,R13,R16,R17,R20,R21,R32,R33,R36,R37,R40,R41,R44,R45",
+          "R3,R4,R7,R8,R11,R12,R15,R16,R27,R28,R31,R32,R35,R36,R39,R40",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -543,7 +543,7 @@
           "10K",
           16,
           "R1206",
-          "R22,R23,R24,R25,R26,R27,R28,R29,R46,R47,R48,R49,R50,R51,R52,R53",
+          "R17,R18,R19,R20,R21,R22,R23,R24,R41,R42,R43,R44,R45,R46,R47,R48",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -555,7 +555,7 @@
           "24LC32A-I/SM",
           1,
           "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
-          "U2",
+          "U1",
           {
             "Manufacturer Part": "24LC32A-I/SM",
             "Manufacturer": "MICROCHIP(美国微芯)",
@@ -567,7 +567,7 @@
           "PCA9555PW,112",
           1,
           "TSSOP-24_L7.8-W4.4-P0.65-LS6.4-BL",
-          "U3",
+          "U2",
           {
             "Manufacturer Part": "PCA9555PW,112",
             "Manufacturer": "NXP(恩智浦)",
@@ -579,7 +579,7 @@
           "LTV-844S",
           4,
           "OPTO-SMD-16_L19.8-W6.5-P2.54-LS10.2-BL",
-          "U4,U5,U6,U7",
+          "U3,U4,U5,U6",
           {
             "Manufacturer Part": "LTV-844S",
             "Manufacturer": "LITEON(台湾光宝)",
@@ -588,11 +588,11 @@
           }
         ]
       ],
-      "updateTime": 1741016695,
+      "updateTime": 1741705343,
       "createTime": 1681832987,
       "histories": [],
       "created_at": "2023-04-18 17:49:47",
-      "updated_at": "2025-03-03 16:44:55"
+      "updated_at": "2025-03-11 16:02:23"
     },
     {
       "uuid": "edc0a509da61e59d154b72edc54aa9f7",
@@ -604,14 +604,14 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "cb9948dd86b9429a8b5f3093f768b706": 1,
-        "4cf29752e2494dd48d2e74b91145f789": 16,
         "7bdec8012728462a85919a4d0d033579": 2,
-        "f481a7812a11455ca71c88c49f2602a1": 2,
         "8e9b1be4bcb6420dbd1d09bf04b02792": 48,
         "806a55eb4d3c40ab838f70f86785d85e": 1,
         "b23a3cd50ffb4bd580712ba1d52d77dd": 1,
-        "a043f6f5ce214277a2e9ff0bb0a41cd5": 4
+        "a043f6f5ce214277a2e9ff0bb0a41cd5": 4,
+        "cb9948dd86b9429a8b5f3093f768b706": 1,
+        "4cf29752e2494dd48d2e74b91145f789": 16,
+        "f481a7812a11455ca71c88c49f2602a1": 2
       },
       "BOM": [
         [
@@ -790,11 +790,11 @@
           }
         ]
       ],
-      "updateTime": 1740388686,
+      "updateTime": 1741948588,
       "createTime": 1737902371,
       "histories": [],
       "created_at": "2025-01-26 15:39:31",
-      "updated_at": "2025-02-24 10:18:06"
+      "updated_at": "2025-03-14 11:36:28"
     }
   ],
   "sort": [
@@ -806,5 +806,5 @@
   "title": "LcsNodes-Extension-4x4-Occ-Detect-B.02.00",
   "foldername": "LcsNodes-Extension-4x4-Occ-Detect-B.02.00",
   "schfilename": "LcsNodes-Extension-4x4-Occ-Detect-B.02.00.json",
-  "schfilemtime": 1741016740986
+  "schfilemtime": 1741706318051
 }

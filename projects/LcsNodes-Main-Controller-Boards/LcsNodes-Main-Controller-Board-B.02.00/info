@@ -4,7 +4,7 @@
   "name": "LcsNodes-Main-Controller-Board-B.02.00",
   "content": "LcsNodes main Controller board with PICO, new PCB format.",
   "created_at": "2025-01-15 10:03:18",
-  "updated_at": "2025-03-04 12:32:35",
+  "updated_at": "2025-03-14 11:41:56",
   "stick": "",
   "documents": [
     {
@@ -14,11 +14,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1741021184,
+      "updateTime": 1741693016,
       "createTime": 1693213366,
       "histories": [],
       "created_at": "2023-08-28 11:02:46",
-      "updated_at": "2025-03-03 17:59:44",
+      "updated_at": "2025-03-11 12:36:56",
       "BOM": [
         [
           "Value",
@@ -97,6 +97,18 @@
             "Manufacturer": "",
             "Supplier": "LCSC",
             "Supplier Part": "C9900003833"
+          }
+        ],
+        [
+          "5.1V",
+          2,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D4,D5",
+          {
+            "Manufacturer Part": "Diode Zener",
+            "Manufacturer": "SEMTECH",
+            "Supplier": "LCSC",
+            "Supplier Part": "C14516"
           }
         ],
         [
@@ -184,34 +196,10 @@
           }
         ],
         [
-          "2K2",
-          2,
-          "R1206",
-          "R1,R2",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "1K2",
-          2,
-          "R1206",
-          "R3,R5",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
           "120",
           1,
           "R1206",
-          "R4",
+          "R1",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -223,7 +211,7 @@
           "4K7",
           5,
           "R1206",
-          "R6,R7,R38,R39,R42",
+          "R2,R3,R34,R35,R38",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -235,7 +223,7 @@
           "56K",
           1,
           "R1206",
-          "R8",
+          "R4",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -247,7 +235,7 @@
           "100",
           1,
           "R1206",
-          "R9",
+          "R5",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -259,7 +247,7 @@
           "10K",
           28,
           "R1206",
-          "R10,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R36,R37,R40,R41,R43",
+          "R6,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R36,R37,R39",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -271,7 +259,7 @@
           "100K",
           1,
           "R1206",
-          "R11",
+          "R7",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -283,7 +271,31 @@
           "470",
           2,
           "R1206",
-          "R12,R13",
+          "R8,R9",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1K2",
+          2,
+          "R1206",
+          "R40,R41",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "2K2",
+          2,
+          "R1206",
+          "R42,R43",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -349,11 +361,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1741087732,
+      "updateTime": 1741693016,
       "createTime": 1693213366,
       "histories": [],
       "created_at": "2023-08-28 11:02:46",
-      "updated_at": "2025-03-04 12:28:52",
+      "updated_at": "2025-03-11 12:36:56",
       "BOM": [
         [
           "Value",
@@ -715,11 +727,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1741087732,
+      "updateTime": 1741703449,
       "createTime": 1693213366,
       "histories": [],
       "created_at": "2023-08-28 11:02:46",
-      "updated_at": "2025-03-04 12:28:52",
+      "updated_at": "2025-03-11 15:30:49",
       "BOM": [
         [
           "Value",
@@ -1434,11 +1446,11 @@
           }
         ]
       ],
-      "updateTime": 1741087955,
+      "updateTime": 1741948916,
       "createTime": 1736936224,
       "histories": [],
       "created_at": "2025-01-15 11:17:04",
-      "updated_at": "2025-03-04 12:32:35"
+      "updated_at": "2025-03-14 11:41:56"
     }
   ],
   "sort": [
@@ -1449,5 +1461,5 @@
   "title": "LcsNodes-Main-Controller-Board-B.02.00",
   "foldername": "LcsNodes-Main-Controller-Board-B.02.00",
   "schfilename": "LcsNodes-Main-Controller-Board-B.02.00.json",
-  "schfilemtime": 1741087732788
+  "schfilemtime": 1741703449500
 }

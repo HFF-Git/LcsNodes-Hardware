@@ -4,7 +4,7 @@
   "name": "LcsNodes-Dual-Block-Controller-B.02.00",
   "content": "A block controller, with a dual 2.8 Amp bridge that can be configured as a dual block controller or a mono block controller with double amperage.",
   "created_at": "2025-01-19 11:01:26",
-  "updated_at": "2025-03-04 14:56:20",
+  "updated_at": "2025-03-15 09:42:56",
   "stick": "",
   "documents": [
     {
@@ -37,9 +37,9 @@
         ],
         [
           "100n",
-          12,
+          13,
           "C1206",
-          "C1,C2,C6,C7,C8,C9,C10,C12,C13,C16,C18,C22",
+          "C1,C2,C6,C7,C8,C9,C11,C12,C13,C16,C17,C18,C21",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -75,7 +75,7 @@
           "10n",
           1,
           "C1206",
-          "C11",
+          "C10",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -85,9 +85,9 @@
         ],
         [
           "220n",
-          3,
+          1,
           "C1206",
-          "C14,C17,C19",
+          "C14",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -111,7 +111,7 @@
           "10u",
           1,
           "CAP-D5.0×H5.5",
-          "C20",
+          "C19",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -123,7 +123,7 @@
           "22u",
           1,
           "CAP-D5.0×H5.5",
-          "C21",
+          "C20",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -135,7 +135,7 @@
           "2200u",
           1,
           "CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD-1",
-          "C23",
+          "C22",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -156,10 +156,22 @@
           }
         ],
         [
+          "3.3V",
+          2,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D3,D4",
+          {
+            "Manufacturer Part": "Diode Zener",
+            "Manufacturer": "SEMTECH",
+            "Supplier": "LCSC",
+            "Supplier Part": "C14516"
+          }
+        ],
+        [
           "1N5819/S",
           2,
           "SMA_L4.3-W2.6-LS5.2-R-RD",
-          "D3,D4",
+          "D5,D6",
           {
             "Manufacturer Part": "1N5819/S",
             "Manufacturer": "",
@@ -181,9 +193,9 @@
         ],
         [
           "HDR-M-2.54_1x3",
-          5,
+          6,
           "HDR-M-2.54_1X3",
-          "J2,J3,J4,J5,J6",
+          "J2,J3,J4,J5,J6,J7",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -192,22 +204,10 @@
           }
         ],
         [
-          "LED-0603_R",
-          1,
-          "LED-1206",
-          "LED1",
-          {
-            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
-            "Manufacturer": "EVERLIGHT(台湾亿光)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C72044"
-          }
-        ],
-        [
           "LED-0805_G",
           2,
           "LED-1206",
-          "LED2,LED3",
+          "LED1,LED2",
           {
             "Manufacturer Part": "NCD0805G1",
             "Manufacturer": "国星光电",
@@ -255,7 +255,7 @@
           "4K7",
           4,
           "R1206",
-          "R1,R2,R11,R12",
+          "R1,R2,R10,R11",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -279,7 +279,7 @@
           "10K",
           9,
           "R1206",
-          "R4,R7,R8,R9,R10,R13,R14,R19,R20",
+          "R4,R6,R7,R8,R9,R12,R13,R29,R30",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -289,9 +289,9 @@
         ],
         [
           "470",
-          4,
+          5,
           "R1206",
-          "R5,R6,R16,R54",
+          "R5,R14,R15,R17,R49",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -300,22 +300,10 @@
           }
         ],
         [
-          "1K",
-          2,
-          "R1206",
-          "R15,R17",
-          {
-            "Manufacturer Part": "SR1206JR-7W4K7L",
-            "Manufacturer": "YAGEO(国巨)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C326768"
-          }
-        ],
-        [
           "4k7",
           1,
           "R1206",
-          "R18",
+          "R16",
           {
             "Manufacturer Part": "1206W4F1001T5E",
             "Manufacturer": "UNI-ROYAL(厚声)",
@@ -327,31 +315,7 @@
           "100",
           2,
           "R1206",
-          "R21,R53",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "1M",
-          8,
-          "R1206",
-          "R22,R23,R32,R33,R34,R35,R44,R45",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "220",
-          8,
-          "R1206",
-          "R24,R25,R28,R29,R37,R38,R41,R42",
+          "R18,R48",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -361,9 +325,9 @@
         ],
         [
           "10k",
-          10,
+          8,
           "R1206",
-          "R26,R27,R36,R39,R43,R46,R48,R49,R50,R51",
+          "R19,R20,R21,R22,R23,R24,R27,R28",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -375,7 +339,7 @@
           "0R47",
           2,
           "R_AXIAL-0.7",
-          "R30,R31",
+          "R25,R26",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -384,10 +348,22 @@
           }
         ],
         [
-          "1k",
-          2,
+          "1M",
+          8,
           "R1206",
-          "R40,R47",
+          "R31,R32,R37,R38,R39,R40,R45,R46",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "220",
+          8,
+          "R1206",
+          "R33,R34,R35,R36,R41,R42,R43,R44",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -399,7 +375,7 @@
           "56K",
           1,
           "R1206",
-          "R52",
+          "R47",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -411,7 +387,7 @@
           "100K",
           1,
           "R1206",
-          "R55",
+          "R50",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -504,22 +480,10 @@
           }
         ],
         [
-          "LM339ADR",
-          1,
-          "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
-          "U10",
-          {
-            "Manufacturer Part": "TI",
-            "Manufacturer": "LM339ADR",
-            "Supplier": "LCSC",
-            "Supplier Part": "C74559"
-          }
-        ],
-        [
           "L6205PD",
           1,
           "POWERSO20_L15.9-W11.0-P1.27-LS14.2-BL-EP",
-          "U11",
+          "U10",
           {
             "Manufacturer Part": "L6205PD013TR",
             "Manufacturer": "ST(意法半导体)",
@@ -528,22 +492,22 @@
           }
         ],
         [
-          "LM358AWDT",
+          "LM339ADR",
           1,
-          "SO-8_L4.9-W3.9-P1.27-LS5.9-BL",
-          "U12",
+          "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
+          "U11",
           {
-            "Manufacturer Part": "LM358AWDT",
-            "Manufacturer": "ST(意法半导体)",
+            "Manufacturer Part": "TI",
+            "Manufacturer": "LM339ADR",
             "Supplier": "LCSC",
-            "Supplier Part": "C2969987"
+            "Supplier Part": "C74559"
           }
         ],
         [
           "Gaptec_LC78",
           1,
           "GAPTEC_LC78",
-          "U13",
+          "U12",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -552,11 +516,11 @@
           }
         ]
       ],
-      "updateTime": 1740312597,
+      "updateTime": 1741694335,
       "createTime": 1706186597,
       "histories": [],
       "created_at": "2024-01-25 13:43:17",
-      "updated_at": "2025-02-23 13:09:57"
+      "updated_at": "2025-03-11 12:58:55"
     },
     {
       "uuid": "23d1d3598ed78ae37677b6cf443648b1",
@@ -718,10 +682,22 @@
           }
         ],
         [
+          "3.3V",
+          2,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D3,D4",
+          {
+            "Manufacturer Part": "Diode Zener",
+            "Manufacturer": "SEMTECH",
+            "Supplier": "LCSC",
+            "Supplier Part": "C14516"
+          }
+        ],
+        [
           "1N5819/S",
           2,
           "SMA_L4.3-W2.6-LS5.2-R-RD",
-          "D3,D4",
+          "D5,D6",
           {
             "Manufacturer Part": "1N5819/S",
             "Manufacturer": "",
@@ -743,9 +719,9 @@
         ],
         [
           "HDR-M-2.54_1x3",
-          5,
+          6,
           "HDR-M-2.54_1X3",
-          "J2,J3,J4,J5,J6",
+          "J2,J3,J4,J5,J6,J7",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -839,9 +815,9 @@
         ],
         [
           "470",
-          3,
+          5,
           "R1206",
-          "R5,R15,R49",
+          "R5,R14,R15,R17,R49",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -850,22 +826,10 @@
           }
         ],
         [
-          "1K",
-          2,
-          "R1206",
-          "R14,R16",
-          {
-            "Manufacturer Part": "SR1206JR-7W4K7L",
-            "Manufacturer": "YAGEO(国巨)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C326768"
-          }
-        ],
-        [
           "4k7",
           1,
           "R1206",
-          "R17",
+          "R16",
           {
             "Manufacturer Part": "1206W4F1001T5E",
             "Manufacturer": "UNI-ROYAL(厚声)",
@@ -1078,11 +1042,1613 @@
           }
         ]
       ],
-      "updateTime": 1740317218,
+      "updateTime": 1741694780,
       "createTime": 1706186597,
       "histories": [],
       "created_at": "2024-01-25 13:43:17",
-      "updated_at": "2025-02-23 14:26:58"
+      "updated_at": "2025-03-11 13:06:20"
+    },
+    {
+      "uuid": "f8cd1f409e553b9b3bf274c67fa482d3",
+      "title": "Control Logic",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "c68ef5da4fa0485ba0b58f255f7eaa44": 2,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 4,
+        "1d29275d0ac54a49a6271838e65e23fc": 2,
+        "a68dc5e6a9944c46b7604648a43dcd65": 5
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Opt",
+          1,
+          "SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0_C23873",
+          "B1",
+          {
+            "Manufacturer Part": "K2-1102DP-E4SW-04",
+            "Manufacturer": "韩国韩荣",
+            "Supplier": "LCSC",
+            "Supplier Part": "C136684"
+          }
+        ],
+        [
+          "100n",
+          13,
+          "C1206",
+          "C1,C2,C3,C4,C5,C6,C8,C9,C10,C13,C14,C15,C21",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10n",
+          1,
+          "C1206",
+          "C7",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "220n",
+          1,
+          "C1206",
+          "C11",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "100u",
+          1,
+          "CAP-D6.3×H7.7",
+          "C12",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "C1206",
+          "C16",
+          {
+            "Manufacturer Part": "CC1206KKX7R0BB104",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C107181"
+          }
+        ],
+        [
+          "1nF",
+          2,
+          "C1206",
+          "C17,C18",
+          {
+            "Manufacturer Part": "CC1206JRNPO9BN102",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C113881"
+          }
+        ],
+        [
+          "10u",
+          1,
+          "CAP-D5.0×H5.5",
+          "C19",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "22u",
+          1,
+          "CAP-D5.0×H5.5",
+          "C20",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "2200u",
+          1,
+          "CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD-1",
+          "C22",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1N4148",
+          2,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D1,D2",
+          {
+            "Manufacturer Part": "1N4148",
+            "Manufacturer": "SEMTECH",
+            "Supplier": "LCSC",
+            "Supplier Part": "C14516"
+          }
+        ],
+        [
+          "3.3V",
+          2,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D3,D4",
+          {
+            "Manufacturer Part": "Diode Zener",
+            "Manufacturer": "SEMTECH",
+            "Supplier": "LCSC",
+            "Supplier Part": "C14516"
+          }
+        ],
+        [
+          "1N5819/S",
+          2,
+          "SMA_L4.3-W2.6-LS5.2-R-RD",
+          "D5,D6",
+          {
+            "Manufacturer Part": "1N5819/S",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900003833"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          1,
+          "HDR-M-2.54_1X2",
+          "J1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C124375"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x3",
+          6,
+          "HDR-M-2.54_1X3",
+          "J2,J3,J4,J5,J6,J7",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C180248"
+          }
+        ],
+        [
+          "LED-0805_G",
+          2,
+          "LED-1206",
+          "LED1,LED2",
+          {
+            "Manufacturer Part": "NCD0805G1",
+            "Manufacturer": "国星光电",
+            "Supplier": "",
+            "Supplier Part": "C84260"
+          }
+        ],
+        [
+          "LCS-SYM-MAIN-CTRL",
+          1,
+          "LCS-FP-MAIN-CTRL-10X12",
+          "PCB1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "MOSFET-NCHANNELBSS138",
+          3,
+          "SOT23-3",
+          "Q1,Q2,Q3",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "DMG2305UX",
+          1,
+          "SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR-1",
+          "Q4",
+          {
+            "Manufacturer Part": "DMG2305UX",
+            "Manufacturer": "TECH PUBLIC(台舟)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2940629"
+          }
+        ],
+        [
+          "4K7",
+          4,
+          "R1206",
+          "R1,R2,R10,R11",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "120",
+          1,
+          "R1206",
+          "R3",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10K",
+          9,
+          "R1206",
+          "R4,R6,R7,R8,R9,R23,R24,R41,R42",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "470",
+          4,
+          "R1206",
+          "R5,R43,R44,R49",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "100",
+          2,
+          "R1206",
+          "R12,R48",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10k",
+          8,
+          "R1206",
+          "R13,R14,R15,R16,R17,R18,R21,R22",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "0R47",
+          2,
+          "R_AXIAL-0.7",
+          "R19,R20",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1M",
+          8,
+          "R1206",
+          "R25,R26,R31,R32,R33,R34,R39,R40",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "220",
+          8,
+          "R1206",
+          "R27,R28,R29,R30,R35,R36,R37,R38",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "4k7",
+          1,
+          "R1206",
+          "R45",
+          {
+            "Manufacturer Part": "1206W4F1001T5E",
+            "Manufacturer": "UNI-ROYAL(厚声)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C4410"
+          }
+        ],
+        [
+          "820",
+          1,
+          "R1206",
+          "R46",
+          {
+            "Manufacturer Part": "SR1206JR-7W4K7L",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C326768"
+          }
+        ],
+        [
+          "56K",
+          1,
+          "R1206",
+          "R47",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "100K",
+          1,
+          "R1206",
+          "R50",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "24FC256-I/SN",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U1",
+          {
+            "Manufacturer Part": "24FC256-I/SN",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C145385"
+          }
+        ],
+        [
+          "Main Controller - RASPBERRY Pi Pico",
+          1,
+          "RASPBERRY PI PICO",
+          "U2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "MCP2562-H/P",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.1-BL",
+          "U3",
+          {
+            "Manufacturer Part": "MCP2562-H/P",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C640348"
+          }
+        ],
+        [
+          "74HC153P",
+          2,
+          "SO-16_L9.9-W3.9-P1.27-LS6.0-BL",
+          "U4,U5",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "74HC00D/S400118",
+          2,
+          "SO-14_L8.7-W3.9-P1.27-LS6.0-BL",
+          "U6,U7",
+          {
+            "Manufacturer Part": "74HC00D/S400118",
+            "Manufacturer": "NXP(恩智浦)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C4471897"
+          }
+        ],
+        [
+          "L6205PD",
+          1,
+          "POWERSO20_L15.9-W11.0-P1.27-LS14.2-BL-EP",
+          "U8",
+          {
+            "Manufacturer Part": "L6205PD013TR",
+            "Manufacturer": "ST(意法半导体)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C36543"
+          }
+        ],
+        [
+          "LM339ADR",
+          1,
+          "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
+          "U9",
+          {
+            "Manufacturer Part": "TI",
+            "Manufacturer": "LM339ADR",
+            "Supplier": "LCSC",
+            "Supplier Part": "C74559"
+          }
+        ],
+        [
+          "MC14077BD",
+          1,
+          "SOIC14N",
+          "U10",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "HCPL2631SDM",
+          1,
+          "SMT-8_L9.7-W6.6-P2.54-LS10.3-TR",
+          "U11",
+          {
+            "Manufacturer Part": "HCPL2631SDM",
+            "Manufacturer": "onsemi(安森美)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C899529"
+          }
+        ],
+        [
+          "Gaptec_LC78",
+          1,
+          "GAPTEC_LC78",
+          "U12",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ]
+      ],
+      "updateTime": 1741695006,
+      "createTime": 1706601643,
+      "histories": [],
+      "created_at": "2024-01-30 09:00:43",
+      "updated_at": "2025-03-11 13:10:06"
+    },
+    {
+      "uuid": "1d2569adfd2931dedaca41648f51891a",
+      "title": "Dual Power Unit",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 7,
+        "2f379218ad414010bbfe428493a52848": 1,
+        "e76f3700a495449f89388aebc7c514e3": 1,
+        "ed535c8fe56245c1a5180026fdcb7303": 2,
+        "486123a4bb814705bb1a3164561bb535": 2,
+        "5d56951fd43d4b5083b0f3cd9bfd5587": 8,
+        "f39523d1440141cb8f5b2369d47ecc33": 1,
+        "fb82e4cef088466e83a5da161c0dbbab": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Opt",
+          1,
+          "SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0_C23873",
+          "B1",
+          {
+            "Manufacturer Part": "K2-1102DP-E4SW-04",
+            "Manufacturer": "韩国韩荣",
+            "Supplier": "LCSC",
+            "Supplier Part": "C136684"
+          }
+        ],
+        [
+          "100n",
+          13,
+          "C1206",
+          "C1,C2,C3,C4,C5,C6,C8,C9,C10,C13,C14,C15,C21",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10n",
+          1,
+          "C1206",
+          "C7",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "100u",
+          1,
+          "CAP-D6.3×H7.7",
+          "C11",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "220n",
+          1,
+          "C1206",
+          "C12",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "C1206",
+          "C16",
+          {
+            "Manufacturer Part": "CC1206KKX7R0BB104",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C107181"
+          }
+        ],
+        [
+          "1nF",
+          2,
+          "C1206",
+          "C17,C18",
+          {
+            "Manufacturer Part": "CC1206JRNPO9BN102",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C113881"
+          }
+        ],
+        [
+          "10u",
+          1,
+          "CAP-D5.0×H5.5",
+          "C19",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "22u",
+          1,
+          "CAP-D5.0×H5.5",
+          "C20",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "2200u",
+          1,
+          "CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD-1",
+          "C22",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1N4148",
+          2,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D1,D2",
+          {
+            "Manufacturer Part": "1N4148",
+            "Manufacturer": "SEMTECH",
+            "Supplier": "LCSC",
+            "Supplier Part": "C14516"
+          }
+        ],
+        [
+          "3.3V",
+          2,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D3,D4",
+          {
+            "Manufacturer Part": "Diode Zener",
+            "Manufacturer": "SEMTECH",
+            "Supplier": "LCSC",
+            "Supplier Part": "C14516"
+          }
+        ],
+        [
+          "1N5819/S",
+          2,
+          "SMA_L4.3-W2.6-LS5.2-R-RD",
+          "D5,D6",
+          {
+            "Manufacturer Part": "1N5819/S",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900003833"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          1,
+          "HDR-M-2.54_1X2",
+          "J1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C124375"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x3",
+          6,
+          "HDR-M-2.54_1X3",
+          "J2,J3,J4,J5,J6,J7",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C180248"
+          }
+        ],
+        [
+          "LED-0805_G",
+          2,
+          "LED-1206",
+          "LED1,LED2",
+          {
+            "Manufacturer Part": "NCD0805G1",
+            "Manufacturer": "国星光电",
+            "Supplier": "",
+            "Supplier Part": "C84260"
+          }
+        ],
+        [
+          "LCS-SYM-MAIN-CTRL",
+          1,
+          "LCS-FP-MAIN-CTRL-10X12",
+          "PCB1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "MOSFET-NCHANNELBSS138",
+          3,
+          "SOT23-3",
+          "Q1,Q2,Q3",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "DMG2305UX",
+          1,
+          "SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR-1",
+          "Q4",
+          {
+            "Manufacturer Part": "DMG2305UX",
+            "Manufacturer": "TECH PUBLIC(台舟)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2940629"
+          }
+        ],
+        [
+          "4K7",
+          4,
+          "R1206",
+          "R1,R2,R10,R11",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "120",
+          1,
+          "R1206",
+          "R3",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10K",
+          9,
+          "R1206",
+          "R4,R6,R7,R8,R9,R23,R24,R41,R42",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "470",
+          4,
+          "R1206",
+          "R5,R43,R44,R49",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "100",
+          2,
+          "R1206",
+          "R12,R48",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10k",
+          8,
+          "R1206",
+          "R13,R14,R15,R16,R17,R18,R21,R22",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "0R47",
+          2,
+          "R_AXIAL-0.7",
+          "R19,R20",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1M",
+          8,
+          "R1206",
+          "R25,R26,R31,R32,R33,R34,R39,R40",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "220",
+          8,
+          "R1206",
+          "R27,R28,R29,R30,R35,R36,R37,R38",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "4k7",
+          1,
+          "R1206",
+          "R45",
+          {
+            "Manufacturer Part": "1206W4F1001T5E",
+            "Manufacturer": "UNI-ROYAL(厚声)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C4410"
+          }
+        ],
+        [
+          "820",
+          1,
+          "R1206",
+          "R46",
+          {
+            "Manufacturer Part": "SR1206JR-7W4K7L",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C326768"
+          }
+        ],
+        [
+          "56K",
+          1,
+          "R1206",
+          "R47",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "100K",
+          1,
+          "R1206",
+          "R50",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "24FC256-I/SN",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U1",
+          {
+            "Manufacturer Part": "24FC256-I/SN",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C145385"
+          }
+        ],
+        [
+          "Main Controller - RASPBERRY Pi Pico",
+          1,
+          "RASPBERRY PI PICO",
+          "U2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "MCP2562-H/P",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.1-BL",
+          "U3",
+          {
+            "Manufacturer Part": "MCP2562-H/P",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C640348"
+          }
+        ],
+        [
+          "74HC153P",
+          2,
+          "SO-16_L9.9-W3.9-P1.27-LS6.0-BL",
+          "U4,U5",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "74HC00D/S400118",
+          2,
+          "SO-14_L8.7-W3.9-P1.27-LS6.0-BL",
+          "U6,U7",
+          {
+            "Manufacturer Part": "74HC00D/S400118",
+            "Manufacturer": "NXP(恩智浦)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C4471897"
+          }
+        ],
+        [
+          "L6205PD",
+          1,
+          "POWERSO20_L15.9-W11.0-P1.27-LS14.2-BL-EP",
+          "U8",
+          {
+            "Manufacturer Part": "L6205PD013TR",
+            "Manufacturer": "ST(意法半导体)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C36543"
+          }
+        ],
+        [
+          "LM339ADR",
+          1,
+          "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
+          "U9",
+          {
+            "Manufacturer Part": "TI",
+            "Manufacturer": "LM339ADR",
+            "Supplier": "LCSC",
+            "Supplier Part": "C74559"
+          }
+        ],
+        [
+          "MC14077BD",
+          1,
+          "SO-14_L8.7-W3.9-P1.27-LS6.0-BL",
+          "U10",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "HCPL2631SDM",
+          1,
+          "SMT-8_L9.7-W6.6-P2.54-LS10.3-TR",
+          "U11",
+          {
+            "Manufacturer Part": "HCPL2631SDM",
+            "Manufacturer": "onsemi(安森美)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C899529"
+          }
+        ],
+        [
+          "Gaptec_LC78",
+          1,
+          "GAPTEC_LC78",
+          "U12",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ]
+      ],
+      "updateTime": 1742027934,
+      "createTime": 1706186708,
+      "histories": [],
+      "created_at": "2024-01-25 13:45:08",
+      "updated_at": "2025-03-15 09:38:54"
+    },
+    {
+      "uuid": "3ad610943292e13ff0684461eb14dcc4",
+      "title": "RailCom Detect",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "c41a7ce5d64b4e3fbee4a15d17a8e8a6": 1,
+        "0da4d11a5fcd472189c7741e9c5f686a": 1,
+        "d9c7ca3a0ca743e9b94fd728cc8248c9": 1,
+        "4234e318dc7945c38feff7d4ff83024a": 1,
+        "5d56951fd43d4b5083b0f3cd9bfd5587": 18,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Opt",
+          1,
+          "SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0_C23873",
+          "B1",
+          {
+            "Manufacturer Part": "K2-1102DP-E4SW-04",
+            "Manufacturer": "韩国韩荣",
+            "Supplier": "LCSC",
+            "Supplier Part": "C136684"
+          }
+        ],
+        [
+          "100n",
+          13,
+          "C1206",
+          "C1,C2,C3,C4,C5,C6,C8,C9,C10,C13,C14,C15,C21",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10n",
+          1,
+          "C1206",
+          "C7",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "220n",
+          1,
+          "C1206",
+          "C11",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "100u",
+          1,
+          "CAP-D6.3×H7.7",
+          "C12",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "C1206",
+          "C16",
+          {
+            "Manufacturer Part": "CC1206KKX7R0BB104",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C107181"
+          }
+        ],
+        [
+          "1nF",
+          2,
+          "C1206",
+          "C17,C18",
+          {
+            "Manufacturer Part": "CC1206JRNPO9BN102",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C113881"
+          }
+        ],
+        [
+          "10u",
+          1,
+          "CAP-D5.0×H5.5",
+          "C19",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "22u",
+          1,
+          "CAP-D5.0×H5.5",
+          "C20",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "2200u",
+          1,
+          "CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD-1",
+          "C22",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1N4148",
+          2,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D1,D2",
+          {
+            "Manufacturer Part": "1N4148",
+            "Manufacturer": "SEMTECH",
+            "Supplier": "LCSC",
+            "Supplier Part": "C14516"
+          }
+        ],
+        [
+          "3.3V",
+          2,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D3,D4",
+          {
+            "Manufacturer Part": "Diode Zener",
+            "Manufacturer": "SEMTECH",
+            "Supplier": "LCSC",
+            "Supplier Part": "C14516"
+          }
+        ],
+        [
+          "1N5819/S",
+          2,
+          "SMA_L4.3-W2.6-LS5.2-R-RD",
+          "D5,D6",
+          {
+            "Manufacturer Part": "1N5819/S",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900003833"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          1,
+          "HDR-M-2.54_1X2",
+          "J1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C124375"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x3",
+          6,
+          "HDR-M-2.54_1X3",
+          "J2,J3,J4,J5,J6,J7",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C180248"
+          }
+        ],
+        [
+          "LED-0805_G",
+          2,
+          "LED-1206",
+          "LED1,LED2",
+          {
+            "Manufacturer Part": "NCD0805G1",
+            "Manufacturer": "国星光电",
+            "Supplier": "",
+            "Supplier Part": "C84260"
+          }
+        ],
+        [
+          "LCS-SYM-MAIN-CTRL",
+          1,
+          "LCS-FP-MAIN-CTRL-10X12",
+          "PCB1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "MOSFET-NCHANNELBSS138",
+          3,
+          "SOT23-3",
+          "Q1,Q2,Q3",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "DMG2305UX",
+          1,
+          "SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR-1",
+          "Q4",
+          {
+            "Manufacturer Part": "DMG2305UX",
+            "Manufacturer": "TECH PUBLIC(台舟)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2940629"
+          }
+        ],
+        [
+          "4K7",
+          4,
+          "R1206",
+          "R1,R2,R10,R11",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "120",
+          1,
+          "R1206",
+          "R3",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10K",
+          9,
+          "R1206",
+          "R4,R6,R7,R8,R9,R23,R24,R41,R42",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "470",
+          4,
+          "R1206",
+          "R5,R43,R44,R49",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "100",
+          2,
+          "R1206",
+          "R12,R48",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10k",
+          8,
+          "R1206",
+          "R13,R14,R15,R16,R17,R18,R21,R22",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "0R47",
+          2,
+          "R_AXIAL-0.7",
+          "R19,R20",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1M",
+          8,
+          "R1206",
+          "R25,R26,R31,R32,R33,R34,R39,R40",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "220",
+          8,
+          "R1206",
+          "R27,R28,R29,R30,R35,R36,R37,R38",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "4k7",
+          1,
+          "R1206",
+          "R45",
+          {
+            "Manufacturer Part": "1206W4F1001T5E",
+            "Manufacturer": "UNI-ROYAL(厚声)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C4410"
+          }
+        ],
+        [
+          "820",
+          1,
+          "R1206",
+          "R46",
+          {
+            "Manufacturer Part": "SR1206JR-7W4K7L",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C326768"
+          }
+        ],
+        [
+          "56K",
+          1,
+          "R1206",
+          "R47",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "100K",
+          1,
+          "R1206",
+          "R50",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "24FC256-I/SN",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U1",
+          {
+            "Manufacturer Part": "24FC256-I/SN",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C145385"
+          }
+        ],
+        [
+          "Main Controller - RASPBERRY Pi Pico",
+          1,
+          "RASPBERRY PI PICO",
+          "U2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "MCP2562-H/P",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.1-BL",
+          "U3",
+          {
+            "Manufacturer Part": "MCP2562-H/P",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C640348"
+          }
+        ],
+        [
+          "74HC153P",
+          2,
+          "SO-16_L9.9-W3.9-P1.27-LS6.0-BL",
+          "U4,U5",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "74HC00D/S400118",
+          2,
+          "SO-14_L8.7-W3.9-P1.27-LS6.0-BL",
+          "U6,U7",
+          {
+            "Manufacturer Part": "74HC00D/S400118",
+            "Manufacturer": "NXP(恩智浦)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C4471897"
+          }
+        ],
+        [
+          "L6205PD",
+          1,
+          "POWERSO20_L15.9-W11.0-P1.27-LS14.2-BL-EP",
+          "U8",
+          {
+            "Manufacturer Part": "L6205PD013TR",
+            "Manufacturer": "ST(意法半导体)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C36543"
+          }
+        ],
+        [
+          "LM339ADR",
+          1,
+          "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
+          "U9",
+          {
+            "Manufacturer Part": "TI",
+            "Manufacturer": "LM339ADR",
+            "Supplier": "LCSC",
+            "Supplier Part": "C74559"
+          }
+        ],
+        [
+          "MC14077BD",
+          1,
+          "SOIC14N",
+          "U10",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "HCPL2631SDM",
+          1,
+          "SMT-8_L9.7-W6.6-P2.54-LS10.3-TR",
+          "U11",
+          {
+            "Manufacturer Part": "HCPL2631SDM",
+            "Manufacturer": "onsemi(安森美)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C899529"
+          }
+        ],
+        [
+          "Gaptec_LC78",
+          1,
+          "GAPTEC_LC78",
+          "U12",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ]
+      ],
+      "updateTime": 1741695006,
+      "createTime": 1737281327,
+      "histories": [],
+      "created_at": "2025-01-19 11:08:47",
+      "updated_at": "2025-03-11 13:10:06"
     },
     {
       "uuid": "3b2340ee8fa19b3099e36e4897068dcd",
@@ -1127,7 +2693,7 @@
           "100n",
           13,
           "C1206",
-          "C1,C2,C6,C7,C8,C9,C11,C12,C13,C16,C17,C18,C21",
+          "C1,C2,C3,C4,C5,C6,C8,C9,C10,C13,C14,C15,C21",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1136,34 +2702,10 @@
           }
         ],
         [
-          "100nF",
-          1,
-          "C1206",
-          "C3",
-          {
-            "Manufacturer Part": "CC1206KKX7R0BB104",
-            "Manufacturer": "YAGEO(国巨)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C107181"
-          }
-        ],
-        [
-          "1nF",
-          2,
-          "C1206",
-          "C4,C5",
-          {
-            "Manufacturer Part": "CC1206JRNPO9BN102",
-            "Manufacturer": "YAGEO(国巨)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C113881"
-          }
-        ],
-        [
           "10n",
           1,
           "C1206",
-          "C10",
+          "C7",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1175,7 +2717,7 @@
           "220n",
           1,
           "C1206",
-          "C14",
+          "C11",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1187,12 +2729,36 @@
           "100u",
           1,
           "CAP-D6.3×H7.7",
-          "C15",
+          "C12",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
             "Supplier": "",
             "Supplier Part": ""
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "C1206",
+          "C16",
+          {
+            "Manufacturer Part": "CC1206KKX7R0BB104",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C107181"
+          }
+        ],
+        [
+          "1nF",
+          2,
+          "C1206",
+          "C17,C18",
+          {
+            "Manufacturer Part": "CC1206JRNPO9BN102",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C113881"
           }
         ],
         [
@@ -1367,7 +2933,7 @@
           "10K",
           9,
           "R1206",
-          "R4,R6,R7,R8,R9,R12,R13,R29,R30",
+          "R4,R6,R7,R8,R9,R23,R24,R41,R42",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1377,9 +2943,9 @@
         ],
         [
           "470",
-          5,
+          4,
           "R1206",
-          "R5,R14,R15,R17,R49",
+          "R5,R43,R44,R49",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1388,22 +2954,10 @@
           }
         ],
         [
-          "4k7",
-          1,
-          "R1206",
-          "R16",
-          {
-            "Manufacturer Part": "1206W4F1001T5E",
-            "Manufacturer": "UNI-ROYAL(厚声)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C4410"
-          }
-        ],
-        [
           "100",
           2,
           "R1206",
-          "R18,R48",
+          "R12,R48",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1415,7 +2969,7 @@
           "10k",
           8,
           "R1206",
-          "R19,R20,R21,R22,R23,R24,R27,R28",
+          "R13,R14,R15,R16,R17,R18,R21,R22",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1427,7 +2981,7 @@
           "0R47",
           2,
           "R_AXIAL-0.7",
-          "R25,R26",
+          "R19,R20",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1439,7 +2993,7 @@
           "1M",
           8,
           "R1206",
-          "R31,R32,R37,R38,R39,R40,R45,R46",
+          "R25,R26,R31,R32,R33,R34,R39,R40",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1451,12 +3005,36 @@
           "220",
           8,
           "R1206",
-          "R33,R34,R35,R36,R41,R42,R43,R44",
+          "R27,R28,R29,R30,R35,R36,R37,R38",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
             "Supplier": "",
             "Supplier Part": ""
+          }
+        ],
+        [
+          "4k7",
+          1,
+          "R1206",
+          "R45",
+          {
+            "Manufacturer Part": "1206W4F1001T5E",
+            "Manufacturer": "UNI-ROYAL(厚声)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C4410"
+          }
+        ],
+        [
+          "820",
+          1,
+          "R1206",
+          "R46",
+          {
+            "Manufacturer Part": "SR1206JR-7W4K7L",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C326768"
           }
         ],
         [
@@ -1520,34 +3098,10 @@
           }
         ],
         [
-          "MC14077BD",
-          1,
-          "SOIC14N",
-          "U4",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "HCPL2631SDM",
-          1,
-          "SMT-8_L9.7-W6.6-P2.54-LS10.3-TR",
-          "U5",
-          {
-            "Manufacturer Part": "HCPL2631SDM",
-            "Manufacturer": "onsemi(安森美)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C899529"
-          }
-        ],
-        [
           "74HC153P",
           2,
           "SO-16_L9.9-W3.9-P1.27-LS6.0-BL",
-          "U6,U7",
+          "U4,U5",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1559,7 +3113,7 @@
           "74HC00D/S400118",
           2,
           "SO-14_L8.7-W3.9-P1.27-LS6.0-BL",
-          "U8,U9",
+          "U6,U7",
           {
             "Manufacturer Part": "74HC00D/S400118",
             "Manufacturer": "NXP(恩智浦)",
@@ -1571,7 +3125,7 @@
           "L6205PD",
           1,
           "POWERSO20_L15.9-W11.0-P1.27-LS14.2-BL-EP",
-          "U10",
+          "U8",
           {
             "Manufacturer Part": "L6205PD013TR",
             "Manufacturer": "ST(意法半导体)",
@@ -1583,12 +3137,36 @@
           "LM339ADR",
           1,
           "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
-          "U11",
+          "U9",
           {
             "Manufacturer Part": "TI",
             "Manufacturer": "LM339ADR",
             "Supplier": "LCSC",
             "Supplier Part": "C74559"
+          }
+        ],
+        [
+          "MC14077BD",
+          1,
+          "SO-14_L8.7-W3.9-P1.27-LS6.0-BL",
+          "U10",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "HCPL2631SDM",
+          1,
+          "SMT-8_L9.7-W6.6-P2.54-LS10.3-TR",
+          "U11",
+          {
+            "Manufacturer Part": "HCPL2631SDM",
+            "Manufacturer": "onsemi(安森美)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C899529"
           }
         ],
         [
@@ -1604,1589 +3182,11 @@
           }
         ]
       ],
-      "updateTime": 1741095769,
+      "updateTime": 1741695774,
       "createTime": 1706186880,
       "histories": [],
       "created_at": "2024-01-25 13:48:00",
-      "updated_at": "2025-03-04 14:42:49"
-    },
-    {
-      "uuid": "f8cd1f409e553b9b3bf274c67fa482d3",
-      "title": "Control Logic",
-      "description": "",
-      "docType": "1",
-      "master": "",
-      "thumb": "/images/thumb-default.png",
-      "components": {
-        "c68ef5da4fa0485ba0b58f255f7eaa44": 2,
-        "fd11c9e744c44aeab6011e8bd4c3ea86": 4,
-        "1d29275d0ac54a49a6271838e65e23fc": 2,
-        "a68dc5e6a9944c46b7604648a43dcd65": 5
-      },
-      "BOM": [
-        [
-          "Value",
-          "Quantity",
-          "Package",
-          "Components",
-          "CustomPara"
-        ],
-        [
-          "Opt",
-          1,
-          "SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0_C23873",
-          "B1",
-          {
-            "Manufacturer Part": "K2-1102DP-E4SW-04",
-            "Manufacturer": "韩国韩荣",
-            "Supplier": "LCSC",
-            "Supplier Part": "C136684"
-          }
-        ],
-        [
-          "100n",
-          13,
-          "C1206",
-          "C1,C2,C6,C7,C8,C9,C11,C12,C13,C16,C17,C18,C21",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "100nF",
-          1,
-          "C1206",
-          "C3",
-          {
-            "Manufacturer Part": "CC1206KKX7R0BB104",
-            "Manufacturer": "YAGEO(国巨)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C107181"
-          }
-        ],
-        [
-          "1nF",
-          2,
-          "C1206",
-          "C4,C5",
-          {
-            "Manufacturer Part": "CC1206JRNPO9BN102",
-            "Manufacturer": "YAGEO(国巨)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C113881"
-          }
-        ],
-        [
-          "10n",
-          1,
-          "C1206",
-          "C10",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "220n",
-          1,
-          "C1206",
-          "C14",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "100u",
-          1,
-          "CAP-D6.3×H7.7",
-          "C15",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "10u",
-          1,
-          "CAP-D5.0×H5.5",
-          "C19",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "22u",
-          1,
-          "CAP-D5.0×H5.5",
-          "C20",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "2200u",
-          1,
-          "CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD-1",
-          "C22",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "1N4148",
-          2,
-          "SOD-80C_L3.3-W1.5-RD",
-          "D1,D2",
-          {
-            "Manufacturer Part": "1N4148",
-            "Manufacturer": "SEMTECH",
-            "Supplier": "LCSC",
-            "Supplier Part": "C14516"
-          }
-        ],
-        [
-          "3.3V",
-          2,
-          "SOD-80C_L3.3-W1.5-RD",
-          "D3,D4",
-          {
-            "Manufacturer Part": "Diode Zener",
-            "Manufacturer": "SEMTECH",
-            "Supplier": "LCSC",
-            "Supplier Part": "C14516"
-          }
-        ],
-        [
-          "1N5819/S",
-          2,
-          "SMA_L4.3-W2.6-LS5.2-R-RD",
-          "D5,D6",
-          {
-            "Manufacturer Part": "1N5819/S",
-            "Manufacturer": "",
-            "Supplier": "LCSC",
-            "Supplier Part": "C9900003833"
-          }
-        ],
-        [
-          "HDR-M-2.54_1x2",
-          1,
-          "HDR-M-2.54_1X2",
-          "J1",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "LCSC",
-            "Supplier Part": "C124375"
-          }
-        ],
-        [
-          "HDR-M-2.54_1x3",
-          6,
-          "HDR-M-2.54_1X3",
-          "J2,J3,J4,J5,J6,J7",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "LCSC",
-            "Supplier Part": "C180248"
-          }
-        ],
-        [
-          "LED-0805_G",
-          2,
-          "LED-1206",
-          "LED1,LED2",
-          {
-            "Manufacturer Part": "NCD0805G1",
-            "Manufacturer": "国星光电",
-            "Supplier": "",
-            "Supplier Part": "C84260"
-          }
-        ],
-        [
-          "LCS-SYM-MAIN-CTRL",
-          1,
-          "LCS-FP-MAIN-CTRL-10X12",
-          "PCB1",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "MOSFET-NCHANNELBSS138",
-          3,
-          "SOT23-3",
-          "Q1,Q2,Q3",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "DMG2305UX",
-          1,
-          "SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR-1",
-          "Q4",
-          {
-            "Manufacturer Part": "DMG2305UX",
-            "Manufacturer": "TECH PUBLIC(台舟)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C2940629"
-          }
-        ],
-        [
-          "4K7",
-          4,
-          "R1206",
-          "R1,R2,R10,R11",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "120",
-          1,
-          "R1206",
-          "R3",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "10K",
-          9,
-          "R1206",
-          "R4,R6,R7,R8,R9,R12,R13,R29,R30",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "470",
-          5,
-          "R1206",
-          "R5,R14,R15,R17,R49",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "4k7",
-          1,
-          "R1206",
-          "R16",
-          {
-            "Manufacturer Part": "1206W4F1001T5E",
-            "Manufacturer": "UNI-ROYAL(厚声)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C4410"
-          }
-        ],
-        [
-          "100",
-          2,
-          "R1206",
-          "R18,R48",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "10k",
-          8,
-          "R1206",
-          "R19,R20,R21,R22,R23,R24,R27,R28",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "0R47",
-          2,
-          "R_AXIAL-0.7",
-          "R25,R26",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "1M",
-          8,
-          "R1206",
-          "R31,R32,R37,R38,R39,R40,R45,R46",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "220",
-          8,
-          "R1206",
-          "R33,R34,R35,R36,R41,R42,R43,R44",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "56K",
-          1,
-          "R1206",
-          "R47",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "100K",
-          1,
-          "R1206",
-          "R50",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "24FC256-I/SN",
-          1,
-          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
-          "U1",
-          {
-            "Manufacturer Part": "24FC256-I/SN",
-            "Manufacturer": "MICROCHIP(美国微芯)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C145385"
-          }
-        ],
-        [
-          "Main Controller - RASPBERRY Pi Pico",
-          1,
-          "RASPBERRY PI PICO",
-          "U2",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "MCP2562-H/P",
-          1,
-          "SOIC-8_L4.9-W3.9-P1.27-LS6.1-BL",
-          "U3",
-          {
-            "Manufacturer Part": "MCP2562-H/P",
-            "Manufacturer": "MICROCHIP(美国微芯)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C640348"
-          }
-        ],
-        [
-          "MC14077BD",
-          1,
-          "SOIC14N",
-          "U4",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "HCPL2631SDM",
-          1,
-          "SMT-8_L9.7-W6.6-P2.54-LS10.3-TR",
-          "U5",
-          {
-            "Manufacturer Part": "HCPL2631SDM",
-            "Manufacturer": "onsemi(安森美)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C899529"
-          }
-        ],
-        [
-          "74HC153P",
-          2,
-          "SO-16_L9.9-W3.9-P1.27-LS6.0-BL",
-          "U6,U7",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "74HC00D/S400118",
-          2,
-          "SO-14_L8.7-W3.9-P1.27-LS6.0-BL",
-          "U8,U9",
-          {
-            "Manufacturer Part": "74HC00D/S400118",
-            "Manufacturer": "NXP(恩智浦)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C4471897"
-          }
-        ],
-        [
-          "L6205PD",
-          1,
-          "POWERSO20_L15.9-W11.0-P1.27-LS14.2-BL-EP",
-          "U10",
-          {
-            "Manufacturer Part": "L6205PD013TR",
-            "Manufacturer": "ST(意法半导体)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C36543"
-          }
-        ],
-        [
-          "LM339ADR",
-          1,
-          "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
-          "U11",
-          {
-            "Manufacturer Part": "TI",
-            "Manufacturer": "LM339ADR",
-            "Supplier": "LCSC",
-            "Supplier Part": "C74559"
-          }
-        ],
-        [
-          "Gaptec_LC78",
-          1,
-          "GAPTEC_LC78",
-          "U12",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ]
-      ],
-      "updateTime": 1741095586,
-      "createTime": 1706601643,
-      "histories": [],
-      "created_at": "2024-01-30 09:00:43",
-      "updated_at": "2025-03-04 14:39:46"
-    },
-    {
-      "uuid": "1d2569adfd2931dedaca41648f51891a",
-      "title": "Dual Power Unit",
-      "description": "",
-      "docType": "1",
-      "master": "",
-      "thumb": "/images/thumb-default.png",
-      "components": {
-        "fd11c9e744c44aeab6011e8bd4c3ea86": 7,
-        "2f379218ad414010bbfe428493a52848": 1,
-        "e76f3700a495449f89388aebc7c514e3": 1,
-        "ed535c8fe56245c1a5180026fdcb7303": 2,
-        "486123a4bb814705bb1a3164561bb535": 2,
-        "5d56951fd43d4b5083b0f3cd9bfd5587": 8,
-        "f39523d1440141cb8f5b2369d47ecc33": 1,
-        "fb82e4cef088466e83a5da161c0dbbab": 2
-      },
-      "BOM": [
-        [
-          "Value",
-          "Quantity",
-          "Package",
-          "Components",
-          "CustomPara"
-        ],
-        [
-          "Opt",
-          1,
-          "SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0_C23873",
-          "B1",
-          {
-            "Manufacturer Part": "K2-1102DP-E4SW-04",
-            "Manufacturer": "韩国韩荣",
-            "Supplier": "LCSC",
-            "Supplier Part": "C136684"
-          }
-        ],
-        [
-          "100n",
-          13,
-          "C1206",
-          "C1,C2,C6,C7,C8,C9,C11,C12,C13,C16,C17,C18,C21",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "100nF",
-          1,
-          "C1206",
-          "C3",
-          {
-            "Manufacturer Part": "CC1206KKX7R0BB104",
-            "Manufacturer": "YAGEO(国巨)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C107181"
-          }
-        ],
-        [
-          "1nF",
-          2,
-          "C1206",
-          "C4,C5",
-          {
-            "Manufacturer Part": "CC1206JRNPO9BN102",
-            "Manufacturer": "YAGEO(国巨)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C113881"
-          }
-        ],
-        [
-          "10n",
-          1,
-          "C1206",
-          "C10",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "220n",
-          1,
-          "C1206",
-          "C14",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "100u",
-          1,
-          "CAP-D6.3×H7.7",
-          "C15",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "10u",
-          1,
-          "CAP-D5.0×H5.5",
-          "C19",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "22u",
-          1,
-          "CAP-D5.0×H5.5",
-          "C20",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "2200u",
-          1,
-          "CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD-1",
-          "C22",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "1N4148",
-          2,
-          "SOD-80C_L3.3-W1.5-RD",
-          "D1,D2",
-          {
-            "Manufacturer Part": "1N4148",
-            "Manufacturer": "SEMTECH",
-            "Supplier": "LCSC",
-            "Supplier Part": "C14516"
-          }
-        ],
-        [
-          "3.3V",
-          2,
-          "SOD-80C_L3.3-W1.5-RD",
-          "D3,D4",
-          {
-            "Manufacturer Part": "Diode Zener",
-            "Manufacturer": "SEMTECH",
-            "Supplier": "LCSC",
-            "Supplier Part": "C14516"
-          }
-        ],
-        [
-          "1N5819/S",
-          2,
-          "SMA_L4.3-W2.6-LS5.2-R-RD",
-          "D5,D6",
-          {
-            "Manufacturer Part": "1N5819/S",
-            "Manufacturer": "",
-            "Supplier": "LCSC",
-            "Supplier Part": "C9900003833"
-          }
-        ],
-        [
-          "HDR-M-2.54_1x2",
-          1,
-          "HDR-M-2.54_1X2",
-          "J1",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "LCSC",
-            "Supplier Part": "C124375"
-          }
-        ],
-        [
-          "HDR-M-2.54_1x3",
-          5,
-          "HDR-M-2.54_1X3",
-          "J2,J3,J4,J5,J6",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "LCSC",
-            "Supplier Part": "C180248"
-          }
-        ],
-        [
-          "LED-0805_G",
-          2,
-          "LED-1206",
-          "LED1,LED2",
-          {
-            "Manufacturer Part": "NCD0805G1",
-            "Manufacturer": "国星光电",
-            "Supplier": "",
-            "Supplier Part": "C84260"
-          }
-        ],
-        [
-          "LCS-SYM-MAIN-CTRL",
-          1,
-          "LCS-FP-MAIN-CTRL-10X12",
-          "PCB1",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "MOSFET-NCHANNELBSS138",
-          3,
-          "SOT23-3",
-          "Q1,Q2,Q3",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "DMG2305UX",
-          1,
-          "SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR-1",
-          "Q4",
-          {
-            "Manufacturer Part": "DMG2305UX",
-            "Manufacturer": "TECH PUBLIC(台舟)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C2940629"
-          }
-        ],
-        [
-          "4K7",
-          4,
-          "R1206",
-          "R1,R2,R10,R11",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "120",
-          1,
-          "R1206",
-          "R3",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "10K",
-          9,
-          "R1206",
-          "R4,R6,R7,R8,R9,R12,R13,R29,R30",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "470",
-          3,
-          "R1206",
-          "R5,R15,R49",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "1K",
-          2,
-          "R1206",
-          "R14,R16",
-          {
-            "Manufacturer Part": "SR1206JR-7W4K7L",
-            "Manufacturer": "YAGEO(国巨)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C326768"
-          }
-        ],
-        [
-          "4k7",
-          1,
-          "R1206",
-          "R17",
-          {
-            "Manufacturer Part": "1206W4F1001T5E",
-            "Manufacturer": "UNI-ROYAL(厚声)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C4410"
-          }
-        ],
-        [
-          "100",
-          2,
-          "R1206",
-          "R18,R48",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "10k",
-          8,
-          "R1206",
-          "R19,R20,R21,R22,R23,R24,R27,R28",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "0R47",
-          2,
-          "R_AXIAL-0.7",
-          "R25,R26",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "1M",
-          8,
-          "R1206",
-          "R31,R32,R37,R38,R39,R40,R45,R46",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "220",
-          8,
-          "R1206",
-          "R33,R34,R35,R36,R41,R42,R43,R44",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "56K",
-          1,
-          "R1206",
-          "R47",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "100K",
-          1,
-          "R1206",
-          "R50",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "24FC256-I/SN",
-          1,
-          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
-          "U1",
-          {
-            "Manufacturer Part": "24FC256-I/SN",
-            "Manufacturer": "MICROCHIP(美国微芯)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C145385"
-          }
-        ],
-        [
-          "Main Controller - RASPBERRY Pi Pico",
-          1,
-          "RASPBERRY PI PICO",
-          "U2",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "MCP2562-H/P",
-          1,
-          "SOIC-8_L4.9-W3.9-P1.27-LS6.1-BL",
-          "U3",
-          {
-            "Manufacturer Part": "MCP2562-H/P",
-            "Manufacturer": "MICROCHIP(美国微芯)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C640348"
-          }
-        ],
-        [
-          "MC14077BD",
-          1,
-          "SOIC14N",
-          "U4",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "HCPL2631SDM",
-          1,
-          "SMT-8_L9.7-W6.6-P2.54-LS10.3-TR",
-          "U5",
-          {
-            "Manufacturer Part": "HCPL2631SDM",
-            "Manufacturer": "onsemi(安森美)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C899529"
-          }
-        ],
-        [
-          "74HC153P",
-          2,
-          "SO-16_L9.9-W3.9-P1.27-LS6.0-BL",
-          "U6,U7",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "74HC00D/S400118",
-          2,
-          "SO-14_L8.7-W3.9-P1.27-LS6.0-BL",
-          "U8,U9",
-          {
-            "Manufacturer Part": "74HC00D/S400118",
-            "Manufacturer": "NXP(恩智浦)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C4471897"
-          }
-        ],
-        [
-          "L6205PD",
-          1,
-          "POWERSO20_L15.9-W11.0-P1.27-LS14.2-BL-EP",
-          "U10",
-          {
-            "Manufacturer Part": "L6205PD013TR",
-            "Manufacturer": "ST(意法半导体)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C36543"
-          }
-        ],
-        [
-          "LM339ADR",
-          1,
-          "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
-          "U11",
-          {
-            "Manufacturer Part": "TI",
-            "Manufacturer": "LM339ADR",
-            "Supplier": "LCSC",
-            "Supplier Part": "C74559"
-          }
-        ],
-        [
-          "Gaptec_LC78",
-          1,
-          "GAPTEC_LC78",
-          "U12",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ]
-      ],
-      "updateTime": 1740384818,
-      "createTime": 1706186708,
-      "histories": [],
-      "created_at": "2024-01-25 13:45:08",
-      "updated_at": "2025-02-24 09:13:38"
-    },
-    {
-      "uuid": "3ad610943292e13ff0684461eb14dcc4",
-      "title": "Current Meas and RailCom",
-      "description": "",
-      "docType": "1",
-      "master": "",
-      "thumb": "/images/thumb-default.png",
-      "components": {
-        "c41a7ce5d64b4e3fbee4a15d17a8e8a6": 1,
-        "0da4d11a5fcd472189c7741e9c5f686a": 1,
-        "d9c7ca3a0ca743e9b94fd728cc8248c9": 1,
-        "4234e318dc7945c38feff7d4ff83024a": 1,
-        "5d56951fd43d4b5083b0f3cd9bfd5587": 18,
-        "fd11c9e744c44aeab6011e8bd4c3ea86": 1
-      },
-      "BOM": [
-        [
-          "Value",
-          "Quantity",
-          "Package",
-          "Components",
-          "CustomPara"
-        ],
-        [
-          "Opt",
-          1,
-          "SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0_C23873",
-          "B1",
-          {
-            "Manufacturer Part": "K2-1102DP-E4SW-04",
-            "Manufacturer": "韩国韩荣",
-            "Supplier": "LCSC",
-            "Supplier Part": "C136684"
-          }
-        ],
-        [
-          "100n",
-          13,
-          "C1206",
-          "C1,C2,C6,C7,C8,C9,C11,C12,C13,C16,C17,C18,C21",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "100nF",
-          1,
-          "C1206",
-          "C3",
-          {
-            "Manufacturer Part": "CC1206KKX7R0BB104",
-            "Manufacturer": "YAGEO(国巨)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C107181"
-          }
-        ],
-        [
-          "1nF",
-          2,
-          "C1206",
-          "C4,C5",
-          {
-            "Manufacturer Part": "CC1206JRNPO9BN102",
-            "Manufacturer": "YAGEO(国巨)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C113881"
-          }
-        ],
-        [
-          "10n",
-          1,
-          "C1206",
-          "C10",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "220n",
-          1,
-          "C1206",
-          "C14",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "100u",
-          1,
-          "CAP-D6.3×H7.7",
-          "C15",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "10u",
-          1,
-          "CAP-D5.0×H5.5",
-          "C19",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "22u",
-          1,
-          "CAP-D5.0×H5.5",
-          "C20",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "2200u",
-          1,
-          "CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD-1",
-          "C22",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "1N4148",
-          2,
-          "SOD-80C_L3.3-W1.5-RD",
-          "D1,D2",
-          {
-            "Manufacturer Part": "1N4148",
-            "Manufacturer": "SEMTECH",
-            "Supplier": "LCSC",
-            "Supplier Part": "C14516"
-          }
-        ],
-        [
-          "1N5819/S",
-          2,
-          "SMA_L4.3-W2.6-LS5.2-R-RD",
-          "D3,D4",
-          {
-            "Manufacturer Part": "1N5819/S",
-            "Manufacturer": "",
-            "Supplier": "LCSC",
-            "Supplier Part": "C9900003833"
-          }
-        ],
-        [
-          "HDR-M-2.54_1x2",
-          1,
-          "HDR-M-2.54_1X2",
-          "J1",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "LCSC",
-            "Supplier Part": "C124375"
-          }
-        ],
-        [
-          "HDR-M-2.54_1x3",
-          5,
-          "HDR-M-2.54_1X3",
-          "J2,J3,J4,J5,J6",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "LCSC",
-            "Supplier Part": "C180248"
-          }
-        ],
-        [
-          "LED-0805_G",
-          2,
-          "LED-1206",
-          "LED1,LED2",
-          {
-            "Manufacturer Part": "NCD0805G1",
-            "Manufacturer": "国星光电",
-            "Supplier": "",
-            "Supplier Part": "C84260"
-          }
-        ],
-        [
-          "LCS-SYM-MAIN-CTRL",
-          1,
-          "LCS-FP-MAIN-CTRL-10X12",
-          "PCB1",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "MOSFET-NCHANNELBSS138",
-          3,
-          "SOT23-3",
-          "Q1,Q2,Q3",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "DMG2305UX",
-          1,
-          "SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR-1",
-          "Q4",
-          {
-            "Manufacturer Part": "DMG2305UX",
-            "Manufacturer": "TECH PUBLIC(台舟)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C2940629"
-          }
-        ],
-        [
-          "4K7",
-          4,
-          "R1206",
-          "R1,R2,R10,R11",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "120",
-          1,
-          "R1206",
-          "R3",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "10K",
-          9,
-          "R1206",
-          "R4,R6,R7,R8,R9,R12,R13,R29,R30",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "470",
-          3,
-          "R1206",
-          "R5,R15,R49",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "1K",
-          2,
-          "R1206",
-          "R14,R16",
-          {
-            "Manufacturer Part": "SR1206JR-7W4K7L",
-            "Manufacturer": "YAGEO(国巨)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C326768"
-          }
-        ],
-        [
-          "4k7",
-          1,
-          "R1206",
-          "R17",
-          {
-            "Manufacturer Part": "1206W4F1001T5E",
-            "Manufacturer": "UNI-ROYAL(厚声)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C4410"
-          }
-        ],
-        [
-          "100",
-          2,
-          "R1206",
-          "R18,R48",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "10k",
-          8,
-          "R1206",
-          "R19,R20,R21,R22,R23,R24,R27,R28",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "0R47",
-          2,
-          "R_AXIAL-0.7",
-          "R25,R26",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "1M",
-          8,
-          "R1206",
-          "R31,R32,R37,R38,R39,R40,R45,R46",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "220",
-          8,
-          "R1206",
-          "R33,R34,R35,R36,R41,R42,R43,R44",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "56K",
-          1,
-          "R1206",
-          "R47",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "100K",
-          1,
-          "R1206",
-          "R50",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "24FC256-I/SN",
-          1,
-          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
-          "U1",
-          {
-            "Manufacturer Part": "24FC256-I/SN",
-            "Manufacturer": "MICROCHIP(美国微芯)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C145385"
-          }
-        ],
-        [
-          "Main Controller - RASPBERRY Pi Pico",
-          1,
-          "RASPBERRY PI PICO",
-          "U2",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "MCP2562-H/P",
-          1,
-          "SOIC-8_L4.9-W3.9-P1.27-LS6.1-BL",
-          "U3",
-          {
-            "Manufacturer Part": "MCP2562-H/P",
-            "Manufacturer": "MICROCHIP(美国微芯)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C640348"
-          }
-        ],
-        [
-          "MC14077BD",
-          1,
-          "SOIC14N",
-          "U4",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "HCPL2631SDM",
-          1,
-          "SMT-8_L9.7-W6.6-P2.54-LS10.3-TR",
-          "U5",
-          {
-            "Manufacturer Part": "HCPL2631SDM",
-            "Manufacturer": "onsemi(安森美)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C899529"
-          }
-        ],
-        [
-          "74HC153P",
-          2,
-          "SO-16_L9.9-W3.9-P1.27-LS6.0-BL",
-          "U6,U7",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "74HC00D/S400118",
-          2,
-          "SO-14_L8.7-W3.9-P1.27-LS6.0-BL",
-          "U8,U9",
-          {
-            "Manufacturer Part": "74HC00D/S400118",
-            "Manufacturer": "NXP(恩智浦)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C4471897"
-          }
-        ],
-        [
-          "L6205PD",
-          1,
-          "POWERSO20_L15.9-W11.0-P1.27-LS14.2-BL-EP",
-          "U10",
-          {
-            "Manufacturer Part": "L6205PD013TR",
-            "Manufacturer": "ST(意法半导体)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C36543"
-          }
-        ],
-        [
-          "LM339ADR",
-          1,
-          "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
-          "U11",
-          {
-            "Manufacturer Part": "TI",
-            "Manufacturer": "LM339ADR",
-            "Supplier": "LCSC",
-            "Supplier Part": "C74559"
-          }
-        ],
-        [
-          "Gaptec_LC78",
-          1,
-          "GAPTEC_LC78",
-          "U12",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ]
-      ],
-      "updateTime": 1740317218,
-      "createTime": 1737281327,
-      "histories": [],
-      "created_at": "2025-01-19 11:08:47",
-      "updated_at": "2025-02-23 14:26:58"
+      "updated_at": "2025-03-11 13:22:54"
     },
     {
       "uuid": "0cfe9772f53cd8a5a9f0053814d2d886",
@@ -3230,7 +3230,7 @@
           "100n",
           13,
           "C1206",
-          "C1,C2,C6,C7,C8,C9,C11,C12,C13,C16,C17,C18,C21",
+          "C1,C2,C3,C4,C5,C6,C8,C9,C10,C13,C14,C15,C21",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3239,34 +3239,10 @@
           }
         ],
         [
-          "100nF",
-          1,
-          "C1206",
-          "C3",
-          {
-            "Manufacturer Part": "CC1206KKX7R0BB104",
-            "Manufacturer": "YAGEO(国巨)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C107181"
-          }
-        ],
-        [
-          "1nF",
-          2,
-          "C1206",
-          "C4,C5",
-          {
-            "Manufacturer Part": "CC1206JRNPO9BN102",
-            "Manufacturer": "YAGEO(国巨)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C113881"
-          }
-        ],
-        [
           "10n",
           1,
           "C1206",
-          "C10",
+          "C7",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3278,7 +3254,7 @@
           "220n",
           1,
           "C1206",
-          "C14",
+          "C11",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3290,12 +3266,36 @@
           "100u",
           1,
           "CAP-D6.3×H7.7",
-          "C15",
+          "C12",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
             "Supplier": "",
             "Supplier Part": ""
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "C1206",
+          "C16",
+          {
+            "Manufacturer Part": "CC1206KKX7R0BB104",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C107181"
+          }
+        ],
+        [
+          "1nF",
+          2,
+          "C1206",
+          "C17,C18",
+          {
+            "Manufacturer Part": "CC1206JRNPO9BN102",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C113881"
           }
         ],
         [
@@ -3470,7 +3470,7 @@
           "10K",
           9,
           "R1206",
-          "R4,R6,R7,R8,R9,R12,R13,R29,R30",
+          "R4,R6,R7,R8,R9,R23,R24,R41,R42",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3480,9 +3480,9 @@
         ],
         [
           "470",
-          5,
+          4,
           "R1206",
-          "R5,R14,R15,R17,R49",
+          "R5,R43,R44,R49",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3491,22 +3491,10 @@
           }
         ],
         [
-          "4k7",
-          1,
-          "R1206",
-          "R16",
-          {
-            "Manufacturer Part": "1206W4F1001T5E",
-            "Manufacturer": "UNI-ROYAL(厚声)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C4410"
-          }
-        ],
-        [
           "100",
           2,
           "R1206",
-          "R18,R48",
+          "R12,R48",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3518,7 +3506,7 @@
           "10k",
           8,
           "R1206",
-          "R19,R20,R21,R22,R23,R24,R27,R28",
+          "R13,R14,R15,R16,R17,R18,R21,R22",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3530,7 +3518,7 @@
           "0R47",
           2,
           "R_AXIAL-0.7",
-          "R25,R26",
+          "R19,R20",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3542,7 +3530,7 @@
           "1M",
           8,
           "R1206",
-          "R31,R32,R37,R38,R39,R40,R45,R46",
+          "R25,R26,R31,R32,R33,R34,R39,R40",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3554,12 +3542,36 @@
           "220",
           8,
           "R1206",
-          "R33,R34,R35,R36,R41,R42,R43,R44",
+          "R27,R28,R29,R30,R35,R36,R37,R38",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
             "Supplier": "",
             "Supplier Part": ""
+          }
+        ],
+        [
+          "4k7",
+          1,
+          "R1206",
+          "R45",
+          {
+            "Manufacturer Part": "1206W4F1001T5E",
+            "Manufacturer": "UNI-ROYAL(厚声)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C4410"
+          }
+        ],
+        [
+          "820",
+          1,
+          "R1206",
+          "R46",
+          {
+            "Manufacturer Part": "SR1206JR-7W4K7L",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C326768"
           }
         ],
         [
@@ -3623,34 +3635,10 @@
           }
         ],
         [
-          "MC14077BD",
-          1,
-          "SOIC14N",
-          "U4",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "HCPL2631SDM",
-          1,
-          "SMT-8_L9.7-W6.6-P2.54-LS10.3-TR",
-          "U5",
-          {
-            "Manufacturer Part": "HCPL2631SDM",
-            "Manufacturer": "onsemi(安森美)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C899529"
-          }
-        ],
-        [
           "74HC153P",
           2,
           "SO-16_L9.9-W3.9-P1.27-LS6.0-BL",
-          "U6,U7",
+          "U4,U5",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3662,7 +3650,7 @@
           "74HC00D/S400118",
           2,
           "SO-14_L8.7-W3.9-P1.27-LS6.0-BL",
-          "U8,U9",
+          "U6,U7",
           {
             "Manufacturer Part": "74HC00D/S400118",
             "Manufacturer": "NXP(恩智浦)",
@@ -3674,7 +3662,7 @@
           "L6205PD",
           1,
           "POWERSO20_L15.9-W11.0-P1.27-LS14.2-BL-EP",
-          "U10",
+          "U8",
           {
             "Manufacturer Part": "L6205PD013TR",
             "Manufacturer": "ST(意法半导体)",
@@ -3686,12 +3674,36 @@
           "LM339ADR",
           1,
           "SO-14_L8.6-W3.9-P1.27-LS6.0-BL",
-          "U11",
+          "U9",
           {
             "Manufacturer Part": "TI",
             "Manufacturer": "LM339ADR",
             "Supplier": "LCSC",
             "Supplier Part": "C74559"
+          }
+        ],
+        [
+          "MC14077BD",
+          1,
+          "SOIC14N",
+          "U10",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "HCPL2631SDM",
+          1,
+          "SMT-8_L9.7-W6.6-P2.54-LS10.3-TR",
+          "U11",
+          {
+            "Manufacturer Part": "HCPL2631SDM",
+            "Manufacturer": "onsemi(安森美)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C899529"
           }
         ],
         [
@@ -3707,11 +3719,11 @@
           }
         ]
       ],
-      "updateTime": 1741095586,
+      "updateTime": 1741695006,
       "createTime": 1706186923,
       "histories": [],
       "created_at": "2024-01-25 13:48:43",
-      "updated_at": "2025-03-04 14:39:46"
+      "updated_at": "2025-03-11 13:10:06"
     },
     {
       "uuid": "db2a6d8a9c0bc82cf10a43721ba60459",
@@ -3722,51 +3734,50 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "e0f45a5edd25471dacc10f351b436550": 1,
+        "7bdec8012728462a85919a4d0d033579": 18,
+        "5348c6e027c344959c8fedcead8c169e": 3,
         "9f77654394344f25b3de138e0fe05ff6": 6,
         "8e9b1be4bcb6420dbd1d09bf04b02792": 48,
+        "960b5f1425a648b69804b12510e06d86": 2,
+        "e22b6bd92f084998af49afa4da1dfe45": 2,
+        "37a711dd47574887bb799f651f3c2b95": 1,
+        "19591644493b46b2b3c4b7e703ce6a0c": 1,
+        "489d6e0dac1348e3a91c03e101947bd4": 1,
         "906c99ea5dec4828b079c976cc1781e8": 2,
         "f6e7bbafc8d6494ea48c85ec766fa6c7": 4,
-        "7bdec8012728462a85919a4d0d033579": 18,
         "2897ea2aed674deb8892c3862bcaddea": 2,
         "707d7c79bad8483c87b0c49ff97c7bd4": 1,
         "62ddd832b4204f5fb6ccf017f43de83b": 2,
         "7754fb401bbb4a84978dccc9875b550b": 1,
-        "960b5f1425a648b69804b12510e06d86": 2,
-        "37a711dd47574887bb799f651f3c2b95": 1,
-        "19591644493b46b2b3c4b7e703ce6a0c": 1,
         "1c34cd829c754d4281bf2e17f44685f7": 1,
-        "e0f45a5edd25471dacc10f351b436550": 1,
-        "e22b6bd92f084998af49afa4da1dfe45": 2,
-        "5348c6e027c344959c8fedcead8c169e": 2,
         "91e8625ab54d4b48a78457e6f8258781": 1,
         "70aa5812f21f4991bf427395d51849f4": 1,
         "d8084adcadf04b6eadecdc8fd3a4bef9": 3,
         "48f726f118674c1c98ad35c23ffe8764": 1,
         "806a55eb4d3c40ab838f70f86785d85e": 1,
         "6adf0d677d7c4bf29b8711760efc3b51": 1,
-        "1012bfc264ed4c3c95b7659697ddf346": 1,
-        "3a9291ac784b477889c6bb2f0d842699": 1,
-        "489d6e0dac1348e3a91c03e101947bd4": 1
+        "1012bfc264ed4c3c95b7659697ddf346": 1
       },
       "BOM": [],
-      "updateTime": 1741096580,
+      "updateTime": 1742028176,
       "createTime": 1706434374,
       "histories": [],
       "created_at": "2024-01-28 10:32:54",
-      "updated_at": "2025-03-04 14:56:20"
+      "updated_at": "2025-03-15 09:42:56"
     }
   ],
   "sort": [
     "8bd43a275740399185e490917e52c3c6",
     "23d1d3598ed78ae37677b6cf443648b1",
-    "3b2340ee8fa19b3099e36e4897068dcd",
     "f8cd1f409e553b9b3bf274c67fa482d3",
     "1d2569adfd2931dedaca41648f51891a",
     "3ad610943292e13ff0684461eb14dcc4",
+    "3b2340ee8fa19b3099e36e4897068dcd",
     "0cfe9772f53cd8a5a9f0053814d2d886"
   ],
   "title": "LcsNodes-Dual-Block-Controller-B.02.00",
   "foldername": "LcsNodes-Dual-Block-Controller-B.02.00",
   "schfilename": "LcsNodes-Dual-Block-Controller-B.02.00.json",
-  "schfilemtime": 1741095769883
+  "schfilemtime": 1742027934460
 }
