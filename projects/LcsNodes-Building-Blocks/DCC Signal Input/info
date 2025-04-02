@@ -1,0 +1,244 @@
+{
+  "uuid": "f4e869daa4ee8eef2ec22b32e86057c6",
+  "path": "Offline/DCC%20Signal%20Input",
+  "name": "DCC Signal Input",
+  "content": "A simple circuit to read in a DCC Signal.",
+  "created_at": "2025-03-27 10:09:19",
+  "updated_at": "2025-03-27 10:30:15",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "02732b19ac8d0b610ed28ba450d80840",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "9ad35e4f586f4f87a66feedf3cbe15f7": 1,
+        "5d56951fd43d4b5083b0f3cd9bfd5587": 3,
+        "a1bddaea90b44e109a38e04d658aabfb": 1,
+        "ef426d4a8d544b74a9057e9a2a21b39a": 1,
+        "a7291ceaee5442a999df26c55c7e675d": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "270p",
+          1,
+          "RAD-0.1",
+          "C1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "HDR-F-2.54_1x3",
+          1,
+          "HDR-F-2.54_1X3",
+          "H1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C146690"
+          }
+        ],
+        [
+          "CONN-TH_2P-P5.08",
+          1,
+          "CONN-TH_2P-P5.08",
+          "P1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10k",
+          1,
+          "R_AXIAL-0.3",
+          "R1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R_AXIAL-0.3",
+          "R2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "4K7",
+          1,
+          "R_AXIAL-0.3",
+          "R3",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "6N137",
+          1,
+          "PDIP-8_L9.3-W6.4-P2.54-LS7.9-BL-1",
+          "U1",
+          {
+            "Manufacturer Part": "6N137#500",
+            "Manufacturer": "Broadcom(博通)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C6826738"
+          }
+        ]
+      ],
+      "updateTime": 1743067389,
+      "createTime": 1743066560,
+      "histories": [],
+      "created_at": "2025-03-27 10:09:20",
+      "updated_at": "2025-03-27 10:23:09"
+    },
+    {
+      "uuid": "e874eb9ef40d2ffaca1b196afbc0c23b",
+      "puuid": "f4e869daa4ee8eef2ec22b32e86057c6",
+      "title": "PCB_DCC Signal Input_2",
+      "filename": "PCB_DCC Signal Input_2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f83673d09e13450d934ca6be4be5af8f": 1,
+        "e51909bf23504bf8a04c047f1f5257e0": 1,
+        "3eb1249f3ebb4284ae221b0379016582": 3,
+        "148de89c6add4b2ca164f49e7433446f": 1,
+        "ea82fbe34d7840de9fdcf3145ab199ef": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "270p",
+          1,
+          "RAD-0.2",
+          "C1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "HDR-F-2.54_1x3",
+          1,
+          "HDR-F-2.54_1X3",
+          "H1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C146690"
+          }
+        ],
+        [
+          "CONN-TH_2P-P5.08",
+          1,
+          "CONN-TH_2P-P5.08",
+          "P1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10k",
+          1,
+          "R_AXIAL-0.3",
+          "R1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R_AXIAL-0.3",
+          "R2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "4K7",
+          1,
+          "R_AXIAL-0.3",
+          "R3",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "6N137",
+          1,
+          "PDIP-8_L9.3-W6.4-P2.54-LS7.9-BL-1",
+          "U1",
+          {
+            "Manufacturer Part": "6N137#500",
+            "Manufacturer": "Broadcom(博通)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C6826738"
+          }
+        ]
+      ],
+      "updateTime": 1743067815,
+      "createTime": 1743067341,
+      "histories": [],
+      "created_at": "2025-03-27 10:22:21",
+      "updated_at": "2025-03-27 10:30:15"
+    }
+  ],
+  "sort": [],
+  "title": "DCC Signal Input",
+  "foldername": "DCC Signal Input",
+  "schfilename": "DCC Signal Input.json",
+  "schfilemtime": 1743067389034
+}

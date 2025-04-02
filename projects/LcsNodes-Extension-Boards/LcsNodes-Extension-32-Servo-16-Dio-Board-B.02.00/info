@@ -4,7 +4,7 @@
   "name": "LcsNodes-Extension-32-Servo-16-Dio-Board-B.02.00",
   "content": "A LcsNodes Extension Board for a dual channel block controller. It contains OCC detect, Signal, Serve and GPIO sockets.",
   "created_at": "2025-02-24 10:23:53",
-  "updated_at": "2025-03-14 11:25:59",
+  "updated_at": "2025-04-02 09:38:07",
   "stick": "",
   "documents": [
     {
@@ -212,7 +212,9 @@
         "63b0147db429428ea797264f2a602a2e": 1,
         "368739bf406d42a7a080a389bef2f4eb": 2,
         "1c8e3fee02b84e88bfaca40826a82369": 1,
-        "377a8825775b451baaeb43aafc7c5c51": 2
+        "377a8825775b451baaeb43aafc7c5c51": 2,
+        "ba1f207f2c0447edbd5beb657b435022": 1,
+        "ed9eb2faffb34286820a54a14e9e9e24": 1
       },
       "BOM": [
         [
@@ -307,6 +309,18 @@
           }
         ],
         [
+          "LED_1206",
+          1,
+          "LED-1206",
+          "LED2",
+          {
+            "Manufacturer Part": "NCD0805G1",
+            "Manufacturer": "国星光电",
+            "Supplier": "",
+            "Supplier Part": "C84260"
+          }
+        ],
+        [
           "LCS-SYM-EXT-L",
           1,
           "LCS-FP-EXT-L-10X12",
@@ -335,6 +349,18 @@
           2,
           "R1206",
           "R17,R34",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "470",
+          1,
+          "R1206",
+          "R51",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -391,11 +417,11 @@
           }
         ]
       ],
-      "updateTime": 1741706425,
+      "updateTime": 1743579104,
       "createTime": 1681973470,
       "histories": [],
       "created_at": "2023-04-20 08:51:10",
-      "updated_at": "2025-03-11 16:20:25"
+      "updated_at": "2025-04-02 09:31:44"
     },
     {
       "uuid": "5a025bf38003c3f20e98b2a87663e9a6",
@@ -801,6 +827,8 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "62ddd832b4204f5fb6ccf017f43de83b": 1,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 51,
         "92d691e2c92a4b26afd0ef939d8e4421": 2,
         "7bdec8012728462a85919a4d0d033579": 6,
         "98429e10446f41e793c95f63ad2f3e11": 3,
@@ -811,16 +839,15 @@
         "d308c6499cea481282adacff30cf920b": 1,
         "167b97894dec4a7f8d57d82286320642": 2,
         "cb9948dd86b9429a8b5f3093f768b706": 1,
-        "8e9b1be4bcb6420dbd1d09bf04b02792": 50,
         "806a55eb4d3c40ab838f70f86785d85e": 1,
         "b23a3cd50ffb4bd580712ba1d52d77dd": 1
       },
       "BOM": [],
-      "updateTime": 1741947959,
+      "updateTime": 1743579487,
       "createTime": 1681969428,
       "histories": [],
       "created_at": "2023-04-20 07:43:48",
-      "updated_at": "2025-03-14 11:25:59"
+      "updated_at": "2025-04-02 09:38:07"
     }
   ],
   "sort": [
@@ -832,5 +859,5 @@
   "title": "LcsNodes-Extension-32-Servo-16-Dio-Board-B.02.00",
   "foldername": "LcsNodes-Extension-32-Servo-16-Dio-Board-B.02.00",
   "schfilename": "LcsNodes-Extension-32-Servo-16-Dio-Board-B.02.00.json",
-  "schfilemtime": 1741706425834
+  "schfilemtime": 1743579104200
 }
