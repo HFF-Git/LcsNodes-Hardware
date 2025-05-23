@@ -1,0 +1,911 @@
+{
+  "uuid": "3febab6d49efab8e0f4f28d5727c1853",
+  "path": "Offline/LcsNodes-Extension-16-Servo-32-Dio-Board-B.02.00",
+  "name": "LcsNodes-Extension-16-Servo-32-Dio-Board-B.02.00",
+  "content": "A LcsNodes Extension Board for a dual channel block controller. It contains OCC detect, Signal, Serve and GPIO sockets.",
+  "created_at": "2025-05-22 17:59:47",
+  "updated_at": "2025-05-22 18:01:34",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "5f8da22d8a49ff4d70dedc1bd67a7e35",
+      "title": "High Level Schematic",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {},
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100n",
+          6,
+          "C1206",
+          "C1,C3,C5,C7,C9,C11",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "100u",
+          4,
+          "CAP-SMD_BD10.0-L10.3-W10.3-LS11.0-FD",
+          "C2,C6,C8,C10",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "470u",
+          1,
+          "CAP-SMD_BD10.0-L10.3-W10.3-LS11.0-FD",
+          "C4",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "MBRS540T3G_C5563743",
+          2,
+          "SMC_L7.1-W6.2-LS8.1-RD",
+          "D1,D2",
+          {
+            "Manufacturer Part": "MBRS540T3G",
+            "Manufacturer": "FUXINSEMI(富芯森美)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5563743"
+          }
+        ],
+        [
+          "5.1V",
+          16,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18",
+          {
+            "Manufacturer Part": "Diode Zener",
+            "Manufacturer": "SEMTECH",
+            "Supplier": "LCSC",
+            "Supplier Part": "C14516"
+          }
+        ],
+        [
+          "HDR-F-2.54_2x10",
+          3,
+          "HDR-F-2.54_2X10",
+          "H1,H2,H3",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C30867"
+          }
+        ],
+        [
+          "33uh",
+          1,
+          "IND-SMD_L12.5-W12.5",
+          "L1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "LCS-SYM-EXT-L",
+          1,
+          "LCS-FP-EXT-L-10X12",
+          "PCB1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "330",
+          48,
+          "R1206",
+          "R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R35,R36,R37,R38,R39,R40,R41,R42,R43,R44,R45,R46,R47,R48,R49,R50",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10K",
+          2,
+          "R1206",
+          "R17,R34",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "24LC32A-I/SM",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U1",
+          {
+            "Manufacturer Part": "24LC32A-I/SM",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C616088"
+          }
+        ],
+        [
+          "LM2596S-5.0/TR",
+          1,
+          "TO-263-5_L10.2-W8.6-P1.70-LS14.4-TL",
+          "U2",
+          {
+            "Manufacturer Part": "LM2596S-5.0/TR",
+            "Manufacturer": "HGSEMI(华冠)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C194349"
+          }
+        ],
+        [
+          "PCA9685",
+          2,
+          "TSSOP-28_L9.7-W4.4-P0.65-LS6.4-BL",
+          "U3,U4",
+          {
+            "Manufacturer Part": "PCA9685PW/Q900,118",
+            "Manufacturer": "NXP",
+            "Supplier": "LCSC",
+            "Supplier Part": "C92206"
+          }
+        ],
+        [
+          "PCA9555PW,112",
+          1,
+          "TSSOP-24_L7.8-W4.4-P0.65-LS6.4-BL",
+          "U5",
+          {
+            "Manufacturer Part": "PCA9555PW,112",
+            "Manufacturer": "NXP(恩智浦)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2688893"
+          }
+        ]
+      ],
+      "updateTime": 1741706219,
+      "createTime": 1683118448,
+      "histories": [],
+      "created_at": "2023-05-03 14:54:08",
+      "updated_at": "2025-03-11 16:16:59"
+    },
+    {
+      "uuid": "75dacad654a7d14f2d21dd38e45dba70",
+      "title": "Connector-and-Logic",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 3,
+        "ec21d28f29214934b3c5761b7bb01e1e": 1,
+        "c8cef8ebc2fe476a91af89632ed28e6c": 1,
+        "63b0147db429428ea797264f2a602a2e": 1,
+        "368739bf406d42a7a080a389bef2f4eb": 2,
+        "1c8e3fee02b84e88bfaca40826a82369": 1,
+        "377a8825775b451baaeb43aafc7c5c51": 2,
+        "ba1f207f2c0447edbd5beb657b435022": 1,
+        "ed9eb2faffb34286820a54a14e9e9e24": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100n",
+          6,
+          "C1206",
+          "C1,C3,C5,C7,C9,C11",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "100u",
+          4,
+          "CAP-SMD_BD10.0-L10.3-W10.3-LS11.0-FD",
+          "C2,C6,C8,C10",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "470u",
+          1,
+          "CAP-SMD_BD10.0-L10.3-W10.3-LS11.0-FD",
+          "C4",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "MBRS540T3G_C5563743",
+          2,
+          "SMC_L7.1-W6.2-LS8.1-RD",
+          "D1,D2",
+          {
+            "Manufacturer Part": "MBRS540T3G",
+            "Manufacturer": "FUXINSEMI(富芯森美)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5563743"
+          }
+        ],
+        [
+          "5.1V",
+          16,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18",
+          {
+            "Manufacturer Part": "Diode Zener",
+            "Manufacturer": "SEMTECH",
+            "Supplier": "LCSC",
+            "Supplier Part": "C14516"
+          }
+        ],
+        [
+          "HDR-F-2.54_2x10",
+          3,
+          "HDR-F-2.54_2X10",
+          "H1,H2,H3",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C30867"
+          }
+        ],
+        [
+          "33uh",
+          1,
+          "IND-SMD_L12.5-W12.5",
+          "L1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "LED_1206",
+          1,
+          "LED-1206",
+          "LED2",
+          {
+            "Manufacturer Part": "NCD0805G1",
+            "Manufacturer": "国星光电",
+            "Supplier": "",
+            "Supplier Part": "C84260"
+          }
+        ],
+        [
+          "LCS-SYM-EXT-L",
+          1,
+          "LCS-FP-EXT-L-10X12",
+          "PCB1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "330",
+          48,
+          "R1206",
+          "R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R35,R36,R37,R38,R39,R40,R41,R42,R43,R44,R45,R46,R47,R48,R49,R50",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10K",
+          2,
+          "R1206",
+          "R17,R34",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "470",
+          1,
+          "R1206",
+          "R51",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "24LC32A-I/SM",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U1",
+          {
+            "Manufacturer Part": "24LC32A-I/SM",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C616088"
+          }
+        ],
+        [
+          "LM2596S-5.0/TR",
+          1,
+          "TO-263-5_L10.2-W8.6-P1.70-LS14.4-TL",
+          "U2",
+          {
+            "Manufacturer Part": "LM2596S-5.0/TR",
+            "Manufacturer": "HGSEMI(华冠)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C194349"
+          }
+        ],
+        [
+          "PCA9685",
+          2,
+          "TSSOP-28_L9.7-W4.4-P0.65-LS6.4-BL",
+          "U3,U4",
+          {
+            "Manufacturer Part": "PCA9685PW/Q900,118",
+            "Manufacturer": "NXP",
+            "Supplier": "LCSC",
+            "Supplier Part": "C92206"
+          }
+        ],
+        [
+          "PCA9555PW,112",
+          1,
+          "TSSOP-24_L7.8-W4.4-P0.65-LS6.4-BL",
+          "U5",
+          {
+            "Manufacturer Part": "PCA9555PW,112",
+            "Manufacturer": "NXP(恩智浦)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2688893"
+          }
+        ]
+      ],
+      "updateTime": 1743579104,
+      "createTime": 1681973470,
+      "histories": [],
+      "created_at": "2023-04-20 08:51:10",
+      "updated_at": "2025-04-02 09:31:44"
+    },
+    {
+      "uuid": "e1c0a256f418377028cf6c7377fe4d94",
+      "title": "Servo",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "5d56951fd43d4b5083b0f3cd9bfd5587": 34,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 2,
+        "65b4454ea3fa472ca681ada6039ebf92": 2,
+        "ba3aedbdd1e54d4ea1945ba3e8e07cbe": 2,
+        "56994305955647eda299fec7cb5fcf23": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100n",
+          6,
+          "C1206",
+          "C1,C3,C5,C7,C9,C11",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "100u",
+          4,
+          "CAP-SMD_BD10.0-L10.3-W10.3-LS11.0-FD",
+          "C2,C6,C8,C10",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "470u",
+          1,
+          "CAP-SMD_BD10.0-L10.3-W10.3-LS11.0-FD",
+          "C4",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "MBRS540T3G_C5563743",
+          2,
+          "SMC_L7.1-W6.2-LS8.1-RD",
+          "D1,D2",
+          {
+            "Manufacturer Part": "MBRS540T3G",
+            "Manufacturer": "FUXINSEMI(富芯森美)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5563743"
+          }
+        ],
+        [
+          "5.1V",
+          16,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18",
+          {
+            "Manufacturer Part": "Diode Zener",
+            "Manufacturer": "SEMTECH",
+            "Supplier": "LCSC",
+            "Supplier Part": "C14516"
+          }
+        ],
+        [
+          "HDR-F-2.54_2x10",
+          3,
+          "HDR-F-2.54_2X10",
+          "H1,H2,H3",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C30867"
+          }
+        ],
+        [
+          "33uh",
+          1,
+          "IND-SMD_L12.5-W12.5",
+          "L1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "LED_1206",
+          1,
+          "LED-1206",
+          "LED2",
+          {
+            "Manufacturer Part": "NCD0805G1",
+            "Manufacturer": "国星光电",
+            "Supplier": "",
+            "Supplier Part": "C84260"
+          }
+        ],
+        [
+          "LCS-SYM-EXT-L",
+          1,
+          "LCS-FP-EXT-L-10X12",
+          "PCB1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "330",
+          48,
+          "R1206",
+          "R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R35,R36,R37,R38,R39,R40,R41,R42,R43,R44,R45,R46,R47,R48,R49,R50",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10K",
+          2,
+          "R1206",
+          "R17,R34",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "470",
+          1,
+          "R1206",
+          "R51",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "24LC32A-I/SM",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U1",
+          {
+            "Manufacturer Part": "24LC32A-I/SM",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C616088"
+          }
+        ],
+        [
+          "LM2596S-5.0/TR",
+          1,
+          "TO-263-5_L10.2-W8.6-P1.70-LS14.4-TL",
+          "U2",
+          {
+            "Manufacturer Part": "LM2596S-5.0/TR",
+            "Manufacturer": "HGSEMI(华冠)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C194349"
+          }
+        ],
+        [
+          "PCA9685",
+          2,
+          "TSSOP-28_L9.7-W4.4-P0.65-LS6.4-BL",
+          "U3,U4",
+          {
+            "Manufacturer Part": "PCA9685PW/Q900,118",
+            "Manufacturer": "NXP",
+            "Supplier": "LCSC",
+            "Supplier Part": "C92206"
+          }
+        ],
+        [
+          "PCA9555PW,112",
+          1,
+          "TSSOP-24_L7.8-W4.4-P0.65-LS6.4-BL",
+          "U5",
+          {
+            "Manufacturer Part": "PCA9555PW,112",
+            "Manufacturer": "NXP(恩智浦)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2688893"
+          }
+        ]
+      ],
+      "updateTime": 1747929625,
+      "createTime": 1740389922,
+      "histories": [],
+      "created_at": "2025-02-24 10:38:42",
+      "updated_at": "2025-05-22 18:00:25"
+    },
+    {
+      "uuid": "40cbe99cc52d3271b783b5d729eda1b3",
+      "title": "GPIO",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "56994305955647eda299fec7cb5fcf23": 1,
+        "be48a332a6ab4f609f12cd682a0fd0d9": 1,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 1,
+        "fb82e4cef088466e83a5da161c0dbbab": 16,
+        "5d56951fd43d4b5083b0f3cd9bfd5587": 16,
+        "ba3aedbdd1e54d4ea1945ba3e8e07cbe": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100n",
+          6,
+          "C1206",
+          "C1,C3,C5,C7,C9,C11",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "100u",
+          4,
+          "CAP-SMD_BD10.0-L10.3-W10.3-LS11.0-FD",
+          "C2,C6,C8,C10",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "470u",
+          1,
+          "CAP-SMD_BD10.0-L10.3-W10.3-LS11.0-FD",
+          "C4",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "MBRS540T3G_C5563743",
+          2,
+          "SMC_L7.1-W6.2-LS8.1-RD",
+          "D1,D2",
+          {
+            "Manufacturer Part": "MBRS540T3G",
+            "Manufacturer": "FUXINSEMI(富芯森美)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5563743"
+          }
+        ],
+        [
+          "5.1V",
+          16,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18",
+          {
+            "Manufacturer Part": "Diode Zener",
+            "Manufacturer": "SEMTECH",
+            "Supplier": "LCSC",
+            "Supplier Part": "C14516"
+          }
+        ],
+        [
+          "HDR-F-2.54_2x10",
+          3,
+          "HDR-F-2.54_2X10",
+          "H1,H2,H3",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C30867"
+          }
+        ],
+        [
+          "33uh",
+          1,
+          "IND-SMD_L12.5-W12.5",
+          "L1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "LED_1206",
+          1,
+          "LED-1206",
+          "LED2",
+          {
+            "Manufacturer Part": "NCD0805G1",
+            "Manufacturer": "国星光电",
+            "Supplier": "",
+            "Supplier Part": "C84260"
+          }
+        ],
+        [
+          "LCS-SYM-EXT-L",
+          1,
+          "LCS-FP-EXT-L-10X12",
+          "PCB1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "330",
+          48,
+          "R1206",
+          "R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R35,R36,R37,R38,R39,R40,R41,R42,R43,R44,R45,R46,R47,R48,R49,R50",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10K",
+          2,
+          "R1206",
+          "R17,R34",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "470",
+          1,
+          "R1206",
+          "R51",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "24LC32A-I/SM",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U1",
+          {
+            "Manufacturer Part": "24LC32A-I/SM",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C616088"
+          }
+        ],
+        [
+          "LM2596S-5.0/TR",
+          1,
+          "TO-263-5_L10.2-W8.6-P1.70-LS14.4-TL",
+          "U2",
+          {
+            "Manufacturer Part": "LM2596S-5.0/TR",
+            "Manufacturer": "HGSEMI(华冠)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C194349"
+          }
+        ],
+        [
+          "PCA9685",
+          2,
+          "TSSOP-28_L9.7-W4.4-P0.65-LS6.4-BL",
+          "U3,U4",
+          {
+            "Manufacturer Part": "PCA9685PW/Q900,118",
+            "Manufacturer": "NXP",
+            "Supplier": "LCSC",
+            "Supplier Part": "C92206"
+          }
+        ],
+        [
+          "PCA9555PW,112",
+          1,
+          "TSSOP-24_L7.8-W4.4-P0.65-LS6.4-BL",
+          "U5",
+          {
+            "Manufacturer Part": "PCA9555PW,112",
+            "Manufacturer": "NXP(恩智浦)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2688893"
+          }
+        ]
+      ],
+      "updateTime": 1747929664,
+      "createTime": 1740389867,
+      "histories": [],
+      "created_at": "2025-02-24 10:37:47",
+      "updated_at": "2025-05-22 18:01:04"
+    },
+    {
+      "uuid": "99bdf2ba8a6fb18dafbfafe508b73c74",
+      "title": "PCB_LcsNodes-Extension-16-Servo-32-Dio-Board-B.02.00",
+      "filename": "PCB_LcsNodes-Extension-16-Servo-32-Dio-Board-B.02.00.json",
+      "description": "LcsNodes extension board with 16 servo and 32 digital I/O channels.",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "62ddd832b4204f5fb6ccf017f43de83b": 1,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 51,
+        "92d691e2c92a4b26afd0ef939d8e4421": 2,
+        "7bdec8012728462a85919a4d0d033579": 6,
+        "98429e10446f41e793c95f63ad2f3e11": 3,
+        "67c94c42ed22424ab3a76a6197f50524": 2,
+        "f6e7bbafc8d6494ea48c85ec766fa6c7": 16,
+        "f481a7812a11455ca71c88c49f2602a1": 3,
+        "cd9f6077c95441b58dd10a834c719551": 1,
+        "d308c6499cea481282adacff30cf920b": 1,
+        "167b97894dec4a7f8d57d82286320642": 2,
+        "cb9948dd86b9429a8b5f3093f768b706": 1,
+        "806a55eb4d3c40ab838f70f86785d85e": 1,
+        "b23a3cd50ffb4bd580712ba1d52d77dd": 1
+      },
+      "BOM": [],
+      "updateTime": 1743579487,
+      "createTime": 1681969428,
+      "histories": [],
+      "created_at": "2023-04-20 07:43:48",
+      "updated_at": "2025-04-02 09:38:07"
+    }
+  ],
+  "sort": [
+    "5f8da22d8a49ff4d70dedc1bd67a7e35",
+    "75dacad654a7d14f2d21dd38e45dba70",
+    "e1c0a256f418377028cf6c7377fe4d94",
+    "40cbe99cc52d3271b783b5d729eda1b3"
+  ],
+  "title": "LcsNodes-Extension-16-Servo-32-Dio-Board-B.02.00",
+  "foldername": "LcsNodes-Extension-16-Servo-32-Dio-Board-B.02.00",
+  "schfilename": "LcsNodes-Extension-16-Servo-32-Dio-Board-B.02.00.json",
+  "schfilemtime": 1747929664362
+}
