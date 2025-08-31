@@ -4,7 +4,7 @@
   "name": "LcsNodes-Extension-16-Servo-32-Dio-Board-B.02.00",
   "content": "A LcsNodes Extension Board for a dual channel block controller. It contains OCC detect, Signal, Serve and GPIO sockets.",
   "created_at": "2025-05-22 17:59:47",
-  "updated_at": "2025-05-23 15:45:56",
+  "updated_at": "2025-05-27 10:10:29",
   "stick": "",
   "documents": [
     {
@@ -230,19 +230,19 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "fd11c9e744c44aeab6011e8bd4c3ea86": 4,
         "ec21d28f29214934b3c5761b7bb01e1e": 1,
         "c8cef8ebc2fe476a91af89632ed28e6c": 1,
         "63b0147db429428ea797264f2a602a2e": 1,
         "368739bf406d42a7a080a389bef2f4eb": 2,
         "1c8e3fee02b84e88bfaca40826a82369": 1,
-        "377a8825775b451baaeb43aafc7c5c51": 2,
-        "ba1f207f2c0447edbd5beb657b435022": 1,
-        "ed9eb2faffb34286820a54a14e9e9e24": 1,
         "56994305955647eda299fec7cb5fcf23": 1,
         "ba3aedbdd1e54d4ea1945ba3e8e07cbe": 1,
         "65b4454ea3fa472ca681ada6039ebf92": 1,
-        "5d56951fd43d4b5083b0f3cd9bfd5587": 17
+        "9d2421314def4cc6bb2243b0e883424c": 17,
+        "ef3d7ba1098e46f583e0641eb03b5c60": 4,
+        "0513318048ab4197ad170dadf2ae8bcb": 1,
+        "b4a37c574df604c2fbf3642866187d2f": 2,
+        "a4f0848b7edb4ba09438541ddc031d08": 1
       },
       "BOM": [
         [
@@ -253,22 +253,22 @@
           "CustomPara"
         ],
         [
-          "100n",
-          6,
+          "100nF",
+          4,
           "C1206",
-          "C1,C3,C5,C8,C11,C13",
+          "C1,C3,C5,C7",
           {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
+            "Manufacturer Part": "C1206C104M5UAC7800",
+            "Manufacturer": "KEMET(基美)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3842917"
           }
         ],
         [
           "100u",
           4,
           "CAP-SMD_BD10.0-L10.3-W10.3-LS11.0-FD",
-          "C2,C9,C10,C12",
+          "C2,C6,C8,C10",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -289,15 +289,27 @@
           }
         ],
         [
-          "MBRS540T3G_C5563743",
+          "100n",
+          2,
+          "C1206",
+          "C9,C11",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "MBRS540T3G",
           2,
           "SMC_L7.1-W6.2-LS8.1-RD",
           "D1,D2",
           {
             "Manufacturer Part": "MBRS540T3G",
-            "Manufacturer": "FUXINSEMI(富芯森美)",
+            "Manufacturer": "onsemi(安森美)",
             "Supplier": "LCSC",
-            "Supplier Part": "C5563743"
+            "Supplier Part": "C31849"
           }
         ],
         [
@@ -316,7 +328,7 @@
           "HDR-F-2.54_2x10",
           3,
           "HDR-F-2.54_2X10",
-          "H2,H3,H4",
+          "H1,H2,H3",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -337,15 +349,15 @@
           }
         ],
         [
-          "LED_1206",
+          "SZYY1206YG",
           1,
-          "LED-1206",
-          "LED2",
+          "LED1206-R-RD_GREEN",
+          "LED1",
           {
-            "Manufacturer Part": "NCD0805G1",
-            "Manufacturer": "国星光电",
-            "Supplier": "",
-            "Supplier Part": "C84260"
+            "Manufacturer Part": "SZYY1206YG",
+            "Manufacturer": "yongyu(永裕光电)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C434442"
           }
         ],
         [
@@ -361,39 +373,27 @@
           }
         ],
         [
+          "470Ω",
+          1,
+          "R1206",
+          "R1",
+          {
+            "Manufacturer Part": "CRCW1206470RFKEA",
+            "Manufacturer": "VISHAY(威世)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C844876"
+          }
+        ],
+        [
           "330",
-          48,
+          49,
           "R1206",
-          "R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R36,R37,R38,R39,R40,R41,R42,R43,R44,R45,R46,R47,R48,R49,R50,R52,R53,R54,R55,R56,R57,R58,R59,R60,R61,R62,R63,R64,R65,R66",
+          "R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R36,R37,R38,R39,R40,R41,R42,R43,R44,R45,R46,R47,R48,R49,R50",
           {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "470",
-          1,
-          "R1206",
-          "R51",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "10K",
-          1,
-          "R1206",
-          "R67",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
+            "Manufacturer Part": "CRCW1206330RFKEA",
+            "Manufacturer": "VISHAY(威世)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C844659"
           }
         ],
         [
@@ -421,6 +421,18 @@
           }
         ],
         [
+          "PCA9685",
+          1,
+          "TSSOP-28_L9.7-W4.4-P0.65-LS6.4-BL",
+          "U3",
+          {
+            "Manufacturer Part": "PCA9685PW/Q900,118",
+            "Manufacturer": "NXP",
+            "Supplier": "LCSC",
+            "Supplier Part": "C92206"
+          }
+        ],
+        [
           "PCA9555PW,112",
           2,
           "TSSOP-24_L7.8-W4.4-P0.65-LS6.4-BL",
@@ -431,25 +443,13 @@
             "Supplier": "LCSC",
             "Supplier Part": "C2688893"
           }
-        ],
-        [
-          "PCA9685",
-          1,
-          "TSSOP-28_L9.7-W4.4-P0.65-LS6.4-BL",
-          "U6",
-          {
-            "Manufacturer Part": "PCA9685PW/Q900,118",
-            "Manufacturer": "NXP",
-            "Supplier": "LCSC",
-            "Supplier Part": "C92206"
-          }
         ]
       ],
-      "updateTime": 1748007956,
+      "updateTime": 1748333113,
       "createTime": 1681973470,
       "histories": [],
       "created_at": "2023-04-20 08:51:10",
-      "updated_at": "2025-05-23 15:45:56"
+      "updated_at": "2025-05-27 10:05:13"
     },
     {
       "uuid": "40cbe99cc52d3271b783b5d729eda1b3",
@@ -475,22 +475,22 @@
           "CustomPara"
         ],
         [
-          "100n",
-          6,
+          "100nF",
+          4,
           "C1206",
-          "C1,C3,C5,C8,C11,C13",
+          "C1,C3,C5,C7",
           {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
+            "Manufacturer Part": "C1206C104M5UAC7800",
+            "Manufacturer": "KEMET(基美)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3842917"
           }
         ],
         [
           "100u",
           4,
           "CAP-SMD_BD10.0-L10.3-W10.3-LS11.0-FD",
-          "C2,C9,C10,C12",
+          "C2,C6,C8,C10",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -511,15 +511,27 @@
           }
         ],
         [
-          "MBRS540T3G_C5563743",
+          "100n",
+          2,
+          "C1206",
+          "C9,C11",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "MBRS540T3G",
           2,
           "SMC_L7.1-W6.2-LS8.1-RD",
           "D1,D2",
           {
             "Manufacturer Part": "MBRS540T3G",
-            "Manufacturer": "FUXINSEMI(富芯森美)",
+            "Manufacturer": "onsemi(安森美)",
             "Supplier": "LCSC",
-            "Supplier Part": "C5563743"
+            "Supplier Part": "C31849"
           }
         ],
         [
@@ -538,7 +550,7 @@
           "HDR-F-2.54_2x10",
           3,
           "HDR-F-2.54_2X10",
-          "H2,H3,H4",
+          "H1,H2,H3",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -559,15 +571,15 @@
           }
         ],
         [
-          "LED_1206",
+          "SZYY1206YG",
           1,
-          "LED-1206",
-          "LED2",
+          "LED1206-R-RD_GREEN",
+          "LED1",
           {
-            "Manufacturer Part": "NCD0805G1",
-            "Manufacturer": "国星光电",
-            "Supplier": "",
-            "Supplier Part": "C84260"
+            "Manufacturer Part": "SZYY1206YG",
+            "Manufacturer": "yongyu(永裕光电)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C434442"
           }
         ],
         [
@@ -583,39 +595,27 @@
           }
         ],
         [
+          "470Ω",
+          1,
+          "R1206",
+          "R1",
+          {
+            "Manufacturer Part": "CRCW1206470RFKEA",
+            "Manufacturer": "VISHAY(威世)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C844876"
+          }
+        ],
+        [
           "330",
-          48,
+          49,
           "R1206",
-          "R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R36,R37,R38,R39,R40,R41,R42,R43,R44,R45,R46,R47,R48,R49,R50,R52,R53,R54,R55,R56,R57,R58,R59,R60,R61,R62,R63,R64,R65,R66",
+          "R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R36,R37,R38,R39,R40,R41,R42,R43,R44,R45,R46,R47,R48,R49,R50",
           {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "470",
-          1,
-          "R1206",
-          "R51",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "10K",
-          1,
-          "R1206",
-          "R67",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
+            "Manufacturer Part": "CRCW1206330RFKEA",
+            "Manufacturer": "VISHAY(威世)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C844659"
           }
         ],
         [
@@ -643,6 +643,18 @@
           }
         ],
         [
+          "PCA9685",
+          1,
+          "TSSOP-28_L9.7-W4.4-P0.65-LS6.4-BL",
+          "U3",
+          {
+            "Manufacturer Part": "PCA9685PW/Q900,118",
+            "Manufacturer": "NXP",
+            "Supplier": "LCSC",
+            "Supplier Part": "C92206"
+          }
+        ],
+        [
           "PCA9555PW,112",
           2,
           "TSSOP-24_L7.8-W4.4-P0.65-LS6.4-BL",
@@ -653,25 +665,13 @@
             "Supplier": "LCSC",
             "Supplier Part": "C2688893"
           }
-        ],
-        [
-          "PCA9685",
-          1,
-          "TSSOP-28_L9.7-W4.4-P0.65-LS6.4-BL",
-          "U6",
-          {
-            "Manufacturer Part": "PCA9685PW/Q900,118",
-            "Manufacturer": "NXP",
-            "Supplier": "LCSC",
-            "Supplier Part": "C92206"
-          }
         ]
       ],
-      "updateTime": 1748007956,
+      "updateTime": 1748333113,
       "createTime": 1740389867,
       "histories": [],
       "created_at": "2025-02-24 10:37:47",
-      "updated_at": "2025-05-23 15:45:56"
+      "updated_at": "2025-05-27 10:05:13"
     },
     {
       "uuid": "99bdf2ba8a6fb18dafbfafe508b73c74",
@@ -682,27 +682,27 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "62ddd832b4204f5fb6ccf017f43de83b": 1,
-        "8e9b1be4bcb6420dbd1d09bf04b02792": 51,
-        "92d691e2c92a4b26afd0ef939d8e4421": 2,
         "7bdec8012728462a85919a4d0d033579": 6,
-        "98429e10446f41e793c95f63ad2f3e11": 3,
         "67c94c42ed22424ab3a76a6197f50524": 2,
-        "f6e7bbafc8d6494ea48c85ec766fa6c7": 16,
+        "2dd1842e098546b6ac4a8b02b55d8174": 1,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 50,
+        "98429e10446f41e793c95f63ad2f3e11": 3,
+        "f6e7bbafc8d6494ea48c85ec766fa6c7": 32,
         "f481a7812a11455ca71c88c49f2602a1": 3,
+        "167b97894dec4a7f8d57d82286320642": 1,
+        "b23a3cd50ffb4bd580712ba1d52d77dd": 2,
+        "92d691e2c92a4b26afd0ef939d8e4421": 2,
         "cd9f6077c95441b58dd10a834c719551": 1,
         "d308c6499cea481282adacff30cf920b": 1,
-        "167b97894dec4a7f8d57d82286320642": 2,
         "cb9948dd86b9429a8b5f3093f768b706": 1,
-        "806a55eb4d3c40ab838f70f86785d85e": 1,
-        "b23a3cd50ffb4bd580712ba1d52d77dd": 1
+        "806a55eb4d3c40ab838f70f86785d85e": 1
       },
       "BOM": [],
-      "updateTime": 1743579487,
+      "updateTime": 1748333429,
       "createTime": 1681969428,
       "histories": [],
       "created_at": "2023-04-20 07:43:48",
-      "updated_at": "2025-04-02 09:38:07"
+      "updated_at": "2025-05-27 10:10:29"
     }
   ],
   "sort": [
@@ -713,5 +713,5 @@
   "title": "LcsNodes-Extension-16-Servo-32-Dio-Board-B.02.00",
   "foldername": "LcsNodes-Extension-16-Servo-32-Dio-Board-B.02.00",
   "schfilename": "LcsNodes-Extension-16-Servo-32-Dio-Board-B.02.00.json",
-  "schfilemtime": 1748007956222
+  "schfilemtime": 1748333113869
 }
