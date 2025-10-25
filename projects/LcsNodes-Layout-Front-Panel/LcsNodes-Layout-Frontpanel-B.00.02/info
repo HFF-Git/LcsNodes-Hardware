@@ -1,14 +1,14 @@
 {
-  "uuid": "b3239b0f25b6f5e265b465a6a49c7624",
-  "path": "Offline/LcsNodes-Layout-Frontpanel-B.00.01",
-  "name": "LcsNodes-Layout-Frontpanel-B.00.01",
+  "uuid": "9680e3599c2566f442e9c46829f987a8",
+  "path": "Offline/LcsNodes-Layout-Frontpanel-B.00.02",
+  "name": "LcsNodes-Layout-Frontpanel-B.00.02",
   "content": "",
-  "created_at": "2022-03-17 11:14:34",
-  "updated_at": "2025-10-25 09:58:13",
+  "created_at": "2025-10-25 09:57:26",
+  "updated_at": "2025-10-25 10:00:01",
   "stick": "",
   "documents": [
     {
-      "uuid": "76e8ec5d2ad64f2e00dfd5859a7f63c3",
+      "uuid": "35a58b466ca558da970fb41426b7e79c",
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
@@ -22,7 +22,8 @@
         "f6ef388eb62b422ab248b72408e38120": 2,
         "56994305955647eda299fec7cb5fcf23": 2,
         "c09541f8450e46f6ae3a147a43929c41": 4,
-        "9097ade20a6941ee8199db4fc8aa5aa3": 1
+        "9097ade20a6941ee8199db4fc8aa5aa3": 1,
+        "dd175e7e6438406a8e574363cfaa0eaa": 1
       },
       "BOM": [
         [
@@ -139,17 +140,28 @@
             "Supplier": "",
             "Supplier Part": ""
           }
+        ],
+        [
+          "MINI_DIN_7",
+          1,
+          "M_DIN7",
+          "X1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
         ]
       ],
-      "updateTime": 1761379093,
+      "updateTime": 1761379201,
       "createTime": 1647512074,
       "histories": [],
       "created_at": "2022-03-17 11:14:34",
-      "updated_at": "2025-10-25 09:58:13"
+      "updated_at": "2025-10-25 10:00:01"
     },
     {
-      "uuid": "8a089db4279ff7b8d88cffd1384248b3",
-      "puuid": "ffd2d5d8aea1f22d96011aefbc7aa4cb",
+      "uuid": "a7f8106277bb4344e8cd462374e39e5a",
       "title": "PCB_LcsNodes-Layout-Front-Panel",
       "filename": "PCB_LcsNodes-Layout-Front-Panel.json",
       "description": "",
@@ -175,8 +187,8 @@
     }
   ],
   "sort": [],
-  "title": "LcsNodes-Layout-Frontpanel-B.00.01",
-  "foldername": "LcsNodes-Layout-Frontpanel-B.00.01",
-  "schfilename": "LcsNodes-Layout-Front-Panel.json",
-  "schfilemtime": 1761379093888
+  "title": "LcsNodes-Layout-Frontpanel-B.00.02",
+  "foldername": "LcsNodes-Layout-Frontpanel-B.00.02",
+  "schfilename": "LcsNodes-Layout-Frontpanel-B.00.02.json",
+  "schfilemtime": 1761379201169
 }
