@@ -1,0 +1,241 @@
+{
+  "uuid": "a36763e667d8ec846f0089103af3349c",
+  "path": "Offline/Voltage-Detector",
+  "name": "Voltage-Detector",
+  "content": "",
+  "created_at": "2026-01-05 09:58:53",
+  "updated_at": "2026-01-05 10:29:55",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "12d1c8a2cd9f29561ee51066381bdd65",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "fe25a47a63564b3f9bd19a17f79ff57a": 1,
+        "a42ffe68f95848c7808b5399790515fd": 1,
+        "2fa53d590f544429ab8fcbd581d715c1": 10,
+        "0783bf3e5e8a40d79bff27bb118bbc24": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "0.1u",
+          2,
+          "C1206",
+          "C1,C2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1M",
+          3,
+          "R1206",
+          "R1,R2,R9",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "150K",
+          3,
+          "R1206",
+          "R3,R4,R5",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10k",
+          2,
+          "R1206",
+          "R6,R7",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "15K",
+          1,
+          "R1206",
+          "R8",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1K",
+          1,
+          "R1206",
+          "R10",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "MCP6002-I/SN",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U1",
+          {
+            "Manufacturer Part": "MCP6002-I/SN",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C116706"
+          }
+        ]
+      ],
+      "updateTime": 1767605395,
+      "createTime": 1767603534,
+      "histories": [],
+      "created_at": "2026-01-05 09:58:54",
+      "updated_at": "2026-01-05 10:29:55"
+    },
+    {
+      "uuid": "d0a89f9c3cc1d40490a2d6167c1bb238",
+      "puuid": "a36763e667d8ec846f0089103af3349c",
+      "title": "PCB_Voltage-Detector",
+      "filename": "PCB_Voltage-Detector.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "75844c5980bb4094beb1dc6c0a3a9856": 1,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 10,
+        "806a55eb4d3c40ab838f70f86785d85e": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1u",
+          1,
+          "RAD-0.2",
+          "C1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1M",
+          3,
+          "R1206",
+          "R1,R2,R9",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "150K",
+          3,
+          "R1206",
+          "R3,R4,R5",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1k",
+          2,
+          "R1206",
+          "R6,R7",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "15K",
+          1,
+          "R1206",
+          "R8",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1K",
+          1,
+          "R1206",
+          "R10",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "MCP6002-I/SN",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U1",
+          {
+            "Manufacturer Part": "MCP6002-I/SN",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C116706"
+          }
+        ]
+      ],
+      "updateTime": 1767605155,
+      "createTime": 1767605155,
+      "histories": [],
+      "created_at": "2026-01-05 10:25:55",
+      "updated_at": "2026-01-05 10:25:55"
+    }
+  ],
+  "sort": [],
+  "title": "Voltage-Detector",
+  "foldername": "Voltage-Detector",
+  "schfilename": "Voltage-Detector.json",
+  "schfilemtime": 1767605395434
+}
