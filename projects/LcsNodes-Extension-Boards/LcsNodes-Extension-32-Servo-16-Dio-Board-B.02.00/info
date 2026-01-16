@@ -4,7 +4,7 @@
   "name": "LcsNodes-Extension-32-Servo-16-Dio-Board-B.02.00",
   "content": "A LcsNodes Extension Board for a dual channel block controller. It contains OCC detect, Signal, Serve and GPIO sockets.",
   "created_at": "2025-02-24 10:23:53",
-  "updated_at": "2025-04-02 09:38:07",
+  "updated_at": "2026-01-16 15:51:00",
   "stick": "",
   "documents": [
     {
@@ -417,11 +417,11 @@
           }
         ]
       ],
-      "updateTime": 1743579104,
+      "updateTime": 1768575060,
       "createTime": 1681973470,
       "histories": [],
       "created_at": "2023-04-20 08:51:10",
-      "updated_at": "2025-04-02 09:31:44"
+      "updated_at": "2026-01-16 15:51:00"
     },
     {
       "uuid": "5a025bf38003c3f20e98b2a87663e9a6",
@@ -859,5 +859,5 @@
   "title": "LcsNodes-Extension-32-Servo-16-Dio-Board-B.02.00",
   "foldername": "LcsNodes-Extension-32-Servo-16-Dio-Board-B.02.00",
   "schfilename": "LcsNodes-Extension-32-Servo-16-Dio-Board-B.02.00.json",
-  "schfilemtime": 1743579104200
+  "schfilemtime": 1768575060829
 }
