@@ -1,33 +1,33 @@
 {
-  "uuid": "350ffd7619a89990e7b4793572191625",
-  "path": "Offline/LcsNodes-Smart-Turnout-Socket-B.00.01",
-  "name": "LcsNodes-Smart-Turnout-Socket-B.00.01",
+  "uuid": "f11287df047c32813480ab4a668e55f0",
+  "path": "Offline/LcsNodes-Smart-Dual-Turnout-Socket-B.00.01",
+  "name": "LcsNodes-Smart-Dual-Turnout-Socket-B.00.01",
   "content": "",
-  "created_at": "2026-01-16 15:47:09",
-  "updated_at": "2026-01-30 11:20:34",
+  "created_at": "2026-01-30 10:53:32",
+  "updated_at": "2026-01-30 11:21:20",
   "stick": "",
   "documents": [
     {
-      "uuid": "4e3d8d9c4b27750e1080f9516fbc9589",
+      "uuid": "229bf480e61e3c2cb3cc4c59b2dc5b8a",
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "b1beab7fb9ba429596b9a2cbcbdafa9d": 2,
+        "fd2c7bd46c9a4c10a0cd0b653b2b26c9": 2,
+        "a052559478a14ee2b9e3514bee4ff72d": 2,
         "dab38643e260446ca7fe80b2b73aeb91": 2,
-        "a68dc5e6a9944c46b7604648a43dcd65": 1,
-        "77ff4e3668d049dfad2b98e3ec6c3129": 1,
-        "ed9eb2faffb34286820a54a14e9e9e24": 4,
-        "56994305955647eda299fec7cb5fcf23": 1,
-        "fd11c9e744c44aeab6011e8bd4c3ea86": 1,
-        "a75ba4d04d2742068321ead25ba6da20": 2,
+        "ca793dbb626a44289c91f4f8f7123a37": 2,
+        "ed9eb2faffb34286820a54a14e9e9e24": 7,
+        "6f93b44d0dab4f1e9e9b9e54ab415bfa": 2,
         "701c19e79c7445a7abfc0cc29ae6ba21": 1,
-        "a052559478a14ee2b9e3514bee4ff72d": 1,
-        "b1beab7fb9ba429596b9a2cbcbdafa9d": 1,
-        "fd2c7bd46c9a4c10a0cd0b653b2b26c9": 1,
-        "ca793dbb626a44289c91f4f8f7123a37": 1,
-        "6f93b44d0dab4f1e9e9b9e54ab415bfa": 1
+        "a75ba4d04d2742068321ead25ba6da20": 4,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 1,
+        "56994305955647eda299fec7cb5fcf23": 1,
+        "77ff4e3668d049dfad2b98e3ec6c3129": 1,
+        "a68dc5e6a9944c46b7604648a43dcd65": 1
       },
       "BOM": [
         [
@@ -63,9 +63,9 @@
         ],
         [
           "1N4007W A7",
-          1,
+          2,
           "SOD-123_L2.8-W1.8-LS3.7-RD-3",
-          "D1",
+          "D1,D6",
           {
             "Manufacturer Part": "1N4007W A7",
             "Manufacturer": "JSMSEMI(杰盛微)",
@@ -75,9 +75,9 @@
         ],
         [
           "P4SMAJ5.0CA_R1_00001",
-          2,
+          4,
           "SMA_L4.4-W2.6-LS5.0-BI",
-          "D2,D5",
+          "D2,D3,D4,D5",
           {
             "Manufacturer Part": "P4SMAJ5.0CA_R1_00001",
             "Manufacturer": "PANJIT(强茂)",
@@ -99,9 +99,9 @@
         ],
         [
           "HDR-M-2.54_1x5",
-          1,
+          2,
           "HDR-M-2.54_1X5",
-          "J2",
+          "J1,J2",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -123,9 +123,9 @@
         ],
         [
           "SRD-DC5V-SL-C",
-          1,
+          2,
           "RELAY-TH_SRD-DCXXV-SL-C",
-          "K1",
+          "K1,K2",
           {
             "Manufacturer Part": "SRD-DC5V-SL-C",
             "Manufacturer": "null",
@@ -135,9 +135,9 @@
         ],
         [
           "CONN-TH_3P-P5.08",
-          1,
+          2,
           "CONN-TH_3P-P5.08",
-          "P1",
+          "P1,P2",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -147,9 +147,9 @@
         ],
         [
           "BC857BQ",
-          1,
+          2,
           "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
-          "Q1",
+          "Q1,Q2",
           {
             "Manufacturer Part": "BC857BQ",
             "Manufacturer": "YANGJIE(扬杰)",
@@ -159,9 +159,9 @@
         ],
         [
           "330",
-          2,
+          4,
           "R1206",
-          "R1,R4",
+          "R1,R4,R5,R6",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -171,9 +171,9 @@
         ],
         [
           "1K",
-          1,
+          2,
           "R1206",
-          "R2",
+          "R2,R3",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -218,34 +218,33 @@
           }
         ]
       ],
-      "updateTime": 1769768351,
+      "updateTime": 1769767726,
       "createTime": 1768574830,
       "histories": [],
       "created_at": "2026-01-16 15:47:10",
-      "updated_at": "2026-01-30 11:19:11"
+      "updated_at": "2026-01-30 11:08:46"
     },
     {
-      "uuid": "bd53b520cdc3652b188fd0bb55f9614e",
-      "puuid": "350ffd7619a89990e7b4793572191625",
-      "title": "PCB_LcsNodes-Smart-Turnout-Socket-B.00.01",
-      "filename": "PCB_LcsNodes-Smart-Turnout-Socket-B.00.01.json",
+      "uuid": "8316bc4aa0afd598700a9889592ba343",
+      "title": "PCB_LcsNodes-Smart-Dual-Turnout-Socket-B.00.01",
+      "filename": "PCB_LcsNodes-Smart-Dual-Turnout-Socket-B.00.01.json",
       "description": "",
       "docType": "3",
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "42056be588f847b5900edab335152010": 2,
         "906c99ea5dec4828b079c976cc1781e8": 1,
+        "108969f8d9834a9ea23bcec2d43a66e4": 2,
         "9f77654394344f25b3de138e0fe05ff6": 1,
-        "8e9b1be4bcb6420dbd1d09bf04b02792": 4,
+        "23e231420b704a0fbc6ddc5b8c2f6b9f": 2,
+        "22a191264369408f990ade28dd13460b": 2,
+        "b3b82869fa924bae820e3a6cfb44d689": 2,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 7,
         "fc8c255298c94f67b2d58cc94fb7a8a4": 2,
         "98429e10446f41e793c95f63ad2f3e11": 1,
         "7bdec8012728462a85919a4d0d033579": 1,
-        "42056be588f847b5900edab335152010": 1,
-        "77b418c942ed43c4bbe1d0449d6cb40c": 2,
-        "108969f8d9834a9ea23bcec2d43a66e4": 1,
-        "23e231420b704a0fbc6ddc5b8c2f6b9f": 1,
-        "22a191264369408f990ade28dd13460b": 1,
-        "b3b82869fa924bae820e3a6cfb44d689": 1,
+        "77b418c942ed43c4bbe1d0449d6cb40c": 4,
         "0f2364c02f094100b1b3205c9d829099": 1
       },
       "BOM": [
@@ -401,16 +400,16 @@
           }
         ]
       ],
-      "updateTime": 1769768434,
+      "updateTime": 1769768480,
       "createTime": 1768576708,
       "histories": [],
       "created_at": "2026-01-16 16:18:28",
-      "updated_at": "2026-01-30 11:20:34"
+      "updated_at": "2026-01-30 11:21:20"
     }
   ],
   "sort": [],
-  "title": "LcsNodes-Smart-Turnout-Socket-B.00.01",
-  "foldername": "LcsNodes-Smart-Turnout-Socket-B.00.01",
-  "schfilename": "LcsNodes-Smart-Turnout-Socket-B.00.01.json",
-  "schfilemtime": 1769768351869
+  "title": "LcsNodes-Smart-Dual-Turnout-Socket-B.00.01",
+  "foldername": "LcsNodes-Smart-Dual-Turnout-Socket-B.00.01",
+  "schfilename": "LcsNodes-Smart-Dual-Turnout-Socket-B.00.01.json",
+  "schfilemtime": 1769767726738
 }

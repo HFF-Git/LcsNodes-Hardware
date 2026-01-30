@@ -4,7 +4,7 @@
   "name": "LcsNodes-Extension-4x4-Occ-Detect-B.02.10",
   "content": "",
   "created_at": "2026-01-26 10:10:31",
-  "updated_at": "2026-01-28 10:35:03",
+  "updated_at": "2026-01-30 10:08:16",
   "stick": "",
   "documents": [
     {
@@ -160,10 +160,11 @@
       "components": {
         "bff561cec69a480f91e19a2cbb9aa15b": 1,
         "fd11c9e744c44aeab6011e8bd4c3ea86": 1,
-        "2fa53d590f544429ab8fcbd581d715c1": 4,
+        "2fa53d590f544429ab8fcbd581d715c1": 5,
         "6e40ccf00a5d499faaf5fd21e83827b5": 1,
         "a68dc5e6a9944c46b7604648a43dcd65": 1,
-        "77ff4e3668d049dfad2b98e3ec6c3129": 1
+        "77ff4e3668d049dfad2b98e3ec6c3129": 1,
+        "ba1f207f2c0447edbd5beb657b435022": 1
       },
       "BOM": [
         [
@@ -234,6 +235,18 @@
           }
         ],
         [
+          "LED-0805_G",
+          1,
+          "LED-1206",
+          "LED1",
+          {
+            "Manufacturer Part": "NCD0805G1",
+            "Manufacturer": "国星光电",
+            "Supplier": "",
+            "Supplier Part": "C84260"
+          }
+        ],
+        [
           "LCS-SYM-EXT-B.02.10",
           1,
           "LCS-FP-EXT-10X12-B.02.10",
@@ -247,9 +260,9 @@
         ],
         [
           "10K",
-          4,
+          5,
           "R1206",
-          "R1,R2,R3,R4",
+          "R1,R2,R3,R4,R5",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -306,11 +319,11 @@
           }
         ]
       ],
-      "updateTime": 1769590236,
+      "updateTime": 1769764096,
       "createTime": 1681973470,
       "histories": [],
       "created_at": "2023-04-20 08:51:10",
-      "updated_at": "2026-01-28 09:50:36"
+      "updated_at": "2026-01-30 10:08:16"
     },
     {
       "uuid": "7664d68b402d721f1f93cc7bf5da776f",
@@ -593,11 +606,12 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "62ddd832b4204f5fb6ccf017f43de83b": 1,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 37,
+        "cb9948dd86b9429a8b5f3093f768b706": 1,
         "906c99ea5dec4828b079c976cc1781e8": 1,
         "9f77654394344f25b3de138e0fe05ff6": 1,
-        "cb9948dd86b9429a8b5f3093f768b706": 1,
         "969a578b2869473fa8ef6283c1b3801c": 1,
-        "8e9b1be4bcb6420dbd1d09bf04b02792": 36,
         "a043f6f5ce214277a2e9ff0bb0a41cd5": 4,
         "7bdec8012728462a85919a4d0d033579": 1,
         "4cf29752e2494dd48d2e74b91145f789": 16,
@@ -780,11 +794,11 @@
           }
         ]
       ],
-      "updateTime": 1769592903,
+      "updateTime": 1769764016,
       "createTime": 1737902371,
       "histories": [],
       "created_at": "2025-01-26 15:39:31",
-      "updated_at": "2026-01-28 10:35:03"
+      "updated_at": "2026-01-30 10:06:56"
     }
   ],
   "sort": [
@@ -796,5 +810,5 @@
   "title": "LcsNodes-Extension-4x4-Occ-Detect-B.02.10",
   "foldername": "LcsNodes-Extension-4x4-Occ-Detect-B.02.10",
   "schfilename": "LcsNodes-Extension-4x4-Occ-Detect-B.02.10.json",
-  "schfilemtime": 1769590236809
+  "schfilemtime": 1769764096388
 }
