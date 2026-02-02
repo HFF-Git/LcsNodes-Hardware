@@ -4,7 +4,7 @@
   "name": "LcsNodes-Base-Station-Board-B.02.00",
   "content": "A Raspberry Pi Pico based DCC base station. \n- RPico, CanBus, NVM, L6205 Power Module, RailCom Detector",
   "created_at": "2025-01-19 12:22:15",
-  "updated_at": "2026-01-28 09:57:38",
+  "updated_at": "2026-02-02 10:58:08",
   "stick": "",
   "documents": [
     {
@@ -3228,11 +3228,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1741705185,
+      "updateTime": 1770026192,
       "createTime": 1697360463,
       "histories": [],
       "created_at": "2023-10-15 11:01:03",
-      "updated_at": "2025-03-11 15:59:45",
+      "updated_at": "2026-02-02 10:56:32",
       "BOM": [
         [
           "Value",
@@ -3338,9 +3338,9 @@
           }
         ],
         [
-          "2200u",
+          "0,1F",
           1,
-          "CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD-1",
+          "CAP-D12.5XF5.0",
           "C20",
           {
             "Manufacturer Part": "",
@@ -3531,9 +3531,9 @@
         ],
         [
           "100",
-          2,
+          1,
           "R1206",
-          "R16,R61",
+          "R16",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3710,6 +3710,18 @@
           }
         ],
         [
+          "10",
+          1,
+          "R1206",
+          "R61",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
           "100K",
           1,
           "R1206",
@@ -3877,13 +3889,13 @@
       "docType": "3",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1769590658,
+      "updateTime": 1770026288,
       "createTime": 1697360719,
       "histories": [],
       "created_at": "2023-10-15 11:05:19",
-      "updated_at": "2026-01-28 09:57:38",
+      "updated_at": "2026-02-02 10:58:08",
       "components": {
-        "707d7c79bad8483c87b0c49ff97c7bd4": 1,
+        "6295c07e15584ea3b3052d80635b272b": 1,
         "8e9b1be4bcb6420dbd1d09bf04b02792": 61,
         "62ddd832b4204f5fb6ccf017f43de83b": 2,
         "7754fb401bbb4a84978dccc9875b550b": 1,
@@ -3921,5 +3933,5 @@
   "title": "LcsNodes-Base-Station-Board-B.02.00",
   "foldername": "LcsNodes-Base-Station-Board-B.02.00",
   "schfilename": "LcsNodes-Base-Station-Board-B.02.00.json",
-  "schfilemtime": 1742028260559
+  "schfilemtime": 1770026192564
 }

@@ -4,7 +4,7 @@
   "name": "LcsNodes-Quad-Block-Controller-B.02.10",
   "content": "A LCS block controller for 4 blocks, Railcom detectors and power measurement, using the PIO state machines.",
   "created_at": "2025-05-22 18:02:14",
-  "updated_at": "2025-12-18 16:40:48",
+  "updated_at": "2026-02-02 10:59:47",
   "stick": "",
   "documents": [
     {
@@ -2205,13 +2205,13 @@
         "5d56951fd43d4b5083b0f3cd9bfd5587": 4,
         "a1bddaea90b44e109a38e04d658aabfb": 1,
         "2f379218ad414010bbfe428493a52848": 2,
-        "e545f26e87c74952857381bd0bff848e": 1,
         "ba1f207f2c0447edbd5beb657b435022": 1,
         "942aca96e61448878a92168ac1a42b91": 1,
         "a68dc5e6a9944c46b7604648a43dcd65": 1,
         "d74e5c405a07432b8d81fde07ec4cdc8": 4,
         "a0e7949b1b3a46c796b905e048b46948": 1,
-        "c63b9b9c9175422b9c8585eb6d5f8c11": 1
+        "c63b9b9c9175422b9c8585eb6d5f8c11": 1,
+        "e545f26e87c74952857381bd0bff848e": 1
       },
       "BOM": [
         [
@@ -2318,9 +2318,9 @@
           }
         ],
         [
-          "2200u",
+          "0,1F",
           1,
-          "CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD-1",
+          "CAP-D12.5XF5.0",
           "C24",
           {
             "Manufacturer Part": "",
@@ -2558,7 +2558,7 @@
           }
         ],
         [
-          "100",
+          "10",
           1,
           "R1206",
           "R61",
@@ -2702,11 +2702,11 @@
           }
         ]
       ],
-      "updateTime": 1748007437,
+      "updateTime": 1770026387,
       "createTime": 1676710041,
       "histories": [],
       "created_at": "2023-02-18 09:47:21",
-      "updated_at": "2025-05-23 15:37:17"
+      "updated_at": "2026-02-02 10:59:47"
     },
     {
       "uuid": "73cf75ba7a04f1b1b4a46b34013c36e4",
@@ -2760,5 +2760,5 @@
   "title": "LcsNodes-Quad-Block-Controller-B.02.10",
   "foldername": "LcsNodes-Quad-Block-Controller-B.02.10",
   "schfilename": "LcsNodes-Quad-Block-Controller-B.02.10.json",
-  "schfilemtime": 1766072448309
+  "schfilemtime": 1770026387066
 }
