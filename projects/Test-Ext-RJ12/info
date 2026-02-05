@@ -1,0 +1,106 @@
+{
+  "uuid": "e1447fa52e9f9b81c084cb1794abcc33",
+  "path": "Offline/Test-Ext-RJ12",
+  "name": "Test-Ext-RJ12",
+  "content": "",
+  "created_at": "2026-02-05 08:37:39",
+  "updated_at": "2026-02-05 08:46:19",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "63413ae122111844b3c998ca38f4db3c",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "6e40ccf00a5d499faaf5fd21e83827b5": 1,
+        "3d7703837c274d87b77976df7a270fdb": 8
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "LCS-SYM-EXT-B.02.10",
+          1,
+          "LCS-FP-EXT-10X12-B.02.10",
+          "PCB1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "RJ12(6P6C)",
+          8,
+          "RJ12-TH_6P6C",
+          "RJ1,RJ2,RJ3,RJ4,RJ5,RJ6,RJ7,RJ8",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ]
+      ],
+      "updateTime": 1770277284,
+      "createTime": 1770277060,
+      "histories": [],
+      "created_at": "2026-02-05 08:37:40",
+      "updated_at": "2026-02-05 08:41:24"
+    },
+    {
+      "uuid": "bca053ee6e0c86bf9796a68a89b33fd4",
+      "puuid": "e1447fa52e9f9b81c084cb1794abcc33",
+      "title": "PCB_Test-Ext-RJ12",
+      "filename": "PCB_Test-Ext-RJ12.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "906f08b7969d4ea8b5098c37b5a472e2": 8,
+        "cb9948dd86b9429a8b5f3093f768b706": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "LCS-SYM-EXT-B.02.10",
+          1,
+          "LCS-FP-EXT-10X12-B.02.10",
+          "PCB1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ]
+      ],
+      "updateTime": 1770277579,
+      "createTime": 1770277305,
+      "histories": [],
+      "created_at": "2026-02-05 08:41:45",
+      "updated_at": "2026-02-05 08:46:19"
+    }
+  ],
+  "sort": [],
+  "title": "Test-Ext-RJ12",
+  "foldername": "Test-Ext-RJ12",
+  "schfilename": "Test-Ext-RJ12.json",
+  "schfilemtime": 1770277284616
+}

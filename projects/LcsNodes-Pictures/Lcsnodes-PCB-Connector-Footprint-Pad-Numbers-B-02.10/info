@@ -1,15 +1,15 @@
 {
   "uuid": "05cc1f72eb484822d14f0386e225c1ad",
-  "path": "Offline/Lcsnodes-PCB-Connector-Footprint-Pad-Numbers",
-  "name": "Lcsnodes-PCB-Connector-Footprint-Pad-Numbers",
+  "path": "Offline/Lcsnodes-PCB-Connector-Footprint-Pad-Numbers-B-02.10",
+  "name": "Lcsnodes-PCB-Connector-Footprint-Pad-Numbers-B-02.10",
   "content": "The Extension Boards have a lot of pads. They are all numbered consistenly acorss all boards.",
   "created_at": "2023-05-04 08:57:20",
-  "updated_at": "2025-02-20 10:53:24",
+  "updated_at": "2026-02-05 10:03:40",
   "stick": "",
   "documents": [
     {
       "uuid": "38cc9f3e40eaef3f003ddfa7e55c0de3",
-      "title": "Sheet_1",
+      "title": "LcsNodes-Footprint-Padnumbers-B.02.10",
       "description": "",
       "docType": "1",
       "master": "",
@@ -24,16 +24,16 @@
           "CustomPara"
         ]
       ],
-      "updateTime": 1740045204,
+      "updateTime": 1770279776,
       "createTime": 1683183441,
       "histories": [],
       "created_at": "2023-05-04 08:57:21",
-      "updated_at": "2025-02-20 10:53:24"
+      "updated_at": "2026-02-05 09:22:56"
     }
   ],
   "sort": [],
-  "title": "Lcsnodes-PCB-Connector-Footprint-Pad-Numbers",
-  "foldername": "Lcsnodes-PCB-Connector-Footprint-Pad-Numbers",
-  "schfilename": "Lcsnodes-PCB-Connector-Footprint-Pad-Numbers.json",
-  "schfilemtime": 1740045204944
+  "title": "Lcsnodes-PCB-Connector-Footprint-Pad-Numbers-B-02.10",
+  "foldername": "Lcsnodes-PCB-Connector-Footprint-Pad-Numbers-B-02.10",
+  "schfilename": "Lcsnodes-PCB-Connector-Footprint-Pad-Numbers-B-02.10.json",
+  "schfilemtime": 1770279818114
 }
