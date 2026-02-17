@@ -4,7 +4,7 @@
   "name": "LcsNodes-Smart-Dual-Turnout-Socket-B.00.01",
   "content": "",
   "created_at": "2026-01-30 10:53:32",
-  "updated_at": "2026-02-11 12:14:36",
+  "updated_at": "2026-02-17 14:28:11",
   "stick": "",
   "documents": [
     {
@@ -174,10 +174,10 @@
           }
         ],
         [
-          "330",
-          8,
+          "470",
+          4,
           "R1206",
-          "R1,R2,R5,R6,R14,R16,R17,R18",
+          "R1,R2,R5,R6",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -238,6 +238,18 @@
           3,
           "R1206",
           "R13,R19,R20",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "220",
+          4,
+          "R1206",
+          "R14,R16,R17,R18",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -318,11 +330,11 @@
           }
         ]
       ],
-      "updateTime": 1770808288,
+      "updateTime": 1771334251,
       "createTime": 1768574830,
       "histories": [],
       "created_at": "2026-01-16 15:47:10",
-      "updated_at": "2026-02-11 12:11:28"
+      "updated_at": "2026-02-17 14:17:31"
     },
     {
       "uuid": "8316bc4aa0afd598700a9889592ba343",
@@ -504,16 +516,16 @@
           }
         ]
       ],
-      "updateTime": 1770808476,
+      "updateTime": 1771334891,
       "createTime": 1768576708,
       "histories": [],
       "created_at": "2026-01-16 16:18:28",
-      "updated_at": "2026-02-11 12:14:36"
+      "updated_at": "2026-02-17 14:28:11"
     }
   ],
   "sort": [],
   "title": "LcsNodes-Smart-Dual-Turnout-Socket-B.00.01",
   "foldername": "LcsNodes-Smart-Dual-Turnout-Socket-B.00.01",
   "schfilename": "LcsNodes-Smart-Dual-Turnout-Socket-B.00.01.json",
-  "schfilemtime": 1770808288181
+  "schfilemtime": 1771334251476
 }
