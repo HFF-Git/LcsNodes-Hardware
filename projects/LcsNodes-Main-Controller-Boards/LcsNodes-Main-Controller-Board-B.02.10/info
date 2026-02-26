@@ -4,7 +4,7 @@
   "name": "LcsNodes-Main-Controller-Board-B.02.10",
   "content": "LcsNodes main Controller board with PICO, new PCB format.",
   "created_at": "2026-01-30 11:22:46",
-  "updated_at": "2026-02-02 15:56:12",
+  "updated_at": "2026-02-21 17:06:33",
   "stick": "",
   "documents": [
     {
@@ -739,11 +739,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1770044172,
+      "updateTime": 1771689993,
       "createTime": 1693213366,
       "histories": [],
       "created_at": "2023-08-28 11:02:46",
-      "updated_at": "2026-02-02 15:56:12",
+      "updated_at": "2026-02-21 17:06:33",
       "BOM": [
         [
           "Value",
@@ -1486,5 +1486,5 @@
   "title": "LcsNodes-Main-Controller-Board-B.02.10",
   "foldername": "LcsNodes-Main-Controller-Board-B.02.10",
   "schfilename": "LcsNodes-Main-Controller-Board-B.02.10.json",
-  "schfilemtime": 1770044172783
+  "schfilemtime": 1771689993391
 }

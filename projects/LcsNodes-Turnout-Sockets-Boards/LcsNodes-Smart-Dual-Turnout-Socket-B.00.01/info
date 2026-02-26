@@ -4,7 +4,7 @@
   "name": "LcsNodes-Smart-Dual-Turnout-Socket-B.00.01",
   "content": "",
   "created_at": "2026-01-30 10:53:32",
-  "updated_at": "2026-02-17 14:28:11",
+  "updated_at": "2026-02-26 11:21:06",
   "stick": "",
   "documents": [
     {
@@ -19,19 +19,20 @@
         "701c19e79c7445a7abfc0cc29ae6ba21": 1,
         "ed9eb2faffb34286820a54a14e9e9e24": 20,
         "a75ba4d04d2742068321ead25ba6da20": 4,
-        "fd11c9e744c44aeab6011e8bd4c3ea86": 1,
-        "56994305955647eda299fec7cb5fcf23": 1,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 3,
         "77ff4e3668d049dfad2b98e3ec6c3129": 1,
         "a68dc5e6a9944c46b7604648a43dcd65": 1,
         "a9aa2b14f188405792fa87ac344499a4": 2,
-        "3d7703837c274d87b77976df7a270fdb": 2,
         "453574f445c343b5a3e12a0270625e89": 1,
         "6f93b44d0dab4f1e9e9b9e54ab415bfa": 2,
         "ca793dbb626a44289c91f4f8f7123a37": 2,
         "b1beab7fb9ba429596b9a2cbcbdafa9d": 2,
         "de79b090ca9e4b85b5576b54e33647f6": 2,
         "dc958bec93c74644ad2e27a8a37081fe": 2,
-        "2d3bd7b7e86c44c8b96adb7769f36697": 2
+        "2d3bd7b7e86c44c8b96adb7769f36697": 2,
+        "5634327d1e604fc89745187a58c2703c": 1,
+        "7263241822a34aba926bb7df9a1da12c": 2,
+        "c09541f8450e46f6ae3a147a43929c41": 2
       },
       "BOM": [
         [
@@ -42,10 +43,10 @@
           "CustomPara"
         ],
         [
-          "100u",
-          1,
-          "CAP-SMD_BD6.3-L6.6-W6.6-LS7.6-FD",
-          "C1",
+          "100n",
+          2,
+          "C1206",
+          "C1,C2",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -54,10 +55,22 @@
           }
         ],
         [
-          "100n",
+          "1000u",
+          2,
+          "CAP-SMD_BD10.0-L10.3-W10.3-LS11.0",
+          "C3,C4",
+          {
+            "Manufacturer Part": "RVT220UF25V67RV0093",
+            "Manufacturer": "KNSCHA(科尼盛)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2895286"
+          }
+        ],
+        [
+          "330n",
           1,
           "C1206",
-          "C2",
+          "C6",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -270,15 +283,15 @@
           }
         ],
         [
-          "RJ12(6P6C)",
+          "UXCELL 8P8C RJ45 PCB",
           2,
-          "RJ12-TH_6P6C",
+          "UXCELL 8P8C RJ45 PCB",
           "RJ1,RJ2",
           {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
+            "Manufacturer Part": "R-RJ45R10P-B000",
+            "Manufacturer": "Shenzhen Cankemeng",
+            "Supplier": "LCSC",
+            "Supplier Part": "C386758"
           }
         ],
         [
@@ -306,10 +319,22 @@
           }
         ],
         [
+          "MC7805CDTG",
+          1,
+          "DPAK_L6.6-W6.2-P2.29-LS9.7-BR",
+          "U5",
+          {
+            "Manufacturer Part": "MC7805CDTG",
+            "Manufacturer": "onsemi(安森美)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C897464"
+          }
+        ],
+        [
           "PCA9517D,118",
           1,
           "SOP-8_L4.9-W3.8-P1.27-LS6.0-BL",
-          "U5",
+          "U6",
           {
             "Manufacturer Part": "PCA9517D,118",
             "Manufacturer": "NXP(恩智浦)",
@@ -321,7 +346,7 @@
           "ATTINY414-SSN",
           1,
           "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
-          "U6",
+          "U7",
           {
             "Manufacturer Part": "ATTINY414-SSN",
             "Manufacturer": "MICROCHIP(美国微芯)",
@@ -330,11 +355,11 @@
           }
         ]
       ],
-      "updateTime": 1771334251,
+      "updateTime": 1772101266,
       "createTime": 1768574830,
       "histories": [],
       "created_at": "2026-01-16 15:47:10",
-      "updated_at": "2026-02-17 14:17:31"
+      "updated_at": "2026-02-26 11:21:06"
     },
     {
       "uuid": "8316bc4aa0afd598700a9889592ba343",
@@ -345,6 +370,13 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "7bdec8012728462a85919a4d0d033579": 3,
+        "02d834a4b47b47e099e50c9cb0b52da8": 2,
+        "70aa5812f21f4991bf427395d51849f4": 2,
+        "34cb534d0973454b8c5658c36d769ab4": 1,
+        "113c1703fbf348be9a4f3b4b916879c8": 1,
+        "670034b590e447f2a5f1052209dac5e3": 2,
+        "0f2364c02f094100b1b3205c9d829099": 1,
         "42056be588f847b5900edab335152010": 2,
         "23e231420b704a0fbc6ddc5b8c2f6b9f": 2,
         "22a191264369408f990ade28dd13460b": 2,
@@ -354,14 +386,8 @@
         "41a50a41bbea403eb6da88afda980328": 2,
         "9f77654394344f25b3de138e0fe05ff6": 1,
         "108969f8d9834a9ea23bcec2d43a66e4": 2,
-        "70aa5812f21f4991bf427395d51849f4": 2,
-        "906f08b7969d4ea8b5098c37b5a472e2": 2,
-        "113c1703fbf348be9a4f3b4b916879c8": 1,
-        "98429e10446f41e793c95f63ad2f3e11": 1,
-        "7bdec8012728462a85919a4d0d033579": 1,
         "906c99ea5dec4828b079c976cc1781e8": 1,
-        "77b418c942ed43c4bbe1d0449d6cb40c": 4,
-        "0f2364c02f094100b1b3205c9d829099": 1
+        "77b418c942ed43c4bbe1d0449d6cb40c": 4
       },
       "BOM": [
         [
@@ -516,16 +542,16 @@
           }
         ]
       ],
-      "updateTime": 1771334891,
+      "updateTime": 1772095837,
       "createTime": 1768576708,
       "histories": [],
       "created_at": "2026-01-16 16:18:28",
-      "updated_at": "2026-02-17 14:28:11"
+      "updated_at": "2026-02-26 09:50:37"
     }
   ],
   "sort": [],
   "title": "LcsNodes-Smart-Dual-Turnout-Socket-B.00.01",
   "foldername": "LcsNodes-Smart-Dual-Turnout-Socket-B.00.01",
   "schfilename": "LcsNodes-Smart-Dual-Turnout-Socket-B.00.01.json",
-  "schfilemtime": 1771334251476
+  "schfilemtime": 1772101266068
 }
