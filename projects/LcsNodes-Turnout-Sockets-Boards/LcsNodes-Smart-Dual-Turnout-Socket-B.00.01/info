@@ -4,7 +4,7 @@
   "name": "LcsNodes-Smart-Dual-Turnout-Socket-B.00.01",
   "content": "",
   "created_at": "2026-01-30 10:53:32",
-  "updated_at": "2026-02-26 11:21:06",
+  "updated_at": "2026-03-09 16:18:47",
   "stick": "",
   "documents": [
     {
@@ -16,7 +16,6 @@
       "thumb": "/images/thumb-default.png",
       "components": {
         "a052559478a14ee2b9e3514bee4ff72d": 2,
-        "701c19e79c7445a7abfc0cc29ae6ba21": 1,
         "ed9eb2faffb34286820a54a14e9e9e24": 20,
         "a75ba4d04d2742068321ead25ba6da20": 4,
         "fd11c9e744c44aeab6011e8bd4c3ea86": 3,
@@ -32,7 +31,8 @@
         "2d3bd7b7e86c44c8b96adb7769f36697": 2,
         "5634327d1e604fc89745187a58c2703c": 1,
         "7263241822a34aba926bb7df9a1da12c": 2,
-        "c09541f8450e46f6ae3a147a43929c41": 2
+        "c09541f8450e46f6ae3a147a43929c41": 2,
+        "10c02cc104e14631b6b0ba32b14bd6a8": 1
       },
       "BOM": [
         [
@@ -343,23 +343,23 @@
           }
         ],
         [
-          "ATTINY414-SSN",
+          "ATTINY1614-SSF",
           1,
           "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
-          "U7",
+          "U9",
           {
-            "Manufacturer Part": "ATTINY414-SSN",
+            "Manufacturer Part": "ATTINY1614-SSF",
             "Manufacturer": "MICROCHIP(美国微芯)",
             "Supplier": "LCSC",
-            "Supplier Part": "C1338968"
+            "Supplier Part": "C614831"
           }
         ]
       ],
-      "updateTime": 1772101266,
+      "updateTime": 1773069527,
       "createTime": 1768574830,
       "histories": [],
       "created_at": "2026-01-16 15:47:10",
-      "updated_at": "2026-02-26 11:21:06"
+      "updated_at": "2026-03-09 16:18:47"
     },
     {
       "uuid": "8316bc4aa0afd598700a9889592ba343",
@@ -370,13 +370,13 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "0f2364c02f094100b1b3205c9d829099": 1,
         "7bdec8012728462a85919a4d0d033579": 3,
         "02d834a4b47b47e099e50c9cb0b52da8": 2,
         "70aa5812f21f4991bf427395d51849f4": 2,
         "34cb534d0973454b8c5658c36d769ab4": 1,
         "113c1703fbf348be9a4f3b4b916879c8": 1,
         "670034b590e447f2a5f1052209dac5e3": 2,
-        "0f2364c02f094100b1b3205c9d829099": 1,
         "42056be588f847b5900edab335152010": 2,
         "23e231420b704a0fbc6ddc5b8c2f6b9f": 2,
         "22a191264369408f990ade28dd13460b": 2,
@@ -542,16 +542,16 @@
           }
         ]
       ],
-      "updateTime": 1772095837,
+      "updateTime": 1773052213,
       "createTime": 1768576708,
       "histories": [],
       "created_at": "2026-01-16 16:18:28",
-      "updated_at": "2026-02-26 09:50:37"
+      "updated_at": "2026-03-09 11:30:13"
     }
   ],
   "sort": [],
   "title": "LcsNodes-Smart-Dual-Turnout-Socket-B.00.01",
   "foldername": "LcsNodes-Smart-Dual-Turnout-Socket-B.00.01",
   "schfilename": "LcsNodes-Smart-Dual-Turnout-Socket-B.00.01.json",
-  "schfilemtime": 1772101266068
+  "schfilemtime": 1773069527129
 }
