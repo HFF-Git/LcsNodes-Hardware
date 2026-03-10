@@ -1,10 +1,10 @@
 {
   "uuid": "f11287df047c32813480ab4a668e55f0",
-  "path": "Offline/LcsNodes-Smart-Dual-Turnout-Socket-B.00.01",
-  "name": "LcsNodes-Smart-Dual-Turnout-Socket-B.00.01",
+  "path": "Offline/LcsNodes-Dual-Turnout-Socket-B.00.01",
+  "name": "LcsNodes-Dual-Turnout-Socket-B.00.01",
   "content": "",
   "created_at": "2026-01-30 10:53:32",
-  "updated_at": "2026-03-09 16:18:47",
+  "updated_at": "2026-03-10 11:03:18",
   "stick": "",
   "documents": [
     {
@@ -363,8 +363,8 @@
     },
     {
       "uuid": "8316bc4aa0afd598700a9889592ba343",
-      "title": "PCB_LcsNodes-Smart-Dual-Turnout-Socket-B.00.01",
-      "filename": "PCB_LcsNodes-Smart-Dual-Turnout-Socket-B.00.01.json",
+      "title": "PCB_LcsNodes-Dual-Turnout-Socket-B.00.01",
+      "filename": "PCB_LcsNodes-Dual-Turnout-Socket-B.00.01.json",
       "description": "",
       "docType": "3",
       "master": "",
@@ -550,8 +550,8 @@
     }
   ],
   "sort": [],
-  "title": "LcsNodes-Smart-Dual-Turnout-Socket-B.00.01",
-  "foldername": "LcsNodes-Smart-Dual-Turnout-Socket-B.00.01",
-  "schfilename": "LcsNodes-Smart-Dual-Turnout-Socket-B.00.01.json",
+  "title": "LcsNodes-Dual-Turnout-Socket-B.00.01",
+  "foldername": "LcsNodes-Dual-Turnout-Socket-B.00.01",
+  "schfilename": "LcsNodes-Dual-Turnout-Socket-B.00.01.json",
   "schfilemtime": 1773069527129
 }
