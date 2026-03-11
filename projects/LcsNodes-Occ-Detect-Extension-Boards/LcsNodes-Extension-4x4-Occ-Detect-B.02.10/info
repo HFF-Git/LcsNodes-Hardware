@@ -4,7 +4,7 @@
   "name": "LcsNodes-Extension-4x4-Occ-Detect-B.02.10",
   "content": "",
   "created_at": "2026-01-26 10:10:31",
-  "updated_at": "2026-03-10 11:10:01",
+  "updated_at": "2026-03-11 08:56:45",
   "stick": "",
   "documents": [
     {
@@ -321,10 +321,22 @@
           }
         ],
         [
-          "10K",
-          9,
+          "470",
+          20,
           "R1206",
-          "R1,R2,R3,R4,R5,R6,R7,R8,R11",
+          "R1,R2,R3,R4,R14,R15,R18,R19,R22,R23,R26,R27,R30,R31,R34,R35,R38,R39,R42,R43",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10K",
+          5,
+          "R1206",
+          "R5,R6,R7,R8,R11",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -349,18 +361,6 @@
           2,
           "R1206",
           "R12,R13",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "470",
-          16,
-          "R1206",
-          "R14,R15,R18,R19,R22,R23,R26,R27,R30,R31,R34,R35,R38,R39,R42,R43",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -417,11 +417,11 @@
           }
         ]
       ],
-      "updateTime": 1773137215,
+      "updateTime": 1773215805,
       "createTime": 1681973470,
       "histories": [],
       "created_at": "2023-04-20 08:51:10",
-      "updated_at": "2026-03-10 11:06:55"
+      "updated_at": "2026-03-11 08:56:45"
     },
     {
       "uuid": "7664d68b402d721f1f93cc7bf5da776f",
@@ -1053,5 +1053,5 @@
   "title": "LcsNodes-Extension-4x4-Occ-Detect-B.02.10",
   "foldername": "LcsNodes-Extension-4x4-Occ-Detect-B.02.10",
   "schfilename": "LcsNodes-Extension-4x4-Occ-Detect-B.02.10.json",
-  "schfilemtime": 1773137215778
+  "schfilemtime": 1773215805481
 }
