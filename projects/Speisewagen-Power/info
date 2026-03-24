@@ -4,7 +4,7 @@
   "name": "Speisewagen-Power",
   "content": "",
   "created_at": "2026-03-22 09:21:25",
-  "updated_at": "2026-03-22 10:15:07",
+  "updated_at": "2026-03-24 10:08:24",
   "stick": "",
   "documents": [
     {
@@ -16,9 +16,10 @@
       "thumb": "/images/thumb-default.png",
       "components": {
         "d70a894de46d4c61b093a8ef71582328": 1,
-        "8c93aeac6c2442d78098abb873c11e84": 1,
-        "89026c0e23ca49dcb85d26a1d0805b33": 2,
-        "ed9eb2faffb34286820a54a14e9e9e24": 1
+        "23300f13f2054d738b7a35314f7cf245": 1,
+        "634ae0708c864314a9d82092a0dda918": 1,
+        "16c08dbbc76b41d2904b22e7fcae3b14": 1,
+        "eb44bf09e3fa6c8e0cb6323d52703c99": 1
       },
       "BOM": [
         [
@@ -29,27 +30,27 @@
           "CustomPara"
         ],
         [
-          "0.1u",
+          "330nF",
+          1,
+          "C0805",
+          "C1",
+          {
+            "Manufacturer Part": "AC0805KKX7R8BB334",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2237514"
+          }
+        ],
+        [
+          "100nF",
           1,
           "C0805",
           "C2",
           {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "0.33u",
-          1,
-          "C0805",
-          "C3",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
+            "Manufacturer Part": "AC0805KRX7R9BB104",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C277502"
           }
         ],
         [
@@ -65,35 +66,35 @@
           }
         ],
         [
-          "100",
+          "100Ω",
           1,
           "R0805",
           "R1",
           {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
+            "Manufacturer Part": "RT0805FRD07100RL",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C143843"
           }
         ],
         [
-          "L78L05ACUTR-CN",
+          "L78L05ACUTR",
           1,
-          "SOT-89-3_L4.5-W2.4-P1.50-LS4.0-BR",
+          "SOT-89-3_L4.5-W2.5-P1.50-LS4.2-TL",
           "U1",
           {
-            "Manufacturer Part": "L78L05ACUTR-CN",
-            "Manufacturer": "ChipNobo(无边界)",
+            "Manufacturer Part": "L78L05ACUTR",
+            "Manufacturer": "ST(意法半导体)",
             "Supplier": "LCSC",
-            "Supplier Part": "C42419949"
+            "Supplier Part": "C43116"
           }
         ]
       ],
-      "updateTime": 1774170467,
+      "updateTime": 1774341118,
       "createTime": 1774167686,
       "histories": [],
       "created_at": "2026-03-22 09:21:26",
-      "updated_at": "2026-03-22 10:07:47"
+      "updated_at": "2026-03-24 09:31:58"
     },
     {
       "uuid": "bd8bf9b7b88738974f0cacb0ca58bec0",
@@ -106,9 +107,9 @@
       "thumb": "/images/thumb-default.png",
       "components": {
         "2ee8eb13a0124a108e622ce40c0c25a8": 2,
-        "7c957719e93b4542a30b0211217a121d": 1,
         "b60f399a7a7e41848b2be1eb49c79141": 1,
-        "17ba4442cad945ff8b1246b251671b84": 1
+        "78bceec4000c401c8ca0a540a24beebd": 1,
+        "7c957719e93b4542a30b0211217a121d": 1
       },
       "BOM": [
         [
@@ -179,16 +180,16 @@
           }
         ]
       ],
-      "updateTime": 1774170907,
+      "updateTime": 1774343304,
       "createTime": 1774168521,
       "histories": [],
       "created_at": "2026-03-22 09:35:21",
-      "updated_at": "2026-03-22 10:15:07"
+      "updated_at": "2026-03-24 10:08:24"
     }
   ],
   "sort": [],
   "title": "Speisewagen-Power",
   "foldername": "Speisewagen-Power",
   "schfilename": "Speisewagen-Power.json",
-  "schfilemtime": 1774170467743
+  "schfilemtime": 1774341118492
 }

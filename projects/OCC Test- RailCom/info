@@ -1,0 +1,115 @@
+{
+  "uuid": "0488594ae9c6c08f4b9235a599dfcf6b",
+  "path": "Offline/OCC%20Test-%20RailCom",
+  "name": "OCC Test- RailCom",
+  "content": "",
+  "created_at": "2026-03-19 08:58:13",
+  "updated_at": "2026-03-19 09:26:08",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "a7b6fee11a8f949932863d5026999962",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "8ee37273ffb040f88e5362d8675a0f78": 8,
+        "2fa53d590f544429ab8fcbd581d715c1": 18,
+        "0783bf3e5e8a40d79bff27bb118bbc24": 4
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100n",
+          4,
+          "C1206",
+          "C1,C2,C3,C4",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "B340B-13-F",
+          8,
+          "SMB_L4.6-W3.6-LS5.3-RD",
+          "D1,D2,D3,D4,D5,D6,D7,D8",
+          {
+            "Manufacturer Part": "B340B-13-F",
+            "Manufacturer": "DIODES(美台)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C85099"
+          }
+        ],
+        [
+          "10k",
+          6,
+          "R1206",
+          "R1,R8,R12,R16,R17,R18",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10K",
+          4,
+          "R1206",
+          "R2,R7,R11,R15",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "100K",
+          4,
+          "R1206",
+          "R3,R6,R10,R14",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "4K7",
+          4,
+          "R1206",
+          "R4,R5,R9,R13",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ]
+      ],
+      "updateTime": 1773908768,
+      "createTime": 1773907094,
+      "histories": [],
+      "created_at": "2026-03-19 08:58:14",
+      "updated_at": "2026-03-19 09:26:08"
+    }
+  ],
+  "sort": [],
+  "title": "OCC Test- RailCom",
+  "foldername": "OCC Test- RailCom",
+  "schfilename": "OCC Test- RailCom.json",
+  "schfilemtime": 1773908768688
+}

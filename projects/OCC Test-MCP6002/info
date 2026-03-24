@@ -1,0 +1,104 @@
+{
+  "uuid": "bbc5e062ac5e1fb2400718ad8558d154",
+  "path": "Offline/OCC%20Test-MCP6002",
+  "name": "OCC Test-MCP6002",
+  "content": "",
+  "created_at": "2026-03-19 09:27:12",
+  "updated_at": "2026-03-19 09:36:39",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "bd31bc3d89732ecba7412b5dd8ec5e8d",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "2fa53d590f544429ab8fcbd581d715c1": 6,
+        "8ee37273ffb040f88e5362d8675a0f78": 2,
+        "db9109a6f50f4ab4ab619a6b48ac7e25": 1,
+        "f4df48b069d147878767fc41db58d650": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "B340B-13-F",
+          2,
+          "SMB_L4.6-W3.6-LS5.3-RD",
+          "D1,D2",
+          {
+            "Manufacturer Part": "B340B-13-F",
+            "Manufacturer": "DIODES(美台)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C85099"
+          }
+        ],
+        [
+          "22K",
+          2,
+          "R1206",
+          "R1,R2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "100K",
+          2,
+          "R1206",
+          "R3,R5",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10k",
+          2,
+          "R1206",
+          "R4,R6",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "MCP6002AIM/TR",
+          1,
+          "SOP-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U1",
+          {
+            "Manufacturer Part": "MCP6002AIM/TR",
+            "Manufacturer": "HGSEMI(华冠)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C50314587"
+          }
+        ]
+      ],
+      "updateTime": 1773909399,
+      "createTime": 1773908832,
+      "histories": [],
+      "created_at": "2026-03-19 09:27:12",
+      "updated_at": "2026-03-19 09:36:39"
+    }
+  ],
+  "sort": [],
+  "title": "OCC Test-MCP6002",
+  "foldername": "OCC Test-MCP6002",
+  "schfilename": "OCC Test-MCP6002.json",
+  "schfilemtime": 1773909399386
+}
