@@ -4,7 +4,7 @@
   "name": "LcsNodes-Main-Controller-Board-B.02.10",
   "content": "LcsNodes main Controller board with PICO, new PCB format.",
   "created_at": "2026-01-30 11:22:46",
-  "updated_at": "2026-03-24 12:18:50",
+  "updated_at": "2026-03-25 09:08:38",
   "stick": "",
   "documents": [
     {
@@ -373,11 +373,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1774351130,
+      "updateTime": 1774426118,
       "createTime": 1693213366,
       "histories": [],
       "created_at": "2023-08-28 11:02:46",
-      "updated_at": "2026-03-24 12:18:50",
+      "updated_at": "2026-03-25 09:08:38",
       "BOM": [
         [
           "Value",
@@ -568,9 +568,9 @@
         ],
         [
           "4K7",
-          5,
+          4,
           "R1206",
-          "R2,R3,R34,R38,R39",
+          "R2,R3,R38,R39",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -604,9 +604,9 @@
         ],
         [
           "10K",
-          26,
+          27,
           "R1206",
-          "R6,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R35",
+          "R6,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -763,11 +763,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1774350973,
+      "updateTime": 1774426118,
       "createTime": 1693213366,
       "histories": [],
       "created_at": "2023-08-28 11:02:46",
-      "updated_at": "2026-03-24 12:16:13",
+      "updated_at": "2026-03-25 09:08:38",
       "BOM": [
         [
           "Value",
@@ -958,9 +958,9 @@
         ],
         [
           "4K7",
-          5,
+          4,
           "R1206",
-          "R2,R3,R34,R38,R39",
+          "R2,R3,R38,R39",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -994,9 +994,9 @@
         ],
         [
           "10K",
-          26,
+          27,
           "R1206",
-          "R6,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R35",
+          "R6,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1523,5 +1523,5 @@
   "title": "LcsNodes-Main-Controller-Board-B.02.10",
   "foldername": "LcsNodes-Main-Controller-Board-B.02.10",
   "schfilename": "LcsNodes-Main-Controller-Board-B.02.10.json",
-  "schfilemtime": 1774351130094
+  "schfilemtime": 1774426118548
 }

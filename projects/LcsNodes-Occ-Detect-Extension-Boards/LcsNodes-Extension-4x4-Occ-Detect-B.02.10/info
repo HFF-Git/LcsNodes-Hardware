@@ -4,7 +4,7 @@
   "name": "LcsNodes-Extension-4x4-Occ-Detect-B.02.10",
   "content": "",
   "created_at": "2026-01-26 10:10:31",
-  "updated_at": "2026-03-11 08:56:45",
+  "updated_at": "2026-03-25 09:04:35",
   "stick": "",
   "documents": [
     {
@@ -218,12 +218,12 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "fd11c9e744c44aeab6011e8bd4c3ea86": 2,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 3,
         "6e40ccf00a5d499faaf5fd21e83827b5": 1,
         "a68dc5e6a9944c46b7604648a43dcd65": 1,
         "77ff4e3668d049dfad2b98e3ec6c3129": 1,
         "ba1f207f2c0447edbd5beb657b435022": 4,
-        "ed9eb2faffb34286820a54a14e9e9e24": 5,
+        "ed9eb2faffb34286820a54a14e9e9e24": 4,
         "453574f445c343b5a3e12a0270625e89": 1,
         "2fa53d590f544429ab8fcbd581d715c1": 8,
         "e84b6210d3474a7a95a08cfe09eae773": 1
@@ -250,9 +250,9 @@
         ],
         [
           "100n",
-          2,
+          3,
           "C1206",
-          "C1,C2",
+          "C1,C2,C3",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -334,9 +334,9 @@
         ],
         [
           "10K",
-          5,
+          4,
           "R1206",
-          "R5,R6,R7,R8,R11",
+          "R5,R6,R7,R8",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -417,11 +417,11 @@
           }
         ]
       ],
-      "updateTime": 1773215805,
+      "updateTime": 1774425875,
       "createTime": 1681973470,
       "histories": [],
       "created_at": "2023-04-20 08:51:10",
-      "updated_at": "2026-03-11 08:56:45"
+      "updated_at": "2026-03-25 09:04:35"
     },
     {
       "uuid": "7664d68b402d721f1f93cc7bf5da776f",
@@ -1037,11 +1037,11 @@
           }
         ]
       ],
-      "updateTime": 1773137401,
+      "updateTime": 1774425675,
       "createTime": 1737902371,
       "histories": [],
       "created_at": "2025-01-26 15:39:31",
-      "updated_at": "2026-03-10 11:10:01"
+      "updated_at": "2026-03-25 09:01:15"
     }
   ],
   "sort": [
@@ -1053,5 +1053,5 @@
   "title": "LcsNodes-Extension-4x4-Occ-Detect-B.02.10",
   "foldername": "LcsNodes-Extension-4x4-Occ-Detect-B.02.10",
   "schfilename": "LcsNodes-Extension-4x4-Occ-Detect-B.02.10.json",
-  "schfilemtime": 1773215805481
+  "schfilemtime": 1774425875209
 }
