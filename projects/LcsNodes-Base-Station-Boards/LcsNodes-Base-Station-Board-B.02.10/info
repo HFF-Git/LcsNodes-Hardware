@@ -4,7 +4,7 @@
   "name": "LcsNodes-Base-Station-Board-B.02.10",
   "content": "A Raspberry Pi Pico based DCC base station. \n- RPico, CanBus, NVM, L6205 Power Module, RailCom Detector",
   "created_at": "2026-03-12 16:18:00",
-  "updated_at": "2026-03-24 12:07:41",
+  "updated_at": "2026-03-26 15:32:26",
   "stick": "",
   "documents": [
     {
@@ -517,11 +517,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1774347139,
+      "updateTime": 1774533320,
       "createTime": 1697360463,
       "histories": [],
       "created_at": "2023-10-15 11:01:03",
-      "updated_at": "2026-03-24 11:12:19",
+      "updated_at": "2026-03-26 14:55:20",
       "BOM": [
         [
           "Value",
@@ -544,9 +544,9 @@
         ],
         [
           "100n",
-          11,
+          12,
           "C1206",
-          "C1,C2,C3,C4,C5,C7,C8,C11,C13,C15,C18",
+          "C1,C2,C3,C4,C5,C7,C8,C11,C13,C15,C18,C22",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -687,18 +687,6 @@
           }
         ],
         [
-          "MOSFET-NCHANNELBSS138",
-          3,
-          "SOT23-3",
-          "Q1,Q2,Q3",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
           "DMG2305UX",
           1,
           "SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR-1",
@@ -724,9 +712,9 @@
         ],
         [
           "10K",
-          9,
+          3,
           "R1206",
-          "R3,R4,R5,R6,R7,R8,R9,R33,R34",
+          "R3,R33,R34",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1031,10 +1019,9 @@
         "a9aa2b14f188405792fa87ac344499a4": 1,
         "e76f3700a495449f89388aebc7c514e3": 1,
         "e611ae6de7f34e0eae8494a79a790895": 1,
-        "ed9eb2faffb34286820a54a14e9e9e24": 14,
-        "1f55cd7da439440ba626bd7741d4ad9e": 3,
+        "ed9eb2faffb34286820a54a14e9e9e24": 8,
         "ba1f207f2c0447edbd5beb657b435022": 1,
-        "a1bddaea90b44e109a38e04d658aabfb": 2,
+        "a1bddaea90b44e109a38e04d658aabfb": 3,
         "3d124f482ec94d4b904565fe553fcacb": 1,
         "2fa53d590f544429ab8fcbd581d715c1": 2
       }
@@ -2093,11 +2080,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1774349389,
+      "updateTime": 1774533349,
       "createTime": 1697360463,
       "histories": [],
       "created_at": "2023-10-15 11:01:03",
-      "updated_at": "2026-03-24 11:49:49",
+      "updated_at": "2026-03-26 14:55:49",
       "BOM": [
         [
           "Value",
@@ -2120,9 +2107,9 @@
         ],
         [
           "100n",
-          11,
+          12,
           "C1206",
-          "C1,C2,C3,C4,C5,C7,C8,C11,C13,C15,C18",
+          "C1,C2,C3,C4,C5,C7,C8,C11,C13,C15,C18,C22",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2263,18 +2250,6 @@
           }
         ],
         [
-          "MOSFET-NCHANNELBSS138",
-          3,
-          "SOT23-3",
-          "Q1,Q2,Q3",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
           "DMG2305UX",
           1,
           "SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR-1",
@@ -2300,9 +2275,9 @@
         ],
         [
           "10K",
-          9,
+          3,
           "R1206",
-          "R3,R4,R5,R6,R7,R8,R9,R33,R34",
+          "R3,R33,R34",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2622,21 +2597,20 @@
       "docType": "3",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1774350461,
+      "updateTime": 1774535546,
       "createTime": 1697360719,
       "histories": [],
       "created_at": "2023-10-15 11:05:19",
-      "updated_at": "2026-03-24 12:07:41",
+      "updated_at": "2026-03-26 15:32:26",
       "components": {
-        "7bdec8012728462a85919a4d0d033579": 15,
+        "7bdec8012728462a85919a4d0d033579": 16,
         "eebc7cac7529492182eedbd79c1598e9": 1,
-        "8e9b1be4bcb6420dbd1d09bf04b02792": 52,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 46,
         "e0f45a5edd25471dacc10f351b436550": 1,
         "2897ea2aed674deb8892c3862bcaddea": 4,
         "6295c07e15584ea3b3052d80635b272b": 1,
         "906c99ea5dec4828b079c976cc1781e8": 3,
         "70aa5812f21f4991bf427395d51849f4": 4,
-        "d8084adcadf04b6eadecdc8fd3a4bef9": 3,
         "48f726f118674c1c98ad35c23ffe8764": 1,
         "960b5f1425a648b69804b12510e06d86": 2,
         "25e61c240eca40c996f224224ae297e0": 2,
@@ -2663,5 +2637,5 @@
   "title": "LcsNodes-Base-Station-Board-B.02.10",
   "foldername": "LcsNodes-Base-Station-Board-B.02.10",
   "schfilename": "LcsNodes-Base-Station-Board-B.02.10.json",
-  "schfilemtime": 1774349390007
+  "schfilemtime": 1774533349675
 }
