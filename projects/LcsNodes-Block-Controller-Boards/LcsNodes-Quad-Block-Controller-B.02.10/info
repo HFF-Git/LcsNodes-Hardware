@@ -4,7 +4,7 @@
   "name": "LcsNodes-Quad-Block-Controller-B.02.10",
   "content": "A LCS block controller for 4 blocks, Railcom detectors and power measurement, using the PIO state machines.",
   "created_at": "2025-05-22 18:02:14",
-  "updated_at": "2026-03-27 16:44:05",
+  "updated_at": "2026-03-28 12:32:11",
   "stick": "",
   "documents": [
     {
@@ -1034,7 +1034,7 @@
         "2f379218ad414010bbfe428493a52848": 2,
         "fb82e4cef088466e83a5da161c0dbbab": 4,
         "fa16a799dadc4feea6243c7b13c94552": 1,
-        "5187b030934e4aa783299757d6ea6253": 1
+        "87d096ee22ef466da6089dd97be542be": 4
       },
       "BOM": [
         [
@@ -1058,9 +1058,9 @@
         ],
         [
           "100n",
-          11,
+          15,
           "C1206",
-          "C1,C2,C4,C7,C11,C14,C18,C26,C27,C28,C32",
+          "C1,C2,C4,C6,C7,C9,C11,C13,C14,C16,C18,C26,C27,C28,C32",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1085,18 +1085,6 @@
           4,
           "C1206",
           "C5,C10,C12,C17",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "1n",
-          4,
-          "C1206",
-          "C6,C9,C13,C16",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1441,6 +1429,18 @@
           }
         ],
         [
+          "74AHC1G00GV",
+          4,
+          "SOT-23-5_L3.0-W1.5-P0.95-LS2.8-BL",
+          "U4,U5,U7,U8",
+          {
+            "Manufacturer Part": "74AHC1G00GV",
+            "Manufacturer": "TECH PUBLIC(台舟)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C19829583"
+          }
+        ],
+        [
           "L6205PD",
           2,
           "POWERSO20_L15.9-W11.0-P1.27-LS14.2-BL-EP",
@@ -1462,18 +1462,6 @@
             "Manufacturer": "HGSEMI(华冠)",
             "Supplier": "LCSC",
             "Supplier Part": "C507163"
-          }
-        ],
-        [
-          "SN74HC32ANSR",
-          1,
-          "SO-14_L10.2-W5.3-P1.27-LS7.8-BL",
-          "U11",
-          {
-            "Manufacturer Part": "SN74HC32ANSR",
-            "Manufacturer": "TI(德州仪器)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C2867827"
           }
         ],
         [
@@ -1513,11 +1501,11 @@
           }
         ]
       ],
-      "updateTime": 1774626145,
+      "updateTime": 1774697531,
       "createTime": 1676709584,
       "histories": [],
       "created_at": "2023-02-18 09:39:44",
-      "updated_at": "2026-03-27 16:42:25"
+      "updated_at": "2026-03-28 12:32:11"
     },
     {
       "uuid": "b20a02e3ac127ac2b1db1d08c35d2de6",
@@ -2074,5 +2062,5 @@
   "title": "LcsNodes-Quad-Block-Controller-B.02.10",
   "foldername": "LcsNodes-Quad-Block-Controller-B.02.10",
   "schfilename": "LcsNodes-Quad-Block-Controller-B.02.10.json",
-  "schfilemtime": 1774626245484
+  "schfilemtime": 1774697531486
 }

@@ -4,7 +4,7 @@
   "name": "LcsNodes-Base-Station-Board-B.02.10",
   "content": "A Raspberry Pi Pico based DCC base station. \n- RPico, CanBus, NVM, L6205 Power Module, RailCom Detector",
   "created_at": "2026-03-12 16:18:00",
-  "updated_at": "2026-03-27 16:28:07",
+  "updated_at": "2026-03-28 13:21:25",
   "stick": "",
   "documents": [
     {
@@ -14,11 +14,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1774624997,
+      "updateTime": 1774700485,
       "createTime": 1697360463,
       "histories": [],
       "created_at": "2023-10-15 11:01:03",
-      "updated_at": "2026-03-27 16:23:17",
+      "updated_at": "2026-03-28 13:21:25",
       "BOM": [
         [
           "Value",
@@ -43,7 +43,7 @@
           "100n",
           12,
           "C1206",
-          "C1,C2,C3,C4,C5,C7,C8,C11,C13,C15,C18,C22",
+          "C1,C2,C3,C4,C5,C6,C8,C9,C12,C14,C15,C19",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -55,7 +55,7 @@
           "10n",
           1,
           "C1206",
-          "C6",
+          "C7",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -67,7 +67,7 @@
           "220n",
           3,
           "C1206",
-          "C9,C12,C14",
+          "C10,C13,C15",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -79,7 +79,7 @@
           "100u",
           1,
           "CAP-D6.3×H7.7",
-          "C10",
+          "C11",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -91,7 +91,7 @@
           "10u",
           2,
           "CAP-D5.0×H5.5",
-          "C16,C20",
+          "C17,C21",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -103,7 +103,7 @@
           "22u",
           2,
           "CAP-D5.0×H5.5",
-          "C17,C21",
+          "C18,C22",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -115,7 +115,7 @@
           "0,1F",
           1,
           "CAP-D12.5XF5.0",
-          "C19",
+          "C20",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -187,7 +187,7 @@
           "DMG2305UX",
           1,
           "SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR-1",
-          "Q4",
+          "Q1",
           {
             "Manufacturer Part": "DMG2305UX",
             "Manufacturer": "TECH PUBLIC(台舟)",
@@ -199,7 +199,7 @@
           "4K7",
           4,
           "R1206",
-          "R1,R2,R13,R14",
+          "R1,R2,R6,R7",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -220,22 +220,10 @@
           }
         ],
         [
-          "470",
-          2,
-          "R1206",
-          "R10,R53",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
           "2K2",
           2,
           "R1206",
-          "R11,R12",
+          "R4,R5",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -247,7 +235,19 @@
           "33",
           2,
           "R1206",
-          "R15,R16",
+          "R8,R9",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "470",
+          2,
+          "R1206",
+          "R10,R47",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -259,7 +259,7 @@
           "120",
           1,
           "R1206",
-          "R17",
+          "R11",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -271,7 +271,7 @@
           "100",
           1,
           "R1206",
-          "R18",
+          "R12",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -283,7 +283,7 @@
           "10k",
           8,
           "R1206",
-          "R19,R20,R21,R22,R25,R26,R27,R30",
+          "R13,R14,R15,R16,R19,R20,R21,R24",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -295,7 +295,7 @@
           "0R47",
           2,
           "R_AXIAL-0.7",
-          "R23,R24",
+          "R17,R18",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -307,7 +307,7 @@
           "1K",
           2,
           "R1206",
-          "R28,R31",
+          "R22,R25",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -319,7 +319,7 @@
           "1k",
           2,
           "R1206",
-          "R29,R32",
+          "R23,R26",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -355,7 +355,7 @@
           "56K",
           1,
           "R1206",
-          "R51",
+          "R45",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -367,7 +367,7 @@
           "10",
           1,
           "R1206",
-          "R52",
+          "R46",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -379,7 +379,7 @@
           "100K",
           1,
           "R1206",
-          "R54",
+          "R48",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -391,7 +391,7 @@
           "470Ohm MELF resistor",
           1,
           "10 OHM MELF RESISTOR",
-          "R55",
+          "R49",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -403,19 +403,7 @@
           "10Ohm MELF resistor",
           1,
           "10 OHM MELF RESISTOR",
-          "R56",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "Main controller - RASPBERRY Pi Pico",
-          1,
-          "RASPBERRY PI PICO",
-          "U1",
+          "R50",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -427,7 +415,7 @@
           "PCA9517AD,118",
           1,
           "SO-8_L4.9-W3.9-P1.27-LS6.0-BL",
-          "U2",
+          "U1",
           {
             "Manufacturer Part": "PCA9517AD,118",
             "Manufacturer": "NXP(恩智浦)",
@@ -436,27 +424,39 @@
           }
         ],
         [
-          "MCP2562-H/P",
+          "Main controller - RASPBERRY Pi Pico",
           1,
-          "SOIC-8_L4.9-W3.9-P1.27-LS6.1-BL",
-          "U3",
+          "RASPBERRY PI PICO",
+          "U2",
           {
-            "Manufacturer Part": "MCP2562-H/P",
-            "Manufacturer": "MICROCHIP(美国微芯)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C640348"
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
           }
         ],
         [
           "24FCXXX-I/SN",
           1,
           "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
-          "U4",
+          "U3",
           {
             "Manufacturer Part": "24FC256-I/SN",
             "Manufacturer": "MICROCHIP(美国微芯)",
             "Supplier": "LCSC",
             "Supplier Part": "C145385"
+          }
+        ],
+        [
+          "MCP2562-H/P",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.1-BL",
+          "U4",
+          {
+            "Manufacturer Part": "MCP2562-H/P",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C640348"
           }
         ],
         [
@@ -2613,5 +2613,5 @@
   "title": "LcsNodes-Base-Station-Board-B.02.10",
   "foldername": "LcsNodes-Base-Station-Board-B.02.10",
   "schfilename": "LcsNodes-Base-Station-Board-B.02.10.json",
-  "schfilemtime": 1774625287495
+  "schfilemtime": 1774700485310
 }

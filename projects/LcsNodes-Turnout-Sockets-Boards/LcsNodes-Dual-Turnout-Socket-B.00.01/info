@@ -4,7 +4,7 @@
   "name": "LcsNodes-Dual-Turnout-Socket-B.00.01",
   "content": "",
   "created_at": "2026-01-30 10:53:32",
-  "updated_at": "2026-03-27 12:53:48",
+  "updated_at": "2026-03-28 14:05:32",
   "stick": "",
   "documents": [
     {
@@ -70,7 +70,7 @@
           "330n",
           1,
           "C1206",
-          "C6",
+          "C5",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -190,7 +190,7 @@
           "470",
           5,
           "R1206",
-          "R1,R2,R5,R6,R21",
+          "R1,R2,R5,R6,R19",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -250,7 +250,7 @@
           "10K",
           3,
           "R1206",
-          "R13,R19,R20",
+          "R13,R20,R21",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -262,7 +262,7 @@
           "220",
           4,
           "R1206",
-          "R14,R16,R17,R18",
+          "R14,R15,R16,R18",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -274,7 +274,7 @@
           "100",
           1,
           "R1206",
-          "R15",
+          "R17",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -343,35 +343,35 @@
           }
         ],
         [
-          "YLED1206Y",
-          1,
-          "LED1206-RD",
-          "U7",
-          {
-            "Manufacturer Part": "YLED1206G",
-            "Manufacturer": "YONGYUTAI(永裕泰)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C30584801"
-          }
-        ],
-        [
           "ATTINY1614-SSF",
           1,
           "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
-          "U9",
+          "U7",
           {
             "Manufacturer Part": "ATTINY1614-SSF",
             "Manufacturer": "MICROCHIP(美国微芯)",
             "Supplier": "LCSC",
             "Supplier Part": "C614831"
           }
+        ],
+        [
+          "YLED1206Y",
+          1,
+          "LED1206-RD",
+          "U8",
+          {
+            "Manufacturer Part": "YLED1206G",
+            "Manufacturer": "YONGYUTAI(永裕泰)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C30584801"
+          }
         ]
       ],
-      "updateTime": 1774612300,
+      "updateTime": 1774703132,
       "createTime": 1768574830,
       "histories": [],
       "created_at": "2026-01-16 15:47:10",
-      "updated_at": "2026-03-27 12:51:40"
+      "updated_at": "2026-03-28 14:05:32"
     },
     {
       "uuid": "8316bc4aa0afd598700a9889592ba343",
@@ -565,5 +565,5 @@
   "title": "LcsNodes-Dual-Turnout-Socket-B.00.01",
   "foldername": "LcsNodes-Dual-Turnout-Socket-B.00.01",
   "schfilename": "LcsNodes-Dual-Turnout-Socket-B.00.01.json",
-  "schfilemtime": 1774612300399
+  "schfilemtime": 1774703132974
 }
