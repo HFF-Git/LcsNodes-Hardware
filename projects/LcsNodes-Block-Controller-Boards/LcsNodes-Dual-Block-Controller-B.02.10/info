@@ -4,7 +4,7 @@
   "name": "LcsNodes-Dual-Block-Controller-B.02.10",
   "content": "A block controller, with a dual 2.8 Amp bridge that can be configured as a dual block controller or a mono block controller with double amperage.",
   "created_at": "2026-03-12 16:19:14",
-  "updated_at": "2026-03-26 15:33:02",
+  "updated_at": "2026-03-27 16:28:59",
   "stick": "",
   "documents": [
     {
@@ -1022,9 +1022,9 @@
         ],
         [
           "10u",
-          1,
+          2,
           "CAP-D5.0×H5.5",
-          "C14",
+          "C14,C18",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1034,9 +1034,9 @@
         ],
         [
           "22u",
-          1,
+          2,
           "CAP-D5.0×H5.5",
-          "C15",
+          "C15,C19",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1045,9 +1045,9 @@
           }
         ],
         [
-          "2200u",
+          "0,1F",
           1,
-          "CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD-1",
+          "CAP-D12.5XF5.0",
           "C17",
           {
             "Manufacturer Part": "",
@@ -1082,9 +1082,9 @@
         ],
         [
           "1N5819/S",
-          2,
+          3,
           "SMA_L4.3-W2.6-LS5.2-R-RD",
-          "D5,D6",
+          "D5,D6,D7",
           {
             "Manufacturer Part": "1N5819/S",
             "Manufacturer": "",
@@ -1094,9 +1094,9 @@
         ],
         [
           "HDR-M-2.54_1x2",
-          1,
+          2,
           "HDR-M-2.54_1X2",
-          "J1",
+          "J1,J8",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1129,7 +1129,7 @@
           }
         ],
         [
-          "LCS-SYM-MAIN-CTRL",
+          "LCS-SYM-MAIN-B.02.10",
           1,
           "LCS-FP-MAIN-CTRL-10X12",
           "PCB1",
@@ -1238,9 +1238,9 @@
         ],
         [
           "100",
-          2,
+          1,
           "R1206",
-          "R16,R28",
+          "R16",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1277,6 +1277,18 @@
           1,
           "R1206",
           "R27",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10",
+          1,
+          "R1206",
+          "R28",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1382,9 +1394,9 @@
         ],
         [
           "Gaptec_LC78",
-          1,
+          2,
           "GAPTEC_LC78",
-          "U9",
+          "U9,U10",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1393,11 +1405,11 @@
           }
         ]
       ],
-      "updateTime": 1774535229,
+      "updateTime": 1774625339,
       "createTime": 1706186708,
       "histories": [],
       "created_at": "2024-01-25 13:45:08",
-      "updated_at": "2026-03-26 15:27:09"
+      "updated_at": "2026-03-27 16:28:59"
     },
     {
       "uuid": "befa548b9ebafee6607581b19307faee",
@@ -1929,5 +1941,5 @@
   "title": "LcsNodes-Dual-Block-Controller-B.02.10",
   "foldername": "LcsNodes-Dual-Block-Controller-B.02.10",
   "schfilename": "LcsNodes-Dual-Block-Controller-B.02.10.json",
-  "schfilemtime": 1774535582293
+  "schfilemtime": 1774625339655
 }

@@ -4,7 +4,7 @@
   "name": "LcsNodes-Dual-Turnout-Socket-B.00.01",
   "content": "",
   "created_at": "2026-01-30 10:53:32",
-  "updated_at": "2026-03-25 09:24:25",
+  "updated_at": "2026-03-27 12:53:48",
   "stick": "",
   "documents": [
     {
@@ -16,7 +16,7 @@
       "thumb": "/images/thumb-default.png",
       "components": {
         "a052559478a14ee2b9e3514bee4ff72d": 2,
-        "ed9eb2faffb34286820a54a14e9e9e24": 20,
+        "ed9eb2faffb34286820a54a14e9e9e24": 21,
         "a75ba4d04d2742068321ead25ba6da20": 4,
         "fd11c9e744c44aeab6011e8bd4c3ea86": 3,
         "77ff4e3668d049dfad2b98e3ec6c3129": 1,
@@ -27,7 +27,7 @@
         "ca793dbb626a44289c91f4f8f7123a37": 2,
         "b1beab7fb9ba429596b9a2cbcbdafa9d": 2,
         "de79b090ca9e4b85b5576b54e33647f6": 2,
-        "dc958bec93c74644ad2e27a8a37081fe": 2,
+        "dc958bec93c74644ad2e27a8a37081fe": 3,
         "2d3bd7b7e86c44c8b96adb7769f36697": 2,
         "5634327d1e604fc89745187a58c2703c": 1,
         "7263241822a34aba926bb7df9a1da12c": 2,
@@ -188,9 +188,9 @@
         ],
         [
           "470",
-          4,
+          5,
           "R1206",
-          "R1,R2,R5,R6",
+          "R1,R2,R5,R6,R21",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -343,6 +343,18 @@
           }
         ],
         [
+          "YLED1206Y",
+          1,
+          "LED1206-RD",
+          "U7",
+          {
+            "Manufacturer Part": "YLED1206G",
+            "Manufacturer": "YONGYUTAI(永裕泰)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C30584801"
+          }
+        ],
+        [
           "ATTINY1614-SSF",
           1,
           "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
@@ -355,11 +367,11 @@
           }
         ]
       ],
-      "updateTime": 1774426616,
+      "updateTime": 1774612300,
       "createTime": 1768574830,
       "histories": [],
       "created_at": "2026-01-16 15:47:10",
-      "updated_at": "2026-03-25 09:16:56"
+      "updated_at": "2026-03-27 12:51:40"
     },
     {
       "uuid": "8316bc4aa0afd598700a9889592ba343",
@@ -370,6 +382,8 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 21,
+        "3f21a2531f5a413d88c730f61daca683": 3,
         "0f2364c02f094100b1b3205c9d829099": 1,
         "7bdec8012728462a85919a4d0d033579": 3,
         "02d834a4b47b47e099e50c9cb0b52da8": 2,
@@ -381,8 +395,6 @@
         "23e231420b704a0fbc6ddc5b8c2f6b9f": 2,
         "22a191264369408f990ade28dd13460b": 2,
         "e98891da83fd4e29afbfe03f858920c7": 2,
-        "8e9b1be4bcb6420dbd1d09bf04b02792": 20,
-        "3f21a2531f5a413d88c730f61daca683": 2,
         "41a50a41bbea403eb6da88afda980328": 2,
         "9f77654394344f25b3de138e0fe05ff6": 1,
         "108969f8d9834a9ea23bcec2d43a66e4": 2,
@@ -542,16 +554,16 @@
           }
         ]
       ],
-      "updateTime": 1774427065,
+      "updateTime": 1774612428,
       "createTime": 1768576708,
       "histories": [],
       "created_at": "2026-01-16 16:18:28",
-      "updated_at": "2026-03-25 09:24:25"
+      "updated_at": "2026-03-27 12:53:48"
     }
   ],
   "sort": [],
   "title": "LcsNodes-Dual-Turnout-Socket-B.00.01",
   "foldername": "LcsNodes-Dual-Turnout-Socket-B.00.01",
   "schfilename": "LcsNodes-Dual-Turnout-Socket-B.00.01.json",
-  "schfilemtime": 1774426616540
+  "schfilemtime": 1774612300399
 }
