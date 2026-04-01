@@ -4,7 +4,7 @@
   "name": "LcsNodes-Servo-Socket-B.00.01",
   "content": "",
   "created_at": "2026-03-29 10:50:32",
-  "updated_at": "2026-03-30 10:53:51",
+  "updated_at": "2026-04-01 13:56:33",
   "stick": "",
   "documents": [
     {
@@ -15,16 +15,16 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "da421beafa5c4722b7553dccd3c5fa5d": 1,
-        "fd11c9e744c44aeab6011e8bd4c3ea86": 4,
-        "03d975af25b04147a045f46a69fdda77": 1,
-        "ed9eb2faffb34286820a54a14e9e9e24": 14,
-        "dc958bec93c74644ad2e27a8a37081fe": 1,
-        "7263241822a34aba926bb7df9a1da12c": 2,
-        "5634327d1e604fc89745187a58c2703c": 1,
-        "453574f445c343b5a3e12a0270625e89": 1,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 5,
+        "77ff4e3668d049dfad2b98e3ec6c3129": 1,
         "a68dc5e6a9944c46b7604648a43dcd65": 9,
-        "77ff4e3668d049dfad2b98e3ec6c3129": 1
+        "453574f445c343b5a3e12a0270625e89": 1,
+        "ed9eb2faffb34286820a54a14e9e9e24": 14,
+        "5634327d1e604fc89745187a58c2703c": 1,
+        "dc958bec93c74644ad2e27a8a37081fe": 1,
+        "03d975af25b04147a045f46a69fdda77": 1,
+        "da421beafa5c4722b7553dccd3c5fa5d": 1,
+        "7263241822a34aba926bb7df9a1da12c": 2
       },
       "BOM": [
         [
@@ -36,9 +36,9 @@
         ],
         [
           "100n",
-          3,
+          4,
           "C1206",
-          "C1,C2,C3",
+          "C1,C2,C3,C7",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -215,11 +215,11 @@
           }
         ]
       ],
-      "updateTime": 1774860363,
+      "updateTime": 1775044428,
       "createTime": 1768574830,
       "histories": [],
       "created_at": "2026-01-16 15:47:10",
-      "updated_at": "2026-03-30 10:46:03"
+      "updated_at": "2026-04-01 13:53:48"
     },
     {
       "uuid": "056418a9db094bb050f0a0f2c9d2f254",
@@ -230,12 +230,12 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "02d834a4b47b47e099e50c9cb0b52da8": 2,
+        "7bdec8012728462a85919a4d0d033579": 5,
+        "a9365711ea424a23a2a8814fe67a59ce": 1,
         "9f77654394344f25b3de138e0fe05ff6": 9,
         "8e9b1be4bcb6420dbd1d09bf04b02792": 14,
-        "a9365711ea424a23a2a8814fe67a59ce": 1,
         "3f21a2531f5a413d88c730f61daca683": 1,
-        "7bdec8012728462a85919a4d0d033579": 4,
-        "02d834a4b47b47e099e50c9cb0b52da8": 2,
         "906c99ea5dec4828b079c976cc1781e8": 1,
         "34cb534d0973454b8c5658c36d769ab4": 1,
         "113c1703fbf348be9a4f3b4b916879c8": 1,
@@ -394,16 +394,16 @@
           }
         ]
       ],
-      "updateTime": 1774860831,
+      "updateTime": 1775044593,
       "createTime": 1768576708,
       "histories": [],
       "created_at": "2026-01-16 16:18:28",
-      "updated_at": "2026-03-30 10:53:51"
+      "updated_at": "2026-04-01 13:56:33"
     }
   ],
   "sort": [],
   "title": "LcsNodes-Servo-Socket-B.00.01",
   "foldername": "LcsNodes-Servo-Socket-B.00.01",
   "schfilename": "LcsNodes-Dual-Signal-Socket-B.00.01.json",
-  "schfilemtime": 1774860363259
+  "schfilemtime": 1775044428735
 }
