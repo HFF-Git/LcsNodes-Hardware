@@ -4,7 +4,7 @@
   "name": "LcsNodes-Base-Station-Board-B.02.10",
   "content": "A Raspberry Pi Pico based DCC base station. \n- RPico, CanBus, NVM, L6205 Power Module, RailCom Detector",
   "created_at": "2026-03-12 16:18:00",
-  "updated_at": "2026-04-05 12:15:34",
+  "updated_at": "2026-04-18 16:49:16",
   "stick": "",
   "documents": [
     {
@@ -517,11 +517,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1775383878,
+      "updateTime": 1776509008,
       "createTime": 1697360463,
       "histories": [],
       "created_at": "2023-10-15 11:01:03",
-      "updated_at": "2026-04-05 12:11:18",
+      "updated_at": "2026-04-18 12:43:28",
       "BOM": [
         [
           "Value",
@@ -724,9 +724,9 @@
         ],
         [
           "10K",
-          4,
+          5,
           "R1206",
-          "R3,R27,R33,R34",
+          "R3,R27,R28,R33,R34",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1046,7 +1046,7 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "5d56951fd43d4b5083b0f3cd9bfd5587": 6,
+        "5d56951fd43d4b5083b0f3cd9bfd5587": 8,
         "f39523d1440141cb8f5b2369d47ecc33": 1,
         "fd11c9e744c44aeab6011e8bd4c3ea86": 8,
         "486123a4bb814705bb1a3164561bb535": 2,
@@ -1185,10 +1185,22 @@
           }
         ],
         [
+          "P4SMAJ5.0CA_R1_00001",
+          1,
+          "SMA_L4.4-W2.6-LS5.0-BI",
+          "D6",
+          {
+            "Manufacturer Part": "P4SMAJ5.0CA_R1_00001",
+            "Manufacturer": "PANJIT(强茂)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C313145"
+          }
+        ],
+        [
           "HDR-M-2.54_1x2",
-          4,
+          5,
           "HDR-M-2.54_1X2",
-          "J1,J2,J3,J4",
+          "J1,J2,J3,J4,J5",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1246,9 +1258,9 @@
         ],
         [
           "10K",
-          3,
+          5,
           "R1206",
-          "R3,R33,R34",
+          "R3,R27,R28,R33,R34",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1317,10 +1329,22 @@
           }
         ],
         [
+          "1K",
+          4,
+          "R1206",
+          "R13,R14,R24,R27",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
           "10k",
           8,
           "R1206",
-          "R13,R14,R15,R16,R19,R20,R21,R24",
+          "R15,R16,R17,R18,R21,R22,R23,R26",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1332,19 +1356,7 @@
           "0R47",
           2,
           "R_AXIAL-0.7",
-          "R17,R18",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "1K",
-          2,
-          "R1206",
-          "R22,R25",
+          "R19,R20",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1356,7 +1368,7 @@
           "1k",
           2,
           "R1206",
-          "R23,R26",
+          "R25,R28",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1545,11 +1557,11 @@
           }
         ]
       ],
-      "updateTime": 1774625287,
+      "updateTime": 1776523756,
       "createTime": 1737363794,
       "histories": [],
       "created_at": "2025-01-20 10:03:14",
-      "updated_at": "2026-03-27 16:28:07"
+      "updated_at": "2026-04-18 16:49:16"
     },
     {
       "uuid": "529207e6c3f7a9f02e087e84fbd2f062",
@@ -2638,5 +2650,5 @@
   "title": "LcsNodes-Base-Station-Board-B.02.10",
   "foldername": "LcsNodes-Base-Station-Board-B.02.10",
   "schfilename": "LcsNodes-Base-Station-Board-B.02.10.json",
-  "schfilemtime": 1775384134587
+  "schfilemtime": 1776523757020
 }
