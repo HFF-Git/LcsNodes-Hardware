@@ -4,7 +4,7 @@
   "name": "LcsNodes-Main-Controller-Board-B.02.10",
   "content": "LcsNodes main Controller board with PICO, new PCB format.",
   "created_at": "2026-01-30 11:22:46",
-  "updated_at": "2026-04-18 16:48:18",
+  "updated_at": "2026-04-19 11:11:19",
   "stick": "",
   "documents": [
     {
@@ -373,11 +373,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1776523668,
+      "updateTime": 1776587729,
       "createTime": 1693213366,
       "histories": [],
       "created_at": "2023-08-28 11:02:46",
-      "updated_at": "2026-04-18 16:47:48",
+      "updated_at": "2026-04-19 10:35:29",
       "BOM": [
         [
           "Value",
@@ -459,27 +459,27 @@
           }
         ],
         [
-          "5.1V",
-          2,
-          "SOD-80C_L3.3-W1.5-RD",
-          "D4,D5",
-          {
-            "Manufacturer Part": "Diode Zener",
-            "Manufacturer": "SEMTECH",
-            "Supplier": "LCSC",
-            "Supplier Part": "C14516"
-          }
-        ],
-        [
           "P4SMAJ5.0CA_R1_00001",
           1,
           "SMA_L4.4-W2.6-LS5.0-BI",
-          "D7",
+          "D4",
           {
             "Manufacturer Part": "P4SMAJ5.0CA_R1_00001",
             "Manufacturer": "PANJIT(强茂)",
             "Supplier": "LCSC",
             "Supplier Part": "C313145"
+          }
+        ],
+        [
+          "5.1V",
+          2,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D5,D6",
+          {
+            "Manufacturer Part": "Diode Zener",
+            "Manufacturer": "SEMTECH",
+            "Supplier": "LCSC",
+            "Supplier Part": "C14516"
           }
         ],
         [
@@ -627,10 +627,10 @@
           }
         ],
         [
-          "10K",
-          29,
+          "100K",
+          1,
           "R1206",
-          "R6,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R46,R47",
+          "R6",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -639,10 +639,10 @@
           }
         ],
         [
-          "100K",
-          1,
+          "10K",
+          29,
           "R1206",
-          "R7",
+          "R7,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R40,R43",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -666,19 +666,7 @@
           "2K2",
           4,
           "R1206",
-          "R36,R37,R42,R43",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "1K2",
-          2,
-          "R1206",
-          "R40,R41",
+          "R36,R37,R46,R47",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -688,6 +676,18 @@
         ],
         [
           "33",
+          2,
+          "R1206",
+          "R41,R42",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1K2",
           2,
           "R1206",
           "R44,R45",
@@ -787,11 +787,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1776523698,
+      "updateTime": 1776587820,
       "createTime": 1693213366,
       "histories": [],
       "created_at": "2023-08-28 11:02:46",
-      "updated_at": "2026-04-18 16:48:18",
+      "updated_at": "2026-04-19 10:37:00",
       "BOM": [
         [
           "Value",
@@ -874,26 +874,14 @@
         ],
         [
           "5.1V",
-          2,
+          3,
           "SOD-80C_L3.3-W1.5-RD",
-          "D4,D5",
+          "D4,D5,D6",
           {
             "Manufacturer Part": "Diode Zener",
             "Manufacturer": "SEMTECH",
             "Supplier": "LCSC",
             "Supplier Part": "C14516"
-          }
-        ],
-        [
-          "P4SMAJ5.0CA_R1_00001",
-          1,
-          "SMA_L4.4-W2.6-LS5.0-BI",
-          "D7",
-          {
-            "Manufacturer Part": "P4SMAJ5.0CA_R1_00001",
-            "Manufacturer": "PANJIT(强茂)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C313145"
           }
         ],
         [
@@ -1041,10 +1029,10 @@
           }
         ],
         [
-          "10K",
-          29,
+          "100K",
+          1,
           "R1206",
-          "R6,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R46,R47",
+          "R6",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1053,10 +1041,10 @@
           }
         ],
         [
-          "100K",
-          1,
+          "10K",
+          29,
           "R1206",
-          "R7",
+          "R7,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R40,R43",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1080,19 +1068,7 @@
           "2K2",
           4,
           "R1206",
-          "R36,R37,R42,R43",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "1K2",
-          2,
-          "R1206",
-          "R40,R41",
+          "R36,R37,R46,R47",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1102,6 +1078,18 @@
         ],
         [
           "33",
+          2,
+          "R1206",
+          "R41,R42",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1K2",
           2,
           "R1206",
           "R44,R45",
@@ -1177,30 +1165,30 @@
         "ed9eb2faffb34286820a54a14e9e9e24": 34,
         "1f55cd7da439440ba626bd7741d4ad9e": 13,
         "5d56951fd43d4b5083b0f3cd9bfd5587": 4,
-        "fb82e4cef088466e83a5da161c0dbbab": 2,
+        "fb82e4cef088466e83a5da161c0dbbab": 3,
         "3d124f482ec94d4b904565fe553fcacb": 1,
         "a1bddaea90b44e109a38e04d658aabfb": 3,
         "b5f5bcb41f09421f9838903b8404606d": 1,
-        "a75ba4d04d2742068321ead25ba6da20": 1,
         "3ec77201bbcd4ecd8722658d581a4e60": 1
       }
     },
     {
       "uuid": "dfa35e9847f0c934cdf914c5f6b1637d",
-      "title": "PCB_LcsNodes-Main-Controller-Board-B.02.00",
-      "filename": "PCB_LcsNodes-Main-Controller-Board-B.02.00.json",
+      "title": "PCB_LcsNodes-Main-Controller-Board-B.02.10",
+      "filename": "PCB_LcsNodes-Main-Controller-Board-B.02.10.json",
       "description": "",
       "docType": "3",
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "8e9b1be4bcb6420dbd1d09bf04b02792": 43,
+        "7bdec8012728462a85919a4d0d033579": 7,
+        "36b1306a115341f4b4d9407fb34974e0": 1,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 47,
+        "f6e7bbafc8d6494ea48c85ec766fa6c7": 3,
         "eebc7cac7529492182eedbd79c1598e9": 1,
         "6295c07e15584ea3b3052d80635b272b": 1,
-        "7bdec8012728462a85919a4d0d033579": 6,
         "4562040c16044a2993e405db2eededc5": 1,
         "d8084adcadf04b6eadecdc8fd3a4bef9": 13,
-        "f6e7bbafc8d6494ea48c85ec766fa6c7": 2,
         "62ddd832b4204f5fb6ccf017f43de83b": 2,
         "906c99ea5dec4828b079c976cc1781e8": 3,
         "91e8625ab54d4b48a78457e6f8258781": 1,
@@ -1558,11 +1546,11 @@
           }
         ]
       ],
-      "updateTime": 1774351096,
+      "updateTime": 1776589879,
       "createTime": 1736936224,
       "histories": [],
       "created_at": "2025-01-15 11:17:04",
-      "updated_at": "2026-03-24 12:18:16"
+      "updated_at": "2026-04-19 11:11:19"
     }
   ],
   "sort": [
@@ -1573,5 +1561,5 @@
   "title": "LcsNodes-Main-Controller-Board-B.02.10",
   "foldername": "LcsNodes-Main-Controller-Board-B.02.10",
   "schfilename": "LcsNodes-Main-Controller-Board-B.02.10.json",
-  "schfilemtime": 1776523698115
+  "schfilemtime": 1776587821018
 }

@@ -1,0 +1,449 @@
+{
+  "uuid": "02c5553165f1ff494f91b4c2c662d729",
+  "path": "Offline/LcsNodes-Dual-Signal-Socket-Board-B.01.00",
+  "name": "LcsNodes-Dual-Signal-Socket-Board-B.01.00",
+  "content": "",
+  "created_at": "2026-03-29 10:50:32",
+  "updated_at": "2026-04-19 11:39:05",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "db7f7368f34dde180666bfdebb7bf786",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "ed9eb2faffb34286820a54a14e9e9e24": 19,
+        "77ff4e3668d049dfad2b98e3ec6c3129": 1,
+        "453574f445c343b5a3e12a0270625e89": 1,
+        "5634327d1e604fc89745187a58c2703c": 1,
+        "7263241822a34aba926bb7df9a1da12c": 2,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 5,
+        "dc958bec93c74644ad2e27a8a37081fe": 1,
+        "03d975af25b04147a045f46a69fdda77": 1,
+        "351373eb8dc74d6eb8731dd077b37a8c": 2,
+        "fdf2bb4111ae49e590c9b756d656378d": 2,
+        "da421beafa5c4722b7553dccd3c5fa5d": 1,
+        "f5b1d9403e49471cab43bc5a1bec336f": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100n",
+          4,
+          "C1206",
+          "C1,C2,C3,C4",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "470u",
+          2,
+          "CAP-SMD_BD8.0-L8.3-W8.3-LS10.0-FD",
+          "C5,C6",
+          {
+            "Manufacturer Part": "RVT220UF25V67RV0093",
+            "Manufacturer": "KNSCHA(科尼盛)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2895286"
+          }
+        ],
+        [
+          "330n",
+          1,
+          "C1206",
+          "C7",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1N5819/S",
+          1,
+          "SMA_L4.3-W2.6-LS5.2-R-RD",
+          "D1",
+          {
+            "Manufacturer Part": "1N5819/S",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900003833"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x4",
+          1,
+          "HDR-M-2.54_1X4",
+          "J1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C124378"
+          }
+        ],
+        [
+          "47",
+          2,
+          "R1206",
+          "R1,R3",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "4K7",
+          2,
+          "R1206",
+          "R2,R4",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1K",
+          1,
+          "R1206",
+          "R5",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "100",
+          1,
+          "R1206",
+          "R6",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "470",
+          1,
+          "R1206",
+          "R7",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "220",
+          12,
+          "R1206",
+          "R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "TERMINAL_BLOCK_8P_2.54",
+          2,
+          "TERMINALBLOCK_PHEONIX_MPT-2.54MM_8POL",
+          "TB1,TB2",
+          {
+            "Manufacturer Part": "Headers  Pins2.54mm1*10P",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C57369"
+          }
+        ],
+        [
+          "PCA9517D,118",
+          1,
+          "SOP-8_L4.9-W3.8-P1.27-LS6.0-BL",
+          "U1",
+          {
+            "Manufacturer Part": "PCA9517D,118",
+            "Manufacturer": "NXP(恩智浦)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2652395"
+          }
+        ],
+        [
+          "MC7805CDTG",
+          1,
+          "DPAK_L6.6-W6.2-P2.29-LS9.7-BR",
+          "U2",
+          {
+            "Manufacturer Part": "MC7805CDTG",
+            "Manufacturer": "onsemi(安森美)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C897464"
+          }
+        ],
+        [
+          "ATTINY1616-SN",
+          1,
+          "SOIC-20_L12.8-W7.5-P1.27-LS10.3-BL",
+          "U3",
+          {
+            "Manufacturer Part": "ATTINY1616-SN",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1340432"
+          }
+        ],
+        [
+          "LCS-SYM-SOCKET-B.01.00",
+          1,
+          "LCS-FP-SOCKET-5X8-B.01.00",
+          "U4",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": "N/A"
+          }
+        ],
+        [
+          "YLED1206Y",
+          1,
+          "LED1206-RD",
+          "U5",
+          {
+            "Manufacturer Part": "YLED1206G",
+            "Manufacturer": "YONGYUTAI(永裕泰)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C30584801"
+          }
+        ],
+        [
+          "ULN2803ADM/TR",
+          2,
+          "SOP-18_L11.4-W7.6-P1.27-LS10.6-BL",
+          "U6,U7",
+          {
+            "Manufacturer Part": "ULN2803ADM/TR",
+            "Manufacturer": "HGSEMI(华冠)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2683131"
+          }
+        ]
+      ],
+      "updateTime": 1776508563,
+      "createTime": 1768574830,
+      "histories": [],
+      "created_at": "2026-01-16 15:47:10",
+      "updated_at": "2026-04-18 12:36:03"
+    },
+    {
+      "uuid": "f5f614c76b1f963d315e9e4c75721ecd",
+      "title": "PCB_LcsNodes-Dual-Signal-Socket-Board-B.00.01",
+      "filename": "PCB_LcsNodes-Dual-Signal-Socket-Board-B.00.01.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "7bdec8012728462a85919a4d0d033579": 5,
+        "b574e855968441af83de61d07ab4c524": 2,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 19,
+        "282f7786cb6144d097ae00194c3e3fb3": 1,
+        "113c1703fbf348be9a4f3b4b916879c8": 1,
+        "34cb534d0973454b8c5658c36d769ab4": 1,
+        "a9365711ea424a23a2a8814fe67a59ce": 1,
+        "3f21a2531f5a413d88c730f61daca683": 1,
+        "bfd5401b28f5435f9cb163dcbbdfd6ef": 2,
+        "80d9cfe4a0614fe782c22139726d6415": 2,
+        "906c99ea5dec4828b079c976cc1781e8": 1,
+        "969a578b2869473fa8ef6283c1b3801c": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100u",
+          1,
+          "CAP-SMD_BD6.3-L6.6-W6.6-LS7.6-FD",
+          "C10",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "100n",
+          1,
+          "C1206",
+          "C11",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1N4007W A7",
+          1,
+          "SOD-123_L2.8-W1.8-LS3.7-RD-3",
+          "D1",
+          {
+            "Manufacturer Part": "1N4007W A7",
+            "Manufacturer": "JSMSEMI(杰盛微)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2857183"
+          }
+        ],
+        [
+          "P4SMAJ5.0CA_R1_00001",
+          4,
+          "SMA_L4.4-W2.6-LS5.0-BI",
+          "D2,D3,D4,D5",
+          {
+            "Manufacturer Part": "P4SMAJ5.0CA_R1_00001",
+            "Manufacturer": "PANJIT(强茂)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C313145"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x5",
+          1,
+          "HDR-M-2.54_1X5",
+          "J2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C358687"
+          }
+        ],
+        [
+          "SRD-DC5V-SL-C",
+          1,
+          "RELAY-TH_SRD-DCXXV-SL-C",
+          "K1",
+          {
+            "Manufacturer Part": "SRD-DC5V-SL-C",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C688865"
+          }
+        ],
+        [
+          "CONN-TH_3P-P5.08",
+          1,
+          "CONN-TH_3P-P5.08",
+          "P1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "BC857BQ",
+          1,
+          "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
+          "Q1",
+          {
+            "Manufacturer Part": "BC857BQ",
+            "Manufacturer": "YANGJIE(扬杰)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2927852"
+          }
+        ],
+        [
+          "330",
+          4,
+          "R1206",
+          "R1,R4,R5,R6",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1K",
+          1,
+          "R1206",
+          "R2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "RJ12MINIRJ45_6P6C",
+          1,
+          "RJ12-TH_RJ12MINIRJ45_6P6C",
+          "U1",
+          {
+            "Manufacturer Part": "RJ12MINIRJ45_6P6C",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900103926"
+          }
+        ],
+        [
+          "ATTINY414-SSN",
+          1,
+          "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+          "U2",
+          {
+            "Manufacturer Part": "ATTINY414-SSN",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1338968"
+          }
+        ]
+      ],
+      "updateTime": 1776508610,
+      "createTime": 1768576708,
+      "histories": [],
+      "created_at": "2026-01-16 16:18:28",
+      "updated_at": "2026-04-18 12:36:50"
+    }
+  ],
+  "sort": [],
+  "title": "LcsNodes-Dual-Signal-Socket-Board-B.01.00",
+  "foldername": "LcsNodes-Dual-Signal-Socket-Board-B.01.00",
+  "schfilename": "LcsNodes-Dual-Signal-Socket-Board-B.01.00.json",
+  "schfilemtime": 1776508563927
+}
