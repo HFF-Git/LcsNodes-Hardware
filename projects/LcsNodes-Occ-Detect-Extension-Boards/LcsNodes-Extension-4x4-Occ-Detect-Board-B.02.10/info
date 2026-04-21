@@ -4,7 +4,7 @@
   "name": "LcsNodes-Extension-4x4-Occ-Detect-Board-B.02.10",
   "content": "",
   "created_at": "2026-01-26 10:10:31",
-  "updated_at": "2026-04-19 10:30:32",
+  "updated_at": "2026-04-21 14:35:30",
   "stick": "",
   "documents": [
     {
@@ -224,7 +224,7 @@
         "ba1f207f2c0447edbd5beb657b435022": 5,
         "ed9eb2faffb34286820a54a14e9e9e24": 4,
         "453574f445c343b5a3e12a0270625e89": 1,
-        "2fa53d590f544429ab8fcbd581d715c1": 10,
+        "2fa53d590f544429ab8fcbd581d715c1": 12,
         "e84b6210d3474a7a95a08cfe09eae773": 1,
         "f5b1d9403e49471cab43bc5a1bec336f": 1
       },
@@ -288,7 +288,7 @@
           "HDR-M-2.54_1x4",
           1,
           "HDR-M-2.54_1X4",
-          "J2",
+          "J1",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -324,55 +324,7 @@
           "470",
           21,
           "R1206",
-          "R1,R2,R3,R4,R5,R14,R15,R18,R19,R22,R23,R26,R27,R30,R31,R34,R35,R38,R39,R42,R43",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "10K",
-          4,
-          "R1206",
-          "R6,R7,R8,R9",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "4K7",
-          2,
-          "R1206",
-          "R10,R11",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "47",
-          2,
-          "R1206",
-          "R12,R13",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "22",
-          16,
-          "R1206",
-          "R16,R17,R20,R21,R24,R25,R28,R29,R32,R33,R36,R37,R40,R41,R44,R45",
+          "R1,R3,R4,R7,R8,R17,R18,R21,R22,R25,R26,R29,R30,R33,R34,R37,R38,R41,R42,R45,R46",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -384,7 +336,67 @@
           "1K",
           1,
           "R1206",
-          "R46",
+          "R2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10K",
+          5,
+          "R1206",
+          "R5,R9,R10,R11,R12",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "220",
+          1,
+          "R1206",
+          "R6",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "4K7",
+          2,
+          "R1206",
+          "R13,R14",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "47",
+          2,
+          "R1206",
+          "R15,R16",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "22",
+          16,
+          "R1206",
+          "R19,R20,R23,R24,R27,R28,R31,R32,R35,R36,R39,R40,R43,R44,R47,R48",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -429,11 +441,11 @@
           }
         ]
       ],
-      "updateTime": 1776518808,
+      "updateTime": 1776774475,
       "createTime": 1681973470,
       "histories": [],
       "created_at": "2023-04-20 08:51:10",
-      "updated_at": "2026-04-18 15:26:48"
+      "updated_at": "2026-04-21 14:27:55"
     },
     {
       "uuid": "7664d68b402d721f1f93cc7bf5da776f",
@@ -470,9 +482,9 @@
         ],
         [
           "100n",
-          2,
+          4,
           "C1206",
-          "C1,C2",
+          "C1,C2,C3,C4",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -505,22 +517,22 @@
           }
         ],
         [
-          "HDR-M-2.54_1x3",
+          "HDR-M-2.54_1x4",
           1,
-          "HDR-M-2.54_1X3",
+          "HDR-M-2.54_1X4",
           "J1",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
             "Supplier": "LCSC",
-            "Supplier Part": "C180248"
+            "Supplier Part": "C124378"
           }
         ],
         [
           "LED-0805_G",
-          4,
+          5,
           "LED-1206",
-          "LED1,LED2,LED3,LED4",
+          "LED1,LED2,LED3,LED4,LED5",
           {
             "Manufacturer Part": "NCD0805G1",
             "Manufacturer": "国星光电",
@@ -541,10 +553,46 @@
           }
         ],
         [
-          "10K",
-          9,
+          "470",
+          21,
           "R1206",
-          "R1,R2,R3,R4,R5,R6,R7,R8,R11",
+          "R1,R3,R4,R7,R8,R17,R18,R21,R22,R25,R26,R29,R30,R33,R34,R37,R38,R41,R42,R45,R46",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1K",
+          1,
+          "R1206",
+          "R2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10K",
+          5,
+          "R1206",
+          "R5,R9,R10,R11,R12",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "220",
+          1,
+          "R1206",
+          "R6",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -556,7 +604,7 @@
           "4K7",
           2,
           "R1206",
-          "R9,R10",
+          "R13,R14",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -568,19 +616,7 @@
           "47",
           2,
           "R1206",
-          "R12,R13",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "470",
-          16,
-          "R1206",
-          "R14,R15,R18,R19,R22,R23,R26,R27,R30,R31,R34,R35,R38,R39,R42,R43",
+          "R15,R16",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -592,7 +628,7 @@
           "22",
           16,
           "R1206",
-          "R16,R17,R20,R21,R24,R25,R28,R29,R32,R33,R36,R37,R40,R41,R44,R45",
+          "R19,R20,R23,R24,R27,R28,R31,R32,R35,R36,R39,R40,R43,R44,R47,R48",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -601,15 +637,15 @@
           }
         ],
         [
-          "ATTINY416-SNR",
+          "ATTINY1616-SNR",
           1,
           "SOIC-20_L12.8-W7.5-P1.27-LS10.3-BL",
           "U1",
           {
-            "Manufacturer Part": "ATTINY416-SNR",
+            "Manufacturer Part": "ATTINY1616-SNR",
             "Manufacturer": "MICROCHIP(美国微芯)",
             "Supplier": "LCSC",
-            "Supplier Part": "C2052995"
+            "Supplier Part": "C609652"
           }
         ],
         [
@@ -637,11 +673,11 @@
           }
         ]
       ],
-      "updateTime": 1771355014,
+      "updateTime": 1776774444,
       "createTime": 1681975988,
       "histories": [],
       "created_at": "2023-04-20 09:33:08",
-      "updated_at": "2026-02-17 20:03:34"
+      "updated_at": "2026-04-21 14:27:24"
     },
     {
       "uuid": "ed6f235f5f74764e424de4257f381b41",
@@ -678,9 +714,9 @@
         ],
         [
           "100n",
-          2,
+          4,
           "C1206",
-          "C1,C2",
+          "C1,C2,C3,C4",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -713,22 +749,22 @@
           }
         ],
         [
-          "HDR-M-2.54_1x3",
+          "HDR-M-2.54_1x4",
           1,
-          "HDR-M-2.54_1X3",
+          "HDR-M-2.54_1X4",
           "J1",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
             "Supplier": "LCSC",
-            "Supplier Part": "C180248"
+            "Supplier Part": "C124378"
           }
         ],
         [
           "LED-0805_G",
-          4,
+          5,
           "LED-1206",
-          "LED1,LED2,LED3,LED4",
+          "LED1,LED2,LED3,LED4,LED5",
           {
             "Manufacturer Part": "NCD0805G1",
             "Manufacturer": "国星光电",
@@ -749,10 +785,46 @@
           }
         ],
         [
-          "10K",
-          9,
+          "470",
+          21,
           "R1206",
-          "R1,R2,R3,R4,R5,R6,R7,R8,R11",
+          "R1,R3,R4,R7,R8,R17,R18,R21,R22,R25,R26,R29,R30,R33,R34,R37,R38,R41,R42,R45,R46",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1K",
+          1,
+          "R1206",
+          "R2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10K",
+          5,
+          "R1206",
+          "R5,R9,R10,R11,R12",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "220",
+          1,
+          "R1206",
+          "R6",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -764,7 +836,7 @@
           "4K7",
           2,
           "R1206",
-          "R9,R10",
+          "R13,R14",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -776,19 +848,7 @@
           "47",
           2,
           "R1206",
-          "R12,R13",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "470",
-          16,
-          "R1206",
-          "R14,R15,R18,R19,R22,R23,R26,R27,R30,R31,R34,R35,R38,R39,R42,R43",
+          "R15,R16",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -800,7 +860,7 @@
           "22",
           16,
           "R1206",
-          "R16,R17,R20,R21,R24,R25,R28,R29,R32,R33,R36,R37,R40,R41,R44,R45",
+          "R19,R20,R23,R24,R27,R28,R31,R32,R35,R36,R39,R40,R43,R44,R47,R48",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -809,15 +869,15 @@
           }
         ],
         [
-          "ATTINY416-SNR",
+          "ATTINY1616-SNR",
           1,
           "SOIC-20_L12.8-W7.5-P1.27-LS10.3-BL",
           "U1",
           {
-            "Manufacturer Part": "ATTINY416-SNR",
+            "Manufacturer Part": "ATTINY1616-SNR",
             "Manufacturer": "MICROCHIP(美国微芯)",
             "Supplier": "LCSC",
-            "Supplier Part": "C2052995"
+            "Supplier Part": "C609652"
           }
         ],
         [
@@ -845,11 +905,11 @@
           }
         ]
       ],
-      "updateTime": 1771355052,
+      "updateTime": 1776774445,
       "createTime": 1681832987,
       "histories": [],
       "created_at": "2023-04-18 17:49:47",
-      "updated_at": "2026-02-17 20:04:12"
+      "updated_at": "2026-04-21 14:27:25"
     },
     {
       "uuid": "afd5c03116809b58c8e3fb8a95e334c5",
@@ -860,10 +920,10 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "282f7786cb6144d097ae00194c3e3fb3": 1,
-        "8e9b1be4bcb6420dbd1d09bf04b02792": 46,
-        "cb9948dd86b9429a8b5f3093f768b706": 1,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 48,
         "7bdec8012728462a85919a4d0d033579": 4,
+        "282f7786cb6144d097ae00194c3e3fb3": 1,
+        "cb9948dd86b9429a8b5f3093f768b706": 1,
         "969a578b2869473fa8ef6283c1b3801c": 1,
         "62ddd832b4204f5fb6ccf017f43de83b": 5,
         "a043f6f5ce214277a2e9ff0bb0a41cd5": 4,
@@ -1049,11 +1109,11 @@
           }
         ]
       ],
-      "updateTime": 1776342833,
+      "updateTime": 1776774930,
       "createTime": 1737902371,
       "histories": [],
       "created_at": "2025-01-26 15:39:31",
-      "updated_at": "2026-04-16 14:33:53"
+      "updated_at": "2026-04-21 14:35:30"
     }
   ],
   "sort": [
@@ -1065,5 +1125,5 @@
   "title": "LcsNodes-Extension-4x4-Occ-Detect-Board-B.02.10",
   "foldername": "LcsNodes-Extension-4x4-Occ-Detect-Board-B.02.10",
   "schfilename": "LcsNodes-Extension-4x4-Occ-Detect-Board-B.02.10.json",
-  "schfilemtime": 1776518808145
+  "schfilemtime": 1776774475527
 }

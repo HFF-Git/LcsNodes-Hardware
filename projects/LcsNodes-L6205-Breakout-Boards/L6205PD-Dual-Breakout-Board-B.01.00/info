@@ -1,10 +1,10 @@
 {
   "uuid": "5c9a97deddd55aaf788273845a855e24",
-  "path": "Offline/L6205PD-Dual-Breakout-Board-B.00.02",
-  "name": "L6205PD-Dual-Breakout-Board-B.00.02",
+  "path": "Offline/L6205PD-Dual-Breakout-Board-B.01.00",
+  "name": "L6205PD-Dual-Breakout-Board-B.01.00",
   "content": "",
   "created_at": "2026-01-18 10:12:00",
-  "updated_at": "2026-01-18 10:34:08",
+  "updated_at": "2026-04-21 15:06:25",
   "stick": "",
   "documents": [
     {
@@ -16,13 +16,13 @@
       "thumb": "/images/thumb-default.png",
       "components": {
         "f39523d1440141cb8f5b2369d47ecc33": 1,
-        "e76f3700a495449f89388aebc7c514e3": 4,
+        "e76f3700a495449f89388aebc7c514e3": 5,
         "fd11c9e744c44aeab6011e8bd4c3ea86": 7,
-        "5d56951fd43d4b5083b0f3cd9bfd5587": 3,
-        "97e3dfd84929426786ec7929e48dfb0d": 1,
+        "5d56951fd43d4b5083b0f3cd9bfd5587": 4,
         "ed535c8fe56245c1a5180026fdcb7303": 2,
         "2f379218ad414010bbfe428493a52848": 1,
-        "fb82e4cef088466e83a5da161c0dbbab": 2
+        "fb82e4cef088466e83a5da161c0dbbab": 2,
+        "d851786b5c664ff789b13c0741460439": 1
       },
       "BOM": [
         [
@@ -105,15 +105,15 @@
           }
         ],
         [
-          "HDR-M-2.54_1x16",
+          "HDR-M-2.54_1x20",
           1,
-          "HDR-M-2.54_1X16",
-          "J1",
+          "HDR-M-2.54_1X20",
+          "J2",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
             "Supplier": "LCSC",
-            "Supplier Part": ""
+            "Supplier Part": "C50981"
           }
         ],
         [
@@ -165,6 +165,18 @@
           }
         ],
         [
+          "1K",
+          2,
+          "R1206",
+          "R8,R9",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
           "L6205PD",
           1,
           "POWERSO20_L15.9-W11.0-P1.27-LS14.2-BL-EP",
@@ -177,40 +189,40 @@
           }
         ]
       ],
-      "updateTime": 1768727673,
+      "updateTime": 1776776763,
       "createTime": 1707231476,
       "histories": [],
       "created_at": "2024-02-06 15:57:56",
-      "updated_at": "2026-01-18 10:14:33"
+      "updated_at": "2026-04-21 15:06:03"
     },
     {
       "uuid": "0ae0d04a92d6fafc35e40fbda63033dd",
-      "title": "PCB_L6205PD-Dual-Breakout-Board-B.00.01",
-      "filename": "PCB_L6205PD-Dual-Breakout-Board-B.00.01.json",
+      "title": "PCB_L6205PD-Dual-Breakout-Board-B.01.00",
+      "filename": "PCB_L6205PD-Dual-Breakout-Board-B.01.00.json",
       "description": "",
       "docType": "3",
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "fa8b3531a8854d41bcf2c462cb2bfc07": 1,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 7,
         "f6e7bbafc8d6494ea48c85ec766fa6c7": 4,
         "2d77835a35ce42c3a8a708639960ec8e": 2,
         "37a711dd47574887bb799f651f3c2b95": 1,
         "7bdec8012728462a85919a4d0d033579": 7,
-        "e0f45a5edd25471dacc10f351b436550": 1,
-        "b811781e2b834ff7927ba9960dacf589": 1,
-        "8e9b1be4bcb6420dbd1d09bf04b02792": 5
+        "e0f45a5edd25471dacc10f351b436550": 1
       },
       "BOM": [],
-      "updateTime": 1768728848,
+      "updateTime": 1776776276,
       "createTime": 1707233397,
       "histories": [],
       "created_at": "2024-02-06 16:29:57",
-      "updated_at": "2026-01-18 10:34:08"
+      "updated_at": "2026-04-21 14:57:56"
     }
   ],
   "sort": [],
-  "title": "L6205PD-Dual-Breakout-Board-B.00.02",
-  "foldername": "L6205PD-Dual-Breakout-Board-B.00.02",
-  "schfilename": "L6205PD-Dual-Breakout-Board-B.00.02.json",
-  "schfilemtime": 1768727673399
+  "title": "L6205PD-Dual-Breakout-Board-B.01.00",
+  "foldername": "L6205PD-Dual-Breakout-Board-B.01.00",
+  "schfilename": "L6205PD-Dual-Breakout-Board-B.01.00.json",
+  "schfilemtime": 1776776763734
 }
