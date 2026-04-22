@@ -4,7 +4,7 @@
   "name": "LcsNodes-Dual-Signal-Socket-Board-B.01.00",
   "content": "",
   "created_at": "2026-03-29 10:50:32",
-  "updated_at": "2026-04-21 14:43:34",
+  "updated_at": "2026-04-21 16:29:57",
   "stick": "",
   "documents": [
     {
@@ -253,11 +253,11 @@
           }
         ]
       ],
-      "updateTime": 1776775393,
+      "updateTime": 1776781721,
       "createTime": 1768574830,
       "histories": [],
       "created_at": "2026-01-16 15:47:10",
-      "updated_at": "2026-04-21 14:43:13"
+      "updated_at": "2026-04-21 16:28:41"
     },
     {
       "uuid": "f5f614c76b1f963d315e9e4c75721ecd",
@@ -434,16 +434,16 @@
           }
         ]
       ],
-      "updateTime": 1776775414,
+      "updateTime": 1776781797,
       "createTime": 1768576708,
       "histories": [],
       "created_at": "2026-01-16 16:18:28",
-      "updated_at": "2026-04-21 14:43:34"
+      "updated_at": "2026-04-21 16:29:57"
     }
   ],
   "sort": [],
   "title": "LcsNodes-Dual-Signal-Socket-Board-B.01.00",
   "foldername": "LcsNodes-Dual-Signal-Socket-Board-B.01.00",
   "schfilename": "LcsNodes-Dual-Signal-Socket-Board-B.01.00.json",
-  "schfilemtime": 1776775393838
+  "schfilemtime": 1776781721247
 }

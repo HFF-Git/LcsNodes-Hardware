@@ -4,12 +4,12 @@
   "name": "LcsNodes-GPIO-Socket-Board-B.01.00",
   "content": "",
   "created_at": "2026-01-30 10:53:32",
-  "updated_at": "2026-04-21 14:40:42",
+  "updated_at": "2026-04-22 09:46:46",
   "stick": "",
   "documents": [
     {
       "uuid": "229bf480e61e3c2cb3cc4c59b2dc5b8a",
-      "title": "Sheet_1",
+      "title": "Logic",
       "description": "",
       "docType": "1",
       "master": "",
@@ -265,11 +265,11 @@
           }
         ]
       ],
-      "updateTime": 1776775004,
+      "updateTime": 1776781506,
       "createTime": 1768574830,
       "histories": [],
       "created_at": "2026-01-16 15:47:10",
-      "updated_at": "2026-04-21 14:36:44"
+      "updated_at": "2026-04-21 16:25:06"
     },
     {
       "uuid": "8316bc4aa0afd598700a9889592ba343",
@@ -446,16 +446,16 @@
           }
         ]
       ],
-      "updateTime": 1776775242,
+      "updateTime": 1776781652,
       "createTime": 1768576708,
       "histories": [],
       "created_at": "2026-01-16 16:18:28",
-      "updated_at": "2026-04-21 14:40:42"
+      "updated_at": "2026-04-21 16:27:32"
     }
   ],
   "sort": [],
   "title": "LcsNodes-GPIO-Socket-Board-B.01.00",
   "foldername": "LcsNodes-GPIO-Socket-Board-B.01.00",
   "schfilename": "LcsNodes-GPIO-Socket-Board-B.01.00.json",
-  "schfilemtime": 1776775004026
+  "schfilemtime": 1776844006621
 }
