@@ -1,14 +1,14 @@
 {
-  "uuid": "2264bc883a32e07fabc08d822230f3de",
-  "path": "Offline/LcsNodes-Diagnostic-Board-B.02.00",
-  "name": "LcsNodes-Diagnostic-Board-B.02.00",
+  "uuid": "a730533d8a79b9aafcb3c1571ef30301",
+  "path": "Offline/LcsNodes-Diagnostic-Board-B.02.10",
+  "name": "LcsNodes-Diagnostic-Board-B.02.10",
   "content": "A little adapter board from Extension Bus Connectors to a set of screw-block terminals.",
-  "created_at": "2025-01-19 12:24:56",
-  "updated_at": "2026-04-27 15:47:05",
+  "created_at": "2026-04-27 14:47:35",
+  "updated_at": "2026-04-27 15:48:19",
   "stick": "",
   "documents": [
     {
-      "uuid": "4dff8b2c3ce56478b869f0af9321f210",
+      "uuid": "7ce9fd2b512dd9a6051ba9dba9a39522",
       "title": "Connectors",
       "description": "A little board that us used to test the connector pins on a controller type board.",
       "docType": "1",
@@ -17,12 +17,12 @@
       "components": {
         "ba1f207f2c0447edbd5beb657b435022": 25,
         "ed9eb2faffb34286820a54a14e9e9e24": 29,
+        "92c32ceaaac84139add7ebda884f0a47": 1,
         "240fe4410a9c1d7d666f023cdce6303e": 2,
         "a9aa2b14f188405792fa87ac344499a4": 5,
         "18479f1c4d4749c5a4c4387846c5d657": 2,
         "93b44d62463c4c9c82dd7108c8ee7d73": 2,
-        "6e40ccf00a5d499faaf5fd21e83827b5": 1,
-        "f5b1d9403e49471cab43bc5a1bec336f": 2
+        "c8cef8ebc2fe476a91af89632ed28e6c": 1
       },
       "BOM": [
         [
@@ -36,7 +36,7 @@
           "470",
           15,
           "R1206",
-          "1,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30",
+          "470,R17,R18,R19,R20,R21,R22,R23,R25,R26,R27,R28,R29,R30,R31",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -60,7 +60,7 @@
           "HDR-M-2.54_1x2",
           5,
           "HDR-M-2.54_1X2",
-          "J1,J2,J5,J6,J7",
+          "J1,J2,J4,J5,J6",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -69,22 +69,22 @@
           }
         ],
         [
-          "HDR-M-2.54_1x4",
-          2,
-          "HDR-M-2.54_1X4",
-          "J3,J4",
+          "HDR-M-2.54_1x8",
+          1,
+          "HDR-M-2.54_1X8",
+          "J3",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
             "Supplier": "LCSC",
-            "Supplier Part": "C124378"
+            "Supplier Part": "C190820"
           }
         ],
         [
           "HDR-M-2.54_1x6",
           2,
           "HDR-M-2.54_1X6",
-          "J8,J9",
+          "J7,J8",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -105,9 +105,9 @@
           }
         ],
         [
-          "LCS-SYM-EXT-B.02.10",
+          "LCS-SYM-EXT-L",
           1,
-          "LCS-FP-EXT-10X4-B.02.10",
+          "LCS-FP-EXT-L-10X4",
           "PCB1",
           {
             "Manufacturer Part": "",
@@ -165,41 +165,41 @@
           }
         ]
       ],
-      "updateTime": 1777297621,
+      "updateTime": 1777297699,
       "createTime": 1705923722,
       "histories": [],
       "created_at": "2024-01-22 12:42:02",
-      "updated_at": "2026-04-27 15:47:01"
+      "updated_at": "2026-04-27 15:48:19"
     },
     {
-      "uuid": "e8e1f5bfd1182aa0c50e43c2e8114394",
-      "title": "PCB_LcsNodes-Diag-Connector-Board-B.02.00",
-      "filename": "PCB_LcsNodes-Diag-Connector-Board-B.02.00.json",
+      "uuid": "e54b3319cf9aacfd373b336945e3b689",
+      "title": "PCB_LcsNodes-Diag-Connector-Board-B.02.10",
+      "filename": "PCB_LcsNodes-Diag-Connector-Board-B.02.10.json",
       "description": "",
       "docType": "3",
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "7f538711c1934a47a5081fcfe72e78b1": 1,
-        "8e9b1be4bcb6420dbd1d09bf04b02792": 29,
+        "2b29d999c07b4c538a96e6e10175c687": 1,
         "62ddd832b4204f5fb6ccf017f43de83b": 25,
-        "282f7786cb6144d097ae00194c3e3fb3": 2,
-        "70aa5812f21f4991bf427395d51849f4": 5,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 29,
         "df3ca37cb13d499cb713e9aa6fdd0c7b": 2,
+        "70aa5812f21f4991bf427395d51849f4": 5,
+        "fb11a1cdebf6433b8a3c664a100689e6": 1,
         "5e404972447a403ca43a83aeb15e254e": 2,
         "91e8625ab54d4b48a78457e6f8258781": 2
       },
       "BOM": [],
-      "updateTime": 1777297625,
+      "updateTime": 1741949151,
       "createTime": 1705924631,
       "histories": [],
       "created_at": "2024-01-22 12:57:11",
-      "updated_at": "2026-04-27 15:47:05"
+      "updated_at": "2025-03-14 11:45:51"
     }
   ],
   "sort": [],
-  "title": "LcsNodes-Diagnostic-Board-B.02.00",
-  "foldername": "LcsNodes-Diagnostic-Board-B.02.00",
-  "schfilename": "LcsNodes-Diagnostic-Board-B.02.00.json",
-  "schfilemtime": 1777297621223
+  "title": "LcsNodes-Diagnostic-Board-B.02.10",
+  "foldername": "LcsNodes-Diagnostic-Board-B.02.10",
+  "schfilename": "LcsNodes-Diagnostic-Board-B.02.10.json",
+  "schfilemtime": 1777297699665
 }

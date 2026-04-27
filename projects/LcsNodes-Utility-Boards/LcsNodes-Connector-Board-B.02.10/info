@@ -1,0 +1,141 @@
+{
+  "uuid": "a8105587638165ddcf39fc4f0afda2c0",
+  "path": "Offline/LcsNodes-Connector-Board-B.02.10",
+  "name": "LcsNodes-Connector-Board-B.02.10",
+  "content": "A little adapter board from Extension Bus Connectors to a set of screw-block terminals.",
+  "created_at": "2026-04-27 13:46:28",
+  "updated_at": "2026-04-27 15:46:55",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "d743a3365898b518f3791d0bec3a2e97",
+      "title": "Connectors",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "ed9eb2faffb34286820a54a14e9e9e24": 1,
+        "ba1f207f2c0447edbd5beb657b435022": 1,
+        "a9aa2b14f188405792fa87ac344499a4": 4,
+        "93b44d62463c4c9c82dd7108c8ee7d73": 2,
+        "f5b1d9403e49471cab43bc5a1bec336f": 3,
+        "6e40ccf00a5d499faaf5fd21e83827b5": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "HDR-M-2.54_1x4",
+          3,
+          "TERMINALBLOCK_PHEONIX_MPT-2.54MM_4POL",
+          "J1,J6,J8",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C124378"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          4,
+          "TERMINALBLOCK_PHEONIX_MPT-2.54MM_2POL",
+          "J2,J3,J7,J9",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C124375"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x6",
+          2,
+          "TERMINALBLOCK_PHEONIX_MPT-2.54MM_6POL",
+          "J4,J5",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C190819"
+          }
+        ],
+        [
+          "LED-0805_G",
+          1,
+          "LED-1206",
+          "LED1",
+          {
+            "Manufacturer Part": "NCD0805G1",
+            "Manufacturer": "国星光电",
+            "Supplier": "",
+            "Supplier Part": "C84260"
+          }
+        ],
+        [
+          "LCS-SYM-EXT-B.02.10",
+          1,
+          "LCS-FP-EXT-10X4-B.02.10",
+          "PCB1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "470",
+          1,
+          "R1206",
+          "R1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ]
+      ],
+      "updateTime": 1777297571,
+      "createTime": 1705923722,
+      "histories": [],
+      "created_at": "2024-01-22 12:42:02",
+      "updated_at": "2026-04-27 15:46:11"
+    },
+    {
+      "uuid": "d844bcf075bef8afab35e39baf70d446",
+      "title": "PCB_LcsNodes-Connector-Board-B.02.10",
+      "filename": "PCB_LcsNodes-Connector-Board-B.02.10.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "e4adbc8ea637435c9e713a0bcaae4459": 3,
+        "7f538711c1934a47a5081fcfe72e78b1": 1,
+        "6c732f0907484c438e5f210593918be3": 4,
+        "55127f915c7f406e9bc20a5ec123aa80": 2,
+        "62ddd832b4204f5fb6ccf017f43de83b": 1,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 1
+      },
+      "BOM": [],
+      "updateTime": 1777297615,
+      "createTime": 1705924631,
+      "histories": [],
+      "created_at": "2024-01-22 12:57:11",
+      "updated_at": "2026-04-27 15:46:55"
+    }
+  ],
+  "sort": [],
+  "title": "LcsNodes-Connector-Board-B.02.10",
+  "foldername": "LcsNodes-Connector-Board-B.02.10",
+  "schfilename": "LcsNodes-Connector-Board-B.02.10.json",
+  "schfilemtime": 1777297571363
+}
