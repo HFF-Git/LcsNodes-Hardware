@@ -4,7 +4,7 @@
   "name": "LcsNodes-Quad-Block-Controller-B.02.10",
   "content": "A LCS block controller for 4 blocks, Railcom detectors and power measurement, using the PIO state machines.",
   "created_at": "2025-05-22 18:02:14",
-  "updated_at": "2026-05-03 11:17:19",
+  "updated_at": "2026-05-03 15:28:31",
   "stick": "",
   "documents": [
     {
@@ -2546,11 +2546,11 @@
           }
         ]
       ],
-      "updateTime": 1777799839,
+      "updateTime": 1777814911,
       "createTime": 1777016497,
       "histories": [],
       "created_at": "2026-04-24 09:41:37",
-      "updated_at": "2026-05-03 11:17:19"
+      "updated_at": "2026-05-03 15:28:31"
     }
   ],
   "sort": [
