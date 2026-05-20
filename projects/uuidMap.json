@@ -16,7 +16,11 @@
   "02c5553165f1ff494f91b4c2c662d729": "LcdNodes-Signal-Sockets-Boards/LcsNodes-Dual-Signal-Socket-Board-B.01.00",
   "db7f7368f34dde180666bfdebb7bf786": "LcdNodes-Signal-Sockets-Boards/LcsNodes-Dual-Signal-Socket-Board-B.01.00/LcsNodes-Dual-Signal-Socket-Board-B.01.00.json?Sheet_1",
   "f5f614c76b1f963d315e9e4c75721ecd": "LcdNodes-Signal-Sockets-Boards/LcsNodes-Dual-Signal-Socket-Board-B.01.00/PCB_LcsNodes-Dual-Signal-Socket-Board-B.00.01.json",
+<<<<<<< Updated upstream
   "148f2d402da8b705398760d05e9921f3": "LcdsNodes-Signal-Sockets-Boards",
+=======
+  "b46b6cbc9a103b65e7817228225facb4": "LcdsNodes-Signal-Sockets-Boards",
+>>>>>>> Stashed changes
   "1a294750a200a2de2d4965d9f3843f17": "LcsNodes-Base-Station-Boards",
   "7a3f9308bc718d1a84b42e3aabb51384": "LcsNodes-Base-Station-Boards/LcsNodes-Base-Station-Board-B.01.00",
   "28cfc92cce405d88ba9506609501da53": "LcsNodes-Base-Station-Boards/LcsNodes-Base-Station-Board-B.01.00/LcsNodes-Base-Station-Board-B.01.00.json?High Level Schematic",
@@ -151,6 +155,13 @@
   "c8fca8ff1100cd45b255b1e68c205e3b": "ThisAndThat/ArduinoBootLoader-for-1284P-Shield/PCB_ArduinoBootLoader-for-1284P-Shield.json",
   "87d282c63955452ed8ea5f662cb36c36": "ThisAndThat/DCC Signal Input",
   "c19b8e40348d8e3761723032dcf33ad1": "ThisAndThat/DCC Signal Input/DCC Signal Input.json?Sheet_1",
+<<<<<<< Updated upstream
+=======
+  "11b56152606f200ac42817c09fd5de64": "ThisAndThat/LcsNodes-Building-Block-Power-Supply-LM2576",
+  "7dae1351b8bff3eb9b72d9329f46ef86": "ThisAndThat/LcsNodes-Building-Block-Power-Supply-LM2576/LcsNodes-Building-Block-Power-Supply-LM2576.json?Sheet_1",
+  "8dbfc133a2725ed66eee6d022302634a": "ThisAndThat/LcsNodes-Building-Block-USB-Serial-IO",
+  "86e416d3c38ae593b11bb781f9fa1ce4": "ThisAndThat/LcsNodes-Building-Block-USB-Serial-IO/LcsNodes-Building-Block-USB-Serial-IO.json?Sheet_1",
+>>>>>>> Stashed changes
   "27de1b15b8f3c4fb2205bb465a3fb71a": "ThisAndThat/MOSfet Switch",
   "00d538e1a074347148af0ed6e19b7935": "ThisAndThat/MOSfet Switch/MOSfet Switch.json?Sheet_1",
   "1099e793e4bd1360f792b2c449e9bde1": "ThisAndThat/OCC Detect LM339",
