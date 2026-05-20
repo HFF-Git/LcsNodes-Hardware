@@ -1,10 +1,10 @@
 {
   "uuid": "8dbfc133a2725ed66eee6d022302634a",
-  "path": "Offline/LcsNodes-Building-Block-USB-Serial-IO",
-  "name": "LcsNodes-Building-Block-USB-Serial-IO",
+  "path": "Offline/USB-Serial-IO-MCP2221",
+  "name": "USB-Serial-IO-MCP2221",
   "content": "",
   "created_at": "2022-03-18 11:58:11",
-  "updated_at": "2026-03-10 11:29:51",
+  "updated_at": "2026-05-20 09:06:16",
   "stick": "",
   "documents": [
     {
@@ -90,16 +90,16 @@
           }
         ]
       ],
-      "updateTime": 1773138591,
+      "updateTime": 1779260776,
       "createTime": 1647601091,
       "histories": [],
       "created_at": "2022-03-18 11:58:11",
-      "updated_at": "2026-03-10 11:29:51"
+      "updated_at": "2026-05-20 09:06:16"
     }
   ],
   "sort": [],
-  "title": "LcsNodes-Building-Block-USB-Serial-IO",
-  "foldername": "LcsNodes-Building-Block-USB-Serial-IO",
-  "schfilename": "LcsNodes-Building-Block-USB-Serial-IO.json",
-  "schfilemtime": 1773138591086
+  "title": "USB-Serial-IO-MCP2221",
+  "foldername": "USB-Serial-IO-MCP2221",
+  "schfilename": "USB-Serial-IO-MCP2221.json",
+  "schfilemtime": 1779260776562
 }

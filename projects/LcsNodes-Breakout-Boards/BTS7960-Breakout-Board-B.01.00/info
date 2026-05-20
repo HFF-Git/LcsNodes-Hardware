@@ -1,7 +1,7 @@
 {
   "uuid": "a0e8a018936e4bd9070e58c4ef775c03",
-  "path": "Offline/BTS7960-Breakout-Board",
-  "name": "BTS7960-Breakout-Board",
+  "path": "Offline/BTS7960-Breakout-Board-B.01.00",
+  "name": "BTS7960-Breakout-Board-B.01.00",
   "content": "",
   "created_at": "2024-02-04 14:12:29",
   "updated_at": "2024-03-07 12:22:15",
@@ -223,8 +223,8 @@
     }
   ],
   "sort": [],
-  "title": "BTS7960-Breakout-Board",
-  "foldername": "BTS7960-Breakout-Board",
+  "title": "BTS7960-Breakout-Board-B.01.00",
+  "foldername": "BTS7960-Breakout-Board-B.01.00",
   "schfilename": "BTS7960-Breakout-Board.json",
   "schfilemtime": 1707121919235
 }

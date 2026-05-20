@@ -1,10 +1,10 @@
 {
   "uuid": "11b56152606f200ac42817c09fd5de64",
-  "path": "Offline/LcsNodes-Building-Block-Power-Supply-LM2576",
-  "name": "LcsNodes-Building-Block-Power-Supply-LM2576",
+  "path": "Offline/Power-Supply-LM2576",
+  "name": "Power-Supply-LM2576",
   "content": "",
   "created_at": "2022-03-19 08:37:58",
-  "updated_at": "2022-09-19 08:21:27",
+  "updated_at": "2026-05-20 09:04:23",
   "stick": "",
   "documents": [
     {
@@ -174,8 +174,8 @@
     }
   ],
   "sort": [],
-  "title": "LcsNodes-Building-Block-Power-Supply-LM2576",
-  "foldername": "LcsNodes-Building-Block-Power-Supply-LM2576",
-  "schfilename": "LcsNodes-Building-Block-Power-Supply-LM2576.json",
+  "title": "Power-Supply-LM2576",
+  "foldername": "Power-Supply-LM2576",
+  "schfilename": "Power-Supply-LM2576.json",
   "schfilemtime": 1663568487946
 }

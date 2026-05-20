@@ -1,0 +1,144 @@
+{
+  "uuid": "2e37d38e8b993dceac4d7f97e47f3645",
+  "path": "Offline/Zug-Schluss-Beleuchtung",
+  "name": "Zug-Schluss-Beleuchtung",
+  "content": "",
+  "created_at": "2026-05-19 10:52:54",
+  "updated_at": "2026-05-20 08:22:27",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "417883c548a7fb2bd4b19e725e14785d",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "8efe3b7ff1df4dfca29110d58324bccd": 1,
+        "ed9eb2faffb34286820a54a14e9e9e24": 1,
+        "ed535c8fe56245c1a5180026fdcb7303": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "BAT47",
+          1,
+          "SOD-80C_L3.3-W1.5-RD",
+          "D1",
+          {
+            "Manufacturer Part": "1N4148",
+            "Manufacturer": "SEMTECH",
+            "Supplier": "LCSC",
+            "Supplier Part": "C14516"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R0805",
+          "R1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "TRIMMER-3314G",
+          1,
+          "TRIMMER_3314G",
+          "R2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ]
+      ],
+      "updateTime": 1779183065,
+      "createTime": 1779180777,
+      "histories": [],
+      "created_at": "2026-05-19 10:52:57",
+      "updated_at": "2026-05-19 11:31:05"
+    },
+    {
+      "uuid": "13eb1e0f95b1f35c9eeaf0d688def85d",
+      "puuid": "2e37d38e8b993dceac4d7f97e47f3645",
+      "title": "PCB_Zug-Schluss-Beleuchtung",
+      "filename": "PCB_Zug-Schluss-Beleuchtung.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "b60f399a7a7e41848b2be1eb49c79141": 1,
+        "2bae260518c24d0784826073bbe7a15a": 1,
+        "f6e7bbafc8d6494ea48c85ec766fa6c7": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1k",
+          1,
+          "R0805",
+          "R1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "TRIMMER-3314G",
+          1,
+          "TRIMMER_3314G",
+          "R2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1N4148WS",
+          1,
+          "SOD-323_L1.7-W1.3-LS2.7-RD",
+          "U1",
+          {
+            "Manufacturer Part": "1N4148WS",
+            "Manufacturer": "Zhengxin(正芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C19272188"
+          }
+        ]
+      ],
+      "updateTime": 1779258147,
+      "createTime": 1779182072,
+      "histories": [],
+      "created_at": "2026-05-19 11:14:32",
+      "updated_at": "2026-05-20 08:22:27"
+    }
+  ],
+  "sort": [],
+  "title": "Zug-Schluss-Beleuchtung",
+  "foldername": "Zug-Schluss-Beleuchtung",
+  "schfilename": "Zug-Schluss-Beleuchtung.json",
+  "schfilemtime": 1779183065863
+}
