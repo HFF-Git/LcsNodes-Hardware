@@ -4,7 +4,7 @@
   "name": "LcsNodes-Base-Station-Board-B.02.10",
   "content": "A Raspberry Pi Pico based DCC base station. \n- RPico, CanBus, NVM, L6205 Power Module, RailCom Detector",
   "created_at": "2026-03-12 16:18:00",
-  "updated_at": "2026-05-03 16:14:17",
+  "updated_at": "2026-05-22 14:50:18",
   "stick": "",
   "documents": [
     {
@@ -529,11 +529,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1776845808,
+      "updateTime": 1779452823,
       "createTime": 1697360463,
       "histories": [],
       "created_at": "2023-10-15 11:01:03",
-      "updated_at": "2026-04-22 10:16:48",
+      "updated_at": "2026-05-22 14:27:03",
       "BOM": [
         [
           "Value",
@@ -639,7 +639,7 @@
           }
         ],
         [
-          "1N4148",
+          "BAT47",
           2,
           "SOD-80C_L3.3-W1.5-RD",
           "D1,D2",
@@ -702,7 +702,7 @@
           "LCS-SYM-MAIN-B.02.10",
           1,
           "LCS-FP-MAIN-10X12-B.02.10",
-          "PCB1",
+          "PCB2",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1236,7 +1236,7 @@
           "LCS-SYM-MAIN-B.02.10",
           1,
           "LCS-FP-MAIN-10X12-B.02.10",
-          "PCB1",
+          "PCB2",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1569,11 +1569,11 @@
           }
         ]
       ],
-      "updateTime": 1777023154,
+      "updateTime": 1779453340,
       "createTime": 1737363794,
       "histories": [],
       "created_at": "2025-01-20 10:03:14",
-      "updated_at": "2026-04-24 11:32:34"
+      "updated_at": "2026-05-22 14:35:40"
     },
     {
       "uuid": "529207e6c3f7a9f02e087e84fbd2f062",
@@ -1582,11 +1582,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1777816468,
+      "updateTime": 1779453291,
       "createTime": 1697360463,
       "histories": [],
       "created_at": "2023-10-15 11:01:03",
-      "updated_at": "2026-05-03 15:54:28",
+      "updated_at": "2026-05-22 14:34:51",
       "BOM": [
         [
           "Value",
@@ -2104,11 +2104,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1777816468,
+      "updateTime": 1779453427,
       "createTime": 1697360463,
       "histories": [],
       "created_at": "2023-10-15 11:01:03",
-      "updated_at": "2026-05-03 15:54:28",
+      "updated_at": "2026-05-22 14:37:07",
       "BOM": [
         [
           "Value",
@@ -2238,15 +2238,15 @@
           }
         ],
         [
-          "ZMM5V1_C707194",
+          "P4SMAJ5.0ADF-13",
           1,
-          "LL-34_L3.5-W1.5-RD",
+          "D-FLAT_L4.3-W2.6-LS5.3-RD",
           "D6",
           {
-            "Manufacturer Part": "ZMM5V1",
-            "Manufacturer": "Slkor(萨科微)",
+            "Manufacturer Part": "P4SMAJ5.0ADF-13",
+            "Manufacturer": "DIODES(美台)",
             "Supplier": "LCSC",
-            "Supplier Part": "C707194"
+            "Supplier Part": "C526690"
           }
         ],
         [
@@ -2622,8 +2622,8 @@
         "e545f26e87c74952857381bd0bff848e": 1,
         "ba1f207f2c0447edbd5beb657b435022": 1,
         "ed9eb2faffb34286820a54a14e9e9e24": 3,
-        "a3d3a7e7c70c4dd88653cdc73e0bb9ec": 1,
-        "b5f5bcb41f09421f9838903b8404606d": 1
+        "b5f5bcb41f09421f9838903b8404606d": 1,
+        "ea77d0fd148a4c1a945248ecb8a644f9": 1
       }
     },
     {
@@ -2634,15 +2634,15 @@
       "docType": "3",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1777817657,
+      "updateTime": 1779454218,
       "createTime": 1697360719,
       "histories": [],
       "created_at": "2023-10-15 11:05:19",
-      "updated_at": "2026-05-03 16:14:17",
+      "updated_at": "2026-05-22 14:50:18",
       "components": {
+        "2ce37f022c42417db5d6f92690355fca": 1,
         "eebc7cac7529492182eedbd79c1598e9": 1,
         "f6e7bbafc8d6494ea48c85ec766fa6c7": 2,
-        "b4b5e120d2f0444981b8be27d5c062ab": 1,
         "70aa5812f21f4991bf427395d51849f4": 5,
         "8e9b1be4bcb6420dbd1d09bf04b02792": 50,
         "7bdec8012728462a85919a4d0d033579": 16,
@@ -2675,5 +2675,5 @@
   "title": "LcsNodes-Base-Station-Board-B.02.10",
   "foldername": "LcsNodes-Base-Station-Board-B.02.10",
   "schfilename": "LcsNodes-Base-Station-Board-B.02.10.json",
-  "schfilemtime": 1777816468938
+  "schfilemtime": 1779453428035
 }

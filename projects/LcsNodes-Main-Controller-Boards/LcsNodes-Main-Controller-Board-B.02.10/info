@@ -4,7 +4,7 @@
   "name": "LcsNodes-Main-Controller-Board-B.02.10",
   "content": "LcsNodes main Controller board with PICO, new PCB format.",
   "created_at": "2026-01-30 11:22:46",
-  "updated_at": "2026-04-27 15:47:26",
+  "updated_at": "2026-05-22 14:54:23",
   "stick": "",
   "documents": [
     {
@@ -799,11 +799,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1777289074,
+      "updateTime": 1779454340,
       "createTime": 1693213366,
       "histories": [],
       "created_at": "2023-08-28 11:02:46",
-      "updated_at": "2026-04-27 13:24:34",
+      "updated_at": "2026-05-22 14:52:20",
       "BOM": [
         [
           "Value",
@@ -885,10 +885,22 @@
           }
         ],
         [
+          "P4SMAJ5.0ADF-13",
+          1,
+          "D-FLAT_L4.3-W2.6-LS5.3-RD",
+          "D4",
+          {
+            "Manufacturer Part": "P4SMAJ5.0ADF-13",
+            "Manufacturer": "DIODES(美台)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C526690"
+          }
+        ],
+        [
           "5.1V",
-          3,
+          2,
           "SOD-80C_L3.3-W1.5-RD",
-          "D4,D5,D6",
+          "D5,D6",
           {
             "Manufacturer Part": "Diode Zener",
             "Manufacturer": "SEMTECH",
@@ -1177,11 +1189,12 @@
         "ed9eb2faffb34286820a54a14e9e9e24": 34,
         "1f55cd7da439440ba626bd7741d4ad9e": 13,
         "5d56951fd43d4b5083b0f3cd9bfd5587": 4,
-        "fb82e4cef088466e83a5da161c0dbbab": 3,
+        "fb82e4cef088466e83a5da161c0dbbab": 2,
         "3d124f482ec94d4b904565fe553fcacb": 1,
         "a1bddaea90b44e109a38e04d658aabfb": 3,
         "3ec77201bbcd4ecd8722658d581a4e60": 1,
-        "b5f5bcb41f09421f9838903b8404606d": 1
+        "b5f5bcb41f09421f9838903b8404606d": 1,
+        "ea77d0fd148a4c1a945248ecb8a644f9": 1
       }
     },
     {
@@ -1193,11 +1206,12 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "2ce37f022c42417db5d6f92690355fca": 1,
         "eebc7cac7529492182eedbd79c1598e9": 1,
         "7bdec8012728462a85919a4d0d033579": 7,
         "36b1306a115341f4b4d9407fb34974e0": 1,
         "8e9b1be4bcb6420dbd1d09bf04b02792": 47,
-        "f6e7bbafc8d6494ea48c85ec766fa6c7": 3,
+        "f6e7bbafc8d6494ea48c85ec766fa6c7": 2,
         "6295c07e15584ea3b3052d80635b272b": 1,
         "4562040c16044a2993e405db2eededc5": 1,
         "d8084adcadf04b6eadecdc8fd3a4bef9": 13,
@@ -1558,11 +1572,11 @@
           }
         ]
       ],
-      "updateTime": 1777290328,
+      "updateTime": 1779454463,
       "createTime": 1736936224,
       "histories": [],
       "created_at": "2025-01-15 11:17:04",
-      "updated_at": "2026-04-27 13:45:28"
+      "updated_at": "2026-05-22 14:54:23"
     }
   ],
   "sort": [
@@ -1573,5 +1587,5 @@
   "title": "LcsNodes-Main-Controller-Board-B.02.10",
   "foldername": "LcsNodes-Main-Controller-Board-B.02.10",
   "schfilename": "LcsNodes-Main-Controller-Board-B.02.10.json",
-  "schfilemtime": 1777297646187
+  "schfilemtime": 1779454340085
 }

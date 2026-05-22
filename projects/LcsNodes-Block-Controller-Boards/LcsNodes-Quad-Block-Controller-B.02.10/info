@@ -4,7 +4,7 @@
   "name": "LcsNodes-Quad-Block-Controller-B.02.10",
   "content": "A LCS block controller for 4 blocks, Railcom detectors and power measurement, using the PIO state machines.",
   "created_at": "2025-05-22 18:02:14",
-  "updated_at": "2026-05-11 12:06:48",
+  "updated_at": "2026-05-22 14:25:10",
   "stick": "",
   "documents": [
     {
@@ -497,7 +497,7 @@
         "e611ae6de7f34e0eae8494a79a790895": 1,
         "e76f3700a495449f89388aebc7c514e3": 1,
         "a9aa2b14f188405792fa87ac344499a4": 1,
-        "fd11c9e744c44aeab6011e8bd4c3ea86": 2,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 3,
         "f5e28939ee4b413a81608a3f66d6e3bc": 1,
         "5c889cc040dc491da07dce8971e13b31": 1,
         "ba1f207f2c0447edbd5beb657b435022": 1,
@@ -533,9 +533,9 @@
         ],
         [
           "100n",
-          15,
+          16,
           "C1206",
-          "C1,C2,C3,C4,C6,C8,C10,C11,C13,C15,C16,C18,C19,C21,C25",
+          "C1,C2,C3,C4,C6,C8,C10,C11,C13,C15,C16,C18,C19,C21,C25,C29",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -976,11 +976,11 @@
           }
         ]
       ],
-      "updateTime": 1777977410,
+      "updateTime": 1779451896,
       "createTime": 1676709574,
       "histories": [],
       "created_at": "2023-02-18 09:39:34",
-      "updated_at": "2026-05-05 12:36:50"
+      "updated_at": "2026-05-22 14:11:36"
     },
     {
       "uuid": "bb6fc299a3a1558c13d23876fdc61150",
@@ -1023,9 +1023,9 @@
         ],
         [
           "100n",
-          15,
+          16,
           "C1206",
-          "C1,C2,C3,C4,C6,C8,C10,C11,C13,C15,C16,C18,C19,C21,C25",
+          "C1,C2,C3,C4,C6,C8,C10,C11,C13,C15,C16,C18,C19,C21,C25,C29",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1466,11 +1466,11 @@
           }
         ]
       ],
-      "updateTime": 1777980918,
+      "updateTime": 1779452426,
       "createTime": 1676709584,
       "histories": [],
       "created_at": "2023-02-18 09:39:44",
-      "updated_at": "2026-05-05 13:35:18"
+      "updated_at": "2026-05-22 14:20:26"
     },
     {
       "uuid": "b20a02e3ac127ac2b1db1d08c35d2de6",
@@ -1974,7 +1974,7 @@
       "thumb": "/images/thumb-default.png",
       "components": {
         "91e8625ab54d4b48a78457e6f8258781": 1,
-        "7bdec8012728462a85919a4d0d033579": 21,
+        "7bdec8012728462a85919a4d0d033579": 22,
         "e0f45a5edd25471dacc10f351b436550": 2,
         "2897ea2aed674deb8892c3862bcaddea": 4,
         "6295c07e15584ea3b3052d80635b272b": 1,
@@ -2546,11 +2546,11 @@
           }
         ]
       ],
-      "updateTime": 1778494008,
+      "updateTime": 1779452710,
       "createTime": 1777016497,
       "histories": [],
       "created_at": "2026-04-24 09:41:37",
-      "updated_at": "2026-05-11 12:06:48"
+      "updated_at": "2026-05-22 14:25:10"
     }
   ],
   "sort": [
@@ -2562,5 +2562,5 @@
   "title": "LcsNodes-Quad-Block-Controller-B.02.10",
   "foldername": "LcsNodes-Quad-Block-Controller-B.02.10",
   "schfilename": "LcsNodes-Quad-Block-Controller-B.02.10.json",
-  "schfilemtime": 1777980918945
+  "schfilemtime": 1779452426085
 }
