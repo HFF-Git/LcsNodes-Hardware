@@ -4,7 +4,7 @@
   "name": "Trix-Loco-PCB",
   "content": "",
   "created_at": "2026-05-20 15:12:22",
-  "updated_at": "2026-05-22 13:52:43",
+  "updated_at": "2026-05-24 12:40:44",
   "stick": "",
   "documents": [
     {
@@ -18,8 +18,8 @@
         "74d38effccd549d5a8bafc8347997cee": 2,
         "0783bf3e5e8a40d79bff27bb118bbc24": 3,
         "2fa53d590f544429ab8fcbd581d715c1": 2,
-        "ed535c8fe56245c1a5180026fdcb7303": 2,
-        "5053d6b75a4347babde72307b8e94923": 2
+        "5053d6b75a4347babde72307b8e94923": 2,
+        "ed535c8fe56245c1a5180026fdcb7303": 2
       },
       "BOM": [
         [
@@ -78,7 +78,7 @@
           }
         ],
         [
-          "560",
+          "5K6",
           2,
           "R1206",
           "R1,R2",
@@ -102,11 +102,11 @@
           }
         ]
       ],
-      "updateTime": 1779449052,
+      "updateTime": 1779619244,
       "createTime": 1779282744,
       "histories": [],
       "created_at": "2026-05-20 15:12:24",
-      "updated_at": "2026-05-22 13:24:12"
+      "updated_at": "2026-05-24 12:40:44"
     },
     {
       "uuid": "3183ef7ddf54ae5b8ff2be2eb88b49a6",
@@ -118,10 +118,10 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "7bdec8012728462a85919a4d0d033579": 3,
+        "f6e7bbafc8d6494ea48c85ec766fa6c7": 2,
         "db376ac3982e4955aeafd14d0d0d6557": 2,
         "8e9b1be4bcb6420dbd1d09bf04b02792": 2,
-        "f6e7bbafc8d6494ea48c85ec766fa6c7": 2,
+        "7bdec8012728462a85919a4d0d033579": 3,
         "63a9dae2fec94cf28b0a45ec86563f23": 2
       },
       "BOM": [
@@ -169,16 +169,16 @@
           }
         ]
       ],
-      "updateTime": 1779450763,
+      "updateTime": 1779618845,
       "createTime": 1779283503,
       "histories": [],
       "created_at": "2026-05-20 15:25:03",
-      "updated_at": "2026-05-22 13:52:43"
+      "updated_at": "2026-05-24 12:34:05"
     }
   ],
   "sort": [],
   "title": "Trix-Loco-PCB",
   "foldername": "Trix-Loco-PCB",
   "schfilename": "Trix-Loco-PCB.json",
-  "schfilemtime": 1779449052782
+  "schfilemtime": 1779619244090
 }
