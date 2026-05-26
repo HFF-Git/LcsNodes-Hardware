@@ -4,7 +4,7 @@
   "name": "Trix-Loco-PCB",
   "content": "",
   "created_at": "2026-05-20 15:12:22",
-  "updated_at": "2026-05-24 12:40:44",
+  "updated_at": "2026-05-26 10:48:05",
   "stick": "",
   "documents": [
     {
@@ -111,8 +111,8 @@
     {
       "uuid": "3183ef7ddf54ae5b8ff2be2eb88b49a6",
       "puuid": "134d51ecf20052f805761c4dbfda88c7",
-      "title": "PCB_Trix-Loco-PCB_2",
-      "filename": "PCB_Trix-Loco-PCB_2.json",
+      "title": "PCB_Trix-Loco",
+      "filename": "PCB_Trix-Loco.json",
       "description": "",
       "docType": "3",
       "master": "",
@@ -169,11 +169,11 @@
           }
         ]
       ],
-      "updateTime": 1779618845,
+      "updateTime": 1779785285,
       "createTime": 1779283503,
       "histories": [],
       "created_at": "2026-05-20 15:25:03",
-      "updated_at": "2026-05-24 12:34:05"
+      "updated_at": "2026-05-26 10:48:05"
     }
   ],
   "sort": [],
