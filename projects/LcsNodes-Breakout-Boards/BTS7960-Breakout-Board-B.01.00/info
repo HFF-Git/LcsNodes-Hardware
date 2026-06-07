@@ -4,7 +4,7 @@
   "name": "BTS7960-Breakout-Board-B.01.00",
   "content": "",
   "created_at": "2024-02-04 14:12:29",
-  "updated_at": "2024-03-07 12:22:15",
+  "updated_at": "2026-06-05 10:18:10",
   "stick": "",
   "documents": [
     {
@@ -215,11 +215,11 @@
         "89c20b8419a6409b80c12b0065a9a5ce": 2
       },
       "BOM": [],
-      "updateTime": 1709810535,
+      "updateTime": 1780647490,
       "createTime": 1707055832,
       "histories": [],
       "created_at": "2024-02-04 15:10:32",
-      "updated_at": "2024-03-07 12:22:15"
+      "updated_at": "2026-06-05 10:18:10"
     }
   ],
   "sort": [],
