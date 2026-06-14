@@ -4,7 +4,7 @@
   "name": "LcsNodes-Quad-Block-Controller-B.02.10",
   "content": "A LCS block controller for 4 blocks, Railcom detectors and power measurement, using the PIO state machines.",
   "created_at": "2025-05-22 18:02:14",
-  "updated_at": "2026-05-22 14:25:10",
+  "updated_at": "2026-06-14 12:25:44",
   "stick": "",
   "documents": [
     {
@@ -535,7 +535,7 @@
           "100n",
           16,
           "C1206",
-          "C1,C2,C3,C4,C6,C8,C10,C11,C13,C15,C16,C18,C19,C21,C25,C29",
+          "C1,C2,C3,C4,C5,C6,C8,C10,C11,C13,C16,C17,C19,C20,C22,C26",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -547,7 +547,7 @@
           "100nF",
           1,
           "C1206",
-          "C5",
+          "C7",
           {
             "Manufacturer Part": "CC1206KKX7R0BB104",
             "Manufacturer": "YAGEO(国巨)",
@@ -556,22 +556,10 @@
           }
         ],
         [
-          "33n",
-          1,
-          "C1206",
-          "C7",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
           "220n",
           4,
           "C1206",
-          "C9,C14,C17,C22",
+          "C9,C14,C18,C23",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -583,7 +571,19 @@
           "100u",
           2,
           "CAP-D6.3×H7.7",
-          "C12,C20",
+          "C12,C21",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "33n",
+          1,
+          "C1206",
+          "C15",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -595,7 +595,7 @@
           "10u",
           2,
           "CAP-D5.0×H5.5",
-          "C23,C27",
+          "C24,C28",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -607,7 +607,7 @@
           "22u",
           2,
           "CAP-D5.0×H5.5",
-          "C24,C28",
+          "C25,C29",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -619,7 +619,7 @@
           "0,1F",
           1,
           "CAP-D12.5XF5.0",
-          "C26",
+          "C27",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -628,24 +628,24 @@
           }
         ],
         [
-          "BAT47",
-          2,
+          "3.3V",
+          4,
           "SOD-80C_L3.3-W1.5-RD",
-          "D1,D2",
+          "D1,D2,D5,D6",
           {
-            "Manufacturer Part": "1N4148",
+            "Manufacturer Part": "Diode Zener",
             "Manufacturer": "SEMTECH",
             "Supplier": "LCSC",
             "Supplier Part": "C14516"
           }
         ],
         [
-          "3.3V",
-          4,
+          "BAT47",
+          2,
           "SOD-80C_L3.3-W1.5-RD",
-          "D3,D4,D5,D6",
+          "D3,D4",
           {
-            "Manufacturer Part": "Diode Zener",
+            "Manufacturer Part": "1N4148",
             "Manufacturer": "SEMTECH",
             "Supplier": "LCSC",
             "Supplier Part": "C14516"
@@ -724,58 +724,22 @@
           }
         ],
         [
-          "4K7",
-          8,
-          "R1206",
-          "R1,R2,R10,R11,R18,R19,R34,R35",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "470",
-          3,
-          "R1206",
-          "R3,R12,R42",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "10K",
-          15,
-          "R1206",
-          "R4,R6,R7,R16,R17,R20,R21,R22,R23,R24,R25,R26,R27,R32,R33",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "120",
-          1,
-          "R1206",
-          "R5",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
           "2K2",
           2,
           "R1206",
-          "R8,R9",
+          "R1,R2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "4K7",
+          8,
+          "R1206",
+          "R3,R4,R9,R10,R18,R19,R34,R35",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -787,7 +751,43 @@
           "33",
           2,
           "R1206",
-          "R13,R14",
+          "R5,R6",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "470",
+          3,
+          "R1206",
+          "R7,R13,R42",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10K",
+          15,
+          "R1206",
+          "R8,R11,R12,R16,R17,R20,R21,R22,R23,R24,R25,R26,R27,R32,R33",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "120",
+          1,
+          "R1206",
+          "R14",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -868,22 +868,10 @@
           }
         ],
         [
-          "24FC256-I/SN",
-          1,
-          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
-          "U1",
-          {
-            "Manufacturer Part": "24FC256-I/SN",
-            "Manufacturer": "MICROCHIP(美国微芯)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C145385"
-          }
-        ],
-        [
           "Main Controller - RASPBERRY Pi Pico",
           1,
           "RASPBERRY PI PICO",
-          "U2",
+          "U1",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -892,10 +880,34 @@
           }
         ],
         [
+          "PCA9517AD,118",
+          1,
+          "SO-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U2",
+          {
+            "Manufacturer Part": "PCA9517AD,118",
+            "Manufacturer": "NXP(恩智浦)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2802638"
+          }
+        ],
+        [
+          "24FC256-I/SN",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U3",
+          {
+            "Manufacturer Part": "24FC256-I/SN",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C145385"
+          }
+        ],
+        [
           "MCP2562-H/P",
           1,
           "SOIC-8_L4.9-W3.9-P1.27-LS6.1-BL",
-          "U3",
+          "U4",
           {
             "Manufacturer Part": "MCP2562-H/P",
             "Manufacturer": "MICROCHIP(美国微芯)",
@@ -907,24 +919,12 @@
           "HCPL2631SDM",
           1,
           "SMT-8_L9.7-W6.6-P2.54-LS10.3-TR",
-          "U4",
+          "U5",
           {
             "Manufacturer Part": "HCPL2631SDM",
             "Manufacturer": "onsemi(安森美)",
             "Supplier": "LCSC",
             "Supplier Part": "C899529"
-          }
-        ],
-        [
-          "PCA9517AD,118",
-          1,
-          "SO-8_L4.9-W3.9-P1.27-LS6.0-BL",
-          "U5",
-          {
-            "Manufacturer Part": "PCA9517AD,118",
-            "Manufacturer": "NXP(恩智浦)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C2802638"
           }
         ],
         [
@@ -976,11 +976,11 @@
           }
         ]
       ],
-      "updateTime": 1779451896,
+      "updateTime": 1781431430,
       "createTime": 1676709574,
       "histories": [],
       "created_at": "2023-02-18 09:39:34",
-      "updated_at": "2026-05-22 14:11:36"
+      "updated_at": "2026-06-14 12:03:50"
     },
     {
       "uuid": "bb6fc299a3a1558c13d23876fdc61150",
@@ -1025,7 +1025,7 @@
           "100n",
           16,
           "C1206",
-          "C1,C2,C3,C4,C6,C8,C10,C11,C13,C15,C16,C18,C19,C21,C25,C29",
+          "C1,C2,C3,C4,C5,C6,C8,C10,C11,C13,C16,C17,C19,C20,C22,C26",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1037,7 +1037,7 @@
           "100nF",
           1,
           "C1206",
-          "C5",
+          "C7",
           {
             "Manufacturer Part": "CC1206KKX7R0BB104",
             "Manufacturer": "YAGEO(国巨)",
@@ -1046,22 +1046,10 @@
           }
         ],
         [
-          "33n",
-          1,
-          "C1206",
-          "C7",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
           "220n",
           4,
           "C1206",
-          "C9,C14,C17,C22",
+          "C9,C14,C18,C23",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1073,7 +1061,19 @@
           "100u",
           2,
           "CAP-D6.3×H7.7",
-          "C12,C20",
+          "C12,C21",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "33n",
+          1,
+          "C1206",
+          "C15",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1085,7 +1085,7 @@
           "10u",
           2,
           "CAP-D5.0×H5.5",
-          "C23,C27",
+          "C24,C28",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1097,7 +1097,7 @@
           "22u",
           2,
           "CAP-D5.0×H5.5",
-          "C24,C28",
+          "C25,C29",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1109,7 +1109,7 @@
           "0,1F",
           1,
           "CAP-D12.5XF5.0",
-          "C26",
+          "C27",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1118,24 +1118,24 @@
           }
         ],
         [
-          "BAT47",
-          2,
+          "3.3V",
+          4,
           "SOD-80C_L3.3-W1.5-RD",
-          "D1,D2",
+          "D1,D2,D5,D6",
           {
-            "Manufacturer Part": "1N4148",
+            "Manufacturer Part": "Diode Zener",
             "Manufacturer": "SEMTECH",
             "Supplier": "LCSC",
             "Supplier Part": "C14516"
           }
         ],
         [
-          "3.3V",
-          4,
+          "BAT47",
+          2,
           "SOD-80C_L3.3-W1.5-RD",
-          "D3,D4,D5,D6",
+          "D3,D4",
           {
-            "Manufacturer Part": "Diode Zener",
+            "Manufacturer Part": "1N4148",
             "Manufacturer": "SEMTECH",
             "Supplier": "LCSC",
             "Supplier Part": "C14516"
@@ -1214,58 +1214,22 @@
           }
         ],
         [
-          "4K7",
-          8,
-          "R1206",
-          "R1,R2,R10,R11,R18,R19,R34,R35",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "470",
-          3,
-          "R1206",
-          "R3,R12,R42",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "10K",
-          15,
-          "R1206",
-          "R4,R6,R7,R16,R17,R20,R21,R22,R23,R24,R25,R26,R27,R32,R33",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "120",
-          1,
-          "R1206",
-          "R5",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
           "2K2",
           2,
           "R1206",
-          "R8,R9",
+          "R1,R2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "4K7",
+          8,
+          "R1206",
+          "R3,R4,R9,R10,R18,R19,R34,R35",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1277,7 +1241,43 @@
           "33",
           2,
           "R1206",
-          "R13,R14",
+          "R5,R6",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "470",
+          3,
+          "R1206",
+          "R7,R13,R42",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10K",
+          15,
+          "R1206",
+          "R8,R11,R12,R16,R17,R20,R21,R22,R23,R24,R25,R26,R27,R32,R33",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "120",
+          1,
+          "R1206",
+          "R14",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1358,22 +1358,10 @@
           }
         ],
         [
-          "24FC256-I/SN",
-          1,
-          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
-          "U1",
-          {
-            "Manufacturer Part": "24FC256-I/SN",
-            "Manufacturer": "MICROCHIP(美国微芯)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C145385"
-          }
-        ],
-        [
           "Main Controller - RASPBERRY Pi Pico",
           1,
           "RASPBERRY PI PICO",
-          "U2",
+          "U1",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1382,10 +1370,34 @@
           }
         ],
         [
+          "PCA9517AD,118",
+          1,
+          "SO-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U2",
+          {
+            "Manufacturer Part": "PCA9517AD,118",
+            "Manufacturer": "NXP(恩智浦)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2802638"
+          }
+        ],
+        [
+          "24FC256-I/SN",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U3",
+          {
+            "Manufacturer Part": "24FC256-I/SN",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C145385"
+          }
+        ],
+        [
           "MCP2562-H/P",
           1,
           "SOIC-8_L4.9-W3.9-P1.27-LS6.1-BL",
-          "U3",
+          "U4",
           {
             "Manufacturer Part": "MCP2562-H/P",
             "Manufacturer": "MICROCHIP(美国微芯)",
@@ -1397,24 +1409,12 @@
           "HCPL2631SDM",
           1,
           "SMT-8_L9.7-W6.6-P2.54-LS10.3-TR",
-          "U4",
+          "U5",
           {
             "Manufacturer Part": "HCPL2631SDM",
             "Manufacturer": "onsemi(安森美)",
             "Supplier": "LCSC",
             "Supplier Part": "C899529"
-          }
-        ],
-        [
-          "PCA9517AD,118",
-          1,
-          "SO-8_L4.9-W3.9-P1.27-LS6.0-BL",
-          "U5",
-          {
-            "Manufacturer Part": "PCA9517AD,118",
-            "Manufacturer": "NXP(恩智浦)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C2802638"
           }
         ],
         [
@@ -1466,11 +1466,11 @@
           }
         ]
       ],
-      "updateTime": 1779452426,
+      "updateTime": 1781431430,
       "createTime": 1676709584,
       "histories": [],
       "created_at": "2023-02-18 09:39:44",
-      "updated_at": "2026-05-22 14:20:26"
+      "updated_at": "2026-06-14 12:03:50"
     },
     {
       "uuid": "b20a02e3ac127ac2b1db1d08c35d2de6",
@@ -1514,9 +1514,9 @@
         ],
         [
           "100n",
-          15,
+          16,
           "C1206",
-          "C1,C2,C3,C4,C6,C8,C10,C11,C13,C15,C16,C18,C19,C21,C25",
+          "C1,C2,C3,C4,C5,C6,C8,C10,C11,C13,C16,C17,C19,C20,C22,C26",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1528,7 +1528,7 @@
           "100nF",
           1,
           "C1206",
-          "C5",
+          "C7",
           {
             "Manufacturer Part": "CC1206KKX7R0BB104",
             "Manufacturer": "YAGEO(国巨)",
@@ -1537,22 +1537,10 @@
           }
         ],
         [
-          "33n",
-          1,
-          "C1206",
-          "C7",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
           "220n",
           4,
           "C1206",
-          "C9,C14,C17,C22",
+          "C9,C14,C18,C23",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1564,7 +1552,19 @@
           "100u",
           2,
           "CAP-D6.3×H7.7",
-          "C12,C20",
+          "C12,C21",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "33n",
+          1,
+          "C1206",
+          "C15",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1576,7 +1576,7 @@
           "10u",
           2,
           "CAP-D5.0×H5.5",
-          "C23,C27",
+          "C24,C28",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1588,7 +1588,7 @@
           "22u",
           2,
           "CAP-D5.0×H5.5",
-          "C24,C28",
+          "C25,C29",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1600,7 +1600,7 @@
           "0,1F",
           1,
           "CAP-D12.5XF5.0",
-          "C26",
+          "C27",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1609,24 +1609,24 @@
           }
         ],
         [
-          "BAT47",
-          2,
+          "3.3V",
+          4,
           "SOD-80C_L3.3-W1.5-RD",
-          "D1,D2",
+          "D1,D2,D5,D6",
           {
-            "Manufacturer Part": "1N4148",
+            "Manufacturer Part": "Diode Zener",
             "Manufacturer": "SEMTECH",
             "Supplier": "LCSC",
             "Supplier Part": "C14516"
           }
         ],
         [
-          "3.3V",
-          4,
+          "BAT47",
+          2,
           "SOD-80C_L3.3-W1.5-RD",
-          "D3,D4,D5,D6",
+          "D3,D4",
           {
-            "Manufacturer Part": "Diode Zener",
+            "Manufacturer Part": "1N4148",
             "Manufacturer": "SEMTECH",
             "Supplier": "LCSC",
             "Supplier Part": "C14516"
@@ -1705,58 +1705,22 @@
           }
         ],
         [
-          "4K7",
-          8,
-          "R1206",
-          "R1,R2,R10,R11,R18,R19,R34,R35",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "470",
-          3,
-          "R1206",
-          "R3,R12,R42",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "10K",
-          15,
-          "R1206",
-          "R4,R6,R7,R16,R17,R20,R21,R22,R23,R24,R25,R26,R27,R32,R33",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "120",
-          1,
-          "R1206",
-          "R5",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
           "2K2",
           2,
           "R1206",
-          "R8,R9",
+          "R1,R2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "4K7",
+          8,
+          "R1206",
+          "R3,R4,R9,R10,R18,R19,R34,R35",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1768,7 +1732,43 @@
           "33",
           2,
           "R1206",
-          "R13,R14",
+          "R5,R6",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "470",
+          3,
+          "R1206",
+          "R7,R13,R42",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "10K",
+          15,
+          "R1206",
+          "R8,R11,R12,R16,R17,R20,R21,R22,R23,R24,R25,R26,R27,R32,R33",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "120",
+          1,
+          "R1206",
+          "R14",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1849,22 +1849,10 @@
           }
         ],
         [
-          "24FC256-I/SN",
-          1,
-          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
-          "U1",
-          {
-            "Manufacturer Part": "24FC256-I/SN",
-            "Manufacturer": "MICROCHIP(美国微芯)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C145385"
-          }
-        ],
-        [
           "Main Controller - RASPBERRY Pi Pico",
           1,
           "RASPBERRY PI PICO",
-          "U2",
+          "U1",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1873,10 +1861,34 @@
           }
         ],
         [
+          "PCA9517AD,118",
+          1,
+          "SO-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U2",
+          {
+            "Manufacturer Part": "PCA9517AD,118",
+            "Manufacturer": "NXP(恩智浦)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2802638"
+          }
+        ],
+        [
+          "24FC256-I/SN",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U3",
+          {
+            "Manufacturer Part": "24FC256-I/SN",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C145385"
+          }
+        ],
+        [
           "MCP2562-H/P",
           1,
           "SOIC-8_L4.9-W3.9-P1.27-LS6.1-BL",
-          "U3",
+          "U4",
           {
             "Manufacturer Part": "MCP2562-H/P",
             "Manufacturer": "MICROCHIP(美国微芯)",
@@ -1888,24 +1900,12 @@
           "HCPL2631SDM",
           1,
           "SMT-8_L9.7-W6.6-P2.54-LS10.3-TR",
-          "U4",
+          "U5",
           {
             "Manufacturer Part": "HCPL2631SDM",
             "Manufacturer": "onsemi(安森美)",
             "Supplier": "LCSC",
             "Supplier Part": "C899529"
-          }
-        ],
-        [
-          "PCA9517AD,118",
-          1,
-          "SO-8_L4.9-W3.9-P1.27-LS6.0-BL",
-          "U5",
-          {
-            "Manufacturer Part": "PCA9517AD,118",
-            "Manufacturer": "NXP(恩智浦)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C2802638"
           }
         ],
         [
@@ -1957,11 +1957,11 @@
           }
         ]
       ],
-      "updateTime": 1777903872,
+      "updateTime": 1781431430,
       "createTime": 1676710041,
       "histories": [],
       "created_at": "2023-02-18 09:47:21",
-      "updated_at": "2026-05-04 16:11:12"
+      "updated_at": "2026-06-14 12:03:50"
     },
     {
       "uuid": "ede4b8558f6c207d83ac7731c739e1eb",
@@ -1976,8 +1976,6 @@
         "91e8625ab54d4b48a78457e6f8258781": 1,
         "7bdec8012728462a85919a4d0d033579": 22,
         "e0f45a5edd25471dacc10f351b436550": 2,
-        "2897ea2aed674deb8892c3862bcaddea": 4,
-        "6295c07e15584ea3b3052d80635b272b": 1,
         "f6e7bbafc8d6494ea48c85ec766fa6c7": 6,
         "906c99ea5dec4828b079c976cc1781e8": 3,
         "70aa5812f21f4991bf427395d51849f4": 2,
@@ -1986,16 +1984,18 @@
         "48f726f118674c1c98ad35c23ffe8764": 1,
         "8e9b1be4bcb6420dbd1d09bf04b02792": 39,
         "960b5f1425a648b69804b12510e06d86": 4,
-        "806a55eb4d3c40ab838f70f86785d85e": 1,
-        "6adf0d677d7c4bf29b8711760efc3b51": 1,
-        "1012bfc264ed4c3c95b7659697ddf346": 1,
-        "489d6e0dac1348e3a91c03e101947bd4": 1,
-        "4562040c16044a2993e405db2eededc5": 1,
         "37a711dd47574887bb799f651f3c2b95": 2,
         "a8900ab4ae48436ba0de172f68fa28d9": 4,
         "6d56825aeea34995ac0791ce3b2142b9": 1,
         "1c34cd829c754d4281bf2e17f44685f7": 2,
-        "eebc7cac7529492182eedbd79c1598e9": 1
+        "eebc7cac7529492182eedbd79c1598e9": 1,
+        "2897ea2aed674deb8892c3862bcaddea": 4,
+        "6295c07e15584ea3b3052d80635b272b": 1,
+        "6adf0d677d7c4bf29b8711760efc3b51": 1,
+        "4562040c16044a2993e405db2eededc5": 1,
+        "806a55eb4d3c40ab838f70f86785d85e": 1,
+        "1012bfc264ed4c3c95b7659697ddf346": 1,
+        "489d6e0dac1348e3a91c03e101947bd4": 1
       },
       "BOM": [
         [
@@ -2546,11 +2546,11 @@
           }
         ]
       ],
-      "updateTime": 1779452710,
+      "updateTime": 1781432744,
       "createTime": 1777016497,
       "histories": [],
       "created_at": "2026-04-24 09:41:37",
-      "updated_at": "2026-05-22 14:25:10"
+      "updated_at": "2026-06-14 12:25:44"
     }
   ],
   "sort": [
@@ -2562,5 +2562,5 @@
   "title": "LcsNodes-Quad-Block-Controller-B.02.10",
   "foldername": "LcsNodes-Quad-Block-Controller-B.02.10",
   "schfilename": "LcsNodes-Quad-Block-Controller-B.02.10.json",
-  "schfilemtime": 1779452426085
+  "schfilemtime": 1781431430968
 }
