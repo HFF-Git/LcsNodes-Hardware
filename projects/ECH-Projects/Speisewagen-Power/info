@@ -4,7 +4,7 @@
   "name": "Speisewagen-Power",
   "content": "",
   "created_at": "2026-03-22 09:21:25",
-  "updated_at": "2026-06-14 10:55:36",
+  "updated_at": "2026-06-24 13:41:17",
   "stick": "",
   "documents": [
     {
@@ -18,8 +18,8 @@
         "d70a894de46d4c61b093a8ef71582328": 1,
         "23300f13f2054d738b7a35314f7cf245": 1,
         "634ae0708c864314a9d82092a0dda918": 1,
-        "eb44bf09e3fa6c8e0cb6323d52703c99": 1,
-        "16c08dbbc76b41d2904b22e7fcae3b14": 2
+        "16c08dbbc76b41d2904b22e7fcae3b14": 2,
+        "eb44bf09e3fa6c8e0cb6323d52703c99": 1
       },
       "BOM": [
         [
@@ -102,11 +102,11 @@
           }
         ]
       ],
-      "updateTime": 1779953498,
+      "updateTime": 1782301277,
       "createTime": 1774167686,
       "histories": [],
       "created_at": "2026-03-22 09:21:26",
-      "updated_at": "2026-05-28 09:31:38"
+      "updated_at": "2026-06-24 13:41:17"
     },
     {
       "uuid": "bd8bf9b7b88738974f0cacb0ca58bec0",
@@ -203,5 +203,5 @@
   "title": "Speisewagen-Power",
   "foldername": "Speisewagen-Power",
   "schfilename": "Speisewagen-Power.json",
-  "schfilemtime": 1779953498823
+  "schfilemtime": 1782301278015
 }
