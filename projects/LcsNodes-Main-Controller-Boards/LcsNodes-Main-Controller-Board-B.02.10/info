@@ -4,7 +4,7 @@
   "name": "LcsNodes-Main-Controller-Board-B.02.10",
   "content": "LcsNodes main Controller board with PICO, new PCB format.",
   "created_at": "2026-01-30 11:22:46",
-  "updated_at": "2026-06-15 15:41:53",
+  "updated_at": "2026-07-01 13:09:08",
   "stick": "",
   "documents": [
     {
@@ -14,11 +14,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1781530843,
+      "updateTime": 1782903280,
       "createTime": 1693213366,
       "histories": [],
       "created_at": "2023-08-28 11:02:46",
-      "updated_at": "2026-06-15 15:40:43",
+      "updated_at": "2026-07-01 12:54:40",
       "BOM": [
         [
           "Value",
@@ -409,11 +409,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1781339450,
+      "updateTime": 1782903350,
       "createTime": 1693213366,
       "histories": [],
       "created_at": "2023-08-28 11:02:46",
-      "updated_at": "2026-06-13 10:30:50",
+      "updated_at": "2026-07-01 12:55:50",
       "BOM": [
         [
           "Value",
@@ -823,11 +823,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1781530843,
+      "updateTime": 1782904046,
       "createTime": 1693213366,
       "histories": [],
       "created_at": "2023-08-28 11:02:46",
-      "updated_at": "2026-06-15 15:40:43",
+      "updated_at": "2026-07-01 13:07:26",
       "BOM": [
         [
           "Value",
@@ -933,22 +933,10 @@
           }
         ],
         [
-          "HDR-F-2.54_1x2",
-          1,
-          "HDR-F-2.54_1X2",
-          "H1",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "LCSC",
-            "Supplier Part": "C49661"
-          }
-        ],
-        [
           "HDR-M-2.54_1x2",
-          2,
+          3,
           "HDR-M-2.54_1X2",
-          "J1,J3",
+          "H1,J1,J3",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1230,10 +1218,10 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "70aa5812f21f4991bf427395d51849f4": 3,
         "eebc7cac7529492182eedbd79c1598e9": 1,
         "2ce37f022c42417db5d6f92690355fca": 1,
         "7bdec8012728462a85919a4d0d033579": 7,
-        "36b1306a115341f4b4d9407fb34974e0": 1,
         "8e9b1be4bcb6420dbd1d09bf04b02792": 47,
         "f6e7bbafc8d6494ea48c85ec766fa6c7": 2,
         "6295c07e15584ea3b3052d80635b272b": 1,
@@ -1248,7 +1236,6 @@
         "6adf0d677d7c4bf29b8711760efc3b51": 1,
         "806a55eb4d3c40ab838f70f86785d85e": 1,
         "1c34cd829c754d4281bf2e17f44685f7": 2,
-        "70aa5812f21f4991bf427395d51849f4": 2,
         "48f726f118674c1c98ad35c23ffe8764": 1
       },
       "BOM": [
@@ -1596,11 +1583,11 @@
           }
         ]
       ],
-      "updateTime": 1781530913,
+      "updateTime": 1782904148,
       "createTime": 1736936224,
       "histories": [],
       "created_at": "2025-01-15 11:17:04",
-      "updated_at": "2026-06-15 15:41:53"
+      "updated_at": "2026-07-01 13:09:08"
     }
   ],
   "sort": [
@@ -1611,5 +1598,5 @@
   "title": "LcsNodes-Main-Controller-Board-B.02.10",
   "foldername": "LcsNodes-Main-Controller-Board-B.02.10",
   "schfilename": "LcsNodes-Main-Controller-Board-B.02.10.json",
-  "schfilemtime": 1781530844009
+  "schfilemtime": 1782904046546
 }
