@@ -4,7 +4,7 @@
   "name": "LcsNodes-Base-Station-Board-B.02.10",
   "content": "A Raspberry Pi Pico based DCC base station. \n- RPico, CanBus, NVM, L6205 Power Module, RailCom Detector",
   "created_at": "2026-03-12 16:18:00",
-  "updated_at": "2026-06-15 15:38:21",
+  "updated_at": "2026-07-02 09:45:26",
   "stick": "",
   "documents": [
     {
@@ -14,11 +14,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1776845230,
+      "updateTime": 1782978326,
       "createTime": 1697360463,
       "histories": [],
       "created_at": "2023-10-15 11:01:03",
-      "updated_at": "2026-04-22 10:07:10",
+      "updated_at": "2026-07-02 09:45:26",
       "BOM": [
         [
           "Value",
@@ -43,7 +43,7 @@
           "100n",
           12,
           "C1206",
-          "C1,C2,C3,C4,C5,C6,C8,C9,C12,C14,C16,C19",
+          "C1,C2,C3,C4,C5,C6,C9,C10,C12,C14,C16,C19",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -67,7 +67,7 @@
           "220n",
           3,
           "C1206",
-          "C10,C13,C15",
+          "C8,C13,C15",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -124,7 +124,7 @@
           }
         ],
         [
-          "1N4148",
+          "BAT47",
           2,
           "SOD-80C_L3.3-W1.5-RD",
           "D1,D2",
@@ -148,15 +148,15 @@
           }
         ],
         [
-          "ZMM5V1_C707194",
+          "P4SMAJ5.0ADF-13",
           1,
-          "LL-34_L3.5-W1.5-RD",
+          "D-FLAT_L4.3-W2.6-LS5.3-RD",
           "D6",
           {
-            "Manufacturer Part": "ZMM5V1",
-            "Manufacturer": "Slkor(萨科微)",
+            "Manufacturer Part": "P4SMAJ5.0ADF-13",
+            "Manufacturer": "DIODES(美台)",
             "Supplier": "LCSC",
-            "Supplier Part": "C707194"
+            "Supplier Part": "C526690"
           }
         ],
         [
@@ -208,22 +208,10 @@
           }
         ],
         [
-          "4K7",
-          7,
-          "R1206",
-          "R1,R2,R6,R7,R15,R16,R53",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
           "10K",
           6,
           "R1206",
-          "R3,R13,R14,R29,R30,R52",
+          "R1,R13,R14,R29,R30,R52",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -235,7 +223,19 @@
           "2K2",
           2,
           "R1206",
-          "R4,R5",
+          "R2,R3",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "4K7",
+          7,
+          "R1206",
+          "R4,R5,R8,R9,R15,R16,R53",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -247,7 +247,7 @@
           "33",
           2,
           "R1206",
-          "R8,R9",
+          "R6,R7",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2104,11 +2104,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1781530577,
+      "updateTime": 1782977863,
       "createTime": 1697360463,
       "histories": [],
       "created_at": "2023-10-15 11:01:03",
-      "updated_at": "2026-06-15 15:36:17",
+      "updated_at": "2026-07-02 09:37:43",
       "BOM": [
         [
           "Value",
@@ -2634,11 +2634,11 @@
       "docType": "3",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1781530701,
+      "updateTime": 1782977813,
       "createTime": 1697360719,
       "histories": [],
       "created_at": "2023-10-15 11:05:19",
-      "updated_at": "2026-06-15 15:38:21",
+      "updated_at": "2026-07-02 09:36:53",
       "components": {
         "eebc7cac7529492182eedbd79c1598e9": 1,
         "7bdec8012728462a85919a4d0d033579": 16,
@@ -2675,5 +2675,5 @@
   "title": "LcsNodes-Base-Station-Board-B.02.10",
   "foldername": "LcsNodes-Base-Station-Board-B.02.10",
   "schfilename": "LcsNodes-Base-Station-Board-B.02.10.json",
-  "schfilemtime": 1781530577333
+  "schfilemtime": 1782978326946
 }
