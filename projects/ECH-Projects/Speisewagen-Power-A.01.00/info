@@ -1,0 +1,207 @@
+{
+  "uuid": "f4fa3e56a67f41105b55f8da2757bd5d",
+  "path": "Offline/Speisewagen-Power-A.01.00",
+  "name": "Speisewagen-Power-A.01.00",
+  "content": "",
+  "created_at": "2026-03-22 09:21:25",
+  "updated_at": "2026-07-04 09:16:23",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "ac60c9d5b00545f420b493fc47c783dc",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "d70a894de46d4c61b093a8ef71582328": 1,
+        "23300f13f2054d738b7a35314f7cf245": 1,
+        "634ae0708c864314a9d82092a0dda918": 1,
+        "16c08dbbc76b41d2904b22e7fcae3b14": 2,
+        "eb44bf09e3fa6c8e0cb6323d52703c99": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "330nF",
+          1,
+          "C0805",
+          "C1",
+          {
+            "Manufacturer Part": "AC0805KKX7R8BB334",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2237514"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "C0805",
+          "C2",
+          {
+            "Manufacturer Part": "AC0805KRX7R9BB104",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C277502"
+          }
+        ],
+        [
+          "MB1S-TP",
+          1,
+          "MBS_L4.7-W4.0-P2.40-LS7.0-BL_MB4S",
+          "D1",
+          {
+            "Manufacturer Part": "MB1S-TP",
+            "Manufacturer": "MCC(美微科)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C507294"
+          }
+        ],
+        [
+          "100Ω",
+          1,
+          "R0805",
+          "R1",
+          {
+            "Manufacturer Part": "RT0805FRD07100RL",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C143843"
+          }
+        ],
+        [
+          "4K7",
+          1,
+          "R0805",
+          "R2",
+          {
+            "Manufacturer Part": "RT0805FRD07100RL",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C143843"
+          }
+        ],
+        [
+          "L78L05ACUTR",
+          1,
+          "SOT-89-3_L4.5-W2.5-P1.50-LS4.2-TL",
+          "U1",
+          {
+            "Manufacturer Part": "L78L05ACUTR",
+            "Manufacturer": "ST(意法半导体)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C43116"
+          }
+        ]
+      ],
+      "updateTime": 1782301277,
+      "createTime": 1774167686,
+      "histories": [],
+      "created_at": "2026-03-22 09:21:26",
+      "updated_at": "2026-06-24 13:41:17"
+    },
+    {
+      "uuid": "bd8bf9b7b88738974f0cacb0ca58bec0",
+      "puuid": "f4fa3e56a67f41105b55f8da2757bd5d",
+      "title": "PCB_Speisewagen-Power-A.01.00",
+      "filename": "PCB_Speisewagen-Power-A.01.00.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "b60f399a7a7e41848b2be1eb49c79141": 2,
+        "2ee8eb13a0124a108e622ce40c0c25a8": 2,
+        "78bceec4000c401c8ca0a540a24beebd": 1,
+        "7c957719e93b4542a30b0211217a121d": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "0.1u",
+          1,
+          "C0805",
+          "C2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "0.33u",
+          1,
+          "C0805",
+          "C3",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "MB1S-TP",
+          1,
+          "MBS_L4.7-W4.0-P2.40-LS7.0-BL_MB4S",
+          "D1",
+          {
+            "Manufacturer Part": "MB1S-TP",
+            "Manufacturer": "MCC(美微科)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C507294"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R0805",
+          "R1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "L78L05ACUTR-CN",
+          1,
+          "SOT-89-3_L4.5-W2.4-P1.50-LS4.0-BR",
+          "U1",
+          {
+            "Manufacturer Part": "L78L05ACUTR-CN",
+            "Manufacturer": "ChipNobo(无边界)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C42419949"
+          }
+        ]
+      ],
+      "updateTime": 1781427336,
+      "createTime": 1774168521,
+      "histories": [],
+      "created_at": "2026-03-22 09:35:21",
+      "updated_at": "2026-06-14 10:55:36"
+    }
+  ],
+  "sort": [],
+  "title": "Speisewagen-Power-A.01.00",
+  "foldername": "Speisewagen-Power-A.01.00",
+  "schfilename": "Speisewagen-Power-A.01.00.json",
+  "schfilemtime": 1782301278015
+}

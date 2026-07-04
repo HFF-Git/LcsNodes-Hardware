@@ -1,14 +1,14 @@
 {
-  "uuid": "f4fa3e56a67f41105b55f8da2757bd5d",
-  "path": "Offline/Speisewagen-Power",
-  "name": "Speisewagen-Power",
+  "uuid": "c81b59a08c495845f9e6736383897e1b",
+  "path": "Offline/Speisewagen-Power-A.01.10",
+  "name": "Speisewagen-Power-A.01.10",
   "content": "",
-  "created_at": "2026-03-22 09:21:25",
-  "updated_at": "2026-06-24 13:41:17",
+  "created_at": "2026-07-04 09:15:12",
+  "updated_at": "2026-07-04 09:36:33",
   "stick": "",
   "documents": [
     {
-      "uuid": "ac60c9d5b00545f420b493fc47c783dc",
+      "uuid": "1d04017c539b86782f1332bb77fdf800",
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
@@ -19,7 +19,8 @@
         "23300f13f2054d738b7a35314f7cf245": 1,
         "634ae0708c864314a9d82092a0dda918": 1,
         "16c08dbbc76b41d2904b22e7fcae3b14": 2,
-        "eb44bf09e3fa6c8e0cb6323d52703c99": 1
+        "eb44bf09e3fa6c8e0cb6323d52703c99": 1,
+        "78e17fa83fef4241af2ba017b86fc265": 1
       },
       "BOM": [
         [
@@ -66,6 +67,18 @@
           }
         ],
         [
+          "BAS85",
+          1,
+          "LL-34_L3.5-W1.5-RD",
+          "D2",
+          {
+            "Manufacturer Part": "BAS85",
+            "Manufacturer": "SHIKUES(时科)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C475619"
+          }
+        ],
+        [
           "100Ω",
           1,
           "R0805",
@@ -102,22 +115,22 @@
           }
         ]
       ],
-      "updateTime": 1782301277,
+      "updateTime": 1783149633,
       "createTime": 1774167686,
       "histories": [],
       "created_at": "2026-03-22 09:21:26",
-      "updated_at": "2026-06-24 13:41:17"
+      "updated_at": "2026-07-04 09:20:33"
     },
     {
-      "uuid": "bd8bf9b7b88738974f0cacb0ca58bec0",
-      "puuid": "f4fa3e56a67f41105b55f8da2757bd5d",
-      "title": "PCB_Speisewagen-Power",
-      "filename": "PCB_Speisewagen-Power.json",
+      "uuid": "c827718a0de5a81bfcb81cd0239b1c6d",
+      "title": "PCB_Speisewagen-Power-A.01.10",
+      "filename": "PCB_Speisewagen-Power-A.01.10.json",
       "description": "",
       "docType": "3",
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "b4b5e120d2f0444981b8be27d5c062ab": 1,
         "b60f399a7a7e41848b2be1eb49c79141": 2,
         "2ee8eb13a0124a108e622ce40c0c25a8": 2,
         "78bceec4000c401c8ca0a540a24beebd": 1,
@@ -192,16 +205,16 @@
           }
         ]
       ],
-      "updateTime": 1781427336,
+      "updateTime": 1783150593,
       "createTime": 1774168521,
       "histories": [],
       "created_at": "2026-03-22 09:35:21",
-      "updated_at": "2026-06-14 10:55:36"
+      "updated_at": "2026-07-04 09:36:33"
     }
   ],
   "sort": [],
-  "title": "Speisewagen-Power",
-  "foldername": "Speisewagen-Power",
-  "schfilename": "Speisewagen-Power.json",
-  "schfilemtime": 1782301278015
+  "title": "Speisewagen-Power-A.01.10",
+  "foldername": "Speisewagen-Power-A.01.10",
+  "schfilename": "Speisewagen-Power-A.01.10.json",
+  "schfilemtime": 1783149633678
 }
