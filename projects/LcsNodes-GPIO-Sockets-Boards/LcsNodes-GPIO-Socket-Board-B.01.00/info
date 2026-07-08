@@ -4,7 +4,7 @@
   "name": "LcsNodes-GPIO-Socket-Board-B.01.00",
   "content": "",
   "created_at": "2026-01-30 10:53:32",
-  "updated_at": "2026-06-07 12:42:23",
+  "updated_at": "2026-07-06 17:48:28",
   "stick": "",
   "documents": [
     {
@@ -40,7 +40,7 @@
           "100n",
           5,
           "C1206",
-          "C1,C2,C3,C4,C8",
+          "C1,C2,C3,C4,C7",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -64,7 +64,7 @@
           "330n",
           1,
           "C1206",
-          "C7",
+          "C6",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -145,10 +145,10 @@
           }
         ],
         [
-          "330",
-          8,
+          "100",
+          1,
           "R1206",
-          "R6,R8,R10,R11,R12,R13,R14,R15",
+          "R6",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -157,7 +157,7 @@
           }
         ],
         [
-          "100",
+          "10K",
           1,
           "R1206",
           "R7",
@@ -172,7 +172,7 @@
           "470",
           1,
           "R1206",
-          "R9",
+          "R8",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -181,10 +181,10 @@
           }
         ],
         [
-          "10K",
-          1,
+          "330",
+          8,
           "R1206",
-          "R16",
+          "R9,R10,R11,R12,R13,R14,R15,R16",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -196,7 +196,7 @@
           "TERMINAL_BLOCK_8P_2.54",
           1,
           "TERMINALBLOCK_PHEONIX_MPT-2.54MM_8POL",
-          "TB2",
+          "TB1",
           {
             "Manufacturer Part": "Headers  Pins2.54mm1*10P",
             "Manufacturer": "",
@@ -241,35 +241,35 @@
           }
         ],
         [
-          "LCS-SYM-SOCKET-B.01.00",
-          1,
-          "LCS-FP-SOCKET-5X8-B.01.00",
-          "U4",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": "N/A"
-          }
-        ],
-        [
           "YLED1206Y",
           1,
           "LED1206-RD",
-          "U5",
+          "U4",
           {
             "Manufacturer Part": "YLED1206G",
             "Manufacturer": "YONGYUTAI(永裕泰)",
             "Supplier": "LCSC",
             "Supplier Part": "C30584801"
           }
+        ],
+        [
+          "LCS-SYM-SOCKET-B.01.00",
+          1,
+          "LCS-FP-SOCKET-5X8-B.01.00",
+          "U5",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": "N/A"
+          }
         ]
       ],
-      "updateTime": 1780828234,
+      "updateTime": 1783352863,
       "createTime": 1768574830,
       "histories": [],
       "created_at": "2026-01-16 15:47:10",
-      "updated_at": "2026-06-07 12:30:34"
+      "updated_at": "2026-07-06 17:47:43"
     },
     {
       "uuid": "8316bc4aa0afd598700a9889592ba343",
@@ -280,18 +280,18 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "7bdec8012728462a85919a4d0d033579": 6,
+        "b4b5e120d2f0444981b8be27d5c062ab": 8,
         "8e9b1be4bcb6420dbd1d09bf04b02792": 16,
+        "bfd5401b28f5435f9cb163dcbbdfd6ef": 1,
+        "3f21a2531f5a413d88c730f61daca683": 1,
         "a9365711ea424a23a2a8814fe67a59ce": 1,
         "b574e855968441af83de61d07ab4c524": 1,
-        "b4b5e120d2f0444981b8be27d5c062ab": 8,
-        "bfd5401b28f5435f9cb163dcbbdfd6ef": 1,
-        "7bdec8012728462a85919a4d0d033579": 6,
         "282f7786cb6144d097ae00194c3e3fb3": 1,
         "906c99ea5dec4828b079c976cc1781e8": 1,
         "34cb534d0973454b8c5658c36d769ab4": 1,
         "113c1703fbf348be9a4f3b4b916879c8": 1,
-        "0f2364c02f094100b1b3205c9d829099": 1,
-        "3f21a2531f5a413d88c730f61daca683": 1
+        "0f2364c02f094100b1b3205c9d829099": 1
       },
       "BOM": [
         [
@@ -446,16 +446,16 @@
           }
         ]
       ],
-      "updateTime": 1780828943,
+      "updateTime": 1783352908,
       "createTime": 1768576708,
       "histories": [],
       "created_at": "2026-01-16 16:18:28",
-      "updated_at": "2026-06-07 12:42:23"
+      "updated_at": "2026-07-06 17:48:28"
     }
   ],
   "sort": [],
   "title": "LcsNodes-GPIO-Socket-Board-B.01.00",
   "foldername": "LcsNodes-GPIO-Socket-Board-B.01.00",
   "schfilename": "LcsNodes-GPIO-Socket-Board-B.01.00.json",
-  "schfilemtime": 1780828234422
+  "schfilemtime": 1783352863094
 }

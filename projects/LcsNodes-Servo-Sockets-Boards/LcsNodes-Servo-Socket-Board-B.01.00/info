@@ -4,7 +4,7 @@
   "name": "LcsNodes-Servo-Socket-Board-B.01.00",
   "content": "",
   "created_at": "2026-03-29 10:50:32",
-  "updated_at": "2026-06-15 13:00:33",
+  "updated_at": "2026-07-06 17:50:29",
   "stick": "",
   "documents": [
     {
@@ -217,6 +217,18 @@
           }
         ],
         [
+          "ATTINY1614-SSNR",
+          1,
+          "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+          "U3",
+          {
+            "Manufacturer Part": "ATTINY1614-SSNR",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C481364"
+          }
+        ],
+        [
           "LCS-SYM-SOCKET-B.01.00",
           1,
           "LCS-FP-SOCKET-5X8-B.01.00",
@@ -239,25 +251,13 @@
             "Supplier": "LCSC",
             "Supplier Part": "C30584801"
           }
-        ],
-        [
-          "ATTINY1614-SSNR",
-          1,
-          "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
-          "U6",
-          {
-            "Manufacturer Part": "ATTINY1614-SSNR",
-            "Manufacturer": "MICROCHIP(美国微芯)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C481364"
-          }
         ]
       ],
-      "updateTime": 1780830144,
+      "updateTime": 1783352981,
       "createTime": 1768574830,
       "histories": [],
       "created_at": "2026-01-16 15:47:10",
-      "updated_at": "2026-06-07 13:02:24"
+      "updated_at": "2026-07-06 17:49:41"
     },
     {
       "uuid": "056418a9db094bb050f0a0f2c9d2f254",
@@ -268,9 +268,9 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 16,
         "0f2364c02f094100b1b3205c9d829099": 1,
         "2ce37f022c42417db5d6f92690355fca": 8,
-        "8e9b1be4bcb6420dbd1d09bf04b02792": 16,
         "7bdec8012728462a85919a4d0d033579": 6,
         "02d834a4b47b47e099e50c9cb0b52da8": 2,
         "282f7786cb6144d097ae00194c3e3fb3": 1,
@@ -434,16 +434,16 @@
           }
         ]
       ],
-      "updateTime": 1781521233,
+      "updateTime": 1783353029,
       "createTime": 1768576708,
       "histories": [],
       "created_at": "2026-01-16 16:18:28",
-      "updated_at": "2026-06-15 13:00:33"
+      "updated_at": "2026-07-06 17:50:29"
     }
   ],
   "sort": [],
   "title": "LcsNodes-Servo-Socket-Board-B.01.00",
   "foldername": "LcsNodes-Servo-Socket-Board-B.01.00",
   "schfilename": "LcsNodes-Servo-Socket-Board-B.01.00.json",
-  "schfilemtime": 1780830144472
+  "schfilemtime": 1783352981951
 }
