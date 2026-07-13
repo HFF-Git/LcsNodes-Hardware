@@ -4,7 +4,7 @@
   "name": "Speisewagen-Power-A.01.10",
   "content": "",
   "created_at": "2026-07-04 09:15:12",
-  "updated_at": "2026-07-04 09:36:33",
+  "updated_at": "2026-07-13 16:54:16",
   "stick": "",
   "documents": [
     {
@@ -55,22 +55,10 @@
           }
         ],
         [
-          "MB1S-TP",
-          1,
-          "MBS_L4.7-W4.0-P2.40-LS7.0-BL_MB4S",
-          "D1",
-          {
-            "Manufacturer Part": "MB1S-TP",
-            "Manufacturer": "MCC(美微科)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C507294"
-          }
-        ],
-        [
           "BAS85",
           1,
           "LL-34_L3.5-W1.5-RD",
-          "D2",
+          "D1",
           {
             "Manufacturer Part": "BAS85",
             "Manufacturer": "SHIKUES(时科)",
@@ -79,7 +67,19 @@
           }
         ],
         [
-          "100Ω",
+          "MB1S-TP",
+          1,
+          "MBS_L4.7-W4.0-P2.40-LS7.0-BL_MB4S",
+          "D2",
+          {
+            "Manufacturer Part": "MB1S-TP",
+            "Manufacturer": "MCC(美微科)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C507294"
+          }
+        ],
+        [
+          "4K7",
           1,
           "R0805",
           "R1",
@@ -91,7 +91,7 @@
           }
         ],
         [
-          "4K7",
+          "100Ω",
           1,
           "R0805",
           "R2",
@@ -115,11 +115,11 @@
           }
         ]
       ],
-      "updateTime": 1783149633,
+      "updateTime": 1783954456,
       "createTime": 1774167686,
       "histories": [],
       "created_at": "2026-03-22 09:21:26",
-      "updated_at": "2026-07-04 09:20:33"
+      "updated_at": "2026-07-13 16:54:16"
     },
     {
       "uuid": "c827718a0de5a81bfcb81cd0239b1c6d",
@@ -216,5 +216,5 @@
   "title": "Speisewagen-Power-A.01.10",
   "foldername": "Speisewagen-Power-A.01.10",
   "schfilename": "Speisewagen-Power-A.01.10.json",
-  "schfilemtime": 1783149633678
+  "schfilemtime": 1783954456599
 }
