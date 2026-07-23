@@ -4,7 +4,7 @@
   "name": "LcsNodes-Quad-Block-Controller-Combo-C.01.00",
   "content": "A LCS block controller for 4 blocks, Railcom detectors and power measurement, using the PIO state machines.",
   "created_at": "2026-07-18 09:20:47",
-  "updated_at": "2026-07-18 09:59:17",
+  "updated_at": "2026-07-21 13:55:29",
   "stick": "",
   "documents": [
     {
@@ -1832,7 +1832,7 @@
           "LCS-SYM-MAIN-NO-EXT-C.01.00",
           1,
           "LCS-FP-MAIN-20X12-NO-EXT-C.01.00",
-          "PCB2",
+          "PCB1",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1892,7 +1892,7 @@
           "470",
           24,
           "R1206",
-          "R7,R13,R42,R51,R56,R57,R58,R59,R61,R62,R64,R67,R68,R71,R73,R74,R77,R78,R80,R83,R84,R87,R89,R90",
+          "R7,R13,R42,R52,R53,R55,R57,R59,R60,R61,R64,R65,R68,R69,R72,R73,R76,R77,R80,R81,R84,R85,R88,R89",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1904,7 +1904,7 @@
           "10K",
           20,
           "R1206",
-          "R8,R11,R12,R16,R17,R20,R21,R22,R23,R24,R25,R26,R27,R32,R33,R48,R52,R53,R54,R55",
+          "R8,R11,R12,R16,R17,R20,R21,R22,R23,R24,R25,R26,R27,R32,R33,R44,R45,R46,R47,R56",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2000,19 +2000,7 @@
           "330",
           4,
           "R1206",
-          "R44,R45,R46,R47",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "220",
-          1,
-          "R1206",
-          "R49",
+          "R48,R49,R50,R51",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2024,7 +2012,19 @@
           "1K",
           1,
           "R1206",
-          "R50",
+          "R54",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "220",
+          1,
+          "R1206",
+          "R58",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2036,7 +2036,7 @@
           "22",
           16,
           "R1206",
-          "R60,R63,R65,R66,R69,R70,R72,R75,R76,R79,R81,R82,R85,R86,R88,R91",
+          "R62,R63,R66,R67,R70,R71,R74,R75,R78,R79,R82,R83,R86,R87,R90,R91",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2177,11 +2177,11 @@
           }
         ]
       ],
-      "updateTime": 1784361094,
+      "updateTime": 1784614053,
       "createTime": 1676710041,
       "histories": [],
       "created_at": "2023-02-18 09:47:21",
-      "updated_at": "2026-07-18 09:51:34"
+      "updated_at": "2026-07-21 08:07:33"
     },
     {
       "uuid": "8fb6355d299821b24ebf32c76cd36906",
@@ -2424,7 +2424,7 @@
           "LCS-SYM-MAIN-NO-EXT-C.01.00",
           1,
           "LCS-FP-MAIN-20X12-NO-EXT-C.01.00",
-          "PCB2",
+          "PCB1",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2484,7 +2484,7 @@
           "470",
           24,
           "R1206",
-          "R7,R13,R42,R51,R56,R57,R58,R59,R61,R62,R64,R67,R68,R71,R73,R74,R77,R78,R80,R83,R84,R87,R89,R90",
+          "R7,R13,R42,R52,R53,R55,R57,R59,R60,R61,R64,R65,R68,R69,R72,R73,R76,R77,R80,R81,R84,R85,R88,R89",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2496,7 +2496,7 @@
           "10K",
           20,
           "R1206",
-          "R8,R11,R12,R16,R17,R20,R21,R22,R23,R24,R25,R26,R27,R32,R33,R48,R52,R53,R54,R55",
+          "R8,R11,R12,R16,R17,R20,R21,R22,R23,R24,R25,R26,R27,R32,R33,R44,R45,R46,R47,R56",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2592,19 +2592,7 @@
           "330",
           4,
           "R1206",
-          "R44,R45,R46,R47",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "220",
-          1,
-          "R1206",
-          "R49",
+          "R48,R49,R50,R51",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2616,7 +2604,19 @@
           "1K",
           1,
           "R1206",
-          "R50",
+          "R54",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "220",
+          1,
+          "R1206",
+          "R58",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2628,7 +2628,7 @@
           "22",
           16,
           "R1206",
-          "R60,R63,R65,R66,R69,R70,R72,R75,R76,R79,R81,R82,R85,R86,R88,R91",
+          "R62,R63,R66,R67,R70,R71,R74,R75,R78,R79,R82,R83,R86,R87,R90,R91",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2769,11 +2769,11 @@
           }
         ]
       ],
-      "updateTime": 1784361078,
+      "updateTime": 1784554077,
       "createTime": 1784360168,
       "histories": [],
       "created_at": "2026-07-18 09:36:08",
-      "updated_at": "2026-07-18 09:51:18"
+      "updated_at": "2026-07-20 15:27:57"
     },
     {
       "uuid": "df3970a209df7082f43ef5481ca97a2e",
@@ -3016,7 +3016,7 @@
           "LCS-SYM-MAIN-NO-EXT-C.01.00",
           1,
           "LCS-FP-MAIN-20X12-NO-EXT-C.01.00",
-          "PCB2",
+          "PCB1",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3076,7 +3076,7 @@
           "470",
           24,
           "R1206",
-          "R7,R13,R42,R51,R56,R57,R58,R59,R61,R62,R64,R67,R68,R71,R73,R74,R77,R78,R80,R83,R84,R87,R89,R90",
+          "R7,R13,R42,R52,R53,R55,R57,R59,R60,R61,R64,R65,R68,R69,R72,R73,R76,R77,R80,R81,R84,R85,R88,R89",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3088,7 +3088,7 @@
           "10K",
           20,
           "R1206",
-          "R8,R11,R12,R16,R17,R20,R21,R22,R23,R24,R25,R26,R27,R32,R33,R48,R52,R53,R54,R55",
+          "R8,R11,R12,R16,R17,R20,R21,R22,R23,R24,R25,R26,R27,R32,R33,R44,R45,R46,R47,R56",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3184,19 +3184,7 @@
           "330",
           4,
           "R1206",
-          "R44,R45,R46,R47",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "220",
-          1,
-          "R1206",
-          "R49",
+          "R48,R49,R50,R51",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3208,7 +3196,19 @@
           "1K",
           1,
           "R1206",
-          "R50",
+          "R54",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "220",
+          1,
+          "R1206",
+          "R58",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3220,7 +3220,7 @@
           "22",
           16,
           "R1206",
-          "R60,R63,R65,R66,R69,R70,R72,R75,R76,R79,R81,R82,R85,R86,R88,R91",
+          "R62,R63,R66,R67,R70,R71,R74,R75,R78,R79,R82,R83,R86,R87,R90,R91",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -3361,11 +3361,11 @@
           }
         ]
       ],
-      "updateTime": 1784361078,
+      "updateTime": 1784554077,
       "createTime": 1784360515,
       "histories": [],
       "created_at": "2026-07-18 09:41:55",
-      "updated_at": "2026-07-18 09:51:18"
+      "updated_at": "2026-07-20 15:27:57"
     },
     {
       "uuid": "395491f108625fbfd3cb0b3b2e448689",
@@ -3376,16 +3376,16 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "94337b0b08b94d2a8f63b37855041b5c": 1,
         "4cf29752e2494dd48d2e74b91145f789": 16,
+        "62ddd832b4204f5fb6ccf017f43de83b": 7,
+        "94337b0b08b94d2a8f63b37855041b5c": 1,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 87,
+        "a043f6f5ce214277a2e9ff0bb0a41cd5": 4,
         "7bdec8012728462a85919a4d0d033579": 23,
         "906c99ea5dec4828b079c976cc1781e8": 4,
         "f481a7812a11455ca71c88c49f2602a1": 2,
         "282f7786cb6144d097ae00194c3e3fb3": 1,
-        "62ddd832b4204f5fb6ccf017f43de83b": 7,
-        "8e9b1be4bcb6420dbd1d09bf04b02792": 87,
         "969a578b2869473fa8ef6283c1b3801c": 1,
-        "a043f6f5ce214277a2e9ff0bb0a41cd5": 4,
         "91e8625ab54d4b48a78457e6f8258781": 1,
         "e0f45a5edd25471dacc10f351b436550": 2,
         "f6e7bbafc8d6494ea48c85ec766fa6c7": 6,
@@ -3954,11 +3954,11 @@
           }
         ]
       ],
-      "updateTime": 1784361557,
+      "updateTime": 1784634929,
       "createTime": 1777016497,
       "histories": [],
       "created_at": "2026-04-24 09:41:37",
-      "updated_at": "2026-07-18 09:59:17"
+      "updated_at": "2026-07-21 13:55:29"
     }
   ],
   "sort": [
@@ -3972,5 +3972,5 @@
   "title": "LcsNodes-Quad-Block-Controller-Combo-C.01.00",
   "foldername": "LcsNodes-Quad-Block-Controller-Combo-C.01.00",
   "schfilename": "LcsNodes-Quad-Block-Controller-Combo-C.01.00.json",
-  "schfilemtime": 1784361094499
+  "schfilemtime": 1784614053154
 }
