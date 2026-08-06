@@ -4,7 +4,7 @@
   "name": "LcsNodes-Quad-Block-Controller-Combo-C.01.00",
   "content": "A LCS block controller for 4 blocks, Railcom detectors and power measurement, using the PIO state machines.",
   "created_at": "2026-07-18 09:20:47",
-  "updated_at": "2026-08-04 20:29:53",
+  "updated_at": "2026-08-06 11:04:03",
   "stick": "",
   "documents": [
     {
@@ -2204,11 +2204,11 @@
           }
         ]
       ],
-      "updateTime": 1785403101,
+      "updateTime": 1786007043,
       "createTime": 1676710041,
       "histories": [],
       "created_at": "2023-02-18 09:47:21",
-      "updated_at": "2026-07-30 11:18:21"
+      "updated_at": "2026-08-06 11:04:03"
     },
     {
       "uuid": "8fb6355d299821b24ebf32c76cd36906",
@@ -4000,5 +4000,5 @@
   "title": "LcsNodes-Quad-Block-Controller-Combo-C.01.00",
   "foldername": "LcsNodes-Quad-Block-Controller-Combo-C.01.00",
   "schfilename": "LcsNodes-Quad-Block-Controller-Combo-C.01.00.json",
-  "schfilemtime": 1785403101895
+  "schfilemtime": 1786007043193
 }
