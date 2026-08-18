@@ -1,0 +1,89 @@
+{
+  "uuid": "b4e42b4006bf7b22a1755175d78f6e9b",
+  "path": "Offline/Servo-Halter",
+  "name": "Servo-Halter",
+  "content": "",
+  "created_at": "2026-08-18 08:35:24",
+  "updated_at": "2026-08-18 11:05:17",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "6f0dbaa49250c24a88d8997b820705ca",
+      "title": "Servo-Halter",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {},
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1787043917,
+      "createTime": 1787034925,
+      "histories": [],
+      "created_at": "2026-08-18 08:35:25",
+      "updated_at": "2026-08-18 11:05:17"
+    },
+    {
+      "uuid": "9bf09be79f7f3228d64529a4be249d55",
+      "title": "SG90-Servo",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {},
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1787043307,
+      "createTime": 1787042853,
+      "histories": [],
+      "created_at": "2026-08-18 10:47:33",
+      "updated_at": "2026-08-18 10:55:07"
+    },
+    {
+      "uuid": "082066a0b7882f76b3343892ac21ebc3",
+      "title": "SG90-Servo-Arm",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {},
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1787043382,
+      "createTime": 1787042784,
+      "histories": [],
+      "created_at": "2026-08-18 10:46:24",
+      "updated_at": "2026-08-18 10:56:22"
+    }
+  ],
+  "sort": [
+    "6f0dbaa49250c24a88d8997b820705ca",
+    "9bf09be79f7f3228d64529a4be249d55",
+    "082066a0b7882f76b3343892ac21ebc3"
+  ],
+  "title": "Servo-Halter",
+  "foldername": "Servo-Halter",
+  "schfilename": "Servo-Halter.json",
+  "schfilemtime": 1787043917832
+}
