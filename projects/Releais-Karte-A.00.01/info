@@ -1,0 +1,160 @@
+{
+  "uuid": "16456ade88e0917703a517a83a735162",
+  "path": "Offline/Releais-Karte-A.00.01",
+  "name": "Releais-Karte-A.00.01",
+  "content": "",
+  "created_at": "2026-10-07 15:39:56",
+  "updated_at": "2026-10-07 16:29:15",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "bd03dbb245621b690b2f184d9458420e",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "b1beab7fb9ba429596b9a2cbcbdafa9d": 5,
+        "1fa8edf5fdee47908560c924fb63c57a": 2,
+        "da85efb77378462aaaa3d5ff7db1c1dd": 5,
+        "56f8b2b64a544f3d820bc0399720da54": 2,
+        "3721972c581d4f99b226effb1db7a790": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1N4007",
+          5,
+          "DO-41_BD2.4-L4.7-P8.70-D0.9-RD",
+          "D1,D2,D3,D4,D5",
+          {
+            "Manufacturer Part": "1N4007",
+            "Manufacturer": "SEMTECH",
+            "Supplier": "LCSC",
+            "Supplier Part": "C106903"
+          }
+        ],
+        [
+          "DIP-IC-SOCKET(2X8P-2.54) 16 pin",
+          2,
+          "SCK16-2.54-22.32X10.0MM",
+          "J1,J2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "LED-TH-3mm_R",
+          2,
+          "LED-TH_BD3.0_RED",
+          "LED1,LED3",
+          {
+            "Manufacturer Part": "204-10SDRD/S530-A3-L",
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C84774"
+          }
+        ],
+        [
+          "LED-TH-3mm_G",
+          2,
+          "LED-TH_BD3.0_GREEN",
+          "LED2,LED4",
+          {
+            "Manufacturer Part": "204-10SYGD/S530-E3",
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Supplier": "",
+            "Supplier Part": "C85161"
+          }
+        ],
+        [
+          "CONN-TH_3P-P5.08",
+          5,
+          "CONN-TH_3P-P5.08",
+          "P1,P2,P3,P4,P5",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": ""
+          }
+        ]
+      ],
+      "updateTime": 1791383322,
+      "createTime": 1791380397,
+      "histories": [],
+      "created_at": "2026-10-07 15:39:57",
+      "updated_at": "2026-10-07 16:28:42"
+    },
+    {
+      "uuid": "c0b0b4a116ebbd93f11b70863e17d376",
+      "puuid": "16456ade88e0917703a517a83a735162",
+      "title": "PCB_Releais-Karte-A.00.01",
+      "filename": "PCB_Releais-Karte-A.00.01.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "22a191264369408f990ade28dd13460b": 5,
+        "c2803222ad4b48fb94db0de548a6280a": 5,
+        "bec79a4ea65a4f65ba290a03b598a762": 2,
+        "00494653cdb0468e8d897483b11f63b3": 2,
+        "52107c2975c74633a8d8f531ccb01bc4": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "HDR-F-2.54_1x8",
+          2,
+          "HDR-F-2.54_1X8",
+          "H1,H2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C225505"
+          }
+        ],
+        [
+          "CONN-TH_3P-P5.08",
+          5,
+          "CONN-TH_3P-P5.08",
+          "P1,P2,P3,P4,P5",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": ""
+          }
+        ]
+      ],
+      "updateTime": 1791383355,
+      "createTime": 1791380729,
+      "histories": [],
+      "created_at": "2026-10-07 15:45:29",
+      "updated_at": "2026-10-07 16:29:15"
+    }
+  ],
+  "sort": [],
+  "title": "Releais-Karte-A.00.01",
+  "foldername": "Releais-Karte-A.00.01",
+  "schfilename": "Releais-Karte-A.00.01.json",
+  "schfilemtime": 1791383322086
+}
