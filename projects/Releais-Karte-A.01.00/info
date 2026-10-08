@@ -1,23 +1,24 @@
 {
   "uuid": "16456ade88e0917703a517a83a735162",
-  "path": "Offline/Releais-Karte-A.00.01",
-  "name": "Releais-Karte-A.00.01",
+  "path": "Offline/Releais-Karte-A.01.00",
+  "name": "Releais-Karte-A.01.00",
   "content": "",
   "created_at": "2026-10-07 15:39:56",
-  "updated_at": "2026-10-07 16:29:15",
+  "updated_at": "2026-10-08 13:06:28",
   "stick": "",
   "documents": [
     {
       "uuid": "bd03dbb245621b690b2f184d9458420e",
-      "title": "Sheet_1",
+      "title": "RelaisKarte - ECH - A.01.00",
       "description": "",
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "b1beab7fb9ba429596b9a2cbcbdafa9d": 5,
+        "b1beab7fb9ba429596b9a2cbcbdafa9d": 6,
         "1fa8edf5fdee47908560c924fb63c57a": 2,
         "da85efb77378462aaaa3d5ff7db1c1dd": 5,
+        "0d0a13f4d5e4481aa82dc0293d1aa27e": 1,
         "56f8b2b64a544f3d820bc0399720da54": 2,
         "3721972c581d4f99b226effb1db7a790": 2
       },
@@ -54,22 +55,34 @@
           }
         ],
         [
-          "LED-TH-3mm_R",
-          2,
-          "LED-TH_BD3.0_RED",
-          "LED1,LED3",
+          "HDR-M-2.54_2x2",
+          1,
+          "HDR-M-2.54_2X2",
+          "J3",
           {
-            "Manufacturer Part": "204-10SDRD/S530-A3-L",
-            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Manufacturer Part": "",
+            "Manufacturer": "",
             "Supplier": "LCSC",
-            "Supplier Part": "C84774"
+            "Supplier Part": "C66690"
+          }
+        ],
+        [
+          "CONN-TH_3P-P5.08",
+          6,
+          "CONN-TH_3P-P5.08",
+          "P1,P2,P3,P4,P5,P7",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": ""
           }
         ],
         [
           "LED-TH-3mm_G",
           2,
           "LED-TH_BD3.0_GREEN",
-          "LED2,LED4",
+          "S1G,S2G",
           {
             "Manufacturer Part": "204-10SYGD/S530-E3",
             "Manufacturer": "EVERLIGHT(台湾亿光)",
@@ -78,39 +91,40 @@
           }
         ],
         [
-          "CONN-TH_3P-P5.08",
-          5,
-          "CONN-TH_3P-P5.08",
-          "P1,P2,P3,P4,P5",
+          "LED-TH-3mm_R",
+          2,
+          "LED-TH_BD3.0_RED",
+          "S1R,S2R",
           {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
+            "Manufacturer Part": "204-10SDRD/S530-A3-L",
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
             "Supplier": "LCSC",
-            "Supplier Part": ""
+            "Supplier Part": "C84774"
           }
         ]
       ],
-      "updateTime": 1791383322,
+      "updateTime": 1791457588,
       "createTime": 1791380397,
       "histories": [],
       "created_at": "2026-10-07 15:39:57",
-      "updated_at": "2026-10-07 16:28:42"
+      "updated_at": "2026-10-08 13:06:28"
     },
     {
       "uuid": "c0b0b4a116ebbd93f11b70863e17d376",
       "puuid": "16456ade88e0917703a517a83a735162",
-      "title": "PCB_Releais-Karte-A.00.01",
-      "filename": "PCB_Releais-Karte-A.00.01.json",
+      "title": "PCB_Releais-Karte-A.01.00",
+      "filename": "PCB_Releais-Karte-A.01.00.json",
       "description": "",
       "docType": "3",
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "22a191264369408f990ade28dd13460b": 5,
         "c2803222ad4b48fb94db0de548a6280a": 5,
         "bec79a4ea65a4f65ba290a03b598a762": 2,
         "00494653cdb0468e8d897483b11f63b3": 2,
-        "52107c2975c74633a8d8f531ccb01bc4": 2
+        "52107c2975c74633a8d8f531ccb01bc4": 2,
+        "22a191264369408f990ade28dd13460b": 6,
+        "8c011694efe04de7ac0c392bf11240d5": 1
       },
       "BOM": [
         [
@@ -145,16 +159,16 @@
           }
         ]
       ],
-      "updateTime": 1791383355,
+      "updateTime": 1791457562,
       "createTime": 1791380729,
       "histories": [],
       "created_at": "2026-10-07 15:45:29",
-      "updated_at": "2026-10-07 16:29:15"
+      "updated_at": "2026-10-08 13:06:02"
     }
   ],
   "sort": [],
-  "title": "Releais-Karte-A.00.01",
-  "foldername": "Releais-Karte-A.00.01",
-  "schfilename": "Releais-Karte-A.00.01.json",
-  "schfilemtime": 1791383322086
+  "title": "Releais-Karte-A.01.00",
+  "foldername": "Releais-Karte-A.01.00",
+  "schfilename": "Releais-Karte-A.01.00.json",
+  "schfilemtime": 1791457588277
 }
