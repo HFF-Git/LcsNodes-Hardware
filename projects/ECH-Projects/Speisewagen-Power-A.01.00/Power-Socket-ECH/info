@@ -1,0 +1,160 @@
+{
+  "uuid": "28c5a65e100d45e7811ade096b98f5ed",
+  "path": "Offline/Power-Socket-ECH",
+  "name": "Power-Socket-ECH",
+  "content": "",
+  "created_at": "2026-10-18 09:41:03",
+  "updated_at": "2026-10-18 10:23:32",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "bc148cf53227cd2368dedaffd3b09105",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "ef426d4a8d544b74a9057e9a2a21b39a": 2,
+        "4d57791f5f4c4c79850c82700d00d58b": 1,
+        "b1beab7fb9ba429596b9a2cbcbdafa9d": 8,
+        "2fa53d590f544429ab8fcbd581d715c1": 1,
+        "56f8b2b64a544f3d820bc0399720da54": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "LED-TH-3mm_G",
+          1,
+          "LED-TH_BD3.0_GREEN",
+          "LED1",
+          {
+            "Manufacturer Part": "204-10SYGD/S530-E3",
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Supplier": "",
+            "Supplier Part": "C85161"
+          }
+        ],
+        [
+          "CONN-TH_2P-P5.08",
+          2,
+          "CONN-TH_2P-P5.08",
+          "P1,P10",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "CONN-TH_3P-P5.08",
+          8,
+          "CONN-TH_3P-P5.08",
+          "P2,P3,P4,P5,P6,P7,P8,P9",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "470",
+          1,
+          "R1206",
+          "R1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "MB05S",
+          1,
+          "DIO-BG-SMD_MB1S",
+          "U1",
+          {
+            "Manufacturer Part": "MB05S",
+            "Manufacturer": "CJ(江苏长电/长晶)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5292803"
+          }
+        ]
+      ],
+      "updateTime": 1792311642,
+      "createTime": 1792309264,
+      "histories": [],
+      "created_at": "2026-10-18 09:41:04",
+      "updated_at": "2026-10-18 10:20:42"
+    },
+    {
+      "uuid": "abd9e4dd263930532a8b62b96daa7c1e",
+      "puuid": "28c5a65e100d45e7811ade096b98f5ed",
+      "title": "PCB_Power-Socket-ECH",
+      "filename": "PCB_Power-Socket-ECH.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "e51909bf23504bf8a04c047f1f5257e0": 2,
+        "22a191264369408f990ade28dd13460b": 8,
+        "52107c2975c74633a8d8f531ccb01bc4": 1,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 1,
+        "cf2dc0c11db54f98bc6fbd0ed7dd0656": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "CONN-TH_2P-P5.08",
+          2,
+          "CONN-TH_2P-P5.08",
+          "P1,P10",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "CONN-TH_3P-P5.08",
+          8,
+          "CONN-TH_3P-P5.08",
+          "P2,P3,P4,P5,P6,P7,P8,P9",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": ""
+          }
+        ]
+      ],
+      "updateTime": 1792311812,
+      "createTime": 1792309642,
+      "histories": [],
+      "created_at": "2026-10-18 09:47:22",
+      "updated_at": "2026-10-18 10:23:32"
+    }
+  ],
+  "sort": [],
+  "title": "Power-Socket-ECH",
+  "foldername": "Power-Socket-ECH",
+  "schfilename": "Power-Socket-ECH.json",
+  "schfilemtime": 1792311642759
+}
