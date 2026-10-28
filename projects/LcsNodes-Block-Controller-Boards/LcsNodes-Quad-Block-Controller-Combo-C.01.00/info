@@ -4,7 +4,7 @@
   "name": "LcsNodes-Quad-Block-Controller-Combo-C.01.00",
   "content": "A LCS block controller for 4 blocks, Railcom detectors and power measurement, using the PIO state machines.",
   "created_at": "2026-07-18 09:20:47",
-  "updated_at": "2026-10-28 14:15:14",
+  "updated_at": "2026-10-28 15:49:46",
   "stick": "",
   "documents": [
     {
@@ -1913,11 +1913,12 @@
         "fd11c9e744c44aeab6011e8bd4c3ea86": 1,
         "2fa53d590f544429ab8fcbd581d715c1": 12,
         "e84b6210d3474a7a95a08cfe09eae773": 1,
-        "f5b1d9403e49471cab43bc5a1bec336f": 2,
+        "f5b1d9403e49471cab43bc5a1bec336f": 1,
         "89d9c4ec198fb0e04234dd90fe9798d6": 1,
         "7d1339d7223e41ccb208acafeb98d83b": 1,
         "e32d8d907f41412ebd7b974d2fa58ce4": 1,
-        "05cca1d3ef824065b5b1c2589fe1f8b5": 1
+        "05cca1d3ef824065b5b1c2589fe1f8b5": 1,
+        "eaa76950fd7343a1953943ee7b9978d3": 1
       },
       "BOM": [
         [
@@ -2108,6 +2109,18 @@
           }
         ],
         [
+          "HDR-F-2.54_1x4",
+          1,
+          "HDR-F-2.54_1X4",
+          "H3",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C225501"
+          }
+        ],
+        [
           "HDR-M-2.54_1x2",
           2,
           "HDR-M-2.54_1X2",
@@ -2133,9 +2146,9 @@
         ],
         [
           "HDR-M-2.54_1x4",
-          2,
+          1,
           "HDR-M-2.54_1X4",
-          "J4,J5",
+          "J4",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2528,11 +2541,11 @@
           }
         ]
       ],
-      "updateTime": 1793192886,
+      "updateTime": 1793198986,
       "createTime": 1676710041,
       "histories": [],
       "created_at": "2023-02-18 09:47:21",
-      "updated_at": "2026-10-28 14:08:06"
+      "updated_at": "2026-10-28 15:49:46"
     },
     {
       "uuid": "8fb6355d299821b24ebf32c76cd36906",
@@ -3775,7 +3788,7 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "282f7786cb6144d097ae00194c3e3fb3": 2,
+        "21473b495b6340c992965357d5701779": 1,
         "8e9b1be4bcb6420dbd1d09bf04b02792": 83,
         "a8900ab4ae48436ba0de172f68fa28d9": 4,
         "37a711dd47574887bb799f651f3c2b95": 2,
@@ -3791,6 +3804,7 @@
         "94337b0b08b94d2a8f63b37855041b5c": 1,
         "a043f6f5ce214277a2e9ff0bb0a41cd5": 4,
         "f481a7812a11455ca71c88c49f2602a1": 2,
+        "282f7786cb6144d097ae00194c3e3fb3": 1,
         "969a578b2869473fa8ef6283c1b3801c": 1,
         "91e8625ab54d4b48a78457e6f8258781": 1,
         "e0f45a5edd25471dacc10f351b436550": 2,
@@ -4354,11 +4368,11 @@
           }
         ]
       ],
-      "updateTime": 1793193314,
+      "updateTime": 1793198967,
       "createTime": 1777016497,
       "histories": [],
       "created_at": "2026-04-24 09:41:37",
-      "updated_at": "2026-10-28 14:15:14"
+      "updated_at": "2026-10-28 15:49:27"
     }
   ],
   "sort": [
@@ -4372,5 +4386,5 @@
   "title": "LcsNodes-Quad-Block-Controller-Combo-C.01.00",
   "foldername": "LcsNodes-Quad-Block-Controller-Combo-C.01.00",
   "schfilename": "LcsNodes-Quad-Block-Controller-Combo-C.01.00.json",
-  "schfilemtime": 1793192886529
+  "schfilemtime": 1793198986088
 }
