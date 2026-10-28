@@ -4,7 +4,7 @@
   "name": "LcsNodes-Quad-Block-Controller-Combo-C.01.00",
   "content": "A LCS block controller for 4 blocks, Railcom detectors and power measurement, using the PIO state machines.",
   "created_at": "2026-07-18 09:20:47",
-  "updated_at": "2026-10-27 15:40:32",
+  "updated_at": "2026-10-28 14:15:14",
   "stick": "",
   "documents": [
     {
@@ -1553,7 +1553,7 @@
           "4K7",
           8,
           "R1206",
-          "R3,R4,R9,R10,R16,R17,R30,R31",
+          "R3,R4,R9,R10,R24,R25,R30,R31",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1589,7 +1589,7 @@
           "10K",
           16,
           "R1206",
-          "R8,R11,R12,R18,R19,R20,R21,R22,R23,R24,R25,R40,R41,R42,R43,R52",
+          "R8,R11,R12,R16,R17,R18,R19,R20,R21,R22,R23,R40,R41,R42,R43,R52",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1802,27 +1802,27 @@
           }
         ],
         [
-          "L6205PD",
-          2,
-          "POWERSO20_L15.9-W11.0-P1.27-LS14.2-BL-EP",
-          "U6,U11",
-          {
-            "Manufacturer Part": "L6205PD013TR",
-            "Manufacturer": "ST(意法半导体)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C36543"
-          }
-        ],
-        [
           "74AHC1G00GV",
           4,
           "SOT-23-5_L3.0-W1.5-P0.95-LS2.8-BL",
-          "U7,U8,U9,U10",
+          "U6,U8,U9,U10",
           {
             "Manufacturer Part": "74AHC1G00GV",
             "Manufacturer": "TECH PUBLIC(台舟)",
             "Supplier": "LCSC",
             "Supplier Part": "C19829583"
+          }
+        ],
+        [
+          "L6205PD",
+          2,
+          "POWERSO20_L15.9-W11.0-P1.27-LS14.2-BL-EP",
+          "U7,U11",
+          {
+            "Manufacturer Part": "L6205PD013TR",
+            "Manufacturer": "ST(意法半导体)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C36543"
           }
         ],
         [
@@ -1886,11 +1886,11 @@
           }
         ]
       ],
-      "updateTime": 1793103983,
+      "updateTime": 1793177515,
       "createTime": 1676709584,
       "histories": [],
       "created_at": "2023-02-18 09:39:44",
-      "updated_at": "2026-10-27 13:26:23"
+      "updated_at": "2026-10-28 09:51:55"
     },
     {
       "uuid": "85ed050ef582b8ecac666abd4f93af43",
@@ -1913,7 +1913,7 @@
         "fd11c9e744c44aeab6011e8bd4c3ea86": 1,
         "2fa53d590f544429ab8fcbd581d715c1": 12,
         "e84b6210d3474a7a95a08cfe09eae773": 1,
-        "f5b1d9403e49471cab43bc5a1bec336f": 1,
+        "f5b1d9403e49471cab43bc5a1bec336f": 2,
         "89d9c4ec198fb0e04234dd90fe9798d6": 1,
         "7d1339d7223e41ccb208acafeb98d83b": 1,
         "e32d8d907f41412ebd7b974d2fa58ce4": 1,
@@ -2133,9 +2133,9 @@
         ],
         [
           "HDR-M-2.54_1x4",
-          1,
+          2,
           "HDR-M-2.54_1X4",
-          "J4",
+          "J4,J5",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2195,7 +2195,7 @@
           "4K7",
           8,
           "R1206",
-          "R3,R4,R9,R10,R16,R17,R30,R31",
+          "R3,R4,R9,R10,R24,R25,R30,R31",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2231,7 +2231,7 @@
           "10K",
           16,
           "R1206",
-          "R8,R11,R12,R18,R19,R20,R21,R22,R23,R24,R25,R40,R41,R42,R43,R52",
+          "R8,R11,R12,R16,R17,R18,R19,R20,R21,R22,R23,R40,R41,R42,R43,R52",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2444,27 +2444,27 @@
           }
         ],
         [
-          "L6205PD",
-          2,
-          "POWERSO20_L15.9-W11.0-P1.27-LS14.2-BL-EP",
-          "U6,U11",
-          {
-            "Manufacturer Part": "L6205PD013TR",
-            "Manufacturer": "ST(意法半导体)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C36543"
-          }
-        ],
-        [
           "74AHC1G00GV",
           4,
           "SOT-23-5_L3.0-W1.5-P0.95-LS2.8-BL",
-          "U7,U8,U9,U10",
+          "U6,U8,U9,U10",
           {
             "Manufacturer Part": "74AHC1G00GV",
             "Manufacturer": "TECH PUBLIC(台舟)",
             "Supplier": "LCSC",
             "Supplier Part": "C19829583"
+          }
+        ],
+        [
+          "L6205PD",
+          2,
+          "POWERSO20_L15.9-W11.0-P1.27-LS14.2-BL-EP",
+          "U7,U11",
+          {
+            "Manufacturer Part": "L6205PD013TR",
+            "Manufacturer": "ST(意法半导体)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C36543"
           }
         ],
         [
@@ -2528,11 +2528,11 @@
           }
         ]
       ],
-      "updateTime": 1793099902,
+      "updateTime": 1793192886,
       "createTime": 1676710041,
       "histories": [],
       "created_at": "2023-02-18 09:47:21",
-      "updated_at": "2026-10-27 12:18:22"
+      "updated_at": "2026-10-28 14:08:06"
     },
     {
       "uuid": "8fb6355d299821b24ebf32c76cd36906",
@@ -3775,8 +3775,11 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "906c99ea5dec4828b079c976cc1781e8": 5,
+        "282f7786cb6144d097ae00194c3e3fb3": 2,
         "8e9b1be4bcb6420dbd1d09bf04b02792": 83,
+        "a8900ab4ae48436ba0de172f68fa28d9": 4,
+        "37a711dd47574887bb799f651f3c2b95": 2,
+        "906c99ea5dec4828b079c976cc1781e8": 5,
         "960b5f1425a648b69804b12510e06d86": 4,
         "7bdec8012728462a85919a4d0d033579": 25,
         "b9f11f824fa148c985ede1e55a64977f": 1,
@@ -3788,7 +3791,6 @@
         "94337b0b08b94d2a8f63b37855041b5c": 1,
         "a043f6f5ce214277a2e9ff0bb0a41cd5": 4,
         "f481a7812a11455ca71c88c49f2602a1": 2,
-        "282f7786cb6144d097ae00194c3e3fb3": 1,
         "969a578b2869473fa8ef6283c1b3801c": 1,
         "91e8625ab54d4b48a78457e6f8258781": 1,
         "e0f45a5edd25471dacc10f351b436550": 2,
@@ -3796,8 +3798,6 @@
         "70aa5812f21f4991bf427395d51849f4": 2,
         "9f77654394344f25b3de138e0fe05ff6": 1,
         "48f726f118674c1c98ad35c23ffe8764": 1,
-        "37a711dd47574887bb799f651f3c2b95": 2,
-        "a8900ab4ae48436ba0de172f68fa28d9": 4,
         "6d56825aeea34995ac0791ce3b2142b9": 1,
         "6adf0d677d7c4bf29b8711760efc3b51": 1,
         "4562040c16044a2993e405db2eededc5": 1,
@@ -4354,11 +4354,11 @@
           }
         ]
       ],
-      "updateTime": 1793112032,
+      "updateTime": 1793193314,
       "createTime": 1777016497,
       "histories": [],
       "created_at": "2026-04-24 09:41:37",
-      "updated_at": "2026-10-27 15:40:32"
+      "updated_at": "2026-10-28 14:15:14"
     }
   ],
   "sort": [
@@ -4372,5 +4372,5 @@
   "title": "LcsNodes-Quad-Block-Controller-Combo-C.01.00",
   "foldername": "LcsNodes-Quad-Block-Controller-Combo-C.01.00",
   "schfilename": "LcsNodes-Quad-Block-Controller-Combo-C.01.00.json",
-  "schfilemtime": 1793103983639
+  "schfilemtime": 1793192886529
 }
