@@ -4,7 +4,7 @@
   "name": "LcsNodes-Servo-Socket-Board-B.01.00",
   "content": "",
   "created_at": "2026-03-29 10:50:32",
-  "updated_at": "2026-07-06 17:50:29",
+  "updated_at": "2026-11-03 12:14:04",
   "stick": "",
   "documents": [
     {
@@ -253,11 +253,11 @@
           }
         ]
       ],
-      "updateTime": 1783352981,
+      "updateTime": 1793704444,
       "createTime": 1768574830,
       "histories": [],
       "created_at": "2026-01-16 15:47:10",
-      "updated_at": "2026-07-06 17:49:41"
+      "updated_at": "2026-11-03 12:14:04"
     },
     {
       "uuid": "056418a9db094bb050f0a0f2c9d2f254",
@@ -445,5 +445,5 @@
   "title": "LcsNodes-Servo-Socket-Board-B.01.00",
   "foldername": "LcsNodes-Servo-Socket-Board-B.01.00",
   "schfilename": "LcsNodes-Servo-Socket-Board-B.01.00.json",
-  "schfilemtime": 1783352981951
+  "schfilemtime": 1793704444585
 }
