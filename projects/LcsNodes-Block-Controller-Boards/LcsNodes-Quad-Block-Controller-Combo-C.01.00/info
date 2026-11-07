@@ -4,7 +4,7 @@
   "name": "LcsNodes-Quad-Block-Controller-Combo-C.01.00",
   "content": "A LCS block controller for 4 blocks, Railcom detectors and power measurement, using the PIO state machines.",
   "created_at": "2026-07-18 09:20:47",
-  "updated_at": "2026-10-30 12:41:31",
+  "updated_at": "2026-11-07 12:37:48",
   "stick": "",
   "documents": [
     {
@@ -977,9 +977,9 @@
         ],
         [
           "470",
-          23,
+          18,
           "R1206",
-          "R7,R13,R48,R49,R51,R53,R55,R56,R57,R60,R61,R64,R65,R68,R69,R72,R73,R76,R77,R80,R81,R84,R85",
+          "R7,R13,R56,R57,R60,R61,R64,R65,R68,R69,R72,R73,R76,R77,R80,R81,R84,R85",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1049,9 +1049,9 @@
         ],
         [
           "680",
-          1,
+          6,
           "R1206",
-          "R36",
+          "R36,R48,R49,R51,R53,R55",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1288,11 +1288,11 @@
           }
         ]
       ],
-      "updateTime": 1793351633,
+      "updateTime": 1794051035,
       "createTime": 1676709574,
       "histories": [],
       "created_at": "2023-02-18 09:39:34",
-      "updated_at": "2026-10-30 10:13:53"
+      "updated_at": "2026-11-07 12:30:35"
     },
     {
       "uuid": "fc75eaa013dcb3ae5b2eb912f7387277",
@@ -1623,9 +1623,9 @@
         ],
         [
           "470",
-          23,
+          18,
           "R1206",
-          "R7,R13,R48,R49,R51,R53,R55,R56,R57,R60,R61,R64,R65,R68,R69,R72,R73,R76,R77,R80,R81,R84,R85",
+          "R7,R13,R56,R57,R60,R61,R64,R65,R68,R69,R72,R73,R76,R77,R80,R81,R84,R85",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1695,9 +1695,9 @@
         ],
         [
           "680",
-          1,
+          6,
           "R1206",
-          "R36",
+          "R36,R48,R49,R51,R53,R55",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -1934,11 +1934,11 @@
           }
         ]
       ],
-      "updateTime": 1793351633,
+      "updateTime": 1794051045,
       "createTime": 1676709584,
       "histories": [],
       "created_at": "2023-02-18 09:39:44",
-      "updated_at": "2026-10-30 10:13:53"
+      "updated_at": "2026-11-07 12:30:45"
     },
     {
       "uuid": "85ed050ef582b8ecac666abd4f93af43",
@@ -2278,9 +2278,9 @@
         ],
         [
           "470",
-          23,
+          18,
           "R1206",
-          "R7,R13,R48,R49,R51,R53,R55,R56,R57,R60,R61,R64,R65,R68,R69,R72,R73,R76,R77,R80,R81,R84,R85",
+          "R7,R13,R56,R57,R60,R61,R64,R65,R68,R69,R72,R73,R76,R77,R80,R81,R84,R85",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2350,9 +2350,9 @@
         ],
         [
           "680",
-          1,
+          6,
           "R1206",
-          "R36",
+          "R36,R48,R49,R51,R53,R55",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -2589,11 +2589,11 @@
           }
         ]
       ],
-      "updateTime": 1793360491,
+      "updateTime": 1794050695,
       "createTime": 1676710041,
       "histories": [],
       "created_at": "2023-02-18 09:47:21",
-      "updated_at": "2026-10-30 12:41:31"
+      "updated_at": "2026-11-07 12:24:55"
     },
     {
       "uuid": "8fb6355d299821b24ebf32c76cd36906",
@@ -3884,8 +3884,8 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "21473b495b6340c992965357d5701779": 1,
         "8e9b1be4bcb6420dbd1d09bf04b02792": 83,
+        "21473b495b6340c992965357d5701779": 1,
         "a8900ab4ae48436ba0de172f68fa28d9": 4,
         "37a711dd47574887bb799f651f3c2b95": 2,
         "906c99ea5dec4828b079c976cc1781e8": 5,
@@ -4464,11 +4464,11 @@
           }
         ]
       ],
-      "updateTime": 1793198967,
+      "updateTime": 1794051468,
       "createTime": 1777016497,
       "histories": [],
       "created_at": "2026-04-24 09:41:37",
-      "updated_at": "2026-10-28 15:49:27"
+      "updated_at": "2026-11-07 12:37:48"
     }
   ],
   "sort": [
@@ -4482,5 +4482,5 @@
   "title": "LcsNodes-Quad-Block-Controller-Combo-C.01.00",
   "foldername": "LcsNodes-Quad-Block-Controller-Combo-C.01.00",
   "schfilename": "LcsNodes-Quad-Block-Controller-Combo-C.01.00.json",
-  "schfilemtime": 1793360491802
+  "schfilemtime": 1794051045160
 }
