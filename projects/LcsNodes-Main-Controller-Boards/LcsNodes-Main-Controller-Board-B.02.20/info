@@ -4,7 +4,7 @@
   "name": "LcsNodes-Main-Controller-Board-B.02.20",
   "content": "LcsNodes main Controller board with PICO, new PCB format.",
   "created_at": "2026-10-29 16:25:11",
-  "updated_at": "2026-11-07 12:10:09",
+  "updated_at": "2026-11-15 13:08:23",
   "stick": "",
   "documents": [
     {
@@ -1561,11 +1561,11 @@
           }
         ]
       ],
-      "updateTime": 1794049625,
+      "updateTime": 1794744503,
       "createTime": 1736936224,
       "histories": [],
       "created_at": "2025-01-15 11:17:04",
-      "updated_at": "2026-11-07 12:07:05"
+      "updated_at": "2026-11-15 13:08:23"
     }
   ],
   "sort": [

@@ -4,7 +4,7 @@
   "name": "LcsNodes-Dual-Signal-Socket-Board-B.01.00",
   "content": "",
   "created_at": "2026-03-29 10:50:32",
-  "updated_at": "2026-07-06 17:45:36",
+  "updated_at": "2026-11-14 11:55:55",
   "stick": "",
   "documents": [
     {
@@ -19,14 +19,14 @@
         "77ff4e3668d049dfad2b98e3ec6c3129": 1,
         "453574f445c343b5a3e12a0270625e89": 1,
         "5634327d1e604fc89745187a58c2703c": 1,
-        "7263241822a34aba926bb7df9a1da12c": 2,
         "fd11c9e744c44aeab6011e8bd4c3ea86": 5,
         "dc958bec93c74644ad2e27a8a37081fe": 1,
         "03d975af25b04147a045f46a69fdda77": 1,
         "351373eb8dc74d6eb8731dd077b37a8c": 2,
         "fdf2bb4111ae49e590c9b756d656378d": 2,
         "da421beafa5c4722b7553dccd3c5fa5d": 1,
-        "f5b1d9403e49471cab43bc5a1bec336f": 1
+        "f5b1d9403e49471cab43bc5a1bec336f": 1,
+        "2f379218ad414010bbfe428493a52848": 2
       },
       "BOM": [
         [
@@ -49,15 +49,15 @@
           }
         ],
         [
-          "470u",
+          "100u",
           2,
-          "CAP-SMD_BD8.0-L8.3-W8.3-LS10.0-FD",
+          "CAP-D6.3×H7.7",
           "C5,C6",
           {
-            "Manufacturer Part": "RVT220UF25V67RV0093",
-            "Manufacturer": "KNSCHA(科尼盛)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C2895286"
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
           }
         ],
         [
@@ -253,11 +253,11 @@
           }
         ]
       ],
-      "updateTime": 1783352736,
+      "updateTime": 1794653510,
       "createTime": 1768574830,
       "histories": [],
       "created_at": "2026-01-16 15:47:10",
-      "updated_at": "2026-07-06 17:45:36"
+      "updated_at": "2026-11-14 11:51:50"
     },
     {
       "uuid": "f5f614c76b1f963d315e9e4c75721ecd",
@@ -268,9 +268,9 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "e0f45a5edd25471dacc10f351b436550": 2,
         "8e9b1be4bcb6420dbd1d09bf04b02792": 20,
         "7bdec8012728462a85919a4d0d033579": 5,
-        "b574e855968441af83de61d07ab4c524": 2,
         "282f7786cb6144d097ae00194c3e3fb3": 1,
         "113c1703fbf348be9a4f3b4b916879c8": 1,
         "34cb534d0973454b8c5658c36d769ab4": 1,
@@ -434,16 +434,16 @@
           }
         ]
       ],
-      "updateTime": 1780827643,
+      "updateTime": 1794653755,
       "createTime": 1768576708,
       "histories": [],
       "created_at": "2026-01-16 16:18:28",
-      "updated_at": "2026-06-07 12:20:43"
+      "updated_at": "2026-11-14 11:55:55"
     }
   ],
   "sort": [],
   "title": "LcsNodes-Dual-Signal-Socket-Board-B.01.00",
   "foldername": "LcsNodes-Dual-Signal-Socket-Board-B.01.00",
   "schfilename": "LcsNodes-Dual-Signal-Socket-Board-B.01.00.json",
-  "schfilemtime": 1783352736481
+  "schfilemtime": 1794653511004
 }

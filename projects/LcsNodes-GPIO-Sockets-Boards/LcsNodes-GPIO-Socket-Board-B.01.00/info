@@ -4,7 +4,7 @@
   "name": "LcsNodes-GPIO-Socket-Board-B.01.00",
   "content": "",
   "created_at": "2026-01-30 10:53:32",
-  "updated_at": "2026-07-06 17:48:28",
+  "updated_at": "2026-11-14 11:51:29",
   "stick": "",
   "documents": [
     {
@@ -19,14 +19,14 @@
         "453574f445c343b5a3e12a0270625e89": 1,
         "ed9eb2faffb34286820a54a14e9e9e24": 16,
         "5634327d1e604fc89745187a58c2703c": 1,
-        "7263241822a34aba926bb7df9a1da12c": 1,
         "fd11c9e744c44aeab6011e8bd4c3ea86": 6,
         "10c02cc104e14631b6b0ba32b14bd6a8": 1,
         "dc958bec93c74644ad2e27a8a37081fe": 1,
         "da421beafa5c4722b7553dccd3c5fa5d": 1,
         "f5b1d9403e49471cab43bc5a1bec336f": 1,
         "a3d3a7e7c70c4dd88653cdc73e0bb9ec": 8,
-        "fdf2bb4111ae49e590c9b756d656378d": 1
+        "fdf2bb4111ae49e590c9b756d656378d": 1,
+        "2f379218ad414010bbfe428493a52848": 1
       },
       "BOM": [
         [
@@ -49,15 +49,15 @@
           }
         ],
         [
-          "1000u",
+          "100u",
           1,
-          "CAP-SMD_BD8.0-L8.3-W8.3-LS10.0-FD",
+          "CAP-D6.3×H7.7",
           "C5",
           {
-            "Manufacturer Part": "RVT220UF25V67RV0093",
-            "Manufacturer": "KNSCHA(科尼盛)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C2895286"
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
           }
         ],
         [
@@ -265,11 +265,11 @@
           }
         ]
       ],
-      "updateTime": 1783352863,
+      "updateTime": 1794653428,
       "createTime": 1768574830,
       "histories": [],
       "created_at": "2026-01-16 15:47:10",
-      "updated_at": "2026-07-06 17:47:43"
+      "updated_at": "2026-11-14 11:50:28"
     },
     {
       "uuid": "8316bc4aa0afd598700a9889592ba343",
@@ -280,13 +280,13 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "e0f45a5edd25471dacc10f351b436550": 1,
         "7bdec8012728462a85919a4d0d033579": 6,
         "b4b5e120d2f0444981b8be27d5c062ab": 8,
         "8e9b1be4bcb6420dbd1d09bf04b02792": 16,
         "bfd5401b28f5435f9cb163dcbbdfd6ef": 1,
         "3f21a2531f5a413d88c730f61daca683": 1,
         "a9365711ea424a23a2a8814fe67a59ce": 1,
-        "b574e855968441af83de61d07ab4c524": 1,
         "282f7786cb6144d097ae00194c3e3fb3": 1,
         "906c99ea5dec4828b079c976cc1781e8": 1,
         "34cb534d0973454b8c5658c36d769ab4": 1,
@@ -446,16 +446,16 @@
           }
         ]
       ],
-      "updateTime": 1783352908,
+      "updateTime": 1794653489,
       "createTime": 1768576708,
       "histories": [],
       "created_at": "2026-01-16 16:18:28",
-      "updated_at": "2026-07-06 17:48:28"
+      "updated_at": "2026-11-14 11:51:29"
     }
   ],
   "sort": [],
   "title": "LcsNodes-GPIO-Socket-Board-B.01.00",
   "foldername": "LcsNodes-GPIO-Socket-Board-B.01.00",
   "schfilename": "LcsNodes-GPIO-Socket-Board-B.01.00.json",
-  "schfilemtime": 1783352863094
+  "schfilemtime": 1794653428704
 }
